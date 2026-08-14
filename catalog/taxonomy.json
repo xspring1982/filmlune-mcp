@@ -1,0 +1,206 @@
+{
+  "catalogRevision": "mcp-local-1fc668a2a39cdcf0",
+  "schemaVersion": 1,
+  "taxonomy": [
+    {
+      "activeCaseIds": [
+        "cev_0002",
+        "cev_0003",
+        "cev_0004",
+        "cev_0005",
+        "cev_0006"
+      ],
+      "axis": "media",
+      "id": "media-image",
+      "labelFr": "Image"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0007",
+        "cev_0008",
+        "cev_0009"
+      ],
+      "axis": "media",
+      "id": "media-video",
+      "labelFr": "Vidéo"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0003"
+      ],
+      "axis": "model",
+      "id": "model-agnes-image-flash",
+      "labelFr": "Agnes Image 2.1 Flash"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0007",
+        "cev_0008",
+        "cev_0009"
+      ],
+      "axis": "model",
+      "id": "model-agnes-video-2",
+      "labelFr": "Agnes Video 2.0"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0004"
+      ],
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "labelFr": "GPT Image 2"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0006"
+      ],
+      "axis": "model",
+      "id": "model-midjourney-v7",
+      "labelFr": "Midjourney V7"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0005"
+      ],
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "labelFr": "Nano Banana Pro"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0002"
+      ],
+      "axis": "model",
+      "id": "model-z-image-turbo",
+      "labelFr": "Z Image Turbo"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0007"
+      ],
+      "axis": "style",
+      "id": "style-architecture-calme",
+      "labelFr": "architecture calme"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0006"
+      ],
+      "axis": "style",
+      "id": "style-botanique-lumineux",
+      "labelFr": "botanique lumineux"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0005"
+      ],
+      "axis": "style",
+      "id": "style-clair-obscur",
+      "labelFr": "clair obscur"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0003"
+      ],
+      "axis": "style",
+      "id": "style-macro-lumineuse",
+      "labelFr": "macro lumineuse"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0009"
+      ],
+      "axis": "style",
+      "id": "style-mineral-aquatique",
+      "labelFr": "mineral aquatique"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0004"
+      ],
+      "axis": "style",
+      "id": "style-pluie-urbaine",
+      "labelFr": "pluie urbaine"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0008"
+      ],
+      "axis": "style",
+      "id": "style-reportage-cinematographique",
+      "labelFr": "reportage cinematographique"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0002"
+      ],
+      "axis": "style",
+      "id": "style-studio-cinetique",
+      "labelFr": "studio cinetique"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0006"
+      ],
+      "axis": "use_case",
+      "id": "usage-boisson",
+      "labelFr": "boisson"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0009"
+      ],
+      "axis": "use_case",
+      "id": "usage-cosmetique",
+      "labelFr": "cosmetique"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0005"
+      ],
+      "axis": "use_case",
+      "id": "usage-horlogerie",
+      "labelFr": "horlogerie"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0007"
+      ],
+      "axis": "use_case",
+      "id": "usage-mobilier-design",
+      "labelFr": "mobilier design"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0008"
+      ],
+      "axis": "use_case",
+      "id": "usage-mobilite-urbaine",
+      "labelFr": "mobilite urbaine"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0002"
+      ],
+      "axis": "use_case",
+      "id": "usage-mode-sport",
+      "labelFr": "mode sport"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0003"
+      ],
+      "axis": "use_case",
+      "id": "usage-photographie-culinaire",
+      "labelFr": "photographie culinaire"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0004"
+      ],
+      "axis": "use_case",
+      "id": "usage-portrait-cinematographique",
+      "labelFr": "portrait cinematographique"
+    }
+  ]
+}

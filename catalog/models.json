@@ -1,0 +1,56 @@
+{
+  "catalogRevision": "mcp-local-1fc668a2a39cdcf0",
+  "models": [
+    {
+      "activeCaseIds": [
+        "cev_0002"
+      ],
+      "displayName": "Z Image Turbo",
+      "mediaType": "image",
+      "modelFamilyId": "z-image-turbo"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0003"
+      ],
+      "displayName": "Agnes Image 2.1 Flash",
+      "mediaType": "image",
+      "modelFamilyId": "agnes-image-flash"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0004"
+      ],
+      "displayName": "GPT Image 2",
+      "mediaType": "image",
+      "modelFamilyId": "gpt-image-2"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0005"
+      ],
+      "displayName": "Nano Banana Pro",
+      "mediaType": "image",
+      "modelFamilyId": "nano-banana-pro"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0006"
+      ],
+      "displayName": "Midjourney V7",
+      "mediaType": "image",
+      "modelFamilyId": "midjourney-v7"
+    },
+    {
+      "activeCaseIds": [
+        "cev_0007",
+        "cev_0008",
+        "cev_0009"
+      ],
+      "displayName": "Agnes Video 2.0",
+      "mediaType": "video",
+      "modelFamilyId": "agnes-video-2"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,142 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/boisson-botanique-au-citron-vert-cev_0006/",
+  "caseId": "cev_0006",
+  "caseRevisionId": "cev_0006@r0001",
+  "creator": {
+    "displayName": "FilmLune",
+    "handle": null,
+    "profileUrl": null
+  },
+  "kind": "reusable_case",
+  "locale": "fr",
+  "media": [
+    {
+      "altFr": "Bouteille botanique entourée de citrons verts et de fleurs",
+      "assetId": "asset_cev_0006_primary",
+      "assetRevisionId": "asset_cev_0006_primary@r0001",
+      "bytes": 88720,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 960,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0006/primary.webp",
+      "role": "hero",
+      "width": 960
+    },
+    {
+      "altFr": "Référence de la bouteille botanique sur fond clair",
+      "assetId": "asset_cev_0006_secondary",
+      "assetRevisionId": "asset_cev_0006_secondary@r0001",
+      "bytes": 67488,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 720,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0006/secondary.webp",
+      "role": "reference",
+      "width": 1280
+    }
+  ],
+  "mediaType": "image",
+  "methodFr": "Prendre la bouteille de référence comme ancre, puis construire une lumière diffuse et une palette vert pâle.",
+  "model": {
+    "capabilityRevisionId": "cap_local_midjourney_v7_r1",
+    "displayName": "Midjourney V7",
+    "modelFamilyId": "midjourney-v7",
+    "modelId": "midjourney-v7-local",
+    "modelVersion": "local-fixture-v1"
+  },
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "image_to_image",
+        "kind": "image",
+        "labelFr": "IMAGE · 1",
+        "promptSha256": "7cb83ce98c01a2e3fd81ee2349dc7145f98102a904c4a63fc52549eb1cf47339",
+        "promptText": "Use the supplied bottle as the exact product reference. Build a fresh botanical campaign image with frosted glass, sliced limes, tiny white blossoms, cool droplets and translucent fabric. Preserve label geometry, avoid invented text and maintain a soft pale-green daylight palette.",
+        "stepIndex": 1,
+        "variantId": "ppv_0006_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
+    "generatorVersion": "mcp-catalog-v1",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
+    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+  },
+  "publicationState": "local_contract_fixture",
+  "purposeFr": "Transformer une simple bouteille en visuel de campagne naturel et immédiatement désaltérant.",
+  "recipe": [
+    {
+      "inputAssetIds": [
+        "asset_cev_0006_secondary"
+      ],
+      "inputMode": "image_to_image",
+      "kind": "image",
+      "labelFr": "IMAGE · 1",
+      "outputAssetIds": [
+        "asset_cev_0006_primary"
+      ],
+      "stepId": "step_cev_0006_01",
+      "stepIndex": 1,
+      "variantId": "ppv_0006_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_0006/",
+  "rights": {
+    "decision": "owned",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "allow",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "canonicalUrl": "https://filmlune.com/prompts/image/boisson-botanique-au-citron-vert-cev_0006/",
+    "kind": "first_party_fixture",
+    "publicEvidenceUrl": null
+  },
+  "summaryFr": "Une bouteille givrée, du citron vert et de petites fleurs composent une fraîcheur très tactile.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "labelFr": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-midjourney-v7",
+      "labelFr": "Midjourney V7"
+    },
+    {
+      "axis": "use_case",
+      "id": "usage-boisson",
+      "labelFr": "boisson"
+    },
+    {
+      "axis": "style",
+      "id": "style-botanique-lumineux",
+      "labelFr": "botanique lumineux"
+    }
+  ],
+  "titleFr": "Boisson botanique au citron vert",
+  "variables": [
+    {
+      "name": "Boisson",
+      "value": "citron vert botanique"
+    },
+    {
+      "name": "Finition",
+      "value": "verre givré"
+    }
+  ]
+}

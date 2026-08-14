@@ -1,0 +1,24 @@
+{
+  "$id": "https://filmlune.com/schemas/mcp/tombstone.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "kind": {
+      "const": "tombstone"
+    },
+    "status": {
+      "const": "removed"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "kind",
+    "caseId",
+    "caseRevisionId",
+    "status",
+    "removedAtUtc",
+    "provenance",
+    "rights"
+  ],
+  "title": "FilmLune MCP tombstone v1",
+  "type": "object"
+}

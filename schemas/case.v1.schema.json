@@ -1,0 +1,42 @@
+{
+  "$id": "https://filmlune.com/schemas/mcp/case.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "properties": {
+        "kind": {
+          "const": "locator_only"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "kind",
+        "caseId",
+        "caseRevisionId",
+        "source",
+        "provenance",
+        "rights"
+      ]
+    },
+    {
+      "properties": {
+        "kind": {
+          "const": "reusable_case"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "kind",
+        "caseId",
+        "caseRevisionId",
+        "canonicalUrl",
+        "prompt",
+        "media",
+        "recipe",
+        "rights"
+      ]
+    }
+  ],
+  "title": "FilmLune MCP case record v1",
+  "type": "object"
+}

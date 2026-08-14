@@ -1,0 +1,140 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/serum-mineral-en-mouvement-cev_0009/",
+  "caseId": "cev_0009",
+  "caseRevisionId": "cev_0009@r0001",
+  "creator": {
+    "displayName": "FilmLune",
+    "handle": null,
+    "profileUrl": null
+  },
+  "kind": "reusable_case",
+  "locale": "fr",
+  "media": [
+    {
+      "altFr": "Flacon de sérum blanc sur une surface nacrée",
+      "assetId": "asset_cev_0009_poster",
+      "assetRevisionId": "asset_cev_0009_poster@r0001",
+      "bytes": 30572,
+      "durationSeconds": null,
+      "generationReferenceUse": false,
+      "height": 1000,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0009/poster.webp",
+      "role": "poster",
+      "width": 800
+    },
+    {
+      "altFr": "Clip cosmétique aux reflets d'eau autour d'un sérum",
+      "assetId": "asset_cev_0009_preview",
+      "assetRevisionId": "asset_cev_0009_preview@r0001",
+      "bytes": 106872,
+      "durationSeconds": 5,
+      "generationReferenceUse": false,
+      "height": 1000,
+      "kind": "video",
+      "mimeType": "video/mp4",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0009/preview.mp4",
+      "role": "hero",
+      "width": 800
+    }
+  ],
+  "mediaType": "video",
+  "methodFr": "Faire glisser les reflets autour du produit sans déformer le flacon ni son compte-gouttes.",
+  "model": {
+    "capabilityRevisionId": "cap_local_agnes_video_2_r1",
+    "displayName": "Agnes Video 2.0",
+    "modelFamilyId": "agnes-video-2",
+    "modelId": "agnes-video-2-local",
+    "modelVersion": "local-fixture-v1"
+  },
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "kind": "video",
+        "labelFr": "VIDEO · 1",
+        "promptSha256": "c5c20e0fd728896d1c72011b5bc0531a498816bc7fcf7fb6ab9d36ee20149542",
+        "promptText": "A refined cosmetic product film featuring a frosted white serum bottle on pearlescent fabric. Slow aquatic caustics travel across the background and around the glass while the bottle and dropper remain perfectly stable. Cool daylight, clean macro detail, subtle motion, no hands, no added text and no scene cut.",
+        "stepIndex": 1,
+        "variantId": "ppv_0009_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
+    "generatorVersion": "mcp-catalog-v1",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
+    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+  },
+  "publicationState": "local_contract_fixture",
+  "purposeFr": "Créer un clip cosmétique tactile qui suggère hydratation et pureté sans effet démonstratif.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "labelFr": "VIDEO · 1",
+      "outputAssetIds": [
+        "asset_cev_0009_preview"
+      ],
+      "stepId": "step_cev_0009_01",
+      "stepIndex": 1,
+      "variantId": "ppv_0009_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_0009/",
+  "rights": {
+    "decision": "owned",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "allow",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "canonicalUrl": "https://filmlune.com/prompts/video/serum-mineral-en-mouvement-cev_0009/",
+    "kind": "first_party_fixture",
+    "publicEvidenceUrl": null
+  },
+  "summaryFr": "Un flacon blanc se détache d'une surface nacrée traversée de reflets d'eau.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "labelFr": "Vidéo"
+    },
+    {
+      "axis": "model",
+      "id": "model-agnes-video-2",
+      "labelFr": "Agnes Video 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "usage-cosmetique",
+      "labelFr": "cosmetique"
+    },
+    {
+      "axis": "style",
+      "id": "style-mineral-aquatique",
+      "labelFr": "mineral aquatique"
+    }
+  ],
+  "titleFr": "Sérum minéral en mouvement",
+  "variables": [
+    {
+      "name": "Produit",
+      "value": "sérum blanc"
+    },
+    {
+      "name": "Lumière",
+      "value": "caustiques aquatiques"
+    }
+  ]
+}
