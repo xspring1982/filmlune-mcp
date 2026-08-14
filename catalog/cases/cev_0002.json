@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/basket-cinetique-en-studio-cev_0002/",
+  "caseId": "cev_0002",
+  "caseRevisionId": "cev_0002@r0001",
+  "creator": {
+    "displayName": "FilmLune",
+    "handle": null,
+    "profileUrl": null
+  },
+  "kind": "reusable_case",
+  "locale": "fr",
+  "media": [
+    {
+      "altFr": "Basket blanche en lévitation avec ruban bleu",
+      "assetId": "asset_cev_0002_primary",
+      "assetRevisionId": "asset_cev_0002_primary@r0001",
+      "bytes": 41700,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1000,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0002/primary.webp",
+      "role": "hero",
+      "width": 800
+    },
+    {
+      "altFr": "Seconde composition de basket sur socle terracotta",
+      "assetId": "asset_cev_0002_secondary",
+      "assetRevisionId": "asset_cev_0002_secondary@r0001",
+      "bytes": 64550,
+      "durationSeconds": null,
+      "generationReferenceUse": false,
+      "height": 1000,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0002/secondary.webp",
+      "role": "output",
+      "width": 800
+    }
+  ],
+  "mediaType": "image",
+  "methodFr": "Utiliser une diagonale souple, une ombre courte et un contraste bleu-terre cuite sur fond crème.",
+  "model": {
+    "capabilityRevisionId": "cap_local_z_image_turbo_r1",
+    "displayName": "Z Image Turbo",
+    "modelFamilyId": "z-image-turbo",
+    "modelId": "z-image-turbo-local",
+    "modelVersion": "local-fixture-v1"
+  },
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "kind": "image",
+        "labelFr": "IMAGE · 1",
+        "promptSha256": "5560339c5482472abc810fa86321d21f4028c51a21a17f6704d2ee51b0627a90",
+        "promptText": "Create two cohesive premium studio images of a technical white sneaker floating above a terracotta pedestal. A cobalt ribbon traces a clean diagonal through warm architectural light. Keep the product silhouette accurate, the background cream and the composition energetic but refined.",
+        "stepIndex": 1,
+        "variantId": "ppv_0002_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
+    "generatorVersion": "mcp-catalog-v1",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
+    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+  },
+  "publicationState": "local_contract_fixture",
+  "purposeFr": "Présenter une basket comme un objet de design tout en conservant une lecture immédiate du produit.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "labelFr": "IMAGE · 1",
+      "outputAssetIds": [
+        "asset_cev_0002_primary",
+        "asset_cev_0002_secondary"
+      ],
+      "stepId": "step_cev_0002_01",
+      "stepIndex": 1,
+      "variantId": "ppv_0002_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_0002/",
+  "rights": {
+    "decision": "owned",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "allow",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "canonicalUrl": "https://filmlune.com/prompts/image/basket-cinetique-en-studio-cev_0002/",
+    "kind": "first_party_fixture",
+    "publicEvidenceUrl": null
+  },
+  "summaryFr": "Une chaussure technique semble flotter au-dessus d'un socle terracotta, guidée par un ruban bleu.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "labelFr": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-z-image-turbo",
+      "labelFr": "Z Image Turbo"
+    },
+    {
+      "axis": "use_case",
+      "id": "usage-mode-sport",
+      "labelFr": "mode sport"
+    },
+    {
+      "axis": "style",
+      "id": "style-studio-cinetique",
+      "labelFr": "studio cinetique"
+    }
+  ],
+  "titleFr": "Basket cinétique en studio",
+  "variables": [
+    {
+      "name": "Produit",
+      "value": "basket technique"
+    },
+    {
+      "name": "Accent",
+      "value": "ruban cobalt"
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+  "schemaVersion": 1,
+  "artifactKind": "dependency-lock-facts",
+  "policyVersion": 1,
+  "repository": "ecrangen-mcp",
+  "collectorIdentity": "codex-root-mcp-dependency-facts-attempt-0001",
+  "capturedAtUtc": "2026-08-11T14:29:40.620Z",
+  "packageJson": {
+    "path": "package.json",
+    "sha256": "2108ca6c16070991822671bd0d27a6a8026c200988c5cdb13c7894bacad4a9e2"
+  },
+  "lockfile": {
+    "path": "pnpm-lock.yaml",
+    "sha256": "9327f2753e1ce7e85366904e80c63e15b9788bc93b5773cc02de64c664015205"
+  },
+  "toolchain": {
+    "node": "22.22.2",
+    "packageManager": "pnpm@10.34.5+sha512.a4ee05f2f73658255bd6a89859c065a45c28a57daefae2c893a168ee2b73168c37b91e83e57ea67654ad03f03031746430e8bce38e362e042605fb8abc80192e"
+  },
+  "graph": {
+    "complete": true,
+    "coordinateCount": 97,
+    "normalizedSha256": "ecd02e5b2ae43831715e20de6fbea6c25d6982269f4517b527a0dceeed0d804c",
+    "coordinates": [
+      {
+        "coordinate": "@eslint-community/eslint-utils@4.10.1",
+        "resolved": "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.10.1.tgz",
+        "integrity": "sha512-cuadcxVFE8sDK6iWJbs8Sn0av2Nrh2QSGQhVlBW9AaAHqHwjWsZHT8LJ4hFGPh7ASBV2deFdM7H/DPjulmh8rg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "281666fabd4e825a4c6ac51bd376b8e554b91a42c23cde9e322b0e5933ecf37c"
+      },
+      {
+        "coordinate": "@eslint-community/regexpp@4.12.2",
+        "resolved": "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.12.2.tgz",
+        "integrity": "sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "b62ad7aa388b3734d9267d7c15893f8a45d9525c0e971b46cd310228a743582e"
+      },
+      {
+        "coordinate": "@eslint/config-array@0.21.2",
+        "resolved": "https://registry.npmjs.org/@eslint/config-array/-/config-array-0.21.2.tgz",
+        "integrity": "sha512-nJl2KGTlrf9GjLimgIru+V/mzgSK0ABCDQRvxw5BjURL7WfH5uoWmizbH7QB6MmnMBd8cIC9uceWnezL1VZWWw==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "96018df8092a9a317a5bee17217bcf25ae9301a9c06a74ef1c76be32605a806c"
+      },
+      {
+        "coordinate": "@eslint/config-helpers@0.4.2",
+        "resolved": "https://registry.npmjs.org/@eslint/config-helpers/-/config-helpers-0.4.2.tgz",
+        "integrity": "sha512-gBrxN88gOIf3R7ja5K9slwNayVcZgK6SOUORm2uBzTeIEfeVaIhOpCtTox3P6R7o2jLFwLFTLnC7kU/RGcYEgw==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "db2ce0291b846984758a98a3e44e1b8b22a4fd16c88051ecd1e0177e68066726"
+      },
+      {
+        "coordinate": "@eslint/core@0.17.0",
+        "resolved": "https://registry.npmjs.org/@eslint/core/-/core-0.17.0.tgz",
+        "integrity": "sha512-yL/sLrpmtDaFEiUj1osRP4TI2MDz1AddJL+jZ7KSqvBuliN4xqYY54IfdN8qD8Toa6g1iloph1fxQNkjOxrrpQ==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "d653083779e3d08c68a6037a87274f406683f03a4057fd353a2b0b104895a58b"
+      },
+      {
+        "coordinate": "@eslint/eslintrc@3.3.6",
+        "resolved": "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.6.tgz",
+        "integrity": "sha512-l2Ul9PrHsPCKcEY/ac7VgFj9D80C7S68sOKc618SyHDPK36s1XcFebXY0iTzUVn4Yq+YbwvSnDmCz9yxjX+QrA==",
+        "license": "MIT",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "419f237404a65c6f6c5dbbcb711851cb3230fb1fb103ff122752373ec39089c6"
+      },
+      {
+        "coordinate": "@eslint/js@9.39.4",
+        "resolved": "https://registry.npmjs.org/@eslint/js/-/js-9.39.4.tgz",
+        "integrity": "sha512-nE7DEIchvtiFTwBw4Lfbu59PG+kCofhjsKaCWzxTpt4lfRjRMqG6uMBzKXuEcyXhOHoUp9riAm7/aWYGhXZ9cw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "018f39b93286709bff5db1fa4d36a5c7aa96567a5c358cc81d71b47c22105fce"
+      },
+      {
+        "coordinate": "@eslint/object-schema@2.1.7",
+        "resolved": "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.7.tgz",
+        "integrity": "sha512-VtAOaymWVfZcmZbp6E2mympDIHvyjXs/12LqWYjVw6qjrfF+VK+fyG33kChz3nnK+SU5/NeHOqrTEHS8sXO3OA==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "c093bbdd8b746716fea9b1e855afd5fd9090af4d17aaf80eccbe09de64828d78"
+      },
+      {
+        "coordinate": "@eslint/plugin-kit@0.4.1",
+        "resolved": "https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.4.1.tgz",
+        "integrity": "sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "ae553e7aa61924620d672eae0a891960c04dc2b82622be071a733b2abc2bac59"
+      },
+      {
+        "coordinate": "@humanfs/core@0.19.2",
+        "resolved": "https://registry.npmjs.org/@humanfs/core/-/core-0.19.2.tgz",
+        "integrity": "sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "69f68236ab31881b586278d0fbac9f8f94745c2353bf533793440a0604c8d85b"
+      },
+      {
+        "coordinate": "@humanfs/node@0.16.8",
+        "resolved": "https://registry.npmjs.org/@humanfs/node/-/node-0.16.8.tgz",
+        "integrity": "sha512-gE1eQNZ3R++kTzFUpdGlpmy8kDZD/MLyHqDwqjkVQI0JMdI1D51sy1H958PNXYkM2rAac7e5/CnIKZrHtPh3BQ==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "eb3881d0647c242955d932a0910be2754a03769999b5a3b6f8045938b6a71464"
+      },
+      {
+        "coordinate": "@humanfs/types@0.15.0",
+        "resolved": "https://registry.npmjs.org/@humanfs/types/-/types-0.15.0.tgz",
+        "integrity": "sha512-ZZ1w0aoQkwuUuC7Yf+7sdeaNfqQiiLcSRbfI08oAxqLtpXQr9AIVX7Ay7HLDuiLYAaFPu8oBYNq/QIi9URHJ3Q==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "09c7f798a76551d138f38748378ae358369d14ff0b74ca0f1bbdcaadab33aaf6"
+      },
+      {
+        "coordinate": "@humanwhocodes/module-importer@1.0.1",
+        "resolved": "https://registry.npmjs.org/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz",
+        "integrity": "sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "f932e6b583a2e396c9fc044d7ebf43ea5bf01cebecccaa116a9b5dab41fda2f5"
+      },
+      {
+        "coordinate": "@humanwhocodes/retry@0.4.3",
+        "resolved": "https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.4.3.tgz",
+        "integrity": "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "ecd2e07671d9f208759bfde7216766f064520d8680dbf695759ab938dec9ee3b"
+      },
+      {
+        "coordinate": "@modelcontextprotocol/client@2.0.0",
+        "resolved": "https://registry.npmjs.org/@modelcontextprotocol/client/-/client-2.0.0.tgz",
+        "integrity": "sha512-8f1OghQ2rjzIOfqgUCP+8GiUWqRs89njoWLNqAe8kWmDePv3s1fZXseej+QXemssEuuOvLLmLO/kqM3IQHtISw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "d74280de827bcae745f92c1339932b310677a8d483c0c2549dbdd334fdb39d73"
+      },
+      {
+        "coordinate": "@modelcontextprotocol/core@2.0.0",
+        "resolved": "https://registry.npmjs.org/@modelcontextprotocol/core/-/core-2.0.0.tgz",
+        "integrity": "sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "8fca84420675b050dfd9b78e8f3a43882eef6870a546688d8b65902df4344eb8"
+      },
+      {
+        "coordinate": "@modelcontextprotocol/server@2.0.0",
+        "resolved": "https://registry.npmjs.org/@modelcontextprotocol/server/-/server-2.0.0.tgz",
+        "integrity": "sha512-YhHWdHfpFMQfd0prsEnxKeS3Qz3ytIGmsS0sth4KDjnacIT7hxk6hXHkJ9KysxlkvTM+WZAtQbbcUhdoP4Hvtw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "2b62ae18fe6ba21a65c3b00180d83bd31a238c1d633e032f6218726335039b90"
+      },
+      {
+        "coordinate": "@types/estree@1.0.9",
+        "resolved": "https://registry.npmjs.org/@types/estree/-/estree-1.0.9.tgz",
+        "integrity": "sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "9cf4583eefa7b80c4244b6a8af0a34c79da638dda65f938f4b84a1d888b14391"
+      },
+      {
+        "coordinate": "@types/json-schema@7.0.15",
+        "resolved": "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz",
+        "integrity": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "2acb201f73ac2f4a246bf9a588f1a654edd1261f699bd71c983176bcd6a43105"
+      },
+      {
+        "coordinate": "@types/node@22.19.15",
+        "resolved": "https://registry.npmjs.org/@types/node/-/node-22.19.15.tgz",
+        "integrity": "sha512-F0R/h2+dsy5wJAUe3tAU6oqa2qbWY5TpNfL/RGmo1y38hiyO1w3x2jPtt76wmuaJI4DQnOBu21cNXQ2STIUUWg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "17963b1df8ae9e483c47cf2e22d47f1e528ea5d6a4d82fa9ce003e61d62de34e"
+      },
+      {
+        "coordinate": "acorn-jsx@5.3.2",
+        "resolved": "https://registry.npmjs.org/acorn-jsx/-/acorn-jsx-5.3.2.tgz",
+        "integrity": "sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "91e70af9f2031ec2a98ac0d61bd28f165b18e102c92a9e225b3f206549cb5876"
+      },
+      {
+        "coordinate": "acorn@8.18.0",
+        "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.18.0.tgz",
+        "integrity": "sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==",
+        "license": "MIT",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "cd ..; npm run build:main",
+            "commandSha256": "0f159268e351dee7788796ec2b90ff1070dc890abea6fae2d9145539d86575f2"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "e13752c7bde24d1e03f09df927d0cd3f7d2f59c580efa3e5c4d07aa6f8f1f3eb"
+      },
+      {
+        "coordinate": "ajv@6.15.0",
+        "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
+        "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "7848759cabc4825b2e205edbecb037576f86c0e484a36d7586e003b2ee08cd5b"
+      },
+      {
+        "coordinate": "ansi-styles@4.3.0",
+        "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz",
+        "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "36a6a6665fb761bd4607455879ee9bb9569ad9412f0c5cca199236b7360811e8"
+      },
+      {
+        "coordinate": "argparse@2.0.1",
+        "resolved": "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz",
+        "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
+        "license": "Python-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "3c1d2159b4ad7ec0d178ffd0a121ad9f9ed6dcdb8a52d8f4411ff89a2691851b"
+      },
+      {
+        "coordinate": "balanced-match@1.0.2",
+        "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz",
+        "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "b4203d7e8d941c67ffd12f34545529cd657773e22f02e7a2cffd94a5b93c531f"
+      },
+      {
+        "coordinate": "brace-expansion@1.1.18",
+        "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.18.tgz",
+        "integrity": "sha512-Edep/X9fGqVNmzKBVsDYIOtD+z1tuezV70LBjdCst9Tqu76lsnvRiZ6oTic1n+/BIwX6QDGAO94PN4N2SADvtw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "cd3962709a1d291bcf1d3e44c007e87edac363f2c9ea6e67065b8437b258a004"
+      },
+      {
+        "coordinate": "callsites@3.1.0",
+        "resolved": "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz",
+        "integrity": "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "d666f6279e8c4c75321626364dfe8a0a7618aa4e9674dd1ba39c9d15141b7783"
+      },
+      {
+        "coordinate": "chalk@4.1.2",
+        "resolved": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
+        "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "c52a636219b31a479bd962671eef21b18cef69284a912d31b063cbb1cc3dc7bb"
+      },
+      {
+        "coordinate": "color-convert@2.0.1",
+        "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
+        "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "43db9eb3edf87e875bf633f2fd28c1111c0740564a78b653ff4955d01f1e7b2d"
+      },
+      {
+        "coordinate": "color-name@1.1.4",
+        "resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",
+        "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "1ab311799a5cec0ce0dc2aaf5a9e0744208d7c5f0895586175d80df3cdaf1e17"
+      },
+      {
+        "coordinate": "concat-map@0.0.1",
+        "resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz",
+        "integrity": "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "c977021f203cc68330f6100c9281755388be0d557a08159488e3bf7c3655e23d"
+      },
+      {
+        "coordinate": "cross-spawn@7.0.6",
+        "resolved": "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.6.tgz",
+        "integrity": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "04f360b14b0efe1269b1ae5d0de46ef560d3b1aa4bdca16a043e17cd682f537b"
+      },
+      {
+        "coordinate": "debug@4.4.3",
+        "resolved": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+        "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "adf2c47b01e413bbd67ff36e111358217f80e7cb69061abe016f885569b2bcea"
+      },
+      {
+        "coordinate": "deep-is@0.1.4",
+        "resolved": "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz",
+        "integrity": "sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "384700647d740e62efee0940968c6692d81107cd223a30671adae065b6498ffc"
+      },
+      {
+        "coordinate": "escape-string-regexp@4.0.0",
+        "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz",
+        "integrity": "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "8666f66ff6c4b16b9c3e2b5936adaa34593e928764fe2f5084599e87bc9acd39"
+      },
+      {
+        "coordinate": "eslint-scope@8.4.0",
+        "resolved": "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.4.0.tgz",
+        "integrity": "sha512-sNXOfKCn74rt8RICKMvJS7XKV/Xk9kA7DyJr8mJik3S7Cwgy3qlkkmyS2uQB3jiJg6VNdZd/pDBJu0nvG2NlTg==",
+        "license": "BSD-2-Clause",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "bdcd5a02491fb905cba96c524c951fd3b0981b83abd08fb08ea4161d80562b70"
+      },
+      {
+        "coordinate": "eslint-visitor-keys@3.4.3",
+        "resolved": "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz",
+        "integrity": "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "33a09341f37635ca5cece080b0ba6b72714081a5e133806d873c16b96740ffef"
+      },
+      {
+        "coordinate": "eslint-visitor-keys@4.2.1",
+        "resolved": "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.2.1.tgz",
+        "integrity": "sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "1c913ec752664f2a4b9bc728526e8481ffbe122539e032ae31a6545a14299ab5"
+      },
+      {
+        "coordinate": "eslint@9.39.4",
+        "resolved": "https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz",
+        "integrity": "sha512-XoMjdBOwe/esVgEvLmNsD3IRHkm7fbKIUGvrleloJXUZgDHig2IPWNniv+GwjyJXzuNqVjlr5+4yVUZjycJwfQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "0ed6f022fbdf276a49ac3ae07c0fecefd4d65e70b1a70ff3c89e3d00b7833d5d"
+      },
+      {
+        "coordinate": "espree@10.4.0",
+        "resolved": "https://registry.npmjs.org/espree/-/espree-10.4.0.tgz",
+        "integrity": "sha512-j6PAQ2uUr79PZhBjP5C5fhl8e39FmRnOjsD5lGnWrFU8i2G776tBK7+nP8KuQUTTyAZUwfQqXAgrVH5MbH9CYQ==",
+        "license": "BSD-2-Clause",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "47f6ddf131ddfca176078fe4def10c85d8a8cb70e43b337278153b5b92b82b61"
+      },
+      {
+        "coordinate": "esquery@1.7.0",
+        "resolved": "https://registry.npmjs.org/esquery/-/esquery-1.7.0.tgz",
+        "integrity": "sha512-Ap6G0WQwcU/LHsvLwON1fAQX9Zp0A2Y6Y/cJBl9r/JbW90Zyg4/zbG6zzKa2OTALELarYHmKu0GhpM5EO+7T0g==",
+        "license": "BSD-3-Clause",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "290d1112ba7b092dc8fb049fc3e4f529bb5d1c0a253f0140cc086581b173e0a5"
+      },
+      {
+        "coordinate": "esrecurse@4.3.0",
+        "resolved": "https://registry.npmjs.org/esrecurse/-/esrecurse-4.3.0.tgz",
+        "integrity": "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==",
+        "license": "BSD-2-Clause",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "27df64a2646c764f47f911b19a3cbc1ba3564c3b0a329dae80bb134e890df239"
+      },
+      {
+        "coordinate": "estraverse@5.3.0",
+        "resolved": "https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz",
+        "integrity": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==",
+        "license": "BSD-2-Clause",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "a65139564619c92a7d6fa4b3046f9e865ebe17a2e8c0128de60628320ac46fde"
+      },
+      {
+        "coordinate": "esutils@2.0.3",
+        "resolved": "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz",
+        "integrity": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
+        "license": "BSD-2-Clause",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "159bbfa34a70b17590c62bed0f64a1f43d6879f61e45bcbb8c70b750ef4ce3a2"
+      },
+      {
+        "coordinate": "eventsource-parser@3.1.1",
+        "resolved": "https://registry.npmjs.org/eventsource-parser/-/eventsource-parser-3.1.1.tgz",
+        "integrity": "sha512-EKN1vKAMcZ8MlYMpaNuxN6R9yakzH6uajHcHVTqWJzvu5pWw9DyhbP35HH8MVBQ+dZjAfDxk+A8NiR9KWaXiyQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "34cd071a23ec07b89aa55263dca1317fdb47c37a75401a31a66a2bb4cf67d3c0"
+      },
+      {
+        "coordinate": "eventsource@3.0.7",
+        "resolved": "https://registry.npmjs.org/eventsource/-/eventsource-3.0.7.tgz",
+        "integrity": "sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==",
+        "license": "MIT",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run build",
+            "commandSha256": "16c0e4305ac213dff39fc82b69b6e08aeeb8758e33cd72d7c409752a70e9f054"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "935d91bb8e2515bf52a5d3d9daee5961e2e33da6b8910449ede5f085ee910b2f"
+      },
+      {
+        "coordinate": "fast-deep-equal@3.1.3",
+        "resolved": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz",
+        "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "bb829d0a09a52a52a45ecc32c0a3ed4194562d5deed7fd54ba1d7a9e79837f0a"
+      },
+      {
+        "coordinate": "fast-json-stable-stringify@2.1.0",
+        "resolved": "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz",
+        "integrity": "sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "ced38120b1bcb723e75ff05cf50d1a2a5421b510de89ae18a36b6f2a6f7107b9"
+      },
+      {
+        "coordinate": "fast-levenshtein@2.0.6",
+        "resolved": "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz",
+        "integrity": "sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "6791a04f40f0d331e826ebc57a996f1d1acb8fee2882fd471bbbde1614df083a"
+      },
+      {
+        "coordinate": "file-entry-cache@8.0.0",
+        "resolved": "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-8.0.0.tgz",
+        "integrity": "sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "fe42e0c8771cf4c5e9f649512e2460adeb8a540d66e50c5dbf0e39b273691f41"
+      },
+      {
+        "coordinate": "find-up@5.0.0",
+        "resolved": "https://registry.npmjs.org/find-up/-/find-up-5.0.0.tgz",
+        "integrity": "sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "8878e5e467fe0f7b2d14b02348083865842a192bed28a88b940f80c65ef81ac5"
+      },
+      {
+        "coordinate": "flat-cache@4.0.1",
+        "resolved": "https://registry.npmjs.org/flat-cache/-/flat-cache-4.0.1.tgz",
+        "integrity": "sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "0db66953ebe0a8bc6c118df8271ffd2dafc5dbade90ce5a2f75e94a68c0e6f84"
+      },
+      {
+        "coordinate": "flatted@3.4.4",
+        "resolved": "https://registry.npmjs.org/flatted/-/flatted-3.4.4.tgz",
+        "integrity": "sha512-5+ybhBZANEJxaH3X5evAFatUxLfEHSr7n6kYJ+1Qd0mUqr4eu9gIf6GDbWHf8RJijHrjjO8G+la14SlL2SeS1Q==",
+        "license": "ISC",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "7c69ef2efe0ced7299227e5f2687509b003a57eb0ded132ad9a3a0eba0e46501"
+      },
+      {
+        "coordinate": "glob-parent@6.0.2",
+        "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.2.tgz",
+        "integrity": "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==",
+        "license": "ISC",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "ed40fab753a13cc43c479c3e8a3da21d9102bc9199aee1e3dff0e29dbbbce233"
+      },
+      {
+        "coordinate": "globals@14.0.0",
+        "resolved": "https://registry.npmjs.org/globals/-/globals-14.0.0.tgz",
+        "integrity": "sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==",
+        "license": "MIT",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "npm run --silent update-types",
+            "commandSha256": "afa27a76ca90ab797c807ef9d6f4f89856d222652583c43c1b0fd4b9f5ea76c8"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "e7928a36591be496b0faa9f6afaeed3d8d6eb448ae9909a3963e8c4a48a5d23c"
+      },
+      {
+        "coordinate": "has-flag@4.0.0",
+        "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
+        "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "b1d582e18ca58f319d246222f619b792e50fc660363745e552c6cbb3e6b7cdb8"
+      },
+      {
+        "coordinate": "ignore@5.3.2",
+        "resolved": "https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz",
+        "integrity": "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "427e0c8ee7d628b56ad0e03ea60f6fdbbf53f50ed3f0a94b92d165e356b1988b"
+      },
+      {
+        "coordinate": "import-fresh@3.3.1",
+        "resolved": "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.1.tgz",
+        "integrity": "sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "d454fb79c91775e71b1a8c1d580bc903bee42ecba01b78b119875ce688448b60"
+      },
+      {
+        "coordinate": "imurmurhash@0.1.4",
+        "resolved": "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz",
+        "integrity": "sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "d451acee60155063b43fcfa0a481f8bdece36b5d247221f32b062e2d5f8b1b7d"
+      },
+      {
+        "coordinate": "is-extglob@2.1.1",
+        "resolved": "https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz",
+        "integrity": "sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "12eb6c84d24ba61ce4abe02d03451147a9799a610943f57164f2424ed392fda7"
+      },
+      {
+        "coordinate": "is-glob@4.0.3",
+        "resolved": "https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz",
+        "integrity": "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "37cd7bd23b1d51e06540cfe2ba18a53df1bf61508cccaff6b832eed43d66dc3c"
+      },
+      {
+        "coordinate": "isexe@2.0.0",
+        "resolved": "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz",
+        "integrity": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+        "license": "ISC",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "536af8799e27c46482a7e68c520b687380cef49462ce428877883673be3105ca"
+      },
+      {
+        "coordinate": "jose@6.2.8",
+        "resolved": "https://registry.npmjs.org/jose/-/jose-6.2.8.tgz",
+        "integrity": "sha512-Bsdjwm3Qsd/P0jR+BHDe3LytDfY7WBq2HmCCLIwuVRHMuEC9ae7/R474GIUdF1NgCyZjzVo/A9DOiOBtXq8ZoQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "0417e402364f46e0fd2095e5c6ff83abf57359750895c1acdcc09229c4675299"
+      },
+      {
+        "coordinate": "js-yaml@4.3.1",
+        "resolved": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.3.1.tgz",
+        "integrity": "sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "2a59ae971fb553de012bfb85fb7dc101feedbd6203217a631437d2e583dee64c"
+      },
+      {
+        "coordinate": "json-buffer@3.0.1",
+        "resolved": "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz",
+        "integrity": "sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "ab7581ccbf6eaa1938e188c9a09a8cabc57cb20856a88e588b0a3edf8b18f8b9"
+      },
+      {
+        "coordinate": "json-schema-traverse@0.4.1",
+        "resolved": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz",
+        "integrity": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "b4c4ce40ef860f1a9038f33d3c809c248d96083d0a749838fa14367306cd72a9"
+      },
+      {
+        "coordinate": "json-stable-stringify-without-jsonify@1.0.1",
+        "resolved": "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz",
+        "integrity": "sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "a48e55a15d0fa8336e7f5ce78a783cdf35e8c1506ef9005722222f09237d5ed8"
+      },
+      {
+        "coordinate": "keyv@4.5.4",
+        "resolved": "https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz",
+        "integrity": "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==",
+        "license": "MIT",
+        "lifecycleScripts": [
+          {
+            "name": "prepare",
+            "command": "yarn build",
+            "commandSha256": "efcef32554181a435413e44f2b23fcf3e5e08039c9949b43f6bd847b5cfe53df"
+          }
+        ],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "19393d8dbd3d40cf1b018fb006399a72976aa1158d945014920c01c0c4a15698"
+      },
+      {
+        "coordinate": "levn@0.4.1",
+        "resolved": "https://registry.npmjs.org/levn/-/levn-0.4.1.tgz",
+        "integrity": "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "0374e8c25843879f84718e3f28fbe0cfee2caa9e6b88bc0ef4a59ed2eef6f993"
+      },
+      {
+        "coordinate": "locate-path@6.0.0",
+        "resolved": "https://registry.npmjs.org/locate-path/-/locate-path-6.0.0.tgz",
+        "integrity": "sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "108bf8ff9b7e3ab5bc20a2676c2ef195a170f2853615bc6a033779ebf7dd86ba"
+      },
+      {
+        "coordinate": "lodash.merge@4.6.2",
+        "resolved": "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz",
+        "integrity": "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "be0619f819db069752cb1c6be613938657990390734fcb07d2e6b56ce5a68f5e"
+      },
+      {
+        "coordinate": "minimatch@3.1.5",
+        "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.5.tgz",
+        "integrity": "sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==",
+        "license": "ISC",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "f2e26e687e9598ff2c140ae78e0d11100e65fc1d24330d4beaa3f1ec0e6e1bee"
+      },
+      {
+        "coordinate": "ms@2.1.3",
+        "resolved": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+        "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "0f25833a412977e6be3b01a755e74dd8630e1b4d72da68509979fe38971b4563"
+      },
+      {
+        "coordinate": "natural-compare@1.4.0",
+        "resolved": "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz",
+        "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "7b740f2c13170744a1addb009af00a1901a44975283ffbdc7f9700d2199139b7"
+      },
+      {
+        "coordinate": "optionator@0.9.4",
+        "resolved": "https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz",
+        "integrity": "sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "8d8432228d69ea14a8ce070ad158a07b16de2408b7ec72282aa757ce4cf9928c"
+      },
+      {
+        "coordinate": "p-limit@3.1.0",
+        "resolved": "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz",
+        "integrity": "sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "bd008e9d6aa50a7341f843db90a8761548b420523e2cacfa012b52304b0239fc"
+      },
+      {
+        "coordinate": "p-locate@5.0.0",
+        "resolved": "https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz",
+        "integrity": "sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "c2f967e1ade133eabe2b32618192e9f3d45ba4f86794fa812cab749b05e5b11d"
+      },
+      {
+        "coordinate": "parent-module@1.0.1",
+        "resolved": "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz",
+        "integrity": "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "c337136e2fb95c58f265829a08ec6e2a69366f0dad777b583461c6b465e4904c"
+      },
+      {
+        "coordinate": "path-exists@4.0.0",
+        "resolved": "https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz",
+        "integrity": "sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "1aa48cc24d86401996ecd03c74919c457af0879cca62d01161eac19a410dacda"
+      },
+      {
+        "coordinate": "path-key@3.1.1",
+        "resolved": "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz",
+        "integrity": "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "b13b07a728ba69661e0d4eb4b5a33b222aee55755ed54ab9be8069d161781253"
+      },
+      {
+        "coordinate": "pkce-challenge@5.0.1",
+        "resolved": "https://registry.npmjs.org/pkce-challenge/-/pkce-challenge-5.0.1.tgz",
+        "integrity": "sha512-wQ0b/W4Fr01qtpHlqSqspcj3EhBvimsdh0KlHhH8HRZnMsEa0ea2fTULOXOS9ccQr3om+GcGRk4e+isrZWV8qQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "d513fd585a2d459d47360b6163130a73a30263be35055f8f7792f6cccb4bfdd5"
+      },
+      {
+        "coordinate": "prelude-ls@1.2.1",
+        "resolved": "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz",
+        "integrity": "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "fbe72382025cc3b422d2eb582241746d063382f8dc61d4c9168d39a301048508"
+      },
+      {
+        "coordinate": "punycode@2.3.1",
+        "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz",
+        "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "f8528c1c243d3c564e87c3606d537788176c8e496c17e5c953165261e25d0294"
+      },
+      {
+        "coordinate": "resolve-from@4.0.0",
+        "resolved": "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz",
+        "integrity": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "524f411650a993fd450db2e85359cbd7168ac77a74288f3c4d2e05986de3f8a1"
+      },
+      {
+        "coordinate": "shebang-command@2.0.0",
+        "resolved": "https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz",
+        "integrity": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "ffaec3b0ebe10672f8d149af1b7f75398012cf5a255c7d9dc8eeae2938ac565a"
+      },
+      {
+        "coordinate": "shebang-regex@3.0.0",
+        "resolved": "https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz",
+        "integrity": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "469e69c854f0d0c80c3896936d4fee437cba78548ca174b3d50ad3d9ef0b7d6d"
+      },
+      {
+        "coordinate": "strip-json-comments@3.1.1",
+        "resolved": "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz",
+        "integrity": "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "fd932975972f21da015b10f78adcc6533664482046be9c5215b22de504d70815"
+      },
+      {
+        "coordinate": "supports-color@7.2.0",
+        "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
+        "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "3b0624b7694d454c78281b54fadcd6ed3ef43cd39f712a071eb39821141c7a24"
+      },
+      {
+        "coordinate": "type-check@0.4.0",
+        "resolved": "https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz",
+        "integrity": "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "1bf38a668f10099bea5885efc67cd8fbccafe1c34ab105c7e81e44d7ff4be8cd"
+      },
+      {
+        "coordinate": "typescript@5.9.2",
+        "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.9.2.tgz",
+        "integrity": "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==",
+        "license": "Apache-2.0",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "032fb60705cef8a771f48805da8745be563c65b25e43f626e615977ebaf9b222"
+      },
+      {
+        "coordinate": "undici-types@6.21.0",
+        "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
+        "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "e04454a1aa806a0e08cdeb0055aa566c6281d28dbee807ff0abf4d72cd0b10f7"
+      },
+      {
+        "coordinate": "uri-js@4.4.1",
+        "resolved": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz",
+        "integrity": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
+        "license": "BSD-2-Clause",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "620d4b021750abfd66b0d07a09044730b099f06a426311c928b2eb246ef1ce7f"
+      },
+      {
+        "coordinate": "which@2.0.2",
+        "resolved": "https://registry.npmjs.org/which/-/which-2.0.2.tgz",
+        "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
+        "license": "ISC",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "0fc3fcc400e29bf7d9a5f796fd241fefebff73b6021dee3dfaa78c4bf0e429a0"
+      },
+      {
+        "coordinate": "word-wrap@1.2.5",
+        "resolved": "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz",
+        "integrity": "sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "112b7ab46c5a9182280d25786bc5b21f23bc28d9266b88b42d6ee6022ae1044d"
+      },
+      {
+        "coordinate": "yocto-queue@0.1.0",
+        "resolved": "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz",
+        "integrity": "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "50ce63113ea4faee53e634a8c495ca8d406a326823f82c35774f4936a507a7e6"
+      },
+      {
+        "coordinate": "zod@4.2.0",
+        "resolved": "https://registry.npmjs.org/zod/-/zod-4.2.0.tgz",
+        "integrity": "sha512-Bd5fw9wlIhtqCCxotZgdTOMwGm1a0u75wARVEY9HMs1X17trvA/lMi4+MGK5EUfYkXVTbX8UDiDKW4OgzHVUZw==",
+        "license": "MIT",
+        "lifecycleScripts": [],
+        "nativeBinaryFacts": [],
+        "registryMetadataSha256": "79e005e06111dc49d57cc91f282293311400124cccf12dbc9bd55d33ccd509b7"
+      }
+    ]
+  },
+  "advisory": {
+    "status": "PASS",
+    "evidenceSha256": "0faf97feae79b9cf89318caf610c0d7cabda2ea2a23ba75a2f01983bfc1e8bfe",
+    "summary": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    }
+  },
+  "blockers": [],
+  "remainingRisks": [
+    "INDEPENDENT_DEPENDENCY_REVIEW_REQUIRED"
+  ]
+}
