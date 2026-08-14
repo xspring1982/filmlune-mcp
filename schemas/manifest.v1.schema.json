@@ -1,0 +1,16 @@
+{
+  "$id": "https://filmlune.com/schemas/mcp/manifest.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "required": [
+    "schemaVersion",
+    "catalogRevision",
+    "generator",
+    "source",
+    "files",
+    "activeIds",
+    "tombstoneIds",
+    "changes"
+  ],
+  "title": "FilmLune MCP catalog manifest v1",
+  "type": "object"
+}

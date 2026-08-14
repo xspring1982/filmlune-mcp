@@ -1,0 +1,142 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/montre-au-clair-obscur-cev_0005/",
+  "caseId": "cev_0005",
+  "caseRevisionId": "cev_0005@r0001",
+  "creator": {
+    "displayName": "FilmLune",
+    "handle": null,
+    "profileUrl": null
+  },
+  "kind": "reusable_case",
+  "locale": "fr",
+  "media": [
+    {
+      "altFr": "Montre noire éclairée par un reflet cuivre",
+      "assetId": "asset_cev_0005_primary",
+      "assetRevisionId": "asset_cev_0005_primary@r0001",
+      "bytes": 26128,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 720,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0005/primary.webp",
+      "role": "hero",
+      "width": 1280
+    },
+    {
+      "altFr": "Référence rapprochée de la montre et de son cadran",
+      "assetId": "asset_cev_0005_secondary",
+      "assetRevisionId": "asset_cev_0005_secondary@r0001",
+      "bytes": 27878,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1000,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0005/secondary.webp",
+      "role": "reference",
+      "width": 800
+    }
+  ],
+  "mediaType": "image",
+  "methodFr": "Réutiliser la référence produit, contrôler le reflet et réserver une large zone sombre à la composition.",
+  "model": {
+    "capabilityRevisionId": "cap_local_nano_banana_pro_r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro-local",
+    "modelVersion": "local-fixture-v1"
+  },
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "image_to_image",
+        "kind": "image",
+        "labelFr": "IMAGE · 1",
+        "promptSha256": "26c5f86f32db2c117ed497fdf1d17a4ed2c5c6230a36771de37e61cee19f9bca",
+        "promptText": "Treat the supplied watch image as the exact product reference. Create a wide luxury still life in near-black space with one controlled copper reflection across the dial and strap. Preserve all proportions and materials, avoid extra props, and keep generous negative space for a refined launch visual.",
+        "stepIndex": 1,
+        "variantId": "ppv_0005_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
+    "generatorVersion": "mcp-catalog-v1",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
+    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+  },
+  "publicationState": "local_contract_fixture",
+  "purposeFr": "Créer une image de lancement sobre qui laisse la matière et le cadran porter le message.",
+  "recipe": [
+    {
+      "inputAssetIds": [
+        "asset_cev_0005_secondary"
+      ],
+      "inputMode": "image_to_image",
+      "kind": "image",
+      "labelFr": "IMAGE · 1",
+      "outputAssetIds": [
+        "asset_cev_0005_primary"
+      ],
+      "stepId": "step_cev_0005_01",
+      "stepIndex": 1,
+      "variantId": "ppv_0005_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_0005/",
+  "rights": {
+    "decision": "owned",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "allow",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "canonicalUrl": "https://filmlune.com/prompts/image/montre-au-clair-obscur-cev_0005/",
+    "kind": "first_party_fixture",
+    "publicEvidenceUrl": null
+  },
+  "summaryFr": "Une montre noire émerge d'un décor profond, soulignée par un reflet cuivre très précis.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "labelFr": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "labelFr": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "usage-horlogerie",
+      "labelFr": "horlogerie"
+    },
+    {
+      "axis": "style",
+      "id": "style-clair-obscur",
+      "labelFr": "clair obscur"
+    }
+  ],
+  "titleFr": "Montre au clair-obscur",
+  "variables": [
+    {
+      "name": "Produit",
+      "value": "montre noire"
+    },
+    {
+      "name": "Reflet",
+      "value": "cuivre"
+    }
+  ]
+}

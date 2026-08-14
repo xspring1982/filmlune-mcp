@@ -1,0 +1,1031 @@
+{
+  "schemaVersion": 1,
+  "artifactKind": "dependency-review-decisions",
+  "policyVersion": 1,
+  "status": "PASS",
+  "result": "ALLOW_FROZEN_INSTALL",
+  "reviewerIdentity": "codex-independent-mcp-dependency-review-attempt-0001",
+  "collectorIdentity": "codex-root-mcp-dependency-facts-attempt-0001",
+  "reviewedAtUtc": "2026-08-11T14:39:19.793Z",
+  "factsSha256": "d7730e837742a8b5d5c6b13e9cf026c6158717cd5f8e847df99f212c78894534",
+  "packageJsonSha256": "2108ca6c16070991822671bd0d27a6a8026c200988c5cdb13c7894bacad4a9e2",
+  "lockfileSha256": "9327f2753e1ce7e85366904e80c63e15b9788bc93b5773cc02de64c664015205",
+  "coordinateSetSha256": "bec2e1d7ccd76e10defa046607e934e1c2d565f6ad4b474a95866f042c126f01",
+  "coordinateDecisions": [
+    {
+      "coordinate": "@eslint-community/eslint-utils@4.10.1",
+      "factSha256": "8e7086d056b251f86e55f873f2a63c026589e04cc69a496cde59af92e4b75843",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint-community/regexpp@4.12.2",
+      "factSha256": "ee2c0ba67718d5e8219157216e4edc8a54cde4c09aafd03c5ec3e622071ebbb2",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint/config-array@0.21.2",
+      "factSha256": "3e891851efda9d465b91306a63b100873eb803a4dd4fe43dd931791b73c50a01",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint/config-helpers@0.4.2",
+      "factSha256": "eb40fadd90ddf0f1ee9dcb6a0714d22dd58da5e9cdde0ac7757bfeb64d5ac078",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint/core@0.17.0",
+      "factSha256": "3745a43aa2207a0dd0bed2f61950550c48a5e0d9d24e7b5f1405fa58359a5302",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint/eslintrc@3.3.6",
+      "factSha256": "09b46080977f24029b7b9edbcc492fbd9adf1aa0d9199340d2186609bf3bac3b",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint/js@9.39.4",
+      "factSha256": "af884e6cfda863bb21024e318d245aa2d806d08c0603b2e53aa1411a5714465b",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint/object-schema@2.1.7",
+      "factSha256": "9b6d2427f4dcd25ebac5faf7c891c55381e45203edb692c2a43dbb12edf5a84a",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@eslint/plugin-kit@0.4.1",
+      "factSha256": "6e353b97cd799271b39b23f290ce40d5e532b85faa85abbe7ac0d5e7f3537030",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@humanfs/core@0.19.2",
+      "factSha256": "de6ff9cb1c4a82e37d573ffa23d1a4af5428f1aa0b8f589d974f722e714cf053",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "@humanfs/node@0.16.8",
+      "factSha256": "9f98e5229596baf2708325817b0dee1478c62eb9211c4d8e0170ebc944f76310",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "@humanfs/types@0.15.0",
+      "factSha256": "80f30205e0cfdf2f0b1a4997e4b95db8916081e02d61cc96e94e8be9efe67619",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "@humanwhocodes/module-importer@1.0.1",
+      "factSha256": "ca6142a6f4f1754e3bc6114e8c85fa89800858b5bf252d85f63ab5b77c0a2358",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "@humanwhocodes/retry@0.4.3",
+      "factSha256": "c47165068c4c85542ffe33af33fd501f2ae83a3c4a394d270fe173ecbd594d18",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "@modelcontextprotocol/client@2.0.0",
+      "factSha256": "42bc45d5c9c7f64af485040aa973e4d0f5065ec15aad5e592bd6dc7b69684bac",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@modelcontextprotocol/core@2.0.0",
+      "factSha256": "57929c5bcb1f259e6c6111b2b4cb0d747f42f9de19e96eee290dd5249a368c54",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@modelcontextprotocol/server@2.0.0",
+      "factSha256": "ee215d7438165c8b85da2b0cff3dc264f4f6626a4f3018f6658ec497745f71d8",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@types/estree@1.0.9",
+      "factSha256": "ba392cc790a1ce49782d4165da085ef441069da7127e52acf46651657ae9e9a9",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@types/json-schema@7.0.15",
+      "factSha256": "4d9d55f4d3961651c2cfd77adbc93d0823feeb75fff9e90207bf1b31617792b9",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "@types/node@22.19.15",
+      "factSha256": "1f517ff40a37e68b3b615c1e3ea4c720e1fa75a3ce1bf62a147a984ee9c1cb8c",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "acorn-jsx@5.3.2",
+      "factSha256": "4adbcf1d36147e70daa581d64f8caa26dceec27e05b255fe34f9a97075d79703",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "acorn@8.18.0",
+      "factSha256": "92a188c5a8aa3624b00640542572745087c50461698dcf2d18b0b0579750c610",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "ajv@6.15.0",
+      "factSha256": "8a4106f78e262cc21e96b4d0b28e454103dee88525d85dc9aa7d98a1d8671b29",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "ansi-styles@4.3.0",
+      "factSha256": "27057242e5aa46f974a3d4601d8c5659f1332c188bd4b32e70a62b55fe767a67",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "argparse@2.0.1",
+      "factSha256": "63a7014f0babe5e846e0ee9c515ed0a1054dd196ae11869cc4b99414bbf786eb",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Python-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "balanced-match@1.0.2",
+      "factSha256": "2845f6a2924e8156952e0744a012a5fa007a282ca1a4b84663fb8e3a67be2517",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "brace-expansion@1.1.18",
+      "factSha256": "7fd3c768f83dddb285b1f75f0f9f68938fa3751d2fb7bb72993559912dac22b1",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "callsites@3.1.0",
+      "factSha256": "81fa9da4e00b9ec54b0517058af4c68e4e63fccdc32db165b84a3d8fe4f9c768",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "chalk@4.1.2",
+      "factSha256": "0b820dc383f8147cedd5874cfd2379993b262f04f3cf78ab1889992b1c1e1507",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "color-convert@2.0.1",
+      "factSha256": "85623575830962a500ef999d1bc4cb4bf2fe8eb2a757da6db934df6727fc5b45",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "color-name@1.1.4",
+      "factSha256": "a415f80d24140e74889808a1812211cca255448d2aea47b1372633f3a142ba57",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "concat-map@0.0.1",
+      "factSha256": "9660f7e160f7a651c62eea53e4e6d3753cb88f139ecd7fef90db4d5b699c3c78",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "cross-spawn@7.0.6",
+      "factSha256": "f38271b132b7c6dd7eba66cd4126958246acf00a01c78a851d129593e57555e6",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "debug@4.4.3",
+      "factSha256": "75639796c7c3118119661c45eae9b6a69d5773f8f9923dd1a9f5b0d55929f16b",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "deep-is@0.1.4",
+      "factSha256": "9c2755a40ca03df65046c03c268a6b07e5d015d4fdf06c95f90fa824256231f2",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "escape-string-regexp@4.0.0",
+      "factSha256": "b2b0f03f56c1e0bff756a24b3003f5ca0db4e5839ec227722d315d7cf319ea6d",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "eslint-scope@8.4.0",
+      "factSha256": "95e3fc4ac61a22ecbd667b48ac599e5c10e5eec3066132db6cb08a7de9045dc6",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; BSD-2-Clause license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "eslint-visitor-keys@3.4.3",
+      "factSha256": "672d5a30838fe178ac871d518f85151d04391e966ab78f080f7d67c547a6201d",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "eslint-visitor-keys@4.2.1",
+      "factSha256": "b0ff8fbd4d26853067dfef8b8bddd726ae49c71b4b46fb404ebac4a699a62bce",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "eslint@9.39.4",
+      "factSha256": "934c981817e98814d421d0292e234beddea44a68f726765f13d641592c5eebb2",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "espree@10.4.0",
+      "factSha256": "bcf73c76c5c25ec0c876f8b5a3f7aa7db99499c54b46373bf8d4af1386058134",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; BSD-2-Clause license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "esquery@1.7.0",
+      "factSha256": "d4c9acb011e7f58c43379611b22911e38bc86ea0ce024af881467714c60c4f43",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; BSD-3-Clause license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "esrecurse@4.3.0",
+      "factSha256": "dc85c643d9c86be22f628368729d7ae8a956ed85603fc4722e9f6e776b0adf87",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; BSD-2-Clause license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "estraverse@5.3.0",
+      "factSha256": "65c04223cd7a297e93ed098839fe666afc1aa9f00b7c8d4756a85d31160869eb",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; BSD-2-Clause license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "esutils@2.0.3",
+      "factSha256": "3bcbebb0524aa7c9eefd93814e66c2699a5ac8f00d309cede91a16095c5d7e58",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; BSD-2-Clause license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "eventsource-parser@3.1.1",
+      "factSha256": "907206aa85f9fcde15d490ebc97a6e3261ea725a292e0d0b9540e8106e877ae4",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "eventsource@3.0.7",
+      "factSha256": "08c232335ed5dc5ed33614d91f5b72ffc3bc0162a6e06a595f99b24e82a4c4dd",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "fast-deep-equal@3.1.3",
+      "factSha256": "e68f625ed8cf17b62c0a75a21b6b33699bfe6a70b80754bfacb6b1623e6df47f",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "fast-json-stable-stringify@2.1.0",
+      "factSha256": "3806c1b277985376c4d5a89246ce76a965c72a4edc7e480d0b1679d9e3952d18",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "fast-levenshtein@2.0.6",
+      "factSha256": "1037a067f3b8035ef29712bad3d98dd38501aaf50b9007237aed76a574b74748",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "file-entry-cache@8.0.0",
+      "factSha256": "204e04acd22e12512a53376eb554953a024a72eb8f8c009d46d02e168fdc5d9a",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "find-up@5.0.0",
+      "factSha256": "937209c54550fbb06082c909180c866c47eae709a6388f30e6d87f270d5ce38a",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "flat-cache@4.0.1",
+      "factSha256": "c130632bc8b90a2b5c9d0ef579da543fed7783c17447ff41f47dd2ea8b4d02ed",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "flatted@3.4.4",
+      "factSha256": "6b0c38c4b1eb22611ed4fa4aa2918f5240a5135582147e3989af0048069b7d1c",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; ISC license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "glob-parent@6.0.2",
+      "factSha256": "56e73c04fcef2cb2cc8bc71b6377f0f965bba4dd64761ccfe77c74d66667cb94",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; ISC license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "globals@14.0.0",
+      "factSha256": "f5a8e064d2e74c868ca3805e619f168d2aa32e1a771b57cb1798092c278c690a",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "has-flag@4.0.0",
+      "factSha256": "0ea6635ce62985967b59678de80726100cda644939e1fa45e98b46c5954120ba",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "ignore@5.3.2",
+      "factSha256": "60d6d1a87d0daedb54df196a3bf0ab36cbe0e4680f79a83ece4eff529268daed",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "import-fresh@3.3.1",
+      "factSha256": "38dbd4f4a3cddbb9297816cb453a61e56bbe8d56d538a6219c54e766fba30475",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "imurmurhash@0.1.4",
+      "factSha256": "d47ee403dec10ebc7c79bee6f721fa1beab61988d385a8800f020e266c3c545c",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "is-extglob@2.1.1",
+      "factSha256": "bb6280a24ae11791de7dc84b477422b1aa7dbba308001128dc20e0b3a1811279",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "is-glob@4.0.3",
+      "factSha256": "4f3a7e33fb38f8a99a4ded755b8c874e8ec0b5cbf6fb2dec4079ccf9e84fc991",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "isexe@2.0.0",
+      "factSha256": "4060e61d27de62d807bbbf0f249834d394dfda2a944050669b16521937418963",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; ISC license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "jose@6.2.8",
+      "factSha256": "1b51e84882488e25bc9b5e1ec158ee6d073c4feda9f5fb9f707bb23d1cb04223",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "js-yaml@4.3.1",
+      "factSha256": "4fb956a4878467a192aa9ce79b9896d77e850ea62eb85ad3d616024c87e0d172",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "json-buffer@3.0.1",
+      "factSha256": "6b0f6f158b4840172d218d6d165393390ac6781b8e44b11054412d07ca70f4e7",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "json-schema-traverse@0.4.1",
+      "factSha256": "7656f6c38b75a6a772677fed27803494573ddbf7671eda25fb2c6cb9eb3eccea",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "json-stable-stringify-without-jsonify@1.0.1",
+      "factSha256": "ea958c65b727254107a2a6f1b69c8bb6e1d41af086ba5d8d7d05809347a65640",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "keyv@4.5.4",
+      "factSha256": "59635c52d5c0f956bfe136911daae97e58e8ecd2e0fc52af29098438a35e8dd6",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "REVIEWED",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; 1 exact registry prepare script(s) reviewed and suppressed by the authorized --ignore-scripts install; no native-binary metadata."
+    },
+    {
+      "coordinate": "levn@0.4.1",
+      "factSha256": "9852947918c24935dbacf5824c2a636862536d615ede0ccd1cde2948b6ff4b32",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "locate-path@6.0.0",
+      "factSha256": "8839317914b8072be5b25d142deab0f8d792a095eae9c29c1077df3c8054ddbf",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "lodash.merge@4.6.2",
+      "factSha256": "0ae44e7c2ee3558f031ba64cf8ce174258a4d48a6d316a7f0f48c5d4f14c73c9",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "minimatch@3.1.5",
+      "factSha256": "05b2820c914a97d223b4cc43a0194993a50ae7feecf2aa64f49e718fe7682b78",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; ISC license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "ms@2.1.3",
+      "factSha256": "ca4f1900aab3f4e260a5ec27841e7663e101b6ea6b9ec07d443184e66822312e",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "natural-compare@1.4.0",
+      "factSha256": "4c490b82c4e87099a6afc0e594ae73e30e8eae8336b3518a8ec91a8dd956e276",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "optionator@0.9.4",
+      "factSha256": "a9a8bdc04c96a6d608c3f879c8425a1b124d6a88db48189692b7c73d3c910638",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "p-limit@3.1.0",
+      "factSha256": "ea3689c84a3847704ee95ade3b39b2e6f769542402bc6d9134cc7c010719008b",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "p-locate@5.0.0",
+      "factSha256": "d5956b7638cf203d1349fa39eb1a5d5dce08cc5f5239b817478b6af1c9e40fb6",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "parent-module@1.0.1",
+      "factSha256": "618a07d6bc0b971296546294ce1ccb712c0289011d3237c8691d8028cefb436e",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "path-exists@4.0.0",
+      "factSha256": "9d98402f6270ac2b612854df3ef9e4bc247853287c57ff07fc0a6815fce4498d",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "path-key@3.1.1",
+      "factSha256": "7f2d90e8462c6bcc7d2a31c5617a3ea273cc36e5f8e5ba206cce94027b447511",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "pkce-challenge@5.0.1",
+      "factSha256": "350cfdb82a1901c0b180a15440d5c0a5fd2ce3e74ea7b04a11bb3c4f63f134f1",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "prelude-ls@1.2.1",
+      "factSha256": "242003860a134df9eb5169452ee8a78bb5e12a29f9c15cf349908a7d7faec5c2",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "punycode@2.3.1",
+      "factSha256": "4e7c551f18169cb45d96671dea58fdbae67e2b022f8f7ef1467c701d1be67ea0",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "resolve-from@4.0.0",
+      "factSha256": "7c06adfe922e405146bdb2fc08dcdb9669e6e40ac954162bb86a75cde35e51eb",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "shebang-command@2.0.0",
+      "factSha256": "c8c3e1228bc7744fbb9eadacf776ce8714ad36f284c99825ffd8a734f7f1264e",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "shebang-regex@3.0.0",
+      "factSha256": "1bd81cad87e9c772cbc7f7a1adb4bac7c76f445b4c19df325bb337d9c96b63f5",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "strip-json-comments@3.1.1",
+      "factSha256": "ed6f273a4a1b974a5bf91e28161a76366b72a07ff9394db729942b715a75602c",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "supports-color@7.2.0",
+      "factSha256": "17ddf5983fc65deaf39180e73fc69a1ffc3e0fb3439117c3a285952af29ffe2d",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "type-check@0.4.0",
+      "factSha256": "db2845132a3204fee4f6dd835043e79c6dd21a48988e90eff4ff44872fcadbb2",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "typescript@5.9.2",
+      "factSha256": "be7d8c64af041f74989ca190b18f87c66091f18bb29c96dc124207a49a1c96fc",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; Apache-2.0 license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "undici-types@6.21.0",
+      "factSha256": "f56d5f1238ed35b11f8a150de58499573c8727125a21b61645c8e89d838a2202",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "uri-js@4.4.1",
+      "factSha256": "27190c9bc9571ad47e5f1dc00c4e519441d5a4cdf6dcbd5cea379e135ce57396",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; BSD-2-Clause license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "which@2.0.2",
+      "factSha256": "910f4e3e0e76f30baa1c93e66f8a413ca702b117d1479f897205bee2b083a0ba",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; ISC license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "word-wrap@1.2.5",
+      "factSha256": "49a7e4cdf5a45bb5c690e4ca0189343c80bdb39413315048b83013adf2a3ce35",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "yocto-queue@0.1.0",
+      "factSha256": "0597af970c291000b0e12639aabef5aad0eabe0d86b6f391b19aae7a83591cbb",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    },
+    {
+      "coordinate": "zod@4.2.0",
+      "factSha256": "e5d8f7bee06a68fe673eb4f4343df009bf018de2eea2b81dbec2ffa8b5140377",
+      "integrityDecision": "ALLOW",
+      "advisoryDecision": "ALLOW",
+      "licenseDecision": "ALLOW",
+      "lifecycleDecision": "NONE",
+      "nativeBinaryDecision": "NONE",
+      "reason": "Exact lock and current registry integrity matched; MIT license allowed; current graph advisory evidence is clean; no registry lifecycle scripts; no native-binary metadata."
+    }
+  ],
+  "remainingRisks": [],
+  "authorityBoundary": {
+    "policyVersion": 1,
+    "permittedOperation": "ONE_FROZEN_INSTALL_ONLY",
+    "maxInstallExecutions": 1,
+    "installCommand": [
+      "corepack",
+      "pnpm",
+      "install",
+      "--frozen-lockfile",
+      "--ignore-scripts"
+    ],
+    "prohibitedOperations": [
+      "lifecycle",
+      "build",
+      "test",
+      "mvp",
+      "release",
+      "deployment",
+      "provider",
+      "payment",
+      "production"
+    ]
+  },
+  "postinstall": {
+    "status": "PASS",
+    "installedAtUtc": "2026-08-11T16:04:26.000Z",
+    "verifiedAtUtc": "2026-08-11T16:06:53.042Z",
+    "installCommand": [
+      "corepack",
+      "pnpm",
+      "install",
+      "--frozen-lockfile",
+      "--ignore-scripts"
+    ],
+    "installExecutions": 1,
+    "lifecycleInstallPolicy": "IGNORE_SCRIPTS",
+    "nodeModulesType": "directory",
+    "packageJsonSha256": "2108ca6c16070991822671bd0d27a6a8026c200988c5cdb13c7894bacad4a9e2",
+    "lockfileSha256": "9327f2753e1ce7e85366904e80c63e15b9788bc93b5773cc02de64c664015205",
+    "graphSha256": "ecd02e5b2ae43831715e20de6fbea6c25d6982269f4517b527a0dceeed0d804c",
+    "coordinateCount": 97,
+    "reviewedDecisionSha256": "23205edc10c0549e22b18f438d018d8885069ca9eb5b43802b94141019ae68a5",
+    "remainingRisks": []
+  }
+}
