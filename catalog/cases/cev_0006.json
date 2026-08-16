@@ -1,5 +1,6 @@
 {
   "canonicalUrl": "https://filmlune.com/prompts/image/boisson-botanique-au-citron-vert-cev_0006/",
+  "caseFamilyId": "cf_cev_0006",
   "caseId": "cev_0006",
   "caseRevisionId": "cev_0006@r0001",
   "creator": {
@@ -8,10 +9,9 @@
     "profileUrl": null
   },
   "kind": "reusable_case",
-  "locale": "fr",
   "media": [
     {
-      "altFr": "Bouteille botanique entourée de citrons verts et de fleurs",
+      "alt": "Botanical bottle surrounded by limes and flowers",
       "assetId": "asset_cev_0006_primary",
       "assetRevisionId": "asset_cev_0006_primary@r0001",
       "bytes": 88720,
@@ -27,7 +27,7 @@
       "width": 960
     },
     {
-      "altFr": "Référence de la bouteille botanique sur fond clair",
+      "alt": "Reference view of the botanical bottle on a light background",
       "assetId": "asset_cev_0006_secondary",
       "assetRevisionId": "asset_cev_0006_secondary@r0001",
       "bytes": 67488,
@@ -44,7 +44,7 @@
     }
   ],
   "mediaType": "image",
-  "methodFr": "Prendre la bouteille de référence comme ancre, puis construire une lumière diffuse et une palette vert pâle.",
+  "method": "Use the bottle reference as the anchor, then build soft light and a pale green palette.",
   "model": {
     "capabilityRevisionId": "cap_local_midjourney_v7_r1",
     "displayName": "Midjourney V7",
@@ -52,28 +52,35 @@
     "modelId": "midjourney-v7-local",
     "modelVersion": "local-fixture-v1"
   },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0006_und_r0001",
+  "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
     "variants": [
       {
         "inputMode": "image_to_image",
+        "instructionLanguage": "en",
         "kind": "image",
-        "labelFr": "IMAGE · 1",
+        "label": "Image · 1",
         "promptSha256": "7cb83ce98c01a2e3fd81ee2349dc7145f98102a904c4a63fc52549eb1cf47339",
         "promptText": "Use the supplied bottle as the exact product reference. Build a fresh botanical campaign image with frosted glass, sliced limes, tiny white blossoms, cool droplets and translucent fabric. Preserve label geometry, avoid invented text and maintain a soft pale-green daylight palette.",
+        "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_0006_01"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
-    "generatorVersion": "mcp-catalog-v1",
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
   },
   "publicationState": "local_contract_fixture",
-  "purposeFr": "Transformer une simple bouteille en visuel de campagne naturel et immédiatement désaltérant.",
+  "purpose": "Turn a simple bottle into a natural campaign visual that feels immediately refreshing.",
   "recipe": [
     {
       "inputAssetIds": [
@@ -81,7 +88,7 @@
       ],
       "inputMode": "image_to_image",
       "kind": "image",
-      "labelFr": "IMAGE · 1",
+      "label": "Image · 1",
       "outputAssetIds": [
         "asset_cev_0006_primary"
       ],
@@ -99,44 +106,44 @@
     "social": "allow",
     "sourceLink": "allow"
   },
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "canonicalUrl": "https://filmlune.com/prompts/image/boisson-botanique-au-citron-vert-cev_0006/",
     "kind": "first_party_fixture",
     "publicEvidenceUrl": null
   },
-  "summaryFr": "Une bouteille givrée, du citron vert et de petites fleurs composent une fraîcheur très tactile.",
+  "summary": "A frosted bottle, lime, and small flowers create a fresh, tactile composition.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-image",
-      "labelFr": "Image"
+      "label": "Image"
     },
     {
       "axis": "model",
       "id": "model-midjourney-v7",
-      "labelFr": "Midjourney V7"
+      "label": "Midjourney V7"
     },
     {
       "axis": "use_case",
       "id": "usage-boisson",
-      "labelFr": "boisson"
+      "label": "Beverage"
     },
     {
       "axis": "style",
       "id": "style-botanique-lumineux",
-      "labelFr": "botanique lumineux"
+      "label": "Luminous botanical"
     }
   ],
-  "titleFr": "Boisson botanique au citron vert",
+  "title": "Botanical Lime Drink",
   "variables": [
     {
-      "name": "Boisson",
-      "value": "citron vert botanique"
+      "name": "Drink",
+      "value": "botanical lime"
     },
     {
-      "name": "Finition",
-      "value": "verre givré"
+      "name": "Finish",
+      "value": "frosted glass"
     }
   ]
 }

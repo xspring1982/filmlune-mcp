@@ -1,9 +1,130 @@
 {
+  "$defs": {
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "generatorSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "generatorVersion": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "websiteSourceRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "websiteSourceSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "generatorSha256",
+        "generatorVersion",
+        "presentationRevision",
+        "presentationSha256",
+        "websiteSourceRevision",
+        "websiteSourceSha256"
+      ],
+      "type": "object"
+    },
+    "rights": {
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "enum": [
+            "owned",
+            "licensed",
+            "unknown",
+            "rejected"
+          ]
+        },
+        "mcp": {
+          "enum": [
+            "allow",
+            "deny",
+            "source_link_only"
+          ]
+        },
+        "media": {
+          "enum": [
+            "allow",
+            "deny"
+          ]
+        },
+        "prompt": {
+          "enum": [
+            "allow",
+            "deny"
+          ]
+        },
+        "social": {
+          "enum": [
+            "allow",
+            "deny"
+          ]
+        },
+        "sourceLink": {
+          "const": "allow"
+        }
+      },
+      "required": [
+        "decision",
+        "mcp",
+        "media",
+        "prompt",
+        "social",
+        "sourceLink"
+      ],
+      "type": "object"
+    }
+  },
   "$id": "https://filmlune.com/schemas/mcp/tombstone.v1.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Minimal removal record with no case presentation, prompt, creator, or media payload.",
   "properties": {
+    "caseId": {
+      "pattern": "^cev_[0-9]{4}$",
+      "type": "string"
+    },
+    "caseRevisionId": {
+      "pattern": "^cev_[0-9]{4}@r[0-9]{4}$",
+      "type": "string"
+    },
     "kind": {
       "const": "tombstone"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "reasonCode": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "removedAtUtc": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "reportUrl": {
+      "pattern": "^/signaler/cev_[0-9]{4}/$",
+      "type": "string"
+    },
+    "rights": {
+      "$ref": "#/$defs/rights"
+    },
+    "schemaVersion": {
+      "const": 1
     },
     "status": {
       "const": "removed"
@@ -16,6 +137,8 @@
     "caseRevisionId",
     "status",
     "removedAtUtc",
+    "reasonCode",
+    "reportUrl",
     "provenance",
     "rights"
   ],

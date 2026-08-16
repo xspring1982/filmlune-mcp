@@ -1,0 +1,889 @@
+{
+  "$defs": {
+    "creator": {
+      "additionalProperties": false,
+      "properties": {
+        "displayName": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "handle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "profileUrl": {
+          "oneOf": [
+            {
+              "format": "uri",
+              "pattern": "^https://",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "displayName",
+        "handle",
+        "profileUrl"
+      ],
+      "type": "object"
+    },
+    "media": {
+      "additionalProperties": false,
+      "properties": {
+        "alt": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assetId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "assetRevisionId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "bytes": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "durationSeconds": {
+          "oneOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "generationReferenceUse": {
+          "type": "boolean"
+        },
+        "height": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "kind": {
+          "enum": [
+            "image",
+            "video"
+          ]
+        },
+        "mimeType": {
+          "enum": [
+            "image/webp",
+            "video/mp4"
+          ]
+        },
+        "ordinal": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "posterUrl": {
+          "oneOf": [
+            {
+              "oneOf": [
+                {
+                  "format": "uri",
+                  "pattern": "^https://",
+                  "type": "string"
+                },
+                {
+                  "pattern": "^/",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publicUrl": {
+          "oneOf": [
+            {
+              "format": "uri",
+              "pattern": "^https://",
+              "type": "string"
+            },
+            {
+              "pattern": "^/",
+              "type": "string"
+            }
+          ]
+        },
+        "role": {
+          "enum": [
+            "hero",
+            "reference",
+            "keyframe",
+            "output",
+            "poster"
+          ]
+        },
+        "width": {
+          "minimum": 1,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "alt",
+        "assetId",
+        "assetRevisionId",
+        "bytes",
+        "durationSeconds",
+        "generationReferenceUse",
+        "height",
+        "kind",
+        "mimeType",
+        "ordinal",
+        "posterUrl",
+        "publicUrl",
+        "role",
+        "width"
+      ],
+      "type": "object"
+    },
+    "model": {
+      "additionalProperties": false,
+      "properties": {
+        "capabilityRevisionId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "displayName": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "modelFamilyId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "modelId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "modelVersion": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "capabilityRevisionId",
+        "displayName",
+        "modelFamilyId",
+        "modelId",
+        "modelVersion"
+      ],
+      "type": "object"
+    },
+    "prompt": {
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "properties": {
+            "availability": {
+              "const": "available"
+            },
+            "variants": {
+              "minItems": 1
+            }
+          }
+        },
+        {
+          "properties": {
+            "availability": {
+              "const": "withheld"
+            },
+            "variants": {
+              "maxItems": 0
+            }
+          }
+        }
+      ],
+      "properties": {
+        "availability": {
+          "enum": [
+            "available",
+            "withheld"
+          ]
+        },
+        "variants": {
+          "items": {
+            "$ref": "#/$defs/promptVariant"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "availability",
+        "variants"
+      ],
+      "type": "object"
+    },
+    "promptVariant": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "adaptationClass": {
+                "const": "independent_filmlune_rewrite"
+              }
+            },
+            "required": [
+              "adaptationClass"
+            ]
+          },
+          "then": {
+            "properties": {
+              "adaptationLabel": {
+                "const": "Independent FilmLune adaptation"
+              },
+              "promptAuthorDisplayName": {
+                "const": "FilmLune"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "adaptationClass": {
+                "const": "licensed_adaptation"
+              }
+            },
+            "required": [
+              "adaptationClass"
+            ]
+          },
+          "then": {
+            "properties": {
+              "adaptationLabel": {
+                "const": "Licensed adaptation"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "adaptationClass": {
+                "const": "source_exact_permitted"
+              }
+            },
+            "required": [
+              "adaptationClass"
+            ]
+          },
+          "then": {
+            "properties": {
+              "adaptationLabel": {
+                "const": "Authorized source instruction"
+              }
+            }
+          }
+        }
+      ],
+      "dependentRequired": {
+        "adaptationClass": [
+          "adaptationLabel",
+          "promptAuthorDisplayName",
+          "promptRevisionId"
+        ],
+        "adaptationLabel": [
+          "adaptationClass",
+          "promptAuthorDisplayName",
+          "promptRevisionId"
+        ],
+        "promptAuthorDisplayName": [
+          "adaptationClass",
+          "adaptationLabel",
+          "promptRevisionId"
+        ],
+        "promptRevisionId": [
+          "adaptationClass",
+          "adaptationLabel",
+          "promptAuthorDisplayName"
+        ]
+      },
+      "properties": {
+        "adaptationClass": {
+          "enum": [
+            "source_exact_permitted",
+            "licensed_adaptation",
+            "independent_filmlune_rewrite"
+          ]
+        },
+        "adaptationLabel": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "inputMode": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "instructionLanguage": {
+          "const": "en"
+        },
+        "kind": {
+          "enum": [
+            "image",
+            "video"
+          ]
+        },
+        "label": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "promptAuthorDisplayName": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "promptRevisionId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "promptSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "promptText": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "protectedLiterals": {
+          "items": {
+            "$ref": "#/$defs/protectedLiteral"
+          },
+          "type": "array"
+        },
+        "stepIndex": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "variantId": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "inputMode",
+        "instructionLanguage",
+        "kind",
+        "label",
+        "promptSha256",
+        "promptText",
+        "protectedLiterals",
+        "stepIndex",
+        "variantId"
+      ],
+      "type": "object"
+    },
+    "protectedLiteral": {
+      "additionalProperties": false,
+      "description": "Exact non-English output text that must not be translated in this variant.",
+      "properties": {
+        "language": {
+          "description": "Canonical BCP 47 language tag.",
+          "type": "string"
+        },
+        "mustRemainExact": {
+          "const": true
+        },
+        "role": {
+          "enum": [
+            "dialogue",
+            "headline",
+            "on_screen_text",
+            "spoken_text",
+            "ui_text",
+            "visible_text"
+          ]
+        },
+        "value": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "mustRemainExact",
+        "role",
+        "value"
+      ],
+      "type": "object"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "generatorSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "generatorVersion": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "websiteSourceRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "websiteSourceSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "generatorSha256",
+        "generatorVersion",
+        "presentationRevision",
+        "presentationSha256",
+        "websiteSourceRevision",
+        "websiteSourceSha256"
+      ],
+      "type": "object"
+    },
+    "recipeStep": {
+      "additionalProperties": false,
+      "dependentRequired": {
+        "externalMediaBindings": [
+          "generatedOutputRole",
+          "mediaBindingPolicy",
+          "recipeContractVersion",
+          "requiredAssetRoles"
+        ],
+        "generatedOutputRole": [
+          "externalMediaBindings",
+          "mediaBindingPolicy",
+          "recipeContractVersion",
+          "requiredAssetRoles"
+        ],
+        "mediaBindingPolicy": [
+          "externalMediaBindings",
+          "generatedOutputRole",
+          "recipeContractVersion",
+          "requiredAssetRoles"
+        ],
+        "recipeContractVersion": [
+          "externalMediaBindings",
+          "generatedOutputRole",
+          "mediaBindingPolicy",
+          "requiredAssetRoles"
+        ],
+        "requiredAssetRoles": [
+          "externalMediaBindings",
+          "generatedOutputRole",
+          "mediaBindingPolicy",
+          "recipeContractVersion"
+        ]
+      },
+      "properties": {
+        "externalMediaBindings": {
+          "maxItems": 0,
+          "type": "array"
+        },
+        "generatedOutputRole": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "inputAssetIds": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "inputMode": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "image",
+            "video"
+          ]
+        },
+        "label": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "mediaBindingPolicy": {
+          "const": "user_or_filmlune_rights_clear_asset_only"
+        },
+        "outputAssetIds": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "recipeContractVersion": {
+          "const": 2
+        },
+        "requiredAssetRoles": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "stepId": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "stepIndex": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "variantId": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "inputAssetIds",
+        "inputMode",
+        "kind",
+        "label",
+        "outputAssetIds",
+        "stepId",
+        "stepIndex",
+        "variantId"
+      ],
+      "type": "object"
+    },
+    "rights": {
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "enum": [
+            "owned",
+            "licensed",
+            "unknown",
+            "rejected"
+          ]
+        },
+        "mcp": {
+          "enum": [
+            "allow",
+            "deny",
+            "source_link_only"
+          ]
+        },
+        "media": {
+          "enum": [
+            "allow",
+            "deny"
+          ]
+        },
+        "prompt": {
+          "enum": [
+            "allow",
+            "deny"
+          ]
+        },
+        "social": {
+          "enum": [
+            "allow",
+            "deny"
+          ]
+        },
+        "sourceLink": {
+          "const": "allow"
+        }
+      },
+      "required": [
+        "decision",
+        "mcp",
+        "media",
+        "prompt",
+        "social",
+        "sourceLink"
+      ],
+      "type": "object"
+    },
+    "source": {
+      "additionalProperties": false,
+      "properties": {
+        "canonicalUrl": {
+          "format": "uri",
+          "pattern": "^https://",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "first_party_fixture",
+            "creator_submission",
+            "external_locator"
+          ]
+        },
+        "publicEvidenceUrl": {
+          "oneOf": [
+            {
+              "format": "uri",
+              "pattern": "^https://",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "canonicalUrl",
+        "kind",
+        "publicEvidenceUrl"
+      ],
+      "type": "object"
+    },
+    "taxonomyEntry": {
+      "additionalProperties": false,
+      "properties": {
+        "axis": {
+          "enum": [
+            "media",
+            "model",
+            "use_case",
+            "style"
+          ]
+        },
+        "id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "label": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "axis",
+        "id",
+        "label"
+      ],
+      "type": "object"
+    },
+    "variable": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "value": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "value"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://filmlune.com/schemas/mcp/case.v2.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "English public case projection or rights-limited source locator.",
+  "oneOf": [
+    {
+      "additionalProperties": false,
+      "properties": {
+        "caseId": {
+          "pattern": "^cev_[0-9]{4}$",
+          "type": "string"
+        },
+        "caseRevisionId": {
+          "pattern": "^cev_[0-9]{4}@r[0-9]{4}$",
+          "type": "string"
+        },
+        "kind": {
+          "const": "locator_only"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "rights": {
+          "$ref": "#/$defs/rights"
+        },
+        "schemaVersion": {
+          "const": 2
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "kind",
+        "caseId",
+        "caseRevisionId",
+        "source",
+        "provenance",
+        "rights"
+      ],
+      "type": "object"
+    },
+    {
+      "additionalProperties": false,
+      "properties": {
+        "canonicalUrl": {
+          "format": "uri",
+          "pattern": "^https://",
+          "type": "string"
+        },
+        "caseFamilyId": {
+          "pattern": "^cf_[a-z0-9_]+$",
+          "type": "string"
+        },
+        "caseId": {
+          "pattern": "^cev_[0-9]{4}$",
+          "type": "string"
+        },
+        "caseRevisionId": {
+          "pattern": "^cev_[0-9]{4}@r[0-9]{4}$",
+          "type": "string"
+        },
+        "creator": {
+          "$ref": "#/$defs/creator"
+        },
+        "kind": {
+          "const": "reusable_case"
+        },
+        "media": {
+          "items": {
+            "$ref": "#/$defs/media"
+          },
+          "type": "array"
+        },
+        "mediaType": {
+          "enum": [
+            "image",
+            "video"
+          ]
+        },
+        "method": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "model": {
+          "$ref": "#/$defs/model"
+        },
+        "outputLanguage": {
+          "description": "Canonical BCP 47 output language or und.",
+          "minLength": 1,
+          "type": "string"
+        },
+        "outputVariantId": {
+          "pattern": "^ov_[a-z0-9_]+_r[0-9]{4}$",
+          "type": "string"
+        },
+        "presentationLanguage": {
+          "const": "en"
+        },
+        "prompt": {
+          "$ref": "#/$defs/prompt"
+        },
+        "provenance": {
+          "$ref": "#/$defs/provenance"
+        },
+        "publicationState": {
+          "const": "local_contract_fixture"
+        },
+        "purpose": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "recipe": {
+          "items": {
+            "$ref": "#/$defs/recipeStep"
+          },
+          "type": "array"
+        },
+        "reportUrl": {
+          "pattern": "^/signaler/cev_[0-9]{4}/$",
+          "type": "string"
+        },
+        "rights": {
+          "$ref": "#/$defs/rights"
+        },
+        "schemaVersion": {
+          "const": 2
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "summary": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "taxonomy": {
+          "items": {
+            "$ref": "#/$defs/taxonomyEntry"
+          },
+          "minItems": 1,
+          "type": "array",
+          "uniqueItems": true
+        },
+        "title": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "variables": {
+          "items": {
+            "$ref": "#/$defs/variable"
+          },
+          "minItems": 1,
+          "type": "array"
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "kind",
+        "publicationState",
+        "caseId",
+        "caseRevisionId",
+        "caseFamilyId",
+        "outputVariantId",
+        "canonicalUrl",
+        "presentationLanguage",
+        "outputLanguage",
+        "mediaType",
+        "title",
+        "summary",
+        "purpose",
+        "method",
+        "variables",
+        "model",
+        "taxonomy",
+        "creator",
+        "source",
+        "provenance",
+        "rights",
+        "prompt",
+        "media",
+        "recipe",
+        "reportUrl"
+      ],
+      "type": "object"
+    }
+  ],
+  "title": "FilmLune MCP case record v2"
+}
