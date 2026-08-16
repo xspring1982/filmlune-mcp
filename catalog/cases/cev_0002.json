@@ -1,5 +1,6 @@
 {
   "canonicalUrl": "https://filmlune.com/prompts/image/basket-cinetique-en-studio-cev_0002/",
+  "caseFamilyId": "cf_cev_0002",
   "caseId": "cev_0002",
   "caseRevisionId": "cev_0002@r0001",
   "creator": {
@@ -8,10 +9,9 @@
     "profileUrl": null
   },
   "kind": "reusable_case",
-  "locale": "fr",
   "media": [
     {
-      "altFr": "Basket blanche en lévitation avec ruban bleu",
+      "alt": "White sneaker floating with a cobalt ribbon",
       "assetId": "asset_cev_0002_primary",
       "assetRevisionId": "asset_cev_0002_primary@r0001",
       "bytes": 41700,
@@ -27,7 +27,7 @@
       "width": 800
     },
     {
-      "altFr": "Seconde composition de basket sur socle terracotta",
+      "alt": "Second sneaker composition on a terracotta pedestal",
       "assetId": "asset_cev_0002_secondary",
       "assetRevisionId": "asset_cev_0002_secondary@r0001",
       "bytes": 64550,
@@ -44,7 +44,7 @@
     }
   ],
   "mediaType": "image",
-  "methodFr": "Utiliser une diagonale souple, une ombre courte et un contraste bleu-terre cuite sur fond crème.",
+  "method": "Use a soft diagonal, a short shadow, and cobalt-and-terracotta contrast against a cream background.",
   "model": {
     "capabilityRevisionId": "cap_local_z_image_turbo_r1",
     "displayName": "Z Image Turbo",
@@ -52,34 +52,41 @@
     "modelId": "z-image-turbo-local",
     "modelVersion": "local-fixture-v1"
   },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0002_und_r0001",
+  "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
     "variants": [
       {
         "inputMode": "text_to_image",
+        "instructionLanguage": "en",
         "kind": "image",
-        "labelFr": "IMAGE · 1",
+        "label": "Image · 1",
         "promptSha256": "5560339c5482472abc810fa86321d21f4028c51a21a17f6704d2ee51b0627a90",
         "promptText": "Create two cohesive premium studio images of a technical white sneaker floating above a terracotta pedestal. A cobalt ribbon traces a clean diagonal through warm architectural light. Keep the product silhouette accurate, the background cream and the composition energetic but refined.",
+        "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_0002_01"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
-    "generatorVersion": "mcp-catalog-v1",
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
   },
   "publicationState": "local_contract_fixture",
-  "purposeFr": "Présenter une basket comme un objet de design tout en conservant une lecture immédiate du produit.",
+  "purpose": "Present a sneaker as a design object while keeping the product immediately legible.",
   "recipe": [
     {
       "inputAssetIds": [],
       "inputMode": "text_to_image",
       "kind": "image",
-      "labelFr": "IMAGE · 1",
+      "label": "Image · 1",
       "outputAssetIds": [
         "asset_cev_0002_primary",
         "asset_cev_0002_secondary"
@@ -98,44 +105,44 @@
     "social": "allow",
     "sourceLink": "allow"
   },
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "canonicalUrl": "https://filmlune.com/prompts/image/basket-cinetique-en-studio-cev_0002/",
     "kind": "first_party_fixture",
     "publicEvidenceUrl": null
   },
-  "summaryFr": "Une chaussure technique semble flotter au-dessus d'un socle terracotta, guidée par un ruban bleu.",
+  "summary": "A technical sneaker floats above a terracotta pedestal, guided by a cobalt ribbon.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-image",
-      "labelFr": "Image"
+      "label": "Image"
     },
     {
       "axis": "model",
       "id": "model-z-image-turbo",
-      "labelFr": "Z Image Turbo"
+      "label": "Z Image Turbo"
     },
     {
       "axis": "use_case",
       "id": "usage-mode-sport",
-      "labelFr": "mode sport"
+      "label": "Sports fashion"
     },
     {
       "axis": "style",
       "id": "style-studio-cinetique",
-      "labelFr": "studio cinetique"
+      "label": "Kinetic studio"
     }
   ],
-  "titleFr": "Basket cinétique en studio",
+  "title": "Kinetic Sneaker in the Studio",
   "variables": [
     {
-      "name": "Produit",
-      "value": "basket technique"
+      "name": "Product",
+      "value": "technical sneaker"
     },
     {
       "name": "Accent",
-      "value": "ruban cobalt"
+      "value": "cobalt ribbon"
     }
   ]
 }

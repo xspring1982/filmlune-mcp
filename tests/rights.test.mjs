@@ -13,7 +13,9 @@ test("generated reusable records expose only explicitly allowed first-party fiel
   const catalog = await loadCatalog(ROOT);
   for (const record of catalog.cases.values()) {
     assert.equal(record.kind, "reusable_case");
+    assert.equal(record.schemaVersion, 2);
     assert.equal(record.publicationState, "local_contract_fixture");
+    assert.equal(record.presentationLanguage, "en");
     assert.equal(record.rights.mcp, "allow");
     const creator = record.creator;
     const prompt = record.prompt;
@@ -23,10 +25,12 @@ test("generated reusable records expose only explicitly allowed first-party fiel
     assert.ok(media);
     assert.equal(creator.displayName, "FilmLune");
     assert.ok(prompt.variants.length >= 1);
+    assert.ok(prompt.variants.every((variant) => variant.instructionLanguage === "en"));
     assert.equal(media.length, 2);
   }
   const serialized = JSON.stringify([...catalog.cases.values()]);
   assert.doesNotMatch(serialized, /privateRemix|operatorEmail|gmail|filesystem|generationAccount/i);
+  assert.doesNotMatch(serialized, /"(?:locale|titleFr|summaryFr|purposeFr|methodFr|labelFr|altFr)"/);
 });
 
 test("tombstones never carry title, prompt, creator or media payloads", async () => {

@@ -48,7 +48,7 @@ export async function checkToolchainContract(root = process.cwd()) {
     "scripts", "dependencies", "devDependencies",
   ], "MCP_PACKAGE_MANIFEST_KEYS_DRIFT");
   exact(manifest.name, "filmlune-mcp", "MCP_PACKAGE_NAME_DRIFT");
-  exact(manifest.version, "0.0.0", "MCP_PACKAGE_VERSION_DRIFT");
+  exact(manifest.version, "0.1.0", "MCP_PACKAGE_VERSION_DRIFT");
   exact(manifest.private, true, "MCP_PACKAGE_PRIVATE_DRIFT");
   exact(manifest.type, "module", "MCP_PACKAGE_MODULE_DRIFT");
   exact(manifest.engines, { node: "22.22.2" }, "MCP_PACKAGE_ENGINE_DRIFT");
