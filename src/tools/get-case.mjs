@@ -21,5 +21,24 @@ export function getCase(catalog, value) {
   if (input.caseRevisionId !== undefined && record.caseRevisionId !== input.caseRevisionId) {
     throw new Error("MCP_STALE_CASE_REVISION");
   }
-  return record;
+  const availableOutputVariants = record.kind === "reusable_case"
+    ? [...catalog.cases.values()]
+      .filter((candidate) => candidate.kind === "reusable_case"
+        && candidate.caseFamilyId === record.caseFamilyId)
+      .sort((left, right) => String(left.outputLanguage).localeCompare(
+        String(right.outputLanguage),
+        "en",
+      ) || left.caseId.localeCompare(right.caseId, "en"))
+      .map((candidate) => ({
+        caseId: candidate.caseId,
+        caseRevisionId: candidate.caseRevisionId,
+        outputLanguage: candidate.outputLanguage,
+        outputVariantId: candidate.outputVariantId,
+      }))
+    : [];
+  return {
+    catalogRevision: catalog.manifest.catalogRevision,
+    case: record,
+    availableOutputVariants,
+  };
 }

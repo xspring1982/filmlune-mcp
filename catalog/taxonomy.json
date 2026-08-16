@@ -1,6 +1,6 @@
 {
-  "catalogRevision": "mcp-local-1fc668a2a39cdcf0",
-  "schemaVersion": 1,
+  "catalogRevision": "mcp-local-cc1602128c9953a7",
+  "schemaVersion": 2,
   "taxonomy": [
     {
       "activeCaseIds": [
@@ -12,7 +12,7 @@
       ],
       "axis": "media",
       "id": "media-image",
-      "labelFr": "Image"
+      "label": "Image"
     },
     {
       "activeCaseIds": [
@@ -22,7 +22,7 @@
       ],
       "axis": "media",
       "id": "media-video",
-      "labelFr": "Vidéo"
+      "label": "Video"
     },
     {
       "activeCaseIds": [
@@ -30,7 +30,7 @@
       ],
       "axis": "model",
       "id": "model-agnes-image-flash",
-      "labelFr": "Agnes Image 2.1 Flash"
+      "label": "Agnes Image 2.1 Flash"
     },
     {
       "activeCaseIds": [
@@ -40,7 +40,7 @@
       ],
       "axis": "model",
       "id": "model-agnes-video-2",
-      "labelFr": "Agnes Video 2.0"
+      "label": "Agnes Video 2.0"
     },
     {
       "activeCaseIds": [
@@ -48,7 +48,7 @@
       ],
       "axis": "model",
       "id": "model-gpt-image-2",
-      "labelFr": "GPT Image 2"
+      "label": "GPT Image 2"
     },
     {
       "activeCaseIds": [
@@ -56,7 +56,7 @@
       ],
       "axis": "model",
       "id": "model-midjourney-v7",
-      "labelFr": "Midjourney V7"
+      "label": "Midjourney V7"
     },
     {
       "activeCaseIds": [
@@ -64,7 +64,7 @@
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
-      "labelFr": "Nano Banana Pro"
+      "label": "Nano Banana Pro"
     },
     {
       "activeCaseIds": [
@@ -72,7 +72,7 @@
       ],
       "axis": "model",
       "id": "model-z-image-turbo",
-      "labelFr": "Z Image Turbo"
+      "label": "Z Image Turbo"
     },
     {
       "activeCaseIds": [
@@ -80,7 +80,7 @@
       ],
       "axis": "style",
       "id": "style-architecture-calme",
-      "labelFr": "architecture calme"
+      "label": "Calm architecture"
     },
     {
       "activeCaseIds": [
@@ -88,7 +88,7 @@
       ],
       "axis": "style",
       "id": "style-botanique-lumineux",
-      "labelFr": "botanique lumineux"
+      "label": "Luminous botanical"
     },
     {
       "activeCaseIds": [
@@ -96,7 +96,7 @@
       ],
       "axis": "style",
       "id": "style-clair-obscur",
-      "labelFr": "clair obscur"
+      "label": "Chiaroscuro"
     },
     {
       "activeCaseIds": [
@@ -104,7 +104,7 @@
       ],
       "axis": "style",
       "id": "style-macro-lumineuse",
-      "labelFr": "macro lumineuse"
+      "label": "Luminous macro"
     },
     {
       "activeCaseIds": [
@@ -112,7 +112,7 @@
       ],
       "axis": "style",
       "id": "style-mineral-aquatique",
-      "labelFr": "mineral aquatique"
+      "label": "Aquatic mineral"
     },
     {
       "activeCaseIds": [
@@ -120,7 +120,7 @@
       ],
       "axis": "style",
       "id": "style-pluie-urbaine",
-      "labelFr": "pluie urbaine"
+      "label": "Urban rain"
     },
     {
       "activeCaseIds": [
@@ -128,7 +128,7 @@
       ],
       "axis": "style",
       "id": "style-reportage-cinematographique",
-      "labelFr": "reportage cinematographique"
+      "label": "Cinematic reportage"
     },
     {
       "activeCaseIds": [
@@ -136,7 +136,7 @@
       ],
       "axis": "style",
       "id": "style-studio-cinetique",
-      "labelFr": "studio cinetique"
+      "label": "Kinetic studio"
     },
     {
       "activeCaseIds": [
@@ -144,7 +144,7 @@
       ],
       "axis": "use_case",
       "id": "usage-boisson",
-      "labelFr": "boisson"
+      "label": "Beverage"
     },
     {
       "activeCaseIds": [
@@ -152,7 +152,7 @@
       ],
       "axis": "use_case",
       "id": "usage-cosmetique",
-      "labelFr": "cosmetique"
+      "label": "Cosmetics"
     },
     {
       "activeCaseIds": [
@@ -160,7 +160,7 @@
       ],
       "axis": "use_case",
       "id": "usage-horlogerie",
-      "labelFr": "horlogerie"
+      "label": "Watchmaking"
     },
     {
       "activeCaseIds": [
@@ -168,7 +168,7 @@
       ],
       "axis": "use_case",
       "id": "usage-mobilier-design",
-      "labelFr": "mobilier design"
+      "label": "Furniture design"
     },
     {
       "activeCaseIds": [
@@ -176,7 +176,7 @@
       ],
       "axis": "use_case",
       "id": "usage-mobilite-urbaine",
-      "labelFr": "mobilite urbaine"
+      "label": "Urban mobility"
     },
     {
       "activeCaseIds": [
@@ -184,7 +184,7 @@
       ],
       "axis": "use_case",
       "id": "usage-mode-sport",
-      "labelFr": "mode sport"
+      "label": "Sports fashion"
     },
     {
       "activeCaseIds": [
@@ -192,7 +192,7 @@
       ],
       "axis": "use_case",
       "id": "usage-photographie-culinaire",
-      "labelFr": "photographie culinaire"
+      "label": "Food photography"
     },
     {
       "activeCaseIds": [
@@ -200,7 +200,7 @@
       ],
       "axis": "use_case",
       "id": "usage-portrait-cinematographique",
-      "labelFr": "portrait cinematographique"
+      "label": "Cinematic portrait"
     }
   ]
 }

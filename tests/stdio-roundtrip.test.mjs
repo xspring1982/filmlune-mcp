@@ -1,7 +1,9 @@
 // @ts-check
 
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { spawnSync } from "node:child_process";
+import { createHash } from "node:crypto";
+import { lstat, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
@@ -10,6 +12,7 @@ import { Client } from "@modelcontextprotocol/client";
 import { StdioClientTransport } from "@modelcontextprotocol/client/stdio";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const NETWORK_GUARD = path.join(ROOT, "tests/no-network-guard.mjs");
 const TOOL_NAMES = [
   "get_case",
   "get_changes",
@@ -36,6 +39,44 @@ assert.equal(typeof firstTombstoneId, "string");
 const staleRevision = `${firstActiveId}@r9999`;
 assert.notEqual(staleRevision, firstActiveRevisionId);
 
+/** @param {string} directory @param {string} prefix */
+async function generatedFiles(directory, prefix) {
+  /** @type {string[]} */
+  const files = [];
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const absolute = path.join(directory, entry.name);
+    const relative = `${prefix}/${entry.name}`;
+    const facts = await lstat(absolute);
+    assert.equal(facts.isSymbolicLink(), false, relative);
+    if (facts.isDirectory()) files.push(...await generatedFiles(absolute, relative));
+    else {
+      assert.equal(facts.isFile(), true, relative);
+      files.push(relative);
+    }
+  }
+  return files.sort((left, right) => left.localeCompare(right, "en"));
+}
+
+async function generatedSnapshot() {
+  const files = [
+    ...await generatedFiles(path.join(ROOT, "catalog"), "catalog"),
+    ...await generatedFiles(path.join(ROOT, "schemas"), "schemas"),
+  ].sort((left, right) => left.localeCompare(right, "en"));
+  return Promise.all(files.map(async (relative) => {
+    const absolute = path.join(ROOT, relative);
+    const [bytes, facts] = await Promise.all([
+      readFile(absolute),
+      lstat(absolute, { bigint: true }),
+    ]);
+    return {
+      path: relative,
+      bytes: bytes.length,
+      mtimeNs: facts.mtimeNs.toString(),
+      sha256: createHash("sha256").update(bytes).digest("hex"),
+    };
+  }));
+}
+
 /** @param {unknown} result */
 function structured(result) {
   assert.equal(typeof result, "object");
@@ -55,26 +96,65 @@ function toolError(result, expected) {
   assert.match(value.content?.[0]?.text ?? "", expected);
 }
 
+test("network preload guard blocks every supported Node outbound primitive", () => {
+  const probe = spawnSync(process.execPath, [
+    "--import",
+    NETWORK_GUARD,
+    "--input-type=module",
+    "--eval",
+    [
+      'import http from "node:http";',
+      'import https from "node:https";',
+      'import net from "node:net";',
+      'import tls from "node:tls";',
+      "const operations = [",
+      '  () => fetch("http://127.0.0.1:9"),',
+      '  () => http.request("http://127.0.0.1:9"),',
+      '  () => http.get("http://127.0.0.1:9"),',
+      '  () => https.request("https://127.0.0.1:9"),',
+      '  () => https.get("https://127.0.0.1:9"),',
+      '  () => net.connect(9, "127.0.0.1"),',
+      '  () => net.createConnection(9, "127.0.0.1"),',
+      '  () => tls.connect(9, "127.0.0.1"),',
+      "];",
+      "for (const operation of operations) {",
+      "  try {",
+      "    operation();",
+      '    throw new Error("NETWORK_GUARD_DID_NOT_BLOCK");',
+      "  } catch (error) {",
+      '    if (!(error instanceof Error) || error.message !== "MCP_NETWORK_BLOCKED") throw error;',
+      "  }",
+      "}",
+      'process.stdout.write("NETWORK_GUARD_PASS\\n");',
+    ].join("\n"),
+  ], { cwd: ROOT, encoding: "utf8" });
+  assert.equal(probe.status, 0, probe.stderr);
+  assert.equal(probe.stderr, "");
+  assert.equal(probe.stdout, "NETWORK_GUARD_PASS\n");
+});
+
 test("real stdio transport exposes exactly five deterministic read-only tools", async () => {
+  const before = await generatedSnapshot();
   const client = new Client({ name: "filmlune-mcp-test", version: "1.0.0" });
   const transport = new StdioClientTransport({
     command: process.execPath,
-    args: [path.join(ROOT, "src/server/stdio.mjs")],
+    args: ["--import", NETWORK_GUARD, path.join(ROOT, "src/server/stdio.mjs")],
     cwd: ROOT,
     stderr: "pipe",
   });
   try {
     await client.connect(transport);
     assert.equal(client.getServerVersion()?.name, "filmlune-mcp");
+    assert.equal(client.getServerVersion()?.version, "0.1.0");
     const listed = await client.listTools();
     assert.deepEqual(listed.tools.map(({ name }) => name).sort(), TOOL_NAMES);
     assert.match(
       listed.tools.find(({ name }) => name === "search_cases")?.description ?? "",
-      /FilmLune/,
+      /^Search FilmLune's public, rights-filtered case catalog\.$/,
     );
     assert.match(
       listed.tools.find(({ name }) => name === "get_case")?.description ?? "",
-      /FilmLune/,
+      /^Read one exact public FilmLune case revision or tombstone and its available output-language variants\.$/,
     );
 
     const firstPage = structured(await client.callTool({
@@ -89,12 +169,32 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
     }));
     assert.deepEqual(repeated, firstPage);
 
+    const languageNeutral = structured(await client.callTool({
+      name: "search_cases",
+      arguments: { outputLanguage: "und", limit: 50 },
+    }));
+    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (languageNeutral.items)
+      .every(({ outputLanguage }) => outputLanguage === "und"), true);
+    const frenchDiscovery = structured(await client.callTool({
+      name: "search_cases",
+      arguments: { outputLanguage: "fr", limit: 50 },
+    }));
+    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (frenchDiscovery.items)
+      .every(({ outputLanguage }) => outputLanguage === "fr" || outputLanguage === "und"), true);
+
     const caseResult = structured(await client.callTool({
       name: "get_case",
       arguments: { caseId: firstActiveId, caseRevisionId: firstActiveRevisionId },
     }));
-    assert.equal(caseResult.caseId, firstActiveId);
-    assert.equal(caseResult.caseRevisionId, firstActiveRevisionId);
+    const currentCase = /** @type {Record<string,unknown>} */ (caseResult.case);
+    assert.equal(currentCase.caseId, firstActiveId);
+    assert.equal(currentCase.caseRevisionId, firstActiveRevisionId);
+    assert.deepEqual(caseResult.availableOutputVariants, [{
+      caseId: firstActiveId,
+      caseRevisionId: firstActiveRevisionId,
+      outputLanguage: "und",
+      outputVariantId: currentCase.outputVariantId,
+    }]);
 
     toolError(await client.callTool({
       name: "get_case",
@@ -112,7 +212,8 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
       name: "get_case",
       arguments: { caseId: firstTombstoneId },
     }));
-    assert.equal(removed.kind, "tombstone");
+    assert.equal(/** @type {Record<string,unknown>} */ (removed.case).kind, "tombstone");
+    assert.deepEqual(removed.availableOutputVariants, []);
 
     toolError(await client.callTool({
       name: "get_case",
@@ -122,7 +223,12 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
       name: "search_cases",
       arguments: { limit: 0 },
     }), /Invalid|limit/i);
+    toolError(await client.callTool({
+      name: "search_cases",
+      arguments: { outputLanguage: "FR" },
+    }), /Invalid|outputLanguage|language/i);
   } finally {
     await client.close();
+    assert.deepEqual(await generatedSnapshot(), before);
   }
 });

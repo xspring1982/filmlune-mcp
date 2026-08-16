@@ -1,5 +1,6 @@
 {
   "canonicalUrl": "https://filmlune.com/prompts/image/portrait-sous-la-pluie-cev_0004/",
+  "caseFamilyId": "cf_cev_0004",
   "caseId": "cev_0004",
   "caseRevisionId": "cev_0004@r0001",
   "creator": {
@@ -8,10 +9,9 @@
     "profileUrl": null
   },
   "kind": "reusable_case",
-  "locale": "fr",
   "media": [
     {
-      "altFr": "Femme sous un parapluie dans une rue pluvieuse",
+      "alt": "Woman under an umbrella on a rainy street",
       "assetId": "asset_cev_0004_primary",
       "assetRevisionId": "asset_cev_0004_primary@r0001",
       "bytes": 45524,
@@ -27,7 +27,7 @@
       "width": 800
     },
     {
-      "altFr": "Référence visuelle du personnage et de sa tenue",
+      "alt": "Visual reference for the character and her outfit",
       "assetId": "asset_cev_0004_secondary",
       "assetRevisionId": "asset_cev_0004_secondary@r0001",
       "bytes": 61602,
@@ -44,7 +44,7 @@
     }
   ],
   "mediaType": "image",
-  "methodFr": "Utiliser l'image secondaire comme référence visuelle et préserver le visage, le manteau et l'écharpe.",
+  "method": "Use the secondary image as the visual reference and preserve the face, coat, and scarf.",
   "model": {
     "capabilityRevisionId": "cap_local_gpt_image_2_r1",
     "displayName": "GPT Image 2",
@@ -52,28 +52,35 @@
     "modelId": "gpt-image-2-local",
     "modelVersion": "local-fixture-v1"
   },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0004_und_r0001",
+  "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
     "variants": [
       {
         "inputMode": "image_to_image",
+        "instructionLanguage": "en",
         "kind": "image",
-        "labelFr": "IMAGE · 1",
+        "label": "Image · 1",
         "promptSha256": "534294cec78e933d06119405061391d7ab73773daffa21a382a719ea3e0d0bb2",
         "promptText": "Use the supplied portrait as the strict identity and wardrobe reference. Place the same woman beneath a black umbrella on a rain-polished European street at blue hour. Preserve facial structure, dark coat and rust scarf; add realistic reflections, soft storefront bokeh and restrained cinematic contrast.",
+        "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_0004_01"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
-    "generatorVersion": "mcp-catalog-v1",
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
   },
   "publicationState": "local_contract_fixture",
-  "purposeFr": "Conserver l'identité d'un personnage tout en transposant la scène dans une atmosphère cinématographique.",
+  "purpose": "Preserve a character's identity while moving the scene into a cinematic atmosphere.",
   "recipe": [
     {
       "inputAssetIds": [
@@ -81,7 +88,7 @@
       ],
       "inputMode": "image_to_image",
       "kind": "image",
-      "labelFr": "IMAGE · 1",
+      "label": "Image · 1",
       "outputAssetIds": [
         "asset_cev_0004_primary"
       ],
@@ -99,44 +106,44 @@
     "social": "allow",
     "sourceLink": "allow"
   },
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "canonicalUrl": "https://filmlune.com/prompts/image/portrait-sous-la-pluie-cev_0004/",
     "kind": "first_party_fixture",
     "publicEvidenceUrl": null
   },
-  "summaryFr": "Une femme sous un parapluie noir se détache d'une rue bleutée après l'averse.",
+  "summary": "A woman beneath a black umbrella stands out from a blue-toned street after rainfall.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-image",
-      "labelFr": "Image"
+      "label": "Image"
     },
     {
       "axis": "model",
       "id": "model-gpt-image-2",
-      "labelFr": "GPT Image 2"
+      "label": "GPT Image 2"
     },
     {
       "axis": "use_case",
       "id": "usage-portrait-cinematographique",
-      "labelFr": "portrait cinematographique"
+      "label": "Cinematic portrait"
     },
     {
       "axis": "style",
       "id": "style-pluie-urbaine",
-      "labelFr": "pluie urbaine"
+      "label": "Urban rain"
     }
   ],
-  "titleFr": "Portrait sous la pluie",
+  "title": "Portrait in the Rain",
   "variables": [
     {
-      "name": "Personnage",
-      "value": "femme au parapluie"
+      "name": "Character",
+      "value": "woman with an umbrella"
     },
     {
-      "name": "Météo",
-      "value": "pluie nocturne"
+      "name": "Weather",
+      "value": "night rain"
     }
   ]
 }

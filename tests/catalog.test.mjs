@@ -13,6 +13,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 test("catalog validates the exact manifest-driven active and tombstone inventories", async () => {
   const result = await validateCatalog(ROOT);
+  assert.equal(result.manifest.schemaVersion, 2);
+  assert.equal(result.manifest.presentation.language, "en");
   assert.equal(result.cases.size, result.manifest.activeIds.length);
   assert.equal(result.tombstones.size, result.manifest.tombstoneIds.length);
   assert.deepEqual([...result.cases.keys()], result.manifest.activeIds);
@@ -23,6 +25,14 @@ test("catalog validates the exact manifest-driven active and tombstone inventori
   assert.ok(firstActiveId);
   const firstActive = result.cases.get(firstActiveId);
   assert.ok(firstActive);
+  assert.equal(firstActive.schemaVersion, 2);
+  assert.equal(firstActive.presentationLanguage, "en");
+  assert.equal(firstActive.outputLanguage, "und");
+  assert.equal(typeof firstActive.caseFamilyId, "string");
+  assert.equal(typeof firstActive.outputVariantId, "string");
+  const familyLanguages = [...result.cases.values()].map((record) =>
+    record.kind === "reusable_case" ? `${record.caseFamilyId}\u0000${record.outputLanguage}` : record.caseId);
+  assert.equal(new Set(familyLanguages).size, familyLanguages.length);
   assert.equal(
     result.manifest.changes.find(({ caseId, changeKind }) =>
       caseId === firstActiveId && changeKind === "upserted")?.caseRevisionId,

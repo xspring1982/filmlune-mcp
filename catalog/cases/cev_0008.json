@@ -1,5 +1,6 @@
 {
   "canonicalUrl": "https://filmlune.com/prompts/video/cycliste-sous-la-pluie-cev_0008/",
+  "caseFamilyId": "cf_cev_0008",
   "caseId": "cev_0008",
   "caseRevisionId": "cev_0008@r0001",
   "creator": {
@@ -8,10 +9,9 @@
     "profileUrl": null
   },
   "kind": "reusable_case",
-  "locale": "fr",
   "media": [
     {
-      "altFr": "Cycliste en veste bleue sur une avenue pluvieuse",
+      "alt": "Cyclist in a blue jacket on a rainy avenue",
       "assetId": "asset_cev_0008_poster",
       "assetRevisionId": "asset_cev_0008_poster@r0001",
       "bytes": 55802,
@@ -27,7 +27,7 @@
       "width": 720
     },
     {
-      "altFr": "Clip vertical d'une cycliste suivie sous la pluie",
+      "alt": "Vertical clip tracking a cyclist in the rain",
       "assetId": "asset_cev_0008_preview",
       "assetRevisionId": "asset_cev_0008_preview@r0001",
       "bytes": 116773,
@@ -44,7 +44,7 @@
     }
   ],
   "mediaType": "video",
-  "methodFr": "Suivre le vélo latéralement, stabiliser la silhouette et laisser les reflets porter la dynamique.",
+  "method": "Track the bicycle laterally, stabilise the silhouette, and let the reflections carry the motion.",
   "model": {
     "capabilityRevisionId": "cap_local_agnes_video_2_r1",
     "displayName": "Agnes Video 2.0",
@@ -52,34 +52,41 @@
     "modelId": "agnes-video-2-local",
     "modelVersion": "local-fixture-v1"
   },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0008_und_r0001",
+  "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
     "variants": [
       {
         "inputMode": "text_to_video",
+        "instructionLanguage": "en",
         "kind": "video",
-        "labelFr": "VIDEO · 1",
+        "label": "Video · 1",
         "promptSha256": "6223316fe43c4ed55d3c2272b5acdaab065f918ebdea48d6aef6fcfbe5949d89",
         "promptText": "Vertical cinematic street footage of a woman in a cobalt rain jacket riding a city bicycle through a wet European avenue at blue hour. The camera tracks smoothly beside her, storefront reflections stretch across the asphalt, traffic remains soft in the background and the rider's identity and bicycle geometry stay consistent.",
+        "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_0008_01"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
-    "generatorVersion": "mcp-catalog-v1",
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
   },
   "publicationState": "local_contract_fixture",
-  "purposeFr": "Produire un plan vertical crédible qui combine déplacement humain, pluie et circulation légère.",
+  "purpose": "Create a credible vertical shot combining human motion, rain, and light traffic.",
   "recipe": [
     {
       "inputAssetIds": [],
       "inputMode": "text_to_video",
       "kind": "video",
-      "labelFr": "VIDEO · 1",
+      "label": "Video · 1",
       "outputAssetIds": [
         "asset_cev_0008_preview"
       ],
@@ -97,44 +104,44 @@
     "social": "allow",
     "sourceLink": "allow"
   },
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "canonicalUrl": "https://filmlune.com/prompts/video/cycliste-sous-la-pluie-cev_0008/",
     "kind": "first_party_fixture",
     "publicEvidenceUrl": null
   },
-  "summaryFr": "Une cycliste en veste bleue traverse une avenue mouillée au rythme des reflets urbains.",
+  "summary": "A cyclist in a blue jacket crosses a wet avenue amid urban reflections.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-video",
-      "labelFr": "Vidéo"
+      "label": "Video"
     },
     {
       "axis": "model",
       "id": "model-agnes-video-2",
-      "labelFr": "Agnes Video 2.0"
+      "label": "Agnes Video 2.0"
     },
     {
       "axis": "use_case",
       "id": "usage-mobilite-urbaine",
-      "labelFr": "mobilite urbaine"
+      "label": "Urban mobility"
     },
     {
       "axis": "style",
       "id": "style-reportage-cinematographique",
-      "labelFr": "reportage cinematographique"
+      "label": "Cinematic reportage"
     }
   ],
-  "titleFr": "Cycliste sous la pluie",
+  "title": "Cyclist in the Rain",
   "variables": [
     {
-      "name": "Sujet",
-      "value": "cycliste en veste bleue"
+      "name": "Subject",
+      "value": "cyclist in a blue jacket"
     },
     {
-      "name": "Caméra",
-      "value": "suivi latéral"
+      "name": "Camera",
+      "value": "lateral tracking"
     }
   ]
 }
