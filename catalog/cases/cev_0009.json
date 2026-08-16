@@ -1,0 +1,147 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/serum-mineral-en-mouvement-cev_0009/",
+  "caseFamilyId": "cf_cev_0009",
+  "caseId": "cev_0009",
+  "caseRevisionId": "cev_0009@r0001",
+  "creator": {
+    "displayName": "FilmLune",
+    "handle": null,
+    "profileUrl": null
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "White serum bottle on a pearlescent surface",
+      "assetId": "asset_cev_0009_poster",
+      "assetRevisionId": "asset_cev_0009_poster@r0001",
+      "bytes": 30572,
+      "durationSeconds": null,
+      "generationReferenceUse": false,
+      "height": 1000,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0009/poster.webp",
+      "role": "poster",
+      "width": 800
+    },
+    {
+      "alt": "Cosmetic clip with water reflections around a serum bottle",
+      "assetId": "asset_cev_0009_preview",
+      "assetRevisionId": "asset_cev_0009_preview@r0001",
+      "bytes": 106872,
+      "durationSeconds": 5,
+      "generationReferenceUse": false,
+      "height": 1000,
+      "kind": "video",
+      "mimeType": "video/mp4",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/cases/cev_0009/preview.mp4",
+      "role": "hero",
+      "width": 800
+    }
+  ],
+  "mediaType": "video",
+  "method": "Move reflections around the product without distorting the bottle or dropper.",
+  "model": {
+    "capabilityRevisionId": "cap_local_agnes_video_2_r1",
+    "displayName": "Agnes Video 2.0",
+    "modelFamilyId": "agnes-video-2",
+    "modelId": "agnes-video-2-local",
+    "modelVersion": "local-fixture-v1"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0009_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "Video · 1",
+        "promptSha256": "c5c20e0fd728896d1c72011b5bc0531a498816bc7fcf7fb6ab9d36ee20149542",
+        "promptText": "A refined cosmetic product film featuring a frosted white serum bottle on pearlescent fabric. Slow aquatic caustics travel across the background and around the glass while the bottle and dropper remain perfectly stable. Cool daylight, clean macro detail, subtle motion, no hands, no added text and no scene cut.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_0009_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
+  },
+  "publicationState": "local_contract_fixture",
+  "purpose": "Create a tactile cosmetic clip that suggests hydration and purity without overt demonstration.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "Video · 1",
+      "outputAssetIds": [
+        "asset_cev_0009_preview"
+      ],
+      "stepId": "step_cev_0009_01",
+      "stepIndex": 1,
+      "variantId": "ppv_0009_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_0009/",
+  "rights": {
+    "decision": "owned",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "allow",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://filmlune.com/prompts/video/serum-mineral-en-mouvement-cev_0009/",
+    "kind": "first_party_fixture",
+    "publicEvidenceUrl": null
+  },
+  "summary": "A white bottle stands out on a pearlescent surface crossed by water reflections.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-agnes-video-2",
+      "label": "Agnes Video 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "usage-cosmetique",
+      "label": "Cosmetics"
+    },
+    {
+      "axis": "style",
+      "id": "style-mineral-aquatique",
+      "label": "Aquatic mineral"
+    }
+  ],
+  "title": "Mineral Serum in Motion",
+  "variables": [
+    {
+      "name": "Product",
+      "value": "white serum"
+    },
+    {
+      "name": "Light",
+      "value": "aquatic caustics"
+    }
+  ]
+}
