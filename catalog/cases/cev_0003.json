@@ -1,5 +1,6 @@
 {
   "canonicalUrl": "https://filmlune.com/prompts/image/tartelette-aux-agrumes-cev_0003/",
+  "caseFamilyId": "cf_cev_0003",
   "caseId": "cev_0003",
   "caseRevisionId": "cev_0003@r0001",
   "creator": {
@@ -8,10 +9,9 @@
     "profileUrl": null
   },
   "kind": "reusable_case",
-  "locale": "fr",
   "media": [
     {
-      "altFr": "Tartelette à l'orange sous une lumière dorée",
+      "alt": "Orange tartlet under golden light",
       "assetId": "asset_cev_0003_primary",
       "assetRevisionId": "asset_cev_0003_primary@r0001",
       "bytes": 43698,
@@ -27,7 +27,7 @@
       "width": 800
     },
     {
-      "altFr": "Variation rapprochée de la tartelette aux agrumes",
+      "alt": "Close variation of the citrus tartlet",
       "assetId": "asset_cev_0003_secondary",
       "assetRevisionId": "asset_cev_0003_secondary@r0001",
       "bytes": 64562,
@@ -44,7 +44,7 @@
     }
   ],
   "mediaType": "image",
-  "methodFr": "Concentrer la lumière sur les volumes, préserver les textures de pâte et limiter les accessoires.",
+  "method": "Focus the light on the volumes, preserve the pastry textures, and keep props to a minimum.",
   "model": {
     "capabilityRevisionId": "cap_local_agnes_image_flash_r1",
     "displayName": "Agnes Image 2.1 Flash",
@@ -52,34 +52,41 @@
     "modelId": "agnes-image-flash-local",
     "modelVersion": "local-fixture-v1"
   },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0003_und_r0001",
+  "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
     "variants": [
       {
         "inputMode": "text_to_image",
+        "instructionLanguage": "en",
         "kind": "image",
-        "labelFr": "IMAGE · 1",
+        "label": "Image · 1",
         "promptSha256": "646b874fb545f50a31dca6f8294d70f56857037f4f9a2385d2ac4d878880150e",
         "promptText": "Create two elegant macro food photographs of a single citrus tart with sculpted orange petals. Use warm late-afternoon light, a pale stone surface, exact pastry texture and very sparse styling. The dessert must feel handcrafted, luminous and ready for a luxury patisserie campaign.",
+        "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_0003_01"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
-    "generatorVersion": "mcp-catalog-v1",
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
   },
   "publicationState": "local_contract_fixture",
-  "purposeFr": "Donner à un dessert individuel une présence haut de gamme adaptée à une campagne de lancement.",
+  "purpose": "Give an individual dessert a premium presence suitable for a launch campaign.",
   "recipe": [
     {
       "inputAssetIds": [],
       "inputMode": "text_to_image",
       "kind": "image",
-      "labelFr": "IMAGE · 1",
+      "label": "Image · 1",
       "outputAssetIds": [
         "asset_cev_0003_primary",
         "asset_cev_0003_secondary"
@@ -98,44 +105,44 @@
     "social": "allow",
     "sourceLink": "allow"
   },
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "canonicalUrl": "https://filmlune.com/prompts/image/tartelette-aux-agrumes-cev_0003/",
     "kind": "first_party_fixture",
     "publicEvidenceUrl": null
   },
-  "summaryFr": "Une pâtisserie solaire aux pétales d'orange, photographiée comme une pièce de joaillerie.",
+  "summary": "A sunlit pastry with sculpted orange petals is photographed like a piece of jewellery.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-image",
-      "labelFr": "Image"
+      "label": "Image"
     },
     {
       "axis": "model",
       "id": "model-agnes-image-flash",
-      "labelFr": "Agnes Image 2.1 Flash"
+      "label": "Agnes Image 2.1 Flash"
     },
     {
       "axis": "use_case",
       "id": "usage-photographie-culinaire",
-      "labelFr": "photographie culinaire"
+      "label": "Food photography"
     },
     {
       "axis": "style",
       "id": "style-macro-lumineuse",
-      "labelFr": "macro lumineuse"
+      "label": "Luminous macro"
     }
   ],
-  "titleFr": "Tartelette aux agrumes",
+  "title": "Citrus Tartlet",
   "variables": [
     {
       "name": "Dessert",
-      "value": "tartelette à l'orange"
+      "value": "orange tartlet"
     },
     {
-      "name": "Ambiance",
-      "value": "solaire"
+      "name": "Mood",
+      "value": "sunlit"
     }
   ]
 }

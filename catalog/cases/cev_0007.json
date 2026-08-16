@@ -1,5 +1,6 @@
 {
   "canonicalUrl": "https://filmlune.com/prompts/video/fauteuil-modulaire-en-lumiere-cev_0007/",
+  "caseFamilyId": "cf_cev_0007",
   "caseId": "cev_0007",
   "caseRevisionId": "cev_0007@r0001",
   "creator": {
@@ -8,10 +9,9 @@
     "profileUrl": null
   },
   "kind": "reusable_case",
-  "locale": "fr",
   "media": [
     {
-      "altFr": "Fauteuil modulaire vert dans une alcôve minérale",
+      "alt": "Green modular lounge chair in a mineral alcove",
       "assetId": "asset_cev_0007_poster",
       "assetRevisionId": "asset_cev_0007_poster@r0001",
       "bytes": 42846,
@@ -27,7 +27,7 @@
       "width": 1280
     },
     {
-      "altFr": "Clip du fauteuil modulaire révélé par la lumière",
+      "alt": "Clip of a modular lounge chair revealed by light",
       "assetId": "asset_cev_0007_preview",
       "assetRevisionId": "asset_cev_0007_preview@r0001",
       "bytes": 155321,
@@ -44,7 +44,7 @@
     }
   ],
   "mediaType": "video",
-  "methodFr": "Déplacer légèrement le point de vue tout en gardant des lignes stables et une lumière matinale.",
+  "method": "Shift the viewpoint slightly while keeping lines stable and morning light consistent.",
   "model": {
     "capabilityRevisionId": "cap_local_agnes_video_2_r1",
     "displayName": "Agnes Video 2.0",
@@ -52,34 +52,41 @@
     "modelId": "agnes-video-2-local",
     "modelVersion": "local-fixture-v1"
   },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0007_und_r0001",
+  "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
     "variants": [
       {
         "inputMode": "text_to_video",
+        "instructionLanguage": "en",
         "kind": "video",
-        "labelFr": "VIDEO · 1",
+        "label": "Video · 1",
         "promptSha256": "9f2b9594f3ff31dc81cb9fa72fdcdca120b034050a472b690157303778db394f",
         "promptText": "A quiet architectural product film of modular moss-green lounge chairs in a warm mineral alcove. Morning light travels across the upholstery while the camera performs a restrained parallax move. Keep the furniture geometry stable, surfaces tactile and motion continuous; no text, no people, no cuts.",
+        "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_0007_01"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
-    "generatorVersion": "mcp-catalog-v1",
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
   },
   "publicationState": "local_contract_fixture",
-  "purposeFr": "Mettre en valeur la modularité d'un meuble dans un clip produit court et silencieux.",
+  "purpose": "Highlight a chair's modularity in a short, silent product clip.",
   "recipe": [
     {
       "inputAssetIds": [],
       "inputMode": "text_to_video",
       "kind": "video",
-      "labelFr": "VIDEO · 1",
+      "label": "Video · 1",
       "outputAssetIds": [
         "asset_cev_0007_preview"
       ],
@@ -97,44 +104,44 @@
     "social": "allow",
     "sourceLink": "allow"
   },
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "canonicalUrl": "https://filmlune.com/prompts/video/fauteuil-modulaire-en-lumiere-cev_0007/",
     "kind": "first_party_fixture",
     "publicEvidenceUrl": null
   },
-  "summaryFr": "Une composition de fauteuils vert mousse se révèle lentement dans une architecture minérale.",
+  "summary": "A composition of moss-green lounge chairs is slowly revealed within mineral architecture.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-video",
-      "labelFr": "Vidéo"
+      "label": "Video"
     },
     {
       "axis": "model",
       "id": "model-agnes-video-2",
-      "labelFr": "Agnes Video 2.0"
+      "label": "Agnes Video 2.0"
     },
     {
       "axis": "use_case",
       "id": "usage-mobilier-design",
-      "labelFr": "mobilier design"
+      "label": "Furniture design"
     },
     {
       "axis": "style",
       "id": "style-architecture-calme",
-      "labelFr": "architecture calme"
+      "label": "Calm architecture"
     }
   ],
-  "titleFr": "Fauteuil modulaire en lumière",
+  "title": "Modular Lounge Chair in Light",
   "variables": [
     {
-      "name": "Objet",
-      "value": "fauteuil vert mousse"
+      "name": "Object",
+      "value": "moss-green lounge chair"
     },
     {
-      "name": "Mouvement",
-      "value": "parallaxe lente"
+      "name": "Motion",
+      "value": "slow parallax"
     }
   ]
 }

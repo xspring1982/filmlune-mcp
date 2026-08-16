@@ -30,23 +30,24 @@ function success(value) {
 
 const server = new McpServer({
   name: "filmlune-mcp",
-  version: "0.0.0",
+  version: "0.1.0",
 });
 
 server.registerTool("search_cases", {
-  description: "Rechercher dans le catalogue public et filtré par droits de FilmLune.",
+  description: "Search FilmLune's public, rights-filtered case catalog.",
   inputSchema: z.strictObject({
     cursor,
     limit,
     mediaType: z.enum(["image", "video"]).optional(),
     modelFamilyId: z.string().min(1).optional(),
+    outputLanguage: z.string().min(1).optional(),
     query: z.string().min(1).optional(),
     taxonomyId: z.string().min(1).optional(),
   }),
 }, (input) => success(searchCases(catalog, input)));
 
 server.registerTool("get_case", {
-  description: "Lire une révision publique précise d’un cas FilmLune, ou son tombstone.",
+  description: "Read one exact public FilmLune case revision or tombstone and its available output-language variants.",
   inputSchema: z.strictObject({
     caseId: z.string().regex(/^cev_[0-9]{4}$/),
     caseRevisionId: z.string().regex(/^cev_[0-9]{4}@r[0-9]{4}$/).optional(),
@@ -54,7 +55,7 @@ server.registerTool("get_case", {
 }, (input) => success(getCase(catalog, input)));
 
 server.registerTool("list_models", {
-  description: "Lister les familles de modèles présentes dans le catalogue public.",
+  description: "List model families represented in the public FilmLune catalog.",
   inputSchema: z.strictObject({
     cursor,
     limit,
@@ -63,7 +64,7 @@ server.registerTool("list_models", {
 }, (input) => success(listModels(catalog, input)));
 
 server.registerTool("list_taxonomy", {
-  description: "Lister la taxonomie française disponible dans le catalogue public.",
+  description: "List the English taxonomy available in the public FilmLune catalog.",
   inputSchema: z.strictObject({
     axis: z.enum(["media", "model", "use_case", "style"]).optional(),
     cursor,
@@ -72,7 +73,7 @@ server.registerTool("list_taxonomy", {
 }, (input) => success(listTaxonomy(catalog, input)));
 
 server.registerTool("get_changes", {
-  description: "Lire le flux déterministe des ajouts, mises à jour et retraits du catalogue.",
+  description: "Read the deterministic feed of catalog additions, updates, and removals.",
   inputSchema: z.strictObject({
     changeKind: z.enum(["upserted", "removed"]).optional(),
     cursor,

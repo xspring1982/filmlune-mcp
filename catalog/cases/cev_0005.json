@@ -1,5 +1,6 @@
 {
   "canonicalUrl": "https://filmlune.com/prompts/image/montre-au-clair-obscur-cev_0005/",
+  "caseFamilyId": "cf_cev_0005",
   "caseId": "cev_0005",
   "caseRevisionId": "cev_0005@r0001",
   "creator": {
@@ -8,10 +9,9 @@
     "profileUrl": null
   },
   "kind": "reusable_case",
-  "locale": "fr",
   "media": [
     {
-      "altFr": "Montre noire éclairée par un reflet cuivre",
+      "alt": "Black watch lit by a copper reflection",
       "assetId": "asset_cev_0005_primary",
       "assetRevisionId": "asset_cev_0005_primary@r0001",
       "bytes": 26128,
@@ -27,7 +27,7 @@
       "width": 1280
     },
     {
-      "altFr": "Référence rapprochée de la montre et de son cadran",
+      "alt": "Close product reference of the watch and its dial",
       "assetId": "asset_cev_0005_secondary",
       "assetRevisionId": "asset_cev_0005_secondary@r0001",
       "bytes": 27878,
@@ -44,7 +44,7 @@
     }
   ],
   "mediaType": "image",
-  "methodFr": "Réutiliser la référence produit, contrôler le reflet et réserver une large zone sombre à la composition.",
+  "method": "Reuse the product reference, control the reflection, and reserve a broad dark area in the composition.",
   "model": {
     "capabilityRevisionId": "cap_local_nano_banana_pro_r1",
     "displayName": "Nano Banana Pro",
@@ -52,28 +52,35 @@
     "modelId": "nano-banana-pro-local",
     "modelVersion": "local-fixture-v1"
   },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_cev_0005_und_r0001",
+  "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
     "variants": [
       {
         "inputMode": "image_to_image",
+        "instructionLanguage": "en",
         "kind": "image",
-        "labelFr": "IMAGE · 1",
+        "label": "Image · 1",
         "promptSha256": "26c5f86f32db2c117ed497fdf1d17a4ed2c5c6230a36771de37e61cee19f9bca",
         "promptText": "Treat the supplied watch image as the exact product reference. Create a wide luxury still life in near-black space with one controlled copper reflection across the dial and strap. Preserve all proportions and materials, avoid extra props, and keep generous negative space for a refined launch visual.",
+        "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_0005_01"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "dd65d0a3a1a793e6cc0ccd56ad0ff775b7659c6d7c11674924fc2ffb68dda1a3",
-    "generatorVersion": "mcp-catalog-v1",
+    "generatorSha256": "6a8a09c8b0787f3d56e53d1d5bf133d725acb17b986db06cb78adb8f76245834",
+    "generatorVersion": "mcp-catalog-v2",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "284877ec0bf329cee6b84b07e03c2d474e0c8974479934d02b83b08a4f79e207"
+    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
   },
   "publicationState": "local_contract_fixture",
-  "purposeFr": "Créer une image de lancement sobre qui laisse la matière et le cadran porter le message.",
+  "purpose": "Create a restrained launch image that lets the material and dial carry the message.",
   "recipe": [
     {
       "inputAssetIds": [
@@ -81,7 +88,7 @@
       ],
       "inputMode": "image_to_image",
       "kind": "image",
-      "labelFr": "IMAGE · 1",
+      "label": "Image · 1",
       "outputAssetIds": [
         "asset_cev_0005_primary"
       ],
@@ -99,44 +106,44 @@
     "social": "allow",
     "sourceLink": "allow"
   },
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "canonicalUrl": "https://filmlune.com/prompts/image/montre-au-clair-obscur-cev_0005/",
     "kind": "first_party_fixture",
     "publicEvidenceUrl": null
   },
-  "summaryFr": "Une montre noire émerge d'un décor profond, soulignée par un reflet cuivre très précis.",
+  "summary": "A black watch emerges from a deep setting, defined by one precise copper reflection.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-image",
-      "labelFr": "Image"
+      "label": "Image"
     },
     {
       "axis": "model",
       "id": "model-nano-banana-pro",
-      "labelFr": "Nano Banana Pro"
+      "label": "Nano Banana Pro"
     },
     {
       "axis": "use_case",
       "id": "usage-horlogerie",
-      "labelFr": "horlogerie"
+      "label": "Watchmaking"
     },
     {
       "axis": "style",
       "id": "style-clair-obscur",
-      "labelFr": "clair obscur"
+      "label": "Chiaroscuro"
     }
   ],
-  "titleFr": "Montre au clair-obscur",
+  "title": "Watch in Chiaroscuro",
   "variables": [
     {
-      "name": "Produit",
-      "value": "montre noire"
+      "name": "Product",
+      "value": "black watch"
     },
     {
-      "name": "Reflet",
-      "value": "cuivre"
+      "name": "Reflection",
+      "value": "copper"
     }
   ]
 }

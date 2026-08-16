@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-1fc668a2a39cdcf0",
+  "catalogRevision": "mcp-local-cc1602128c9953a7",
   "models": [
     {
       "activeCaseIds": [
@@ -52,5 +52,5 @@
       "modelFamilyId": "agnes-video-2"
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 2
 }
