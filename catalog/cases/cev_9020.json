@@ -1,0 +1,172 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/scrapbooks-pastel-enfant-bebe-cev_9020/",
+  "caseFamilyId": "cf_kawaii_child_scrapbook_collages",
+  "caseId": "cev_9020",
+  "caseRevisionId": "cev_9020@r0001",
+  "creator": {
+    "displayName": "Taaruk",
+    "handle": "@Taaruk_",
+    "profileUrl": "https://x.com/Taaruk_"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Yellow-and-green scrapbook poster with a young child, photo frames, and plush rabbits.",
+      "assetId": "asset_cev_9020_01",
+      "assetRevisionId": "asset_cev_9020_01@r0001",
+      "bytes": 257748,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1448,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9020/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "6d345729e653b1210d04f020406c0ba7f2456d76c2c3906072a56c4e7dfb345e",
+      "width": 1086
+    },
+    {
+      "alt": "Pastel scrapbook poster with a baby in a bunny outfit, photo frames, and yellow accessories.",
+      "assetId": "asset_cev_9020_02",
+      "assetRevisionId": "asset_cev_9020_02@r0001",
+      "bytes": 272934,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1448,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9020/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "a8d86ee93a9c99aa60ed2f58f2d9f7fa8c50a81f16c3d0cd04ff49a2ce7f6a95",
+      "width": 1086
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the memory-board layout, gentle props, and protected text, and use child imagery only with verified guardian consent.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Pastel rabbit memory-board collage",
+        "promptSha256": "4f49667e4d46ea350eecdd3506192dde2f425fd0210d1df1537422b389ec04fa",
+        "promptText": "Kawaii scrapbook-style children photography poster, cute little girl with long black hair posing on green grass, wearing sporty gray and white outfit with bunny hair clips, pastel yellow and green theme, large playful bubble typography with name text, polaroid photo cutouts layered around the composition, plush bunny toy, banana milk box, macarons, ribbons, flowers and doodle graphics, hand-drawn hearts, stars and swirls, cheerful Korean aesthetic, soft daylight, whimsical collage layout, vibrant yet soft pastel tones, magazine-style kids photoshoot, ultra detailed, adorable and playful atmosphere, trendy social media scrapbook design.\n\nPrompt 2 (Baby version):\nCute kawaii scrapbook-style baby photography collage, smiling baby girl wearing soft cream bunny outfit and fluffy bunny-ear headband, sitting on bright green grass background, pastel yellow and light green aesthetic, multiple polaroid-style photo frames scattered around, plush bunny toys, banana milk carton, yellow macarons, ribbons, flowers, doodle hearts and sparkles, playful handwritten stickers and typography saying “little bunny” and “happy little star”, soft natural lighting, dreamy Korean baby photoshoot style, cozy spring vibe, ultra detailed, adorable expression, pastel scrapbook composition, soft shadows, high-quality editorial layout.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "little bunny"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "happy little star"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9020_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Arrange family photographs in a playful system guided by frames, stickers, and a soft yellow-green palette.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Pastel rabbit memory-board collage",
+      "outputAssetIds": [
+        "asset_cev_9020_01",
+        "asset_cev_9020_02"
+      ],
+      "stepId": "step_cev_9020_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9020_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9020/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Taaruk_/status/2052783847784480942",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Taaruk_/status/2052783847784480942"
+  },
+  "summary": "Two memory-board posters combine a young child and a baby with Polaroid frames, plush rabbits, ribbons, flowers, and pastel typography.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-kawaii-child-scrapbook-collages",
+      "label": "Kawaii child scrapbook collages"
+    },
+    {
+      "axis": "style",
+      "id": "style-kawaii-family-scrapbook",
+      "label": "Kawaii family scrapbook"
+    }
+  ],
+  "title": "Pastel Child and Baby Scrapbook Posters",
+  "variables": [
+    {
+      "name": "age",
+      "value": "child or baby depicted in an age-appropriate setting"
+    },
+    {
+      "name": "palette",
+      "value": "pastel yellow, soft green, and sky blue"
+    },
+    {
+      "name": "props",
+      "value": "rabbits, ribbons, flowers, and photo frames"
+    }
+  ]
+}

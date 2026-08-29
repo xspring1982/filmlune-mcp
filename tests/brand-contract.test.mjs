@@ -18,7 +18,7 @@ async function json(relative) {
   return JSON.parse(await text(relative));
 }
 
-test("uses the FilmLune MCP package coordinate and FilmLune public projection", async () => {
+test("uses the FilmLune MCP package coordinate and website-owned public projection", async () => {
   const packageJson = await json("package.json");
   assert.equal(packageJson.name, "filmlune-mcp");
   assert.equal(packageJson.version, "0.1.0");
@@ -28,9 +28,10 @@ test("uses the FilmLune MCP package coordinate and FilmLune public projection", 
   assert.equal(manifest.source.websiteRepository, "filmlune.com");
 
   const firstCase = await json(`catalog/cases/${manifest.activeIds[0]}.json`);
-  assert.equal(firstCase.creator.displayName, "FilmLune");
+  assert.equal(firstCase.creator.displayName, "ᴍᴜʀᴘʜʏ");
+  assert.equal(firstCase.creator.handle, "@Diplomeme");
   assert.match(firstCase.canonicalUrl, /^https:\/\/filmlune\.com\//);
-  assert.match(firstCase.source.canonicalUrl, /^https:\/\/filmlune\.com\//);
+  assert.equal(firstCase.source.canonicalUrl, "https://x.com/Diplomeme/status/2050044222041124979");
 
   const caseSchema = await json("schemas/case.v2.schema.json");
   const tombstoneSchema = await json("schemas/tombstone.v1.schema.json");

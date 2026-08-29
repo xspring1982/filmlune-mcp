@@ -1,0 +1,159 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/canette-geante-glacier-arctique-cev_9007/",
+  "caseFamilyId": "cf_frozen_beverage_product_concepts",
+  "caseId": "cev_9007",
+  "caseRevisionId": "cev_9007@r0001",
+  "creator": {
+    "displayName": "Duet | AI",
+    "handle": "@Sheldon056",
+    "profileUrl": "https://x.com/Sheldon056"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Giant beverage can encased in blue glacial ice with snow and adults in parkas.",
+      "assetId": "asset_cev_9007_01",
+      "assetRevisionId": "asset_cev_9007_01@r0001",
+      "bytes": 241698,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9007/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "4c10dd2f4f93776f710fedc9ec7a4aa8166631bb1a9874c67feaf479cc6b34c1",
+      "width": 1374
+    },
+    {
+      "alt": "Vertical frozen product campaign with a monumental frosted can in an arctic landscape.",
+      "assetId": "asset_cev_9007_02",
+      "assetRevisionId": "asset_cev_9007_02@r0001",
+      "bytes": 158916,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9007/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "c8e1d7ddaeb19b2f73b6bd775a3662e5f1e0187e6e54fbb4f15f27940d28b29b",
+      "width": 1374
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the low angle and scale references, but replace the visible real brand with a fictional beverage before commercial use.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Monumental frozen beverage can",
+        "promptSha256": "88f0710aa484fafa4b8dd176389bbfae3dfb355d9252a399bc1fe5f7116bf2d8",
+        "promptText": "Hyper-realistic 8k cinematic photograph, low-angle wide lens. A giant Coca-Cola can standing like a monument, partially encased in thick blue glacial ice and snow in an arctic landscape. Frost covering the aluminum surface, long icicles hanging from the rim, snow filling the top opening. Snowcat vehicle and scientists in red parkas for scale. Cold diffused lighting, HDR, ultra-real frozen textures, cinematic atmosphere --ar 2:3",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9007_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Use exaggerated scale and frozen material detail to create a high-impact beverage campaign concept.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Monumental frozen beverage can",
+      "outputAssetIds": [
+        "asset_cev_9007_01",
+        "asset_cev_9007_02"
+      ],
+      "stepId": "step_cev_9007_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9007_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9007/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Sheldon056/status/2028261430064185366",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Sheldon056/status/2028261430064185366"
+  },
+  "summary": "Two surreal product visuals place a monumental beverage can inside an arctic field of ice and snow.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-food-beverage",
+      "label": "Food and beverage"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-frozen-beverage-product-concepts",
+      "label": "Frozen beverage product concepts"
+    },
+    {
+      "axis": "style",
+      "id": "style-surreal-frozen-product-campaign",
+      "label": "Surreal frozen product campaign"
+    }
+  ],
+  "title": "Frozen Monumental Beverage Can",
+  "variables": [
+    {
+      "name": "beverage",
+      "value": "fictional brand"
+    },
+    {
+      "name": "environment",
+      "value": "glacier and arctic landscape"
+    },
+    {
+      "name": "scale",
+      "value": "vehicle and adult researchers"
+    }
+  ]
+}

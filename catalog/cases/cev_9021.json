@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-nocturne-flash-chat-cev_9021/",
+  "caseFamilyId": "cf_night_flash_pet_portraits",
+  "caseId": "cev_9021",
+  "caseRevisionId": "cev_9021@r0001",
+  "creator": {
+    "displayName": "Harboris",
+    "handle": "@harboriis",
+    "profileUrl": "https://x.com/harboriis"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Adult man in a black hoodie holding a large white cat under direct flash by a night fence.",
+      "assetId": "asset_cev_9021_01",
+      "assetRevisionId": "asset_cev_9021_01@r0001",
+      "bytes": 89778,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1248,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9021/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "43bfdc8be19333fcb4af7cfb96bae7eff0757f909d26a021b2dff9f2d4fe7153",
+      "width": 832
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the night setting, dark hoodie, and calmly held cat while using an authorized face and adapting the location.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Night portrait of an adult with a white cat",
+        "promptSha256": "644f68281bd32717254d31cfba54bc290646e6130d30b68d7ebd7b662868f2a0",
+        "promptText": "A raw, candid smartphone-style photo taken at night with a soft bright, direct camera flash, use my face on this image, featuring a man with middle-parted dark hair and a soft, gentle expression looking affectionately at a large, fluffy white cat that he is holding in his arms. The man is wearing a plain black hoodie, and the cat is looking back at him, creating a heartwarming moment. The background consists of a metal chain-link fence with some dark green leafy plants visible behind it, all set against a pitch-black night sky. The lighting has a nostalgic, slightly grainy 2010s digital camera aesthetic with high contrast, sharp shadows, and a natural, unpolished vibe.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9021_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Use frontal flash to separate a warm human-and-animal moment from a very dark outdoor background.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Night portrait of an adult with a white cat",
+      "outputAssetIds": [
+        "asset_cev_9021_01"
+      ],
+      "stepId": "step_cev_9021_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9021_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9021/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/harboriis/status/2009636791251530120",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/harboriis/status/2009636791251530120"
+  },
+  "summary": "An adult man in a black hoodie holds a large white cat against a chain-link fence under direct night flash.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-night-flash-pet-portraits",
+      "label": "Night-flash pet portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-candid-night-flash-portrait",
+      "label": "Candid night-flash portrait"
+    }
+  ],
+  "title": "Candid Night-Flash Portrait with a White Cat",
+  "variables": [
+    {
+      "name": "person",
+      "value": "fictional adult or authorized face"
+    },
+    {
+      "name": "animal",
+      "value": "large calm white cat"
+    },
+    {
+      "name": "lighting",
+      "value": "direct smartphone flash at night"
+    }
+  ]
+}

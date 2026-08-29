@@ -1,0 +1,191 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/finale-tennis-de-table-animee-cev_9011/",
+  "caseFamilyId": "cf_external_video_9011",
+  "caseId": "cev_9011",
+  "caseRevisionId": "cev_9011@r0004",
+  "creator": {
+    "displayName": "TechieSA",
+    "handle": "@TechieBySA",
+    "profileUrl": "https://x.com/TechieBySA"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "A square composite table-tennis final with motion confined to the upper arena panel.",
+      "assetId": "asset_cev_9011_video_r0001",
+      "assetRevisionId": "asset_cev_9011_video_r0001@r0001",
+      "bytes": 4904134,
+      "durationSeconds": 15.046531,
+      "generationReferenceUse": false,
+      "height": 1080,
+      "kind": "video",
+      "mimeType": "video/mp4",
+      "ordinal": 1,
+      "posterUrl": "/media/external/cev_9011/poster-r0001.webp",
+      "publicUrl": "/media/external/cev_9011/video-r0001.mp4",
+      "role": "hero",
+      "sha256": "93faa8fcb04c2ae83f611a9471198f4be7ad1f68d2b5fa2d1da4fc9a307b6ec6",
+      "width": 1080
+    },
+    {
+      "alt": "The square composite opening frame for the animated table-tennis final.",
+      "assetId": "asset_cev_9011_poster_r0001",
+      "assetRevisionId": "asset_cev_9011_poster_r0001@r0001",
+      "bytes": 144056,
+      "durationSeconds": null,
+      "generationReferenceUse": false,
+      "height": 1080,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9011/poster-r0001.webp",
+      "role": "keyframe",
+      "sha256": "a07c7621ae4ca1d6cf1f94f8628519160decde3729c71b4ee8864e9728193ff9",
+      "width": 1080
+    }
+  ],
+  "mediaType": "video",
+  "method": "Generate IMAGE 1 with GPT Image 2. After completion, explicitly continue to VIDEO 2 so FilmLune binds that exact private image revision and pre-fills the Seedance prompt. Opening VIDEO 2 directly leaves the reference slot empty.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260828-r2",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_external_video_9011_r0004",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "IMAGE · 1",
+        "promptSha256": "758c878e45f422d7abfe38aa8ce606c901dcd5208a2e4a21a105a65d2691d4f6",
+        "promptText": "Create an original square 1:1 composite sports-anime key-art illustration for two entirely fictional adult table-tennis finalists in an original indoor arena, designed as the exact opening frame for selective animation. Use polished cel-shaded character rendering, expressive hand-drawn linework, dynamic manga-inspired energy accents, and dramatic painted arena lighting while keeping faces, hands, rackets, and athletic anatomy coherent. Build two clean horizontal zones that share the same characters, uniforms, palette, and arena identity. In the upper 16:9 arena window, show the calm player in teal and cream and the energetic player in coral and navy facing across a small central table, with layered crowd depth and enough clear space for a rally. In the lower poster panel, show larger static illustrated portraits of the same two players in an opposing diagonal composition with painted energy accents and a small table motif. Keep the divider crisp and the whole square composition balanced. Preserve a clearly illustrated—not photorealistic—finish. Include no country names, flags, teams, logos, brands, public likenesses, copyrighted characters, or readable text.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9011_01"
+      },
+      {
+        "inputMode": "image_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "VIDEO · 2",
+        "promptSha256": "013346d70eeced680882345acb6cc4c0861da3e6c710173e274caace7545d417",
+        "promptText": "Use the supplied generated square 1:1 composite image as the exact opening frame and preserve the full canvas without cropping, expanding, or reframing it. Animate only the upper arena panel for one continuous 15-second cinematic table-tennis final between the same two fictional adult players. Keep the lower poster panel perfectly static throughout—no parallax, shimmer, morphing, camera movement, or text changes below the divider. Inside the upper 16:9 window, preserve the players' faces, uniforms, colours, rackets, table, and arena layout; begin with a slow push toward the table, follow one fast but physically plausible rally with stable ball continuity, then ease slightly sideways as the coral-and-navy player returns the final shot and both players reset in frame. Keep every camera move and moving element clipped to the upper panel. Use believable footwork, cloth and crowd motion, controlled motion blur, bright arena ambience, and polished colour. No cuts, identity drift, extra limbs, flags, logos, public likenesses, dialogue, subtitles, watermarks, or unsafe contact.",
+        "protectedLiterals": [],
+        "stepIndex": 2,
+        "variantId": "ppv_9011_02"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a stable opening key visual and deliberately carry its exact generated revision into a bounded video clip.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "IMAGE · 1",
+      "outputAssetIds": [
+        "asset_cev_9011_poster_r0001"
+      ],
+      "stepId": "step_cev_9011_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9011_01"
+    },
+    {
+      "inputAssetIds": [
+        "asset_cev_9011_poster_r0001"
+      ],
+      "inputMode": "image_to_video",
+      "kind": "video",
+      "label": "VIDEO · 2",
+      "outputAssetIds": [
+        "asset_cev_9011_video_r0001"
+      ],
+      "stepId": "step_cev_9011_02",
+      "stepIndex": 2,
+      "variantId": "ppv_9011_02"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9011/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/TechieBySA/status/2090130971823612281",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/TechieBySA/status/2090130971823612281"
+  },
+  "summary": "A staged image-to-video recipe with independently selectable image and video prompts.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-animated-table-tennis-finals",
+      "label": "Animated table-tennis finals"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-sports-animation",
+      "label": "Cinematic sports animation"
+    }
+  ],
+  "title": "Animated Table-Tennis Final",
+  "variables": [
+    {
+      "name": "imageModel",
+      "value": "GPT Image 2"
+    },
+    {
+      "name": "videoModel",
+      "value": "Seedance 2.5"
+    },
+    {
+      "name": "duration",
+      "value": "15 seconds"
+    },
+    {
+      "name": "canvas",
+      "value": "square 1:1 composite"
+    },
+    {
+      "name": "motionRegion",
+      "value": "upper 16:9 arena panel; lower poster panel static"
+    }
+  ]
+}

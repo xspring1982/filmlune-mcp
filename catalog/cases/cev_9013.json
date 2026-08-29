@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/streetwear-pop-fast-food-illustre-cev_9013/",
+  "caseFamilyId": "cf_pop_art_fast_food_streetwear",
+  "caseId": "cev_9013",
+  "caseRevisionId": "cev_9013@r0001",
+  "creator": {
+    "displayName": "Shahid Wani",
+    "handle": "@meng_dagg695",
+    "profileUrl": "https://x.com/meng_dagg695"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Adult woman in streetwear surrounded by pop-art burger, fries, and drink illustrations.",
+      "assetId": "asset_cev_9013_01",
+      "assetRevisionId": "asset_cev_9013_01@r0001",
+      "bytes": 414764,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1536,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9013/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "2c9a10157b43439f2445532bd95efd403338a6950912bf5aab030ce0b640de2e",
+      "width": 1024
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the seated pose, urban perspective, and photo-to-illustration contrast while adapting the meal, palette, and fictional graphic marks.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Streetwear portrait with fast-food stickers",
+        "promptSha256": "fbc62b66205dafc75d3780ffb01cb7cc4babd14996c68d6cd17e682f63d42a26",
+        "promptText": "A young woman with shoulder-length dark brown wavy hair sitting cross-legged\non a wooden bench/stool, eating a cartoon-style burger with her right hand\nraised to her mouth. She wears round gold-framed reflective sunglasses, a\nwhite oversized graphic t-shirt featuring a cartoon illustration print on the\nchest, baggy distressed teal/denim wide-leg pants with ripped knees, and\nchunky platform sandals — left foot in blue and red sandal, right foot in\nred sandal with visible red-painted toenails. She holds a red cartoon soda\ncup with a red straw in her left hand. Surrounding her are floating\ncomic-style fast food elements: an animated crying cheeseburger bottom-left,\na cartoon french fries box top-left dripping red sauce with hearts, and a\ncartoon soda cup. The background is a real photographic urban outdoor setting\nwith glass storefront, trees, cloudy blue sky, and tiled floor. The art style\nblends realistic photography with vibrant 2D cartoon/comic illustration\noverlays on the food items and clothing. Small white sparkle/star doodles\nscattered across the frame. Bright, high saturation colors, fun and playful\npop-art street style mood.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9013_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Frame a photographic subject with energetic 2D food graphics while preserving pose and clothing readability.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Streetwear portrait with fast-food stickers",
+      "outputAssetIds": [
+        "asset_cev_9013_01"
+      ],
+      "stepId": "step_cev_9013_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9013_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9013/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/meng_dagg695/status/2049363203998818532",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/meng_dagg695/status/2049363203998818532"
+  },
+  "summary": "A photoreal urban portrait combines oversized streetwear with bright comic-style burgers, fries, drinks, and sparkle overlays.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-pop-art-fast-food-streetwear",
+      "label": "Pop-art fast-food streetwear"
+    },
+    {
+      "axis": "style",
+      "id": "style-photo-comic-pop-collage",
+      "label": "Photo and comic pop collage"
+    }
+  ],
+  "title": "Pop-Art Fast-Food Streetwear Portrait",
+  "variables": [
+    {
+      "name": "meal",
+      "value": "illustrated burger, fries, and drink"
+    },
+    {
+      "name": "outfit",
+      "value": "graphic T-shirt and distressed wide-leg denim"
+    },
+    {
+      "name": "setting",
+      "value": "outdoor urban terrace under blue sky"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-football-lumiere-doree-cev_9004/",
+  "caseFamilyId": "cf_golden_hour_football_portraits",
+  "caseId": "cev_9004",
+  "caseRevisionId": "cev_9004@r0001",
+  "creator": {
+    "displayName": "auqib",
+    "handle": "@auqibhabib",
+    "profileUrl": "https://x.com/auqibhabib"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Vertical portrait of a woman in a sky-blue and white football jersey under warm golden-hour light.",
+      "assetId": "asset_cev_9004_01",
+      "assetRevisionId": "asset_cev_9004_01@r0001",
+      "bytes": 96002,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1672,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9004/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "d61c5a1df6f5368c1e5b438b4520dee43f2478034e0bd3ebba17b6b2fbdfb91c",
+      "width": 941
+    }
+  ],
+  "mediaType": "image",
+  "method": "Preserve the close framing, warm side light, and floral foreground while adapting the team colors and accessories.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Golden-hour football portrait",
+        "promptSha256": "d20e6233d5a99a3718c734f45949cc296e675b388a2c4c38a6f144cec18f8469",
+        "promptText": "Ultra-realistic close-up portrait of a beautiful young East Asian woman, soft natural makeup, glossy peach lips, clear glowing skin, large expressive brown eyes, delicate facial features, dark brown hair tied into a low ponytail with a light blue ribbon, loose face-framing strands, wearing small gold hoop earrings and layered gold necklaces. She is dressed in a white and sky-blue Argentina football jersey with vertical stripes and gold crest details.\n\nThe woman is leaning gently against a cream-colored wall indoors, looking directly at the camera with a calm, elegant expression. Warm golden-hour window light illuminates her face from the side, creating soft shadows and a natural skin glow. Foreground flowers and green leaves are heavily blurred, creating dreamy depth and framing. Shallow depth of field, creamy bokeh background, luxurious lifestyle photography aesthetic.\n\nShot on Sony A7R V, 85mm portrait lens, f/1.4, ultra-sharp focus on eyes, cinematic composition, photorealistic skin texture, natural color grading, high dynamic range, editorial fashion photography, magazine quality, soft warm tones, subtle highlights, 8K resolution, masterpiece, extremely detailed.\n\nNegative Prompt: low resolution, blurry face, distorted eyes, extra fingers, bad anatomy, oversaturated colors, harsh shadows, cartoon, anime, CGI, plastic skin, excessive makeup, watermark, text, logo, duplicate features, cropped head, unnatural pose, motion blur.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9004_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a soft editorial sports portrait with natural skin, direct eye contact, and shallow depth of field.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Golden-hour football portrait",
+      "outputAssetIds": [
+        "asset_cev_9004_01"
+      ],
+      "stepId": "step_cev_9004_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9004_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9004/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/auqibhabib/status/2067295061306659315",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/auqibhabib/status/2067295061306659315"
+  },
+  "summary": "A close lifestyle portrait pairs a sky-blue football jersey with warm window light and blurred foreground flowers.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-golden-hour-football-portraits",
+      "label": "Golden-hour football portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-golden-hour-lifestyle-portrait",
+      "label": "Golden-hour lifestyle portrait"
+    }
+  ],
+  "title": "Golden-Hour Football Lifestyle Portrait",
+  "variables": [
+    {
+      "name": "team",
+      "value": "sky-blue and white jersey palette"
+    },
+    {
+      "name": "accessories",
+      "value": "ribbon, jewelry, and foliage"
+    },
+    {
+      "name": "light",
+      "value": "golden-hour side window"
+    }
+  ]
+}
