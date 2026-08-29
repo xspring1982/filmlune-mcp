@@ -1,0 +1,195 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiches-voyage-aquarelle-vintage-cev_9006/",
+  "caseFamilyId": "cf_vintage_watercolor_travel_posters",
+  "caseId": "cev_9006",
+  "caseRevisionId": "cev_9006@r0001",
+  "creator": {
+    "displayName": "Taaruk",
+    "handle": "@Taaruk_",
+    "profileUrl": "https://x.com/Taaruk_"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Watercolor travel poster with an urban street and destination typography.",
+      "assetId": "asset_cev_9006_01",
+      "assetRevisionId": "asset_cev_9006_01@r0001",
+      "bytes": 253164,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1536,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9006/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "f3e0556597c38b66b658ca0fd4f44fa1f99bff4afb8a025f41968589f5a38a92",
+      "width": 1024
+    },
+    {
+      "alt": "Watercolor travel poster with old architecture, vegetation, and editorial layout.",
+      "assetId": "asset_cev_9006_02",
+      "assetRevisionId": "asset_cev_9006_02@r0001",
+      "bytes": 293400,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1536,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9006/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "4a52d851875fa456328ef44748c7e6ed89d2947da6a4e603bbaf15a0d37980fa",
+      "width": 1024
+    },
+    {
+      "alt": "Destination poster painted on textured paper with travel-journal details.",
+      "assetId": "asset_cev_9006_03",
+      "assetRevisionId": "asset_cev_9006_03@r0001",
+      "bytes": 310692,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1536,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 3,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9006/image-03-r0001.webp",
+      "role": "output",
+      "sha256": "7f0cade6e386e1a16724c27e10a45872352ec9057d4747c7faedad98dae63113",
+      "width": 1024
+    },
+    {
+      "alt": "Vertical vintage travel poster combining city scenery, ink, and watercolor washes.",
+      "assetId": "asset_cev_9006_04",
+      "assetRevisionId": "asset_cev_9006_04@r0001",
+      "bytes": 301646,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1492,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 4,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9006/image-04-r0001.webp",
+      "role": "output",
+      "sha256": "7cd8d193cacb4bf932880fd4ce8e54e180bfb0154db1a4b0fb537dc4f70f199e",
+      "width": 1054
+    }
+  ],
+  "mediaType": "image",
+  "method": "Preserve the watercolor-and-ink system, paper texture, and negative space while changing the destination and architecture.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Vintage watercolor travel poster series",
+        "promptSha256": "dce27726e0c69089b0ba023ebc51c5e29df7dabc514c806f407b9f9ee9ba1382",
+        "promptText": "Vintage watercolor travel poster illustration, elegant European travel postcard aesthetic, soft hand-painted watercolor and ink sketch style, detailed architectural linework, dreamy urban scenery, cozy café on a quiet street corner, charming old-world buildings with ivy and flower vines, warm café lights glowing through windows, cobblestone streets, vintage lampposts, peaceful morning atmosphere, cinematic travel journal composition, muted earthy watercolor palette, soft beige paper texture background, delicate ink outlines with watercolor bleeding edges, atmospheric clouds and birds in the sky, minimalist luxury poster layout, large elegant serif typography at top with city/country name (“NEW YORK”, “BULGARIA”, “CROATIA”, “EDINBURGH”), subtitle tagline underneath, decorative vintage travel stamp and seal design, refined editorial spacing, highly detailed watercolor washes, realistic urban sketchbook illustration, nostalgic travel magazine cover aesthetic, premium wall-art poster design, calm and poetic mood, European watercolor postcard style, subtle texture grain, hand-drawn café signs and menus, travel destination branding aesthetic, balanced negative space, soft sunlight and haze, ultra detailed architectural watercolor rendering, timeless vintage tourism poster vibes.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9006_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Apply one travel-journal art direction across multiple cities without losing destination hierarchy.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Vintage watercolor travel poster series",
+      "outputAssetIds": [
+        "asset_cev_9006_01",
+        "asset_cev_9006_02",
+        "asset_cev_9006_03",
+        "asset_cev_9006_04"
+      ],
+      "stepId": "step_cev_9006_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9006_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9006/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Taaruk_/status/2055587676359893079",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Taaruk_/status/2055587676359893079"
+  },
+  "summary": "Four destination posters use watercolor, ink linework, textured paper, and restrained editorial typography.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-watercolor-travel-posters",
+      "label": "Vintage watercolor travel posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-vintage-watercolor-travel-poster",
+      "label": "Vintage watercolor travel poster"
+    }
+  ],
+  "title": "Vintage Watercolor Travel Posters",
+  "variables": [
+    {
+      "name": "destination",
+      "value": "city or country"
+    },
+    {
+      "name": "architecture",
+      "value": "primary urban landmark"
+    },
+    {
+      "name": "atmosphere",
+      "value": "calm morning, haze, or soft light"
+    }
+  ]
+}

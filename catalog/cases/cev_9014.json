@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/collage-lifestyle-parc-heure-doree-cev_9014/",
+  "caseFamilyId": "cf_golden_hour_park_collages",
+  "caseId": "cev_9014",
+  "caseRevisionId": "cev_9014@r0001",
+  "creator": {
+    "displayName": "Noor",
+    "handle": "@noorlewisx",
+    "profileUrl": "https://x.com/noorlewisx"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Vertical four-panel collage of an adult woman in sage and white clothing in a golden-hour park.",
+      "assetId": "asset_cev_9014_01",
+      "assetRevisionId": "asset_cev_9014_01@r0001",
+      "bytes": 157564,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1536,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9014/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "56a1c2632e47887ef6d9f96618a802c8189c29ace90271db73a2da00b89f63af",
+      "width": 1024
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the sage wrap blouse, white trousers, and sunset light while adapting the park, accessories, and camera angles.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Golden-hour park lifestyle series",
+        "promptSha256": "efb26d5ad30e7c5b89254c9f46511302f1363cc02e5744db8fd5b70f45d2960c",
+        "promptText": "A high-fashion editorial collage of a stylish East Asian woman at a scenic park during a golden hour sunset, lifestyle aesthetic. Outfit: She is wearing an elegant sage green wrap blouse with rolled-up sleeves, high-waisted wide-leg white trousers, white sneakers, and a tan leather crossbody bag. Visuals & Poses: A multi-panel grid showcasing different angles; a full-body shot walking gracefully by a riverbank, a medium shot sitting cross-legged on the lush green grass, a back-view showing the silhouette against the sunset, and a close-up mirror selfie capturing her soft makeup and wavy light-brown hair illuminated by warm sunlight. Lighting & Atmosphere: Soft chiaroscuro effect, dreamy golden hour glow, cinematic warm backlighting, serene and candid mood. Camera Specs: Shot on an 85mm f/1.8 lens, high-fidelity, photorealistic, Vogue magazine aesthetic, intricate details, 8k resolution --ar 2:3 --stylize 250",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9014_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a coherent multi-frame lifestyle board through one outfit, one location, and consistent golden light.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Golden-hour park lifestyle series",
+      "outputAssetIds": [
+        "asset_cev_9014_01"
+      ],
+      "stepId": "step_cev_9014_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9014_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9014/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/noorlewisx/status/2064267475945201818",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/noorlewisx/status/2064267475945201818"
+  },
+  "summary": "Four views follow an adult woman through a waterside park at sunset, combining walking, seated, rear, and mirror portraits.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-golden-hour-park-collages",
+      "label": "Golden-hour park lifestyle collages"
+    },
+    {
+      "axis": "style",
+      "id": "style-golden-hour-lifestyle-collage",
+      "label": "Golden-hour lifestyle collage"
+    }
+  ],
+  "title": "Golden-Hour Park Lifestyle Collage",
+  "variables": [
+    {
+      "name": "outfit",
+      "value": "sage wrap blouse and wide white trousers"
+    },
+    {
+      "name": "location",
+      "value": "waterside park"
+    },
+    {
+      "name": "frames",
+      "value": "walking, seated, rear, and mirror views"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-streetwear-fond-rouge-cev_9022/",
+  "caseFamilyId": "cf_red_studio_streetwear_portraits",
+  "caseId": "cev_9022",
+  "caseRevisionId": "cev_9022@r0001",
+  "creator": {
+    "displayName": "Duet | AI",
+    "handle": "@Sheldon056",
+    "profileUrl": "https://x.com/Sheldon056"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Adult man in a black puffer and white cargo trousers standing on a red studio background.",
+      "assetId": "asset_cev_9022_01",
+      "assetRevisionId": "asset_cev_9022_01@r0001",
+      "bytes": 76160,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9022/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "69ae56b1ad3cfa99441da8bd00fbd010d64f9f4efbaa9884ee884b323b8e9880",
+      "width": 1362
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the hands-in-pockets pose, black-white-red contrast, and full-body crop while adapting the face and unbranded clothing.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Black-and-white streetwear against red",
+        "promptSha256": "8c8dc4f6f94294254a9742cac7c6a296281cb0d8027e2d26ec01b6a6f0d9516b",
+        "promptText": "Ultra-realistic full-body studio fashion portrait of a stylish young man standing confidently, looking slightly upward. He wears a black puffer jacket, white t-shirt, loose white cargo pants, and chunky white sneakers. Accessories include round clear glasses and a black knit beanie. Hands in pockets, relaxed confident posture. Clean seamless solid red studio background. Soft professional studio lighting, sharp clothing texture, editorial fashion photography.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9022_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a readable full-body fashion portrait from three simple masses: black silhouette, white clothing, and red background.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Black-and-white streetwear against red",
+      "outputAssetIds": [
+        "asset_cev_9022_01"
+      ],
+      "stepId": "step_cev_9022_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9022_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9022/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Sheldon056/status/2030793768195244295",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Sheldon056/status/2030793768195244295"
+  },
+  "summary": "An adult man stands in a black puffer jacket, loose white cargo trousers, and pale sneakers against a seamless red background.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-red-studio-streetwear-portraits",
+      "label": "Red-studio streetwear portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-clean-red-studio-fashion",
+      "label": "Clean red-studio fashion"
+    }
+  ],
+  "title": "Black-and-White Streetwear on a Red Studio Background",
+  "variables": [
+    {
+      "name": "jacket",
+      "value": "unbranded black puffer"
+    },
+    {
+      "name": "trousers",
+      "value": "loose white cargo pants"
+    },
+    {
+      "name": "background",
+      "value": "seamless studio red"
+    }
+  ]
+}

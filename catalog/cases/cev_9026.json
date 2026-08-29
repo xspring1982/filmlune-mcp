@@ -1,0 +1,154 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-miniatures-de-soi-cev_9026/",
+  "caseFamilyId": "cf_miniature_self_character_collages",
+  "caseId": "cev_9026",
+  "caseRevisionId": "cev_9026@r0001",
+  "creator": {
+    "displayName": "Mira",
+    "handle": "@miratechtool",
+    "profileUrl": "https://x.com/miratechtool"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Adult woman seated in a café surrounded by small 3D doubles playing across the table and room.",
+      "assetId": "asset_cev_9026_01",
+      "assetRevisionId": "asset_cev_9026_01@r0001",
+      "bytes": 243158,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1149,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9026/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "c8a5469347c1d89b3fb9b3a88448ca3fc409136f12163403aadb4467fdb06c12",
+      "width": 1369
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the base image, coherent shadows, and miniature scale while using an authorized photograph and preserving the two handwritten text fragments exactly.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Miniature 3D selves around a portrait",
+        "promptSha256": "41e992ffd9bd5e0c0815fb2d99394f01d7dea2a7035754889842f477517fa755",
+        "promptText": "Mini “chibi 3D” versions of the same person appear around the original photo — sitting, climbing, playing, interacting with objects — with realistic shadows and depth. Keep base image unchanged. Add soft handwritten text: “Little versions of me… living my quiet moments.” Include tiny props text like “You got this ♡”. Cinematic, cozy, viral aesthetic.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Little versions of me… living my quiet moments."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "You got this ♡"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9026_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Add a playful narrative to an existing photograph by distributing miniature doubles through the scene without changing the main portrait.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Miniature 3D selves around a portrait",
+      "outputAssetIds": [
+        "asset_cev_9026_01"
+      ],
+      "stepId": "step_cev_9026_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9026_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9026/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/miratechtool/status/2051691169592033488",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/miratechtool/status/2051691169592033488"
+  },
+  "summary": "An adult woman seated in a café is surrounded by small 3D versions of herself that climb, play, and interact with the table under warm light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-miniature-self-character-collages",
+      "label": "Miniature-self character collages"
+    },
+    {
+      "axis": "style",
+      "id": "style-cozy-miniature-self-composite",
+      "label": "Cozy miniature-self composite"
+    }
+  ],
+  "title": "Cozy Portrait with Miniature 3D Selves",
+  "variables": [
+    {
+      "name": "portrait",
+      "value": "authorized adult photograph in a café"
+    },
+    {
+      "name": "miniatures",
+      "value": "3D doubles sitting, climbing, and playing"
+    },
+    {
+      "name": "integration",
+      "value": "realistic shadows and coherent depth"
+    }
+  ]
+}

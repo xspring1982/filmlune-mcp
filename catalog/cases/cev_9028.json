@@ -1,0 +1,148 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/storyboard-routine-serum-spa-cev_9028/",
+  "caseFamilyId": "cf_skincare_routine_storyboards",
+  "caseId": "cev_9028",
+  "caseRevisionId": "cev_9028@r0001",
+  "creator": {
+    "displayName": "Oogie",
+    "handle": "@oggii_0",
+    "profileUrl": "https://x.com/oggii_0"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Vertical storyboard with an adult woman in a robe, a Promptopia bottle, a serum drop, and a bright bathroom.",
+      "assetId": "asset_cev_9028_01",
+      "assetRevisionId": "asset_cev_9028_01@r0001",
+      "bytes": 106066,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1935,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9028/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "ffb3d7ca3a75a92e97d6d516c3a39e19d5305a311899041930e56a73a950f805",
+      "width": 1080
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the window-to-product-to-application sequence, golden light, and protected label while using an authorized face and avoiding medical or unsubstantiated outcome claims.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Golden-light vertical skincare routine",
+        "promptSha256": "00b026c6b49b4113a45c9615396a7bd337fe0a0fe021db2c888e6320ff547a5f",
+        "promptText": "{\n  \"subject\": {\n    \"person\": \"Woman, appears to be in her 20s or 30s\",\n    \"pose_and_expression\": [\n      \"Standing by window, looking out, relaxed\",\n      \"Reaching for bottle on counter, hand focus\",\n      \"Looking in mirror, slight smile\",\n      \"Hand dispensing serum from bottle, close-up\",\n      \"Serum drop on fingertip, macro shot\",\n      \"Applying serum to face, eyes closed, serene\",\n      \"Face close-up, eyes closed, content\",\n      \"Bottle and orchid on counter, still life\",\n      \"Walking away from camera, standing by window\"\n    ]\n  },\n  \"clothing\": {\n    \"items\": \"White robe, white pajamas/loungewear\",\n    \"material\": \"Soft, flowing fabric\",\n    \"style\": \"Casual, luxurious\"\n  },\n  \"hair\": {\n    \"color\": \"Dark brown\",\n    \"style\": \"Pulled back, neat bun or ponytail\"\n  },\n  \"face\": {\n    \"makeup\": \"Natural, minimal\",\n    \"skin\": \"Clear, glowing\",\n    \"expression\": \"Calm, serene, content\"\n  },\n  \"accessories\": {\n    \"jewelry\": \"Simple ring on ring finger\",\n    \"props\": [\n      \"Glass skincare bottle with gold pump dispenser\",\n      \"Product label: 'Promptopia'\",\n      \"White orchid in a small white vase\"\n    ]\n  },\n  \"environment\": {\n    \"location\": \"Modern, luxurious bathroom\",\n    \"elements\": [\n      \"Large floor-to-ceiling windows\",\n      \"Marble countertop and walls\",\n      \"Round mirror\",\n      \"View of trees/garden outside\",\n      \"Fog or mist outside window\"\n    ],\n    \"atmosphere\": \"Serene, spa-like, tranquil\"\n  },\n  \"lighting\": {\n    \"source\": \"Natural daylight\",\n    \"quality\": \"Warm, golden, soft, diffused\",\n    \"time_of_day\": \"Sunrise or golden hour\"\n  },\n  \"camera\": {\n    \"type\": \"Photography collage\",\n    \"shots\": [\n      \"Wide shot\",\n      \"Medium shot\",\n      \"Close-up\",\n      \"Macro shot\"\n    ],\n    \"focus\": \"Sharp on subject and product, soft background blur (bokeh)\"\n  },\n  \"style\": {\n    \"aesthetic\": \"Cinematic, editorial, beauty, wellness, clean, minimalist\",\n    \"color_palette\": \"Warm neutrals, white, gold, natural greens\"\n  }\n}",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Promptopia"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9028_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Tell a multi-step cosmetic routine through consistent light, a recognizable product, and complementary frames suited to social content.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Golden-light vertical skincare routine",
+      "outputAssetIds": [
+        "asset_cev_9028_01"
+      ],
+      "stepId": "step_cev_9028_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9028_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9028/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/oggii_0/status/2009580453083201822",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/oggii_0/status/2009580453083201822"
+  },
+  "summary": "A vertical board alternates wide views, hand details, and close-ups of an adult woman using a serum bottle in a bright marble-and-orchid bathroom.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-skincare-routine-storyboards",
+      "label": "Skincare routine storyboards"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-spa-skincare-storyboard",
+      "label": "Cinematic spa skincare storyboard"
+    }
+  ],
+  "title": "Vertical Golden-Light Skincare Routine Storyboard",
+  "variables": [
+    {
+      "name": "sequence",
+      "value": "window, bottle pickup, drop, application, and product shot"
+    },
+    {
+      "name": "setting",
+      "value": "bright bathroom with marble and an orchid"
+    },
+    {
+      "name": "light",
+      "value": "warm diffused natural daylight"
+    }
+  ]
+}

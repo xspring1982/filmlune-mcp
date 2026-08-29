@@ -1,0 +1,195 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/serie-portraits-masculins-noir-blanc-cev_9016/",
+  "caseFamilyId": "cf_noir_mens_editorial_portraits",
+  "caseId": "cev_9016",
+  "caseRevisionId": "cev_9016@r0001",
+  "creator": {
+    "displayName": "Taaruk",
+    "handle": "@Taaruk_",
+    "profileUrl": "https://x.com/Taaruk_"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Close black-and-white portrait of an adult man in a dark shirt and round glasses.",
+      "assetId": "asset_cev_9016_01",
+      "assetRevisionId": "asset_cev_9016_01@r0001",
+      "bytes": 81464,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9016/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "216f328498419e2e28ba91e6f2bbf30de96636975fd71773a6e11cd7c49e433c",
+      "width": 1122
+    },
+    {
+      "alt": "Monochrome portrait of an adult man beside a window under strong side light.",
+      "assetId": "asset_cev_9016_02",
+      "assetRevisionId": "asset_cev_9016_02@r0001",
+      "bytes": 61208,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9016/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "c982f3a4302c75c7d50fe9a2e42e2490b4e100bab59580bf659a0c3f3f82c1a0",
+      "width": 1122
+    },
+    {
+      "alt": "Black-and-white portrait of an adult man resting his head on one hand in a candlelit café.",
+      "assetId": "asset_cev_9016_03",
+      "assetRevisionId": "asset_cev_9016_03@r0001",
+      "bytes": 90284,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 3,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9016/image-03-r0001.webp",
+      "role": "output",
+      "sha256": "840e411f19900839ee8ac98f69cab233b53c5105192467f5845e2b8c7f2c35b2",
+      "width": 1122
+    },
+    {
+      "alt": "Monochrome portrait of an adult man in a black suit sitting in a leather chair.",
+      "assetId": "asset_cev_9016_04",
+      "assetRevisionId": "asset_cev_9016_04@r0001",
+      "bytes": 57990,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 4,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9016/image-04-r0001.webp",
+      "role": "output",
+      "sha256": "eaa4c45247c0daa678733721c66836e2368903b82c2b31efb74cee8348883825",
+      "width": 1122
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the adult subject, monochrome treatment, and directional light while adapting wardrobe, setting, and pose with an authorized face reference.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Monochrome men's editorial portrait series",
+        "promptSha256": "986f2bd5705d0060c0b4e0db69efc95054d1b91705a3739a7b2330e061ab7fb0",
+        "promptText": "Ultra-realistic cinematic black-and-white editorial portrait, young man with thick wavy textured hair, wearing a slightly unbuttoned black dress shirt, seated in a relaxed pose, head tilted downward while looking past the camera, defined jawline, soft natural skin texture, moody expression, minimalist studio backdrop with a dramatic diagonal beam of sunlight across the wall, high-contrast Rembrandt lighting, deep noir shadows, subtle film grain, luxury fashion campaign aesthetic, photographed on a Hasselblad X2D 100C, 90mm lens, f/2.8, shallow depth of field, Kodak Tri-X 400 monochrome film look, rich grayscale tones, editorial composition, Vogue Homme × Saint Laurent campaign, photorealistic, ultra-detailed, 8K.\nPrompt 2 \nHyper-realistic monochrome fashion portrait, young man with voluminous wavy hair wearing a fitted black crew-neck T-shirt, gazing toward bright window light with a confident expression, sculpted facial features, dramatic side lighting creating bold shadows across the face, clean minimalist background, cinematic noir atmosphere, luxury editorial photography, subtle skin texture, soft film grain, Leica SL3 + APO-Summicron-SL 90mm, f/2, shallow depth of field, high dynamic range, Kodak Double-X black-and-white aesthetic, premium magazine cover quality, timeless elegance, ultra-photorealistic, 8K.\nPrompt 3 \nLuxury cinematic black-and-white portrait, handsome young man with tousled wavy hair and light stubble, resting his face against one hand while seated in an elegant café or classic lounge, wearing a dark wool overcoat layered over a knit sweater, thoughtful expression, warm candle bokeh in the background, moody low-key lighting, soft shadows, shallow depth of field, rich monochrome contrast, timeless European editorial style, photographed on a Sony A1, 85mm GM lens, f/1.4, fine film grain, Vogue Italia aesthetic, ultra-detailed, photorealistic, HDR, 8K.\nPrompt 4 \nPremium black-and-white luxury editorial portrait, elegant young man with textured wavy hair reclining in a classic leather armchair, wearing a tailored black suit over a black turtleneck with a luxury wristwatch, looking off to the side with a calm, sophisticated expression, refined hotel lounge interior, soft ambient practical lights in the background, dramatic low-key cinematic lighting, deep noir shadows, subtle reflections on leather, Leica Monochrom look, 50mm Summilux, f/1.7, shallow depth of field, rich grayscale, fine film grain, Tom Ford × GQ editorial, ultra-photorealistic, 8K.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9016_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compare several monochrome moods while preserving identity, natural skin detail, and photographic contrast.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Monochrome men's editorial portrait series",
+      "outputAssetIds": [
+        "asset_cev_9016_01",
+        "asset_cev_9016_02",
+        "asset_cev_9016_03",
+        "asset_cev_9016_04"
+      ],
+      "stepId": "step_cev_9016_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9016_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9016/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Taaruk_/status/2078769106711666738",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Taaruk_/status/2078769106711666738"
+  },
+  "summary": "Four editorial portraits move one adult man through window light, a night café, a dark shirt, and a leather lounge chair.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-noir-mens-editorial-portraits",
+      "label": "Noir men's editorial portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-noir-mens-portrait",
+      "label": "Cinematic noir men's portrait"
+    }
+  ],
+  "title": "Cinematic Black-and-White Men's Portrait Series",
+  "variables": [
+    {
+      "name": "setting",
+      "value": "studio, window, café, or lounge"
+    },
+    {
+      "name": "wardrobe",
+      "value": "dark shirt, T-shirt, coat, or suit"
+    },
+    {
+      "name": "lighting",
+      "value": "directional beam and deep noir shadows"
+    }
+  ]
+}

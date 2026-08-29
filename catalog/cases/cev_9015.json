@@ -1,0 +1,148 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-mode-monochrome-rouge-cev_9015/",
+  "caseFamilyId": "cf_monochrome_fashion_name_posters",
+  "caseId": "cev_9015",
+  "caseRevisionId": "cev_9015@r0001",
+  "creator": {
+    "displayName": "simeon-sanai",
+    "handle": "@Naiknelofar788",
+    "profileUrl": "https://x.com/Naiknelofar788"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Square red fashion poster with an adult woman in a monochrome tracksuit beneath a large white name.",
+      "assetId": "asset_cev_9015_01",
+      "assetRevisionId": "asset_cev_9015_01@r0001",
+      "bytes": 188226,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9015/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "475bcccc7af12bd900914a0cf43cc8a0e1a3c8f09111fc0f843f675e4345eaef",
+      "width": 2048
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the seated pose, all-red styling, and oversized white heading, but replace the displayed name with authorized text in any new work.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Red fashion portrait with oversized name",
+        "promptSha256": "71acbd6935e8961b2358f5f9ae379158c215535b07037356f29703c9a496fc80",
+        "promptText": "Studio fashion editorial poster of a young woman (use photo uploaded as a reference for the face) sitting confidently on a modern designer chair, wearing full monochrome red outfit (oversized hoodie, joggers, sneakers). Background is pure red with slight texture. Oversized bold white typography across the top spells 'Naik Nelofar' Minimal branding text at the bottom. Sharp, vibrant, high-fashion design aesthetic.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "Naik Nelofar"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9015_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Use one dominant color to connect type, clothing, furniture, and background in a sharp editorial poster.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Red fashion portrait with oversized name",
+      "outputAssetIds": [
+        "asset_cev_9015_01"
+      ],
+      "stepId": "step_cev_9015_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9015_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9015/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Naiknelofar788/status/2031531567408099364",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Naiknelofar788/status/2031531567408099364"
+  },
+  "summary": "An adult woman in a red tracksuit sits in a tone-on-tone studio beneath an oversized white personal name.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-monochrome-fashion-name-posters",
+      "label": "Monochrome fashion name posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-monochrome-fashion-editorial-poster",
+      "label": "Monochrome fashion editorial poster"
+    }
+  ],
+  "title": "Monochrome Red Fashion Name Poster",
+  "variables": [
+    {
+      "name": "name",
+      "value": "authorized public display name"
+    },
+    {
+      "name": "palette",
+      "value": "monochrome red and white"
+    },
+    {
+      "name": "outfit",
+      "value": "matching hoodie, joggers, and sneakers"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-beaute-noble-chinoise-cev_9009/",
+  "caseFamilyId": "cf_chinese_period_beauty_portraits",
+  "caseId": "cev_9009",
+  "caseRevisionId": "cev_9009@r0001",
+  "creator": {
+    "displayName": "李岳",
+    "handle": "@liyue_ai",
+    "profileUrl": "https://x.com/liyue_ai"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Vertical portrait of an adult woman in pale Chinese-period-inspired clothing with jade and pearl jewelry.",
+      "assetId": "asset_cev_9009_01",
+      "assetRevisionId": "asset_cev_9009_01@r0001",
+      "bytes": 169610,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1672,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9009/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "bf7a1d7476acdc0eb614bb69f096412f95c9a17e5976dfc2e129863af43647ff",
+      "width": 941
+    }
+  ],
+  "mediaType": "image",
+  "method": "Preserve the three-quarter gaze and layered textiles, then adapt the hairstyle, jewelry, room, and ivory-apricot-burgundy palette.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_filmlune_rewrite_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "FilmLune Chinese period beauty portrait adaptation",
+        "promptSha256": "867ba99d24b12d8ba46b46875bef5579edf7d02aad694b7f33924a77c5115673",
+        "promptText": "Create a 9:16 vertical, half-length beauty portrait of an explicitly adult East Asian woman aged about 20–28, styled as a refined young noblewoman in a historical Chinese-inspired chamber. Pose her in a gentle three-quarter turn, looking back over one shoulder toward the camera with a calm, cultivated expression. Use symmetrical delicate features, luminous natural skin texture, soft peach and rose-brown eye makeup, a restrained mid-face blush, fine highlights on the nose bridge and cheek area, and a translucent cherry-red glossy lip. Dress her in pearl-white and apricot layered gauze and silk with subtle embroidery, small burgundy edging, pale-gold thread, a light draped stole, a gold sash and pearl waist details. Arrange long black hair half-up with small pale-gold hairpins, white jade, pearl tassels and tiny red-gem accents; avoid an oversized crown. Add jade or pearl earrings. Place her before a softly blurred vanity, bronze mirror, lattice window, gauze curtain, flowers and warm lanterns. Light with soft warm-white window light and a gentle frontal-side fill so skin remains clear rather than yellow or red. Keep the palette layered: cherry-red lips as the focal point, pearl and apricot clothing, small burgundy accents, pale gold, white jade and pearls. Premium editorial retouching, realistic textiles and skin, no childlike appearance, no watermark, no logo, no text.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9009_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a refined period beauty portrait while keeping FilmLune's model choice and English recipe separate from source facts.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "FilmLune Chinese period beauty portrait adaptation",
+      "outputAssetIds": [
+        "asset_cev_9009_01"
+      ],
+      "stepId": "step_cev_9009_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9009_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9009/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/liyue_ai/status/2070542568270823449",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/liyue_ai/status/2070542568270823449"
+  },
+  "summary": "An adult East Asian woman poses in a Chinese-period-inspired chamber with ivory silk, jade, pearls, and warm controlled light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-chinese-period-beauty-portraits",
+      "label": "Chinese period beauty portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-historical-chinese-beauty-portrait",
+      "label": "Historical Chinese beauty portrait"
+    }
+  ],
+  "title": "Chinese Period Beauty Portrait",
+  "variables": [
+    {
+      "name": "garment",
+      "value": "ivory and apricot silk and gauze"
+    },
+    {
+      "name": "jewelry",
+      "value": "jade, pearls, and pale gold"
+    },
+    {
+      "name": "setting",
+      "value": "vanity, lattice window, and lanterns"
+    }
+  ]
+}

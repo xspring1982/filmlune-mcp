@@ -1,0 +1,280 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/campagnes-chocolat-fmcg-cev_9029/",
+  "caseFamilyId": "cf_chocolate_fmcg_campaign_posters",
+  "caseId": "cev_9029",
+  "caseRevisionId": "cev_9029@r0001",
+  "creator": {
+    "displayName": "ᴍᴜʀᴘʜʏ",
+    "handle": "@Diplomeme",
+    "profileUrl": "https://x.com/Diplomeme"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Red chocolate-bar poster with an adult model, foreground product, and flying chocolate fragments.",
+      "assetId": "asset_cev_9029_01",
+      "assetRevisionId": "asset_cev_9029_01@r0001",
+      "bytes": 260552,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9029/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "171e0167011f7dc6d3fb67a06ce021f651f913cbd59eb83c3ceba394579db960",
+      "width": 1122
+    },
+    {
+      "alt": "Orange chocolate-bar advertisement with hero packaging, oversized slogans, and wafer particles.",
+      "assetId": "asset_cev_9029_02",
+      "assetRevisionId": "asset_cev_9029_02@r0001",
+      "bytes": 258820,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9029/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "58fba0614e6b43d3ae53d6939453c18f1b7d2c480073b5b4c14de0d366d49db6",
+      "width": 1122
+    },
+    {
+      "alt": "Premium chocolate poster with an adult model, foreground wrapper, and a high-contrast commercial layout.",
+      "assetId": "asset_cev_9029_03",
+      "assetRevisionId": "asset_cev_9029_03@r0001",
+      "bytes": 313332,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 3,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9029/image-03-r0001.webp",
+      "role": "output",
+      "sha256": "2a1b9d1461ca273f56588015e82da9605108a27ad4fde4f40a0d675bbaed4617",
+      "width": 1122
+    },
+    {
+      "alt": "Vertical confectionery poster with a product hero, white typography, suspended crumbs, and a call to action.",
+      "assetId": "asset_cev_9029_04",
+      "assetRevisionId": "asset_cev_9029_04@r0001",
+      "bytes": 412838,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 4,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9029/image-04-r0001.webp",
+      "role": "output",
+      "sha256": "c31563f2b66debada82d3e0ff5d3f502d3952611bd777d1d638155370abc5378",
+      "width": 1122
+    }
+  ],
+  "mediaType": "image",
+  "method": "The exact source recipe and protected text remain available under the accepted-risk lane; replace all brands, packaging, slogans, and claims with authorized fictional material in any new work.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Chocolate snap poster with oversized typography",
+        "promptSha256": "94bfc478a7c9824f4b8346b179dd47928b25b30bb58f6769b36ec3809f7fe2ef",
+        "promptText": "FORMAT:\n4:5 vertical hyper-commercial chocolate campaign poster, ultra-high resolution (8K), premium billboard + social media advertising ready\nStyle: bold FMCG advertising × modern snack campaign × energetic commercial poster design × high-impact product photography\n\n CORE IDEA:\nTHE BREAK EVERYONE WAITS FOR.\n\nA campaign built around\nimpact,\ncraving,\nand satisfying motion.\n\nEverything in the composition reacts\nto the iconic KitKat snap.\n\n MASTER COMPOSITION:\n\nBACKGROUND:\nDeep KitKat red environment\n\nLayered with:\n- rich red gradients\n- chocolate texture overlays\n- dynamic motion streaks\n- subtle crumb particles\n- repeated typography patterns\n- glossy studio reflections\n\nThe atmosphere should feel:\nbold,\nhungry,\nenergetic,\ncommercially explosive.\n\n HUMAN SUBJECT:\n\nYoung Gen-Z male/female model\n\nExpression:\nplayful,\nconfident,\nmid-enjoyment moment\n\nPose:\nholding KitKat toward camera\nmid-snap action\n\nCamera angle:\nslightly low + close perspective\nfor product dominance\n\nWardrobe:\nmodern streetwear in neutral tones\nallowing red palette to dominate\n\n VISUAL ENERGY:\n\nThe SNAP becomes the visual explosion.\n\nAt the break point:\n\n- chocolate shards flying outward\n- wafer crumbs suspended mid-air\n- liquid chocolate streaks\n- motion lines radiating from snap\n\nTypography physically cracks apart\nfollowing the KitKat break.\n\nFeels:\nsatisfying,\npunchy,\ncommercially exaggerated.\n\n PRODUCT HERO:\n\n[KitKat](chatgpt://generic-entity?number=0) chocolate bar + wrapper\n\nPlacement:\nforeground center-right\n\nAngle:\nextreme 3/4 hero perspective\n\nProduct details:\n- hyper-real chocolate texture\n- visible wafer layers\n- glossy melted chocolate highlights\n- realistic crumbs\n- embossed KitKat logo\n- premium wrapper reflections\n\nChocolate should feel:\ncrispy,\nrich,\nirresistible.\n\n TYPOGRAPHY SYSTEM:\n\nMAIN HEADLINE:\n\n“BREAK\nTIME.”\n\nTypography style:\n- ultra-bold condensed sans-serif\n- oversized stacked layout\n- white typography\n- extremely tight spacing\n- cracked/distorted around snap point\n\nSECONDARY TEXT:\n“HAVE A BREAK. HAVE A KITKAT.”\n\nBACKGROUND TYPOGRAPHY:\nRepeated low-opacity words:\n\nSNAP\nCRUNCH\nBREAK\nCHOCOLATE\nWAFER\nMELT\n\nintegrated into background layers\n\n FEATURE INFORMATION STRIP:\n\nBottom premium feature strip:\n\n□ CRISPY WAFER\n□ RICH CHOCOLATE\n□ ICONIC SNAP\n□ PERFECT BREAK\n\nMinimal modern icon system.\n\n CTA SECTION:\n\nBOTTOM LEFT:\n\n“NEW SHARING PACK AVAILABLE”\n\nCTA BUTTON:\nsolid white rectangular button\n\nTEXT:\n“GRAB NOW”\n\nSecondary micro CTA:\n“Available Online & In Stores”\n\n WEBSITE + BRAND INFO:\n\nBOTTOM CENTER:\n\nwww.kitkat\n\nBOTTOM MICROTEXT:\n\n“NESTLÉ KITKAT · 2026 EDITION”\n\n COLOR SYSTEM:\n\nPRIMARY:\nKitKat red\ndeep chocolate brown\n\nSECONDARY:\nwhite typography\n\nACCENTS:\nwarm chocolate highlights\ngolden wafer tones\n\nPalette should feel:\nbold,\ndelicious,\nhigh-energy,\ncommercial.\n\n LIGHTING SYSTEM:\n\nMAIN LIGHT:\nstrong commercial studio key light\n\nRIM LIGHT:\nwarm chocolate highlights around product\n\nACCENT LIGHT:\nsoft red glow behind snap motion\n\nATMOSPHERIC LIGHT:\nsubtle floating particles catching light\n\nREFLECTIONS:\nglossy FMCG-grade reflections\n\nLighting should feel:\npremium snack advertising × modern commercial photography.\n\n HYPER DETAILING:\n\n- ultra-real wafer texture\n- sharp chocolate break detail\n- floating crumb realism\n- melted chocolate reflections\n- premium wrapper texture\n- billboard readability maintained\n- ultra-clean typography edges\n- high-end FMCG rendering quality\n\n COMPOSITION FLOW:\n\nUpper Frame:\nmassive typography dominance\n\nCenter:\nsnap explosion + human interaction\n\nForeground:\nproduct hero\n\nLower-left:\nCTA + features\n\nEye flow:\nHeadline → Snap → Product → Chocolate Motion → CTA\n\n CAMERA & RENDER:\n\n- commercial food photography\n- Phase One medium format feel\n- 35–50mm lens\n- HDR commercial rendering\n- ultra-clean sharpness\n- premium FMCG color grading\n\n FINAL FEEL:\n\nFeels like:\nNike energy campaign × premium FMCG launch × modern Behance commercial food poster.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "THE BREAK EVERYONE WAITS FOR."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "KitKat"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "BREAK\nTIME."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "HAVE A BREAK. HAVE A KITKAT."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "SNAP\nCRUNCH\nBREAK\nCHOCOLATE\nWAFER\nMELT"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "CRISPY WAFER"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "RICH CHOCOLATE"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "ICONIC SNAP"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "PERFECT BREAK"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "NEW SHARING PACK AVAILABLE"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "GRAB NOW"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Available Online & In Stores"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "www.kitkat"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "NESTLÉ KITKAT · 2026 EDITION"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9029_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study a high-energy FMCG structure in which the product snap drives motion, typography, particles, and the visual path toward a call to action.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Chocolate snap poster with oversized typography",
+      "outputAssetIds": [
+        "asset_cev_9029_01",
+        "asset_cev_9029_02",
+        "asset_cev_9029_03",
+        "asset_cev_9029_04"
+      ],
+      "stepId": "step_cev_9029_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9029_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9029/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Diplomeme/status/2056078170726752518",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Diplomeme/status/2056078170726752518"
+  },
+  "summary": "Four vertical posters explore established chocolate brands through foreground product heroes, adult models, wafer fragments, oversized slogans, and commercial calls to action.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-chocolate-fmcg-campaign-posters",
+      "label": "Chocolate FMCG campaign posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-high-energy-chocolate-fmcg-ad",
+      "label": "High-energy chocolate FMCG advertising"
+    }
+  ],
+  "title": "High-Energy Chocolate FMCG Campaign Posters",
+  "variables": [
+    {
+      "name": "product",
+      "value": "fictional chocolate bar with original packaging"
+    },
+    {
+      "name": "motion",
+      "value": "snap, crumbs, wafer, and chocolate suspended in air"
+    },
+    {
+      "name": "hierarchy",
+      "value": "large slogan, product hero, benefits, and call to action"
+    }
+  ]
+}

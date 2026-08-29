@@ -1,6 +1,6 @@
 {
-  "caseId": "cev_0011",
-  "caseRevisionId": "cev_0011@r0001",
+  "caseId": "cev_0009",
+  "caseRevisionId": "cev_0009@r0001",
   "kind": "tombstone",
   "provenance": {
     "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
@@ -11,8 +11,8 @@
     "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
   },
   "reasonCode": "LOCAL_FIXTURE_EDITORIAL_RETIREMENT",
-  "removedAtUtc": "2026-08-13T04:00:00.000Z",
-  "reportUrl": "/signaler/cev_0011/",
+  "removedAtUtc": "2026-08-22T14:08:53.000Z",
+  "reportUrl": "/signaler/cev_0009/",
   "rights": {
     "decision": "rejected",
     "mcp": "deny",

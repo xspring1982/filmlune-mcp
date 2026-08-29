@@ -1,0 +1,154 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/carnet-de-voyage-europeen-cev_9010/",
+  "caseFamilyId": "cf_external_video_9010",
+  "caseId": "cev_9010",
+  "caseRevisionId": "cev_9010@r0002",
+  "creator": {
+    "displayName": "Sarah",
+    "handle": "@SyntheSarah",
+    "profileUrl": "https://x.com/SyntheSarah"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "A continuous European travel-diary video featuring the same fictional adult traveller.",
+      "assetId": "asset_cev_9010_video_r0001",
+      "assetRevisionId": "asset_cev_9010_video_r0001@r0001",
+      "bytes": 10137109,
+      "durationSeconds": 15.136,
+      "generationReferenceUse": false,
+      "height": 1080,
+      "kind": "video",
+      "mimeType": "video/mp4",
+      "ordinal": 1,
+      "posterUrl": "/media/external/cev_9010/poster-r0001.webp",
+      "publicUrl": "/media/external/cev_9010/video-r0001.mp4",
+      "role": "hero",
+      "sha256": "33a52df0387da5755307bc7b62e6df63a7b7989a34b8337f4f01ffa8cd341b51",
+      "width": 1920
+    },
+    {
+      "alt": "The opening poster frame for the continuous European travel diary.",
+      "assetId": "asset_cev_9010_poster_r0001",
+      "assetRevisionId": "asset_cev_9010_poster_r0001@r0001",
+      "bytes": 101162,
+      "durationSeconds": null,
+      "generationReferenceUse": false,
+      "height": 1080,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9010/poster-r0001.webp",
+      "role": "poster",
+      "sha256": "f52e9342dea2c145f0dba8c570fc7803144159facb7a724e82c3ebfdce010d70",
+      "width": 1920
+    }
+  ],
+  "mediaType": "video",
+  "method": "Open the video prompt directly with no inherited reference asset, then add a user-owned reference only when the selected capability supports it.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260828-r2",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_external_video_9010_r0002",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "image_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "VIDEO · 1",
+        "promptSha256": "eec6b2895e116759f2a28999dc070957d12e94083326812b9211a2913ac60841",
+        "promptText": "Create one continuous 15-second handheld European travel-diary clip following the same fictional adult traveller through five connected moments: leaving a quiet railway platform at dawn, crossing a rain-bright old-town lane, tasting an unbranded pastry at a small café counter, watching sea light from a ferry deck, and ending beneath warm evening street lamps. Use motivated match movement instead of abrupt montage cuts, keep the traveller's face, olive field jacket, canvas bag and proportions stable, and preserve plausible geography, weather progression, exposure and background motion. Natural gestures, restrained lens breathing, documentary ambience and polished 16:9 colour. No public likeness, brands, readable signs, dialogue, subtitles, watermarks, duplicate bodies, morphing or unsafe behaviour.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9010_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Adapt a compact travel narrative while keeping identity, motion, exposure and geography coherent.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "image_to_video",
+      "kind": "video",
+      "label": "VIDEO · 1",
+      "outputAssetIds": [
+        "asset_cev_9010_video_r0001"
+      ],
+      "stepId": "step_cev_9010_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9010_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9010/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/SyntheSarah/status/2087737206459044262",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/SyntheSarah/status/2087737206459044262"
+  },
+  "summary": "A direct text-to-video recipe for a coherent fifteen-second European travel diary.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-continuous-travel-diaries",
+      "label": "Continuous travel video diaries"
+    },
+    {
+      "axis": "style",
+      "id": "style-documentary-travel",
+      "label": "Travel documentary"
+    }
+  ],
+  "title": "Continuous European Travel Diary",
+  "variables": [
+    {
+      "name": "duration",
+      "value": "15 seconds"
+    },
+    {
+      "name": "structure",
+      "value": "continuous travel diary"
+    }
+  ]
+}

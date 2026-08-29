@@ -3,12 +3,12 @@
   "caseRevisionId": "cev_0001@r0002",
   "kind": "tombstone",
   "provenance": {
-    "generatorSha256": "2bf1dd9fba427afa5bab05b3565ba31d59131a766e50d46b6d3a282d35be8070",
-    "generatorVersion": "mcp-catalog-v2",
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "e3f42c6d3aeae0be503f12acad713a40d81b1af167f38b6363999cd810443792",
-    "websiteSourceRevision": "local-demo-cases-2026-08-12.2",
-    "websiteSourceSha256": "6c057d2f9fe3bd1ddc0ac6e087b7daa84efae2a51ab99dcd454cc0a050b88f6d"
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
   },
   "reasonCode": "LOCAL_FIXTURE_EDITORIAL_RETIREMENT",
   "removedAtUtc": "2026-08-13T04:00:00.000Z",
