@@ -1,0 +1,159 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/selfie-plongee-chambre-lumineuse-cev_9012/",
+  "caseFamilyId": "cf_high_angle_bedroom_selfies",
+  "caseId": "cev_9012",
+  "caseRevisionId": "cev_9012@r0001",
+  "creator": {
+    "displayName": "underwood",
+    "handle": "@underwoodxie96",
+    "profileUrl": "https://x.com/underwoodxie96"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "High-angle vertical portrait of an adult woman in a grey top sitting on sunlit white bedding.",
+      "assetId": "asset_cev_9012_01",
+      "assetRevisionId": "asset_cev_9012_01@r0001",
+      "bytes": 216394,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9012/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "25aafe0d6659f718a84e06f8a82ada5fe2f1805af7645cf842f84292c5784fdc",
+      "width": 1153
+    },
+    {
+      "alt": "Second high-angle portrait of an adult woman in a grey top and blue jeans in a bright bedroom.",
+      "assetId": "asset_cev_9012_02",
+      "assetRevisionId": "asset_cev_9012_02@r0001",
+      "bytes": 247264,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9012/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "1ed9e5d859850167b4187cf069d76c00f17153d8825965b15e723a1cd2cd1ba2",
+      "width": 1153
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the overhead angle, explicitly adult subject, covered grey top, and white bedding while adapting identity, clothing, and room details.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Adult high-angle bedroom selfie",
+        "promptSha256": "ed2804844574076009d07eaa4ce703af692a00801ddb77e3da4b675f23db7023",
+        "promptText": "{   \"subject\": {     \"description\": \"An adult woman in a close high-angle phone selfie, sitting or half-reclining on white bedding. The frame runs from the top of her head and lowered face down to the low-rise jeans area, with an intimate, casual, real-life snapshot feeling.\",     \"mirror_rules\": \"Not a mirror selfie; the phone or camera is held above the subject, looking downward. No visible phone, mirror, or reflected device.\",     \"age\": \"Adult, visually in her 20s\",     \"expression\": {       \"eyes\": {         \"look\": \"Eyes naturally looking downward, eyelids lowered, long eyelashes clearly visible\",         \"energy\": \"Quiet, soft, with a slight emotional afterglow of a paused moment\",         \"direction\": \"Looking down, not at the camera\"       },       \"mouth\": {         \"position\": \"Lips closed and relaxed\",         \"energy\": \"Soft muted red lip color, calm and restrained\"       },       \"overall\": \"An inward, natural expression, not a posed smile; it feels like a spontaneous moment while looking down or adjusting clothing.\"     },     \"face\": {       \"preserve_original\": \"Preserve the soft face shape under the high-angle perspective, the nose bridge highlight caused by looking down, and the quiet downward gaze. Do not turn it into a front-facing commercial beauty portrait.\",       \"makeup\": \"A natural translucent makeup style often seen in East Asian social media beauty contexts: clean base, soft brows, delicate eyeliner, visible but not exaggerated lashes, light brown eyeshadow, coral-red or rose-red lips, sweet and natural rather than stage-like.\"     }   },   \"hair\": {     \"color\": \"Dark brown to black-brown natural hair, with subtle brown highlights where the light hits\",     \"style\": \"Long hair, naturally loose, partly falling over the left shoulder, with fine strands over the forehead and a visible hair part\",     \"effect\": \"Slightly messy but realistic, with natural shine and tiny flyaway hairs; not overly silky or advertisement-perfect\"   },   \"body\": {     \"frame\": \"Close upper-body framing, natural body contours shaped by fitted fabric, relaxed but supported posture\",     \"waist\": \"The waist and abdomen are clearly visible between the cropped top and the low-rise jeans, including the full midriff and navel\",     \"chest\": \"No chest skin is visible; the chest area is fully covered by a fitted gray cropped T-shirt, with natural fabric tension and horizontal folds\",     \"legs\": \"Legs are mostly outside the frame; only the upper edge of the low-rise jeans and partial hip-line area are visible\",     \"skin\": {       \"visible_areas\": \"Visible skin includes the forehead, cheeks, nose bridge, area around the lips, a small edge of the neck, parts of both arms, the full waist and abdomen, the navel, and the upper hip area above the jeans. Shoulders are covered by the T-shirt; back, buttocks, and legs are not visible.\",       \"tone\": \"Warm fair skin tone with a soft creamy quality and a slight pink undertone under sunlight\",       \"texture\": \"The skin looks smooth while retaining real detail; the abdomen has natural softness and subtle under-skin variation. It should feel warm, clean, soft, and lightly sun-warmed to the touch, not plastic or overly airbrushed.\",       \"lighting_effect\": \"Warm natural light falls from the upper-right area of the frame, creating highlights on the forehead, nose bridge, upper fabric, and abdomen. White bedding provides soft reflected fill light, while the hemline and jeans edge create slight shadows.\"     }   },   \"pose\": {     \"position\": \"The subject is sitting or half-reclining on a bed, leaning slightly back, head lowered, with arms placed to the sides or behind the body for support\",     \"base\": \"Weight rests on the hips and rear arm-support points; the waist opens naturally, shoulders slightly pulled back\",     \"overall\": \"A casual pause after sitting down, not a standardized pose; preserve slight body offset, fabric wrinkles, and imperfect symmetry\"   },   \"clothing\": {     \"top\": {       \"type\": \"Cropped fitted crew-neck T-shirt\",       \"color\": \"Light heather gray\",       \"details\": \"Short sleeves, hem ending around the upper abdomen, fine cotton-knit texture, horizontal stretch folds, and natural shadows\",       \"effect\": \"Fitted but not rigidly sculpted; the fabric responds to posture with realistic wrinkles, pressure marks, and subtle stretching\"     },     \"bottom\": {       \"type\": \"Low-rise blue denim jeans\",       \"color\": \"Washed blue with lighter worn edges\",       \"details\": \"Low waistband, visible button area, slightly open or loosened waistband, pale inner fabric and denim structure visible\",       \"effect\": \"Thick denim with clear creases, everyday wear, and a slightly worn texture\"     }   },   \"accessories\": {},   \"photography\": {     \"camera_style\": \"Close handheld phone selfie, authentic social media snapshot feel, similar to an iPhone or Android main/wide camera\",     \"angle\": \"Strong high-angle view from above the head and front, looking downward; the face, front fabric, abdomen, and waistband form a vertical perspective line\",     \"shot_type\": \"Vertical close-up to partial half-body crop, top of head near the upper edge, lower frame ending at the jeans waistband\",     \"aspect_ratio\": \"9:16 vertical\",     \"texture\": \"Slight phone sharpening, natural compression, mild noise, with visible bedding folds, clothing texture, and real skin transitions\",     \"lighting\": \"Indoor bedside natural daylight, warm and slanted, with white bedding acting as reflected fill light; avoid obvious studio rim light or perfect softbox lighting\",     \"depth_of_field\": \"Mostly clear smartphone wide-angle depth of field; face and clothing are sharp, dark furniture in the background slightly softened\"   },   \"background\": {     \"setting\": \"Bedroom or bedside interior\",     \"wall_color\": \"Mostly white bedding and dark furniture, with a small darker upper background area\",     \"elements\": [       \"white pillow or bedsheet\",       \"black bedside table or cabinet\",       \"small round gold or wooden knob\",       \"faint window light or tiny reflected points in the distance\"     ],     \"atmosphere\": \"Private, everyday, quiet, with the lingering feeling of morning or afternoon sunlight entering the room\",     \"lighting\": \"White bedding creates a broad soft bounce fill, while dark furniture lowers the background brightness and makes the skin highlights stand out\"   },   \"the_vibe\": {     \"energy\": \"Quiet, close, real, slightly lazy\",     \"mood\": \"As if she had just woken up, sat on the bed, or looked down for a second while adjusting herself\",     \"aesthetic\": \"Phone selfie, everyday bedroom, natural light, social media life-photo feeling rather than a perfect studio image\",     \"authenticity\": \"Keep messy flyaway hair, clothing wrinkles, slight composition offset, phone compression, and natural human body form\",     \"intimacy\": \"Very close framing, but emotionally restrained; the lack of eye contact gives it a private-space feeling\",     \"story\": \"She had just sat on the bed, the sunlight had already landed on her body, and the camera captured the downward-looking moment before the motion fully ended.\",     \"caption_energy\": \"Low-key, casual, like an everyday photo posted without over-explaining\"   },   \"constraints\": {     \"must_keep\": [       \"adult woman\",       \"high-angle downward shot\",       \"lowered head and downward gaze\",       \"dark brown long hair with forehead strands\",       \"gray fitted cropped T-shirt\",       \"visible waist, abdomen, and navel\",       \"low-rise washed blue jeans\",       \"white bedding background\",       \"warm natural daylight\",       \"authentic phone selfie texture\"     ],     \"avoid\": [       \"minor appearance\",       \"exposed chest or explicit nudity\",       \"oversexualized posing\",       \"plastic airbrushed skin\",       \"commercial studio lighting\",       \"front-facing direct gaze\",       \"perfectly symmetrical composition\",       \"heavy filters\",       \"AI anatomy distortion\",       \"watermarks or social media logos\"     ]   },   \"negative_prompt\": [     \"childlike\",     \"minor\",     \"explicit nudity\",     \"oversexualized\",     \"plastic skin\",     \"over-smoothed\",     \"studio lighting\",     \"perfect symmetry\",     \"distorted anatomy\",     \"extra fingers\",     \"bad hands\",     \"watermark\",     \"logo\",     \"text\"   ] }",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9012_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build an intimate but non-explicit phone-photo composition through downward gaze, fabric detail, and natural reflected light.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Adult high-angle bedroom selfie",
+      "outputAssetIds": [
+        "asset_cev_9012_01",
+        "asset_cev_9012_02"
+      ],
+      "stepId": "step_cev_9012_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9012_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9012/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/underwoodxie96/status/2069337363713753480",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/underwoodxie96/status/2069337363713753480"
+  },
+  "summary": "Two vertical portraits place an explicitly adult woman on white bedding under warm directional daylight and a strong overhead camera angle.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-high-angle-bedroom-selfies",
+      "label": "High-angle bedroom selfies"
+    },
+    {
+      "axis": "style",
+      "id": "style-natural-phone-bedroom-portrait",
+      "label": "Natural-light phone portrait"
+    }
+  ],
+  "title": "High-Angle Natural-Light Bedroom Selfie",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "explicitly adult woman looking downward"
+    },
+    {
+      "name": "outfit",
+      "value": "covered grey top and blue jeans"
+    },
+    {
+      "name": "light",
+      "value": "warm daylight reflected by white bedding"
+    }
+  ]
+}

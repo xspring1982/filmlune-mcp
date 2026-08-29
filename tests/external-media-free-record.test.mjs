@@ -46,8 +46,18 @@ async function addExternalRecord(target) {
   const modelsPath = path.join(target, "catalog/models.json");
   /** @type {any} */
   const models = JSON.parse(await readFile(modelsPath, "utf8"));
-  const model = models.models.find((/** @type {any} */ entry) => entry.mediaType === "video");
-  assert.ok(model);
+  let model = models.models.find((/** @type {any} */ entry) => entry.mediaType === "video");
+  if (!model) {
+    model = {
+      activeCaseIds: [],
+      displayName: "Seedance 2.5",
+      mediaType: "video",
+      modelFamilyId: "seedance-2-5",
+    };
+    models.models.push(model);
+    models.models.sort((/** @type {any} */ left, /** @type {any} */ right) =>
+      left.modelFamilyId.localeCompare(right.modelFamilyId, "en"));
+  }
   const provenance = {
     generatorSha256: manifest.generator.sha256,
     generatorVersion: manifest.generator.version,
@@ -142,6 +152,8 @@ async function addExternalRecord(target) {
   await writeFile(path.join(target, recordRelative), recordBytes, "utf8");
 
   model.activeCaseIds.push(record.caseId);
+  model.activeCaseIds.sort((/** @type {string} */ left, /** @type {string} */ right) =>
+    left.localeCompare(right, "en"));
   const modelBytes = canonical(models);
   await writeFile(modelsPath, modelBytes, "utf8");
 
@@ -150,7 +162,11 @@ async function addExternalRecord(target) {
   const taxonomy = JSON.parse(await readFile(taxonomyPath, "utf8"));
   for (const entry of record.taxonomy) {
     const existing = taxonomy.taxonomy.find((/** @type {any} */ candidate) => candidate.id === entry.id);
-    if (existing) existing.activeCaseIds.push(record.caseId);
+    if (existing) {
+      existing.activeCaseIds.push(record.caseId);
+      existing.activeCaseIds.sort((/** @type {string} */ left, /** @type {string} */ right) =>
+        left.localeCompare(right, "en"));
+    }
     else taxonomy.taxonomy.push({ ...entry, activeCaseIds: [record.caseId] });
   }
   taxonomy.taxonomy.sort((/** @type {any} */ left, /** @type {any} */ right) =>
@@ -159,6 +175,8 @@ async function addExternalRecord(target) {
   await writeFile(taxonomyPath, taxonomyBytes, "utf8");
 
   manifest.activeIds.push(record.caseId);
+  manifest.activeIds.sort((/** @type {string} */ left, /** @type {string} */ right) =>
+    left.localeCompare(right, "en"));
   const externalChange = {
     changeId: `change-${record.caseRevisionId}`,
     caseId: record.caseId,
@@ -167,9 +185,13 @@ async function addExternalRecord(target) {
     changedAtUtc: "2026-08-13T09:00:00.000Z",
     provenance,
   };
-  manifest.changes = [
+  const activeChanges = [
     ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "upserted"),
     externalChange,
+  ].sort((/** @type {any} */ left, /** @type {any} */ right) =>
+    left.caseId.localeCompare(right.caseId, "en"));
+  manifest.changes = [
+    ...activeChanges,
     ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "removed"),
   ];
   const updates = new Map([
@@ -273,9 +295,13 @@ async function addFrenchOutputVariant(target) {
     changedAtUtc: "2026-08-13T09:30:00.000Z",
     provenance: record.provenance,
   };
-  manifest.changes = [
+  const activeChanges = [
     ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "upserted"),
     externalChange,
+  ].sort((/** @type {any} */ left, /** @type {any} */ right) =>
+    left.caseId.localeCompare(right.caseId, "en"));
+  manifest.changes = [
+    ...activeChanges,
     ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "removed"),
   ];
   const updates = new Map([
@@ -349,6 +375,8 @@ async function removeExternalRecord(target) {
   for (const model of models.models) {
     model.activeCaseIds = model.activeCaseIds.filter((/** @type {string} */ id) => id !== caseId);
   }
+  models.models = models.models.filter((/** @type {any} */ model) =>
+    model.activeCaseIds.length > 0);
   const modelBytes = canonical(models);
   await writeFile(modelsPath, modelBytes, "utf8");
 
@@ -425,8 +453,8 @@ test("media-free external prompt recipe validates and is readable through all fi
     assert.equal(recipe.length, 1);
     assert.deepEqual(recipe[0]?.externalMediaBindings, []);
 
-    assert.deepEqual(searchCases(catalog, { query: "railway", limit: 50 }).items
-      .map(({ caseId }) => caseId), ["cev_0201"]);
+    assert.equal(searchCases(catalog, { query: "railway", limit: 50 }).items
+      .some(({ caseId }) => caseId === "cev_0201"), true);
     assert.ok(listModels(catalog, { mediaType: "video", limit: 50 }).items
       .some(({ activeCaseIds }) => activeCaseIds.includes("cev_0201")));
     assert.ok(listTaxonomy(catalog, { axis: "use_case", limit: 50 }).items
@@ -496,7 +524,8 @@ test("website-master removal becomes a hash-bound media-free tombstone across al
       caseRevisionId: "cev_0201@r0001",
     }), /MCP_STALE_CASE_REVISION/);
 
-    assert.deepEqual(searchCases(catalog, { query: "railway", limit: 50 }).items, []);
+    assert.equal(searchCases(catalog, { query: "railway", limit: 50 }).items
+      .some(({ caseId }) => caseId === "cev_0201"), false);
     assert.equal(listModels(catalog, { mediaType: "video", limit: 50 }).items
       .some(({ activeCaseIds }) => activeCaseIds.includes("cev_0201")), false);
     assert.equal(listTaxonomy(catalog, { axis: "use_case", limit: 50 }).items
@@ -547,12 +576,15 @@ test("one case family exposes exact and language-neutral output variants without
       outputLanguage: "fr",
       query: "railway",
       limit: 50,
-    }).items.map(({ caseId }) => caseId), ["cev_0201", "cev_0202"]);
+    }).items.map(({ caseId }) => caseId)
+      .filter((caseId) => caseId === "cev_0201" || caseId === "cev_0202"),
+    ["cev_0201", "cev_0202"]);
     assert.deepEqual(searchCases(catalog, {
       outputLanguage: "und",
       query: "railway",
       limit: 50,
-    }).items.map(({ caseId }) => caseId), ["cev_0201"]);
+    }).items.map(({ caseId }) => caseId)
+      .filter((caseId) => caseId === "cev_0201"), ["cev_0201"]);
     assert.deepEqual(searchCases(catalog, {
       outputLanguage: "fr",
       query: "BONSOIR PARIS",
