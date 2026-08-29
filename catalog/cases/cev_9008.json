@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-estival-jardin-cev_9008/",
+  "caseFamilyId": "cf_outdoor_garden_lifestyle_portraits",
+  "caseId": "cev_9008",
+  "caseRevisionId": "cev_9008@r0001",
+  "creator": {
+    "displayName": "𝗦𝗮𝗻𝗶𝗮",
+    "handle": "@saniaspeaks_",
+    "profileUrl": "https://x.com/saniaspeaks_"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Vertical portrait of a smiling adult woman in a pink blouse standing in a green garden.",
+      "assetId": "asset_cev_9008_01",
+      "assetRevisionId": "asset_cev_9008_01@r0001",
+      "bytes": 307638,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9008/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "2ef8793c07bd2b32cd12fe9551140b15558b399543807eea90eda806abd7e0d0",
+      "width": 1143
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the two-hand gesture, pink-and-blue outfit, and soft garden background while adapting the season and styling.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_filmlune_rewrite_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Summer garden lifestyle portrait",
+        "promptSha256": "86fbc4ecb824a5ed34479c2ef04a5160dd15368b96d6b1bc4fb9b1bb45b7d201",
+        "promptText": "Create a vertical photorealistic summer lifestyle portrait of an adult woman in a verdant residential garden. She smiles naturally and lifts both hands to adjust shoulder-length brown hair moving in a light breeze. Dress her in a blush-pink gathered-waist long-sleeve blouse and pale blue high-waisted jeans. Use warm natural sunlight, crisp but natural skin texture, saturated green foliage with small white flowers, a soft lawn and distant modern homes. Keep the mood candid, joyful and unposed, with shallow depth of field, realistic colors, soft background bokeh and no text, logos or watermark.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9008_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a candid lifestyle portrait through natural gesture, sunlight, and shallow depth of field.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Summer garden lifestyle portrait",
+      "outputAssetIds": [
+        "asset_cev_9008_01"
+      ],
+      "stepId": "step_cev_9008_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9008_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9008/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/saniaspeaks_/status/2025793326943986094",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/saniaspeaks_/status/2025793326943986094"
+  },
+  "summary": "An adult woman adjusts her hair in a bright residential garden with greenery and small white flowers.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-outdoor-lifestyle-portraits",
+      "label": "Outdoor garden lifestyle portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-outdoor-lifestyle-portrait",
+      "label": "Outdoor lifestyle portrait"
+    }
+  ],
+  "title": "Summer Garden Lifestyle Portrait",
+  "variables": [
+    {
+      "name": "outfit",
+      "value": "pink blouse and pale blue jeans"
+    },
+    {
+      "name": "garden",
+      "value": "greenery and small white flowers"
+    },
+    {
+      "name": "mood",
+      "value": "bright candid summer"
+    }
+  ]
+}

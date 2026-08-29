@@ -45,6 +45,7 @@
           "enum": [
             "owned",
             "licensed",
+            "operator_risk_accepted",
             "unknown",
             "rejected"
           ]

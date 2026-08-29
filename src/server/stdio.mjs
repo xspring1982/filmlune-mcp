@@ -66,7 +66,7 @@ server.registerTool("list_models", {
 server.registerTool("list_taxonomy", {
   description: "List the English taxonomy available in the public FilmLune catalog.",
   inputSchema: z.strictObject({
-    axis: z.enum(["media", "model", "use_case", "style"]).optional(),
+    axis: z.enum(["media", "model", "use_case", "collection", "style"]).optional(),
     cursor,
     limit,
   }),

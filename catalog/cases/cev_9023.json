@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/duo-enfant-personnage-3d-cev_9023/",
+  "caseFamilyId": "cf_human_to_stylized_character_pairs",
+  "caseId": "cev_9023",
+  "caseRevisionId": "cev_9023@r0001",
+  "creator": {
+    "displayName": "Emma",
+    "handle": "@Emmma__0",
+    "profileUrl": "https://x.com/Emmma__0"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Young child in a cream-and-blue sweater beside a large stylized 3D character in matching clothing.",
+      "assetId": "asset_cev_9023_01",
+      "assetRevisionId": "asset_cev_9023_01@r0001",
+      "bytes": 111754,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1200,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9023/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "930c24a7d7a2cb6433e04930004baa874670cb602cb1c62c87793c97efe92925",
+      "width": 896
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the side-by-side relationship and matched clothing, use child imagery only with guardian consent, and replace named proprietary style cues with an original direction.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Real child and stylized 3D double",
+        "promptSha256": "baba3dc9d1169624d5aa7cac9bb3d7ea5717d1afc7320070dd08ad6eb927c121",
+        "promptText": "Ultra-high-quality hyper-realistic photo featuring a real human and a giant 3D Pixar-style version of THE SAME person — both strictly based on the uploaded reference image. The real person and the Pixar character must have identical facial structure, hairstyle, facial expression, body proportions, height, and clothing.\nBoth are wearing a knitted sweater with a gradient from light yellow to pink, high-waisted blue jeans, and white high-top sneakers.\nThe pose must exactly match the reference: the real person stands relaxed with a friendly smile, with their hand naturally resting on the shoulder of the Pixar character. The Pixar version stands slightly wider, arms confidently positioned near the pockets, with a playful sly smirk, one raised eyebrow, and expressive Pixar-style eyes.\nThe Pixar character should be proportionally larger, but anatomically identical to the real person. The facial expression, head tilt, posture, and body language must precisely replicate the reference image.\nClean gray-blue studio background, soft even studio lighting, realistic shadows, crisp fabric texture, smooth Pixar-style skin shading, cinematic sharpness.\nDO NOT change the pose, reaction, clothing, or proportions. Strict adherence to the reference.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9023_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compare a photograph and a stylized character interpretation in one frame through consistent color and silhouette.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Real child and stylized 3D double",
+      "outputAssetIds": [
+        "asset_cev_9023_01"
+      ],
+      "stepId": "step_cev_9023_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9023_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9023/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Emmma__0/status/2029142137015812314",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Emmma__0/status/2029142137015812314"
+  },
+  "summary": "A young child in a gradient sweater stands beside an oversized 3D character that mirrors the hairstyle, outfit, and expression.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-human-to-stylized-character-pairs",
+      "label": "Photo-to-stylized-character pairs"
+    },
+    {
+      "axis": "style",
+      "id": "style-real-to-3d-character-pair",
+      "label": "Real-to-3D character pair"
+    }
+  ],
+  "title": "Child Portrait and Stylized 3D Character Pair",
+  "variables": [
+    {
+      "name": "reference",
+      "value": "child photograph with verified guardian consent"
+    },
+    {
+      "name": "character",
+      "value": "original stylized 3D interpretation"
+    },
+    {
+      "name": "outfit",
+      "value": "cream-and-blue sweater with pale denim"
+    }
+  ]
+}
