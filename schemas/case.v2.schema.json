@@ -128,6 +128,10 @@
             "poster"
           ]
         },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
         "width": {
           "minimum": 1,
           "type": "integer"
@@ -575,6 +579,7 @@
           "enum": [
             "owned",
             "licensed",
+            "operator_risk_accepted",
             "unknown",
             "rejected"
           ]
@@ -661,6 +666,7 @@
             "media",
             "model",
             "use_case",
+            "collection",
             "style"
           ]
         },
@@ -743,6 +749,39 @@
     },
     {
       "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "publicationState": {
+                "const": "website_master_projection"
+              }
+            },
+            "required": [
+              "publicationState"
+            ]
+          },
+          "then": {
+            "properties": {
+              "media": {
+                "items": {
+                  "properties": {
+                    "sha256": {
+                      "pattern": "^[a-f0-9]{64}$",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "sha256"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              }
+            }
+          }
+        }
+      ],
       "properties": {
         "canonicalUrl": {
           "format": "uri",
@@ -805,7 +844,10 @@
           "$ref": "#/$defs/provenance"
         },
         "publicationState": {
-          "const": "local_contract_fixture"
+          "enum": [
+            "local_contract_fixture",
+            "website_master_projection"
+          ]
         },
         "purpose": {
           "minLength": 1,

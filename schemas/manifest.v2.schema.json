@@ -68,7 +68,10 @@
           "type": "string"
         },
         "version": {
-          "const": "mcp-catalog-v2"
+          "enum": [
+            "mcp-catalog-v2",
+            "mcp-catalog-v3"
+          ]
         }
       },
       "required": [

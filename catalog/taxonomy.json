@@ -1,14 +1,259 @@
 {
-  "catalogRevision": "mcp-local-dcecffe353f67a16",
+  "catalogRevision": "mcp-local-2ee6c0c44461786c",
   "schemaVersion": 2,
   "taxonomy": [
     {
       "activeCaseIds": [
-        "cev_0002",
-        "cev_0003",
-        "cev_0004",
-        "cev_0005",
-        "cev_0006"
+        "cev_9024"
+      ],
+      "axis": "collection",
+      "id": "collection-ai-product-presentation-covers",
+      "label": "AI product presentation covers"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9011"
+      ],
+      "axis": "collection",
+      "id": "collection-animated-table-tennis-finals",
+      "label": "Animated table-tennis finals"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9017"
+      ],
+      "axis": "collection",
+      "id": "collection-beach-skincare-product-scenes",
+      "label": "Beach skincare product scenes"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9005"
+      ],
+      "axis": "collection",
+      "id": "collection-beauty-editorial-covers",
+      "label": "Beauty editorial covers"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9009"
+      ],
+      "axis": "collection",
+      "id": "collection-chinese-period-beauty-portraits",
+      "label": "Chinese period beauty portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9029"
+      ],
+      "axis": "collection",
+      "id": "collection-chocolate-fmcg-campaign-posters",
+      "label": "Chocolate FMCG campaign posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9010"
+      ],
+      "axis": "collection",
+      "id": "collection-continuous-travel-diaries",
+      "label": "Continuous travel video diaries"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9025"
+      ],
+      "axis": "collection",
+      "id": "collection-distorted-fashion-campaign-posters",
+      "label": "Distorted fashion campaign posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9018"
+      ],
+      "axis": "collection",
+      "id": "collection-doodle-fashion-portraits",
+      "label": "Doodle fashion portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9019"
+      ],
+      "axis": "collection",
+      "id": "collection-engraved-football-portraits",
+      "label": "Engraved football portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9003"
+      ],
+      "axis": "collection",
+      "id": "collection-fast-food-campaign-posters",
+      "label": "Split-world fast-food campaign posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9007"
+      ],
+      "axis": "collection",
+      "id": "collection-frozen-beverage-product-concepts",
+      "label": "Frozen beverage product concepts"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9004"
+      ],
+      "axis": "collection",
+      "id": "collection-golden-hour-football-portraits",
+      "label": "Golden-hour football portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9014"
+      ],
+      "axis": "collection",
+      "id": "collection-golden-hour-park-collages",
+      "label": "Golden-hour park lifestyle collages"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9012"
+      ],
+      "axis": "collection",
+      "id": "collection-high-angle-bedroom-selfies",
+      "label": "High-angle bedroom selfies"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9023"
+      ],
+      "axis": "collection",
+      "id": "collection-human-to-stylized-character-pairs",
+      "label": "Photo-to-stylized-character pairs"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9027"
+      ],
+      "axis": "collection",
+      "id": "collection-japanese-graffiti-fashion-posters",
+      "label": "Japanese graffiti fashion posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9020"
+      ],
+      "axis": "collection",
+      "id": "collection-kawaii-child-scrapbook-collages",
+      "label": "Kawaii child scrapbook collages"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9026"
+      ],
+      "axis": "collection",
+      "id": "collection-miniature-self-character-collages",
+      "label": "Miniature-self character collages"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9015"
+      ],
+      "axis": "collection",
+      "id": "collection-monochrome-fashion-name-posters",
+      "label": "Monochrome fashion name posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9021"
+      ],
+      "axis": "collection",
+      "id": "collection-night-flash-pet-portraits",
+      "label": "Night-flash pet portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9016"
+      ],
+      "axis": "collection",
+      "id": "collection-noir-mens-editorial-portraits",
+      "label": "Noir men's editorial portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9008"
+      ],
+      "axis": "collection",
+      "id": "collection-outdoor-lifestyle-portraits",
+      "label": "Outdoor garden lifestyle portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9013"
+      ],
+      "axis": "collection",
+      "id": "collection-pop-art-fast-food-streetwear",
+      "label": "Pop-art fast-food streetwear"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9022"
+      ],
+      "axis": "collection",
+      "id": "collection-red-studio-streetwear-portraits",
+      "label": "Red-studio streetwear portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9028"
+      ],
+      "axis": "collection",
+      "id": "collection-skincare-routine-storyboards",
+      "label": "Skincare routine storyboards"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9002"
+      ],
+      "axis": "collection",
+      "id": "collection-smartphone-campaign-posters",
+      "label": "Smartphone campaign posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9006"
+      ],
+      "axis": "collection",
+      "id": "collection-watercolor-travel-posters",
+      "label": "Vintage watercolor travel posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9002",
+        "cev_9003",
+        "cev_9004",
+        "cev_9005",
+        "cev_9006",
+        "cev_9007",
+        "cev_9008",
+        "cev_9009",
+        "cev_9012",
+        "cev_9013",
+        "cev_9014",
+        "cev_9015",
+        "cev_9016",
+        "cev_9017",
+        "cev_9018",
+        "cev_9019",
+        "cev_9020",
+        "cev_9021",
+        "cev_9022",
+        "cev_9023",
+        "cev_9024",
+        "cev_9025",
+        "cev_9026",
+        "cev_9027",
+        "cev_9028",
+        "cev_9029"
       ],
       "axis": "media",
       "id": "media-image",
@@ -16,9 +261,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_0007",
-        "cev_0008",
-        "cev_0009"
+        "cev_9010",
+        "cev_9011"
       ],
       "axis": "media",
       "id": "media-video",
@@ -26,25 +270,22 @@
     },
     {
       "activeCaseIds": [
-        "cev_0003"
-      ],
-      "axis": "model",
-      "id": "model-agnes-image-flash",
-      "label": "Agnes Image 2.1 Flash"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0007",
-        "cev_0008",
-        "cev_0009"
-      ],
-      "axis": "model",
-      "id": "model-agnes-video-2",
-      "label": "Agnes Video 2.0"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0004"
+        "cev_9002",
+        "cev_9003",
+        "cev_9004",
+        "cev_9005",
+        "cev_9006",
+        "cev_9009",
+        "cev_9012",
+        "cev_9013",
+        "cev_9016",
+        "cev_9018",
+        "cev_9020",
+        "cev_9024",
+        "cev_9025",
+        "cev_9026",
+        "cev_9027",
+        "cev_9029"
       ],
       "axis": "model",
       "id": "model-gpt-image-2",
@@ -52,15 +293,23 @@
     },
     {
       "activeCaseIds": [
-        "cev_0006"
+        "cev_9015",
+        "cev_9019"
       ],
       "axis": "model",
-      "id": "model-midjourney-v7",
-      "label": "Midjourney V7"
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
     },
     {
       "activeCaseIds": [
-        "cev_0005"
+        "cev_9007",
+        "cev_9008",
+        "cev_9014",
+        "cev_9017",
+        "cev_9021",
+        "cev_9022",
+        "cev_9023",
+        "cev_9028"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -68,139 +317,327 @@
     },
     {
       "activeCaseIds": [
-        "cev_0002"
+        "cev_9010",
+        "cev_9011"
       ],
       "axis": "model",
-      "id": "model-z-image-turbo",
-      "label": "Z Image Turbo"
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
     },
     {
       "activeCaseIds": [
-        "cev_0007"
-      ],
-      "axis": "style",
-      "id": "style-architecture-calme",
-      "label": "Calm architecture"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0006"
-      ],
-      "axis": "style",
-      "id": "style-botanique-lumineux",
-      "label": "Luminous botanical"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0005"
-      ],
-      "axis": "style",
-      "id": "style-clair-obscur",
-      "label": "Chiaroscuro"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0003"
-      ],
-      "axis": "style",
-      "id": "style-macro-lumineuse",
-      "label": "Luminous macro"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0009"
-      ],
-      "axis": "style",
-      "id": "style-mineral-aquatique",
-      "label": "Aquatic mineral"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0004"
-      ],
-      "axis": "style",
-      "id": "style-pluie-urbaine",
-      "label": "Urban rain"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0008"
-      ],
-      "axis": "style",
-      "id": "style-reportage-cinematographique",
-      "label": "Cinematic reportage"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0002"
-      ],
-      "axis": "style",
-      "id": "style-studio-cinetique",
-      "label": "Kinetic studio"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0006"
+        "cev_9002",
+        "cev_9029"
       ],
       "axis": "use_case",
-      "id": "usage-boisson",
-      "label": "Beverage"
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
     },
     {
       "activeCaseIds": [
-        "cev_0009"
+        "cev_9024"
       ],
       "axis": "use_case",
-      "id": "usage-cosmetique",
-      "label": "Cosmetics"
+      "id": "scene-brand-identity",
+      "label": "Brand design"
     },
     {
       "activeCaseIds": [
-        "cev_0005"
+        "cev_9006"
       ],
       "axis": "use_case",
-      "id": "usage-horlogerie",
-      "label": "Watchmaking"
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
     },
     {
       "activeCaseIds": [
-        "cev_0007"
+        "cev_9005",
+        "cev_9009",
+        "cev_9015",
+        "cev_9017",
+        "cev_9022",
+        "cev_9025",
+        "cev_9027",
+        "cev_9028"
       ],
       "axis": "use_case",
-      "id": "usage-mobilier-design",
-      "label": "Furniture design"
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
     },
     {
       "activeCaseIds": [
-        "cev_0008"
+        "cev_9003",
+        "cev_9007"
       ],
       "axis": "use_case",
-      "id": "usage-mobilite-urbaine",
-      "label": "Urban mobility"
+      "id": "scene-food-beverage",
+      "label": "Food and beverage"
     },
     {
       "activeCaseIds": [
-        "cev_0002"
+        "cev_9018",
+        "cev_9019",
+        "cev_9023"
       ],
       "axis": "use_case",
-      "id": "usage-mode-sport",
-      "label": "Sports fashion"
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
     },
     {
       "activeCaseIds": [
-        "cev_0003"
+        "cev_9004",
+        "cev_9008",
+        "cev_9012",
+        "cev_9014",
+        "cev_9016",
+        "cev_9021"
       ],
       "axis": "use_case",
-      "id": "usage-photographie-culinaire",
-      "label": "Food photography"
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
     },
     {
       "activeCaseIds": [
-        "cev_0004"
+        "cev_9013",
+        "cev_9020",
+        "cev_9026"
       ],
       "axis": "use_case",
-      "id": "usage-portrait-cinematographique",
-      "label": "Cinematic portrait"
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9010",
+        "cev_9011"
+      ],
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9005"
+      ],
+      "axis": "style",
+      "id": "style-beauty-magazine-editorial",
+      "label": "Beauty magazine editorial"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9021"
+      ],
+      "axis": "style",
+      "id": "style-candid-night-flash-portrait",
+      "label": "Candid night-flash portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9016"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-noir-mens-portrait",
+      "label": "Cinematic noir men's portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9028"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-spa-skincare-storyboard",
+      "label": "Cinematic spa skincare storyboard"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9011"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-sports-animation",
+      "label": "Cinematic sports animation"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9022"
+      ],
+      "axis": "style",
+      "id": "style-clean-red-studio-fashion",
+      "label": "Clean red-studio fashion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9026"
+      ],
+      "axis": "style",
+      "id": "style-cozy-miniature-self-composite",
+      "label": "Cozy miniature-self composite"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9010"
+      ],
+      "axis": "style",
+      "id": "style-documentary-travel",
+      "label": "Travel documentary"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9003"
+      ],
+      "axis": "style",
+      "id": "style-fast-food-campaign-poster",
+      "label": "Fast-food campaign poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9014"
+      ],
+      "axis": "style",
+      "id": "style-golden-hour-lifestyle-collage",
+      "label": "Golden-hour lifestyle collage"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9004"
+      ],
+      "axis": "style",
+      "id": "style-golden-hour-lifestyle-portrait",
+      "label": "Golden-hour lifestyle portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9019"
+      ],
+      "axis": "style",
+      "id": "style-high-contrast-linocut-portrait",
+      "label": "High-contrast linocut portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9029"
+      ],
+      "axis": "style",
+      "id": "style-high-energy-chocolate-fmcg-ad",
+      "label": "High-energy chocolate FMCG advertising"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9009"
+      ],
+      "axis": "style",
+      "id": "style-historical-chinese-beauty-portrait",
+      "label": "Historical Chinese beauty portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9018"
+      ],
+      "axis": "style",
+      "id": "style-ink-pastel-doodle-portrait",
+      "label": "Ink-and-pastel doodle portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9027"
+      ],
+      "axis": "style",
+      "id": "style-japanese-urban-graffiti-fashion",
+      "label": "Japanese urban-graffiti fashion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9020"
+      ],
+      "axis": "style",
+      "id": "style-kawaii-family-scrapbook",
+      "label": "Kawaii family scrapbook"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9015"
+      ],
+      "axis": "style",
+      "id": "style-monochrome-fashion-editorial-poster",
+      "label": "Monochrome fashion editorial poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9012"
+      ],
+      "axis": "style",
+      "id": "style-natural-phone-bedroom-portrait",
+      "label": "Natural-light phone portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9008"
+      ],
+      "axis": "style",
+      "id": "style-outdoor-lifestyle-portrait",
+      "label": "Outdoor lifestyle portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9013"
+      ],
+      "axis": "style",
+      "id": "style-photo-comic-pop-collage",
+      "label": "Photo and comic pop collage"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9024"
+      ],
+      "axis": "style",
+      "id": "style-premium-ai-product-deck-cover",
+      "label": "Premium AI product deck cover"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9002"
+      ],
+      "axis": "style",
+      "id": "style-premium-campaign-poster",
+      "label": "Premium campaign poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9023"
+      ],
+      "axis": "style",
+      "id": "style-real-to-3d-character-pair",
+      "label": "Real-to-3D character pair"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9025"
+      ],
+      "axis": "style",
+      "id": "style-red-motion-drag-fashion-poster",
+      "label": "Red motion-drag fashion poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9017"
+      ],
+      "axis": "style",
+      "id": "style-sunlit-beach-product-photography",
+      "label": "Sunlit beach product photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9007"
+      ],
+      "axis": "style",
+      "id": "style-surreal-frozen-product-campaign",
+      "label": "Surreal frozen product campaign"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9006"
+      ],
+      "axis": "style",
+      "id": "style-vintage-watercolor-travel-poster",
+      "label": "Vintage watercolor travel poster"
     }
   ]
 }

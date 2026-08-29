@@ -1,25 +1,24 @@
 {
-  "catalogRevision": "mcp-local-dcecffe353f67a16",
+  "catalogRevision": "mcp-local-2ee6c0c44461786c",
   "models": [
     {
       "activeCaseIds": [
-        "cev_0002"
-      ],
-      "displayName": "Z Image Turbo",
-      "mediaType": "image",
-      "modelFamilyId": "z-image-turbo"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0003"
-      ],
-      "displayName": "Agnes Image 2.1 Flash",
-      "mediaType": "image",
-      "modelFamilyId": "agnes-image-flash"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0004"
+        "cev_9002",
+        "cev_9003",
+        "cev_9004",
+        "cev_9005",
+        "cev_9006",
+        "cev_9009",
+        "cev_9012",
+        "cev_9013",
+        "cev_9016",
+        "cev_9018",
+        "cev_9020",
+        "cev_9024",
+        "cev_9025",
+        "cev_9026",
+        "cev_9027",
+        "cev_9029"
       ],
       "displayName": "GPT Image 2",
       "mediaType": "image",
@@ -27,7 +26,23 @@
     },
     {
       "activeCaseIds": [
-        "cev_0005"
+        "cev_9015",
+        "cev_9019"
+      ],
+      "displayName": "Nano Banana 2",
+      "mediaType": "image",
+      "modelFamilyId": "nano-banana-2"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9007",
+        "cev_9008",
+        "cev_9014",
+        "cev_9017",
+        "cev_9021",
+        "cev_9022",
+        "cev_9023",
+        "cev_9028"
       ],
       "displayName": "Nano Banana Pro",
       "mediaType": "image",
@@ -35,21 +50,12 @@
     },
     {
       "activeCaseIds": [
-        "cev_0006"
+        "cev_9010",
+        "cev_9011"
       ],
-      "displayName": "Midjourney V7",
-      "mediaType": "image",
-      "modelFamilyId": "midjourney-v7"
-    },
-    {
-      "activeCaseIds": [
-        "cev_0007",
-        "cev_0008",
-        "cev_0009"
-      ],
-      "displayName": "Agnes Video 2.0",
+      "displayName": "Seedance 2.5",
       "mediaType": "video",
-      "modelFamilyId": "agnes-video-2"
+      "modelFamilyId": "seedance-2-5"
     }
   ],
   "schemaVersion": 2

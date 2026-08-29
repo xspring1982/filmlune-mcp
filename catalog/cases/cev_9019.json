@@ -1,0 +1,177 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portraits-footballeurs-graves-cev_9019/",
+  "caseFamilyId": "cf_engraved_football_portraits",
+  "caseId": "cev_9019",
+  "caseRevisionId": "cev_9019@r0001",
+  "creator": {
+    "displayName": "simeon-sanai",
+    "handle": "@Naiknelofar788",
+    "profileUrl": "https://x.com/Naiknelofar788"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Black-and-white engraved portrait of a smiling adult footballer on ivory paper.",
+      "assetId": "asset_cev_9019_01",
+      "assetRevisionId": "asset_cev_9019_01@r0001",
+      "bytes": 220640,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1264,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9019/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "dce2b56a62ad21bf0d9639c2921bfbe41c22e4393c30322fa4de93d991ad1f65",
+      "width": 848
+    },
+    {
+      "alt": "Black-and-white engraved portrait of a bearded adult footballer with fine hatching.",
+      "assetId": "asset_cev_9019_02",
+      "assetRevisionId": "asset_cev_9019_02@r0001",
+      "bytes": 302076,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1264,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9019/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "8e251c8353701f9e67f26da8144eec22d8874ae3f8df6f5dc4eb187f34de6dd4",
+      "width": 848
+    },
+    {
+      "alt": "Black-and-white engraved portrait of a short-haired adult footballer on ivory.",
+      "assetId": "asset_cev_9019_03",
+      "assetRevisionId": "asset_cev_9019_03@r0001",
+      "bytes": 249538,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1264,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 3,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9019/image-03-r0001.webp",
+      "role": "output",
+      "sha256": "f45453a5aac18eab8aece7ae0436cc19a087ae3ccdf15ba72254b13631835567",
+      "width": 848
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the centered crop, paper texture, and engraved linework, then use a fictional face or a portrait reference with established rights.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Black-ink sports portrait engraving",
+        "promptSha256": "35c8518f8916ecf1882fe9450a29680d664bd7ab7fec07160ac71d8a26d4751d",
+        "promptText": "Create image. Ar 2:3.\nBlack and white engraved portrait illustration of a person.\nDrawn in classic woodcut / linocut engraving style, high contrast black ink on textured off-white paper background. Fine cross-hatching and line shading to create depth and shadow, bold black ink shadows under chin and around hair, strong contour lines, traditional printmaking aesthetic.\nMinimal composition, centered portrait, no body visible, clean negative space, vintage editorial illustration style, ultra detailed linework, sharp crisp ink strokes, professional vector-ready engraving look, monochrome palette, dramatic contrast.\nNegative Prompt:\ncolor, watercolor, soft shading, blurred lines, low contrast, realistic photography, 3D render, anime style, cartoon style, messy sketch, thick uneven strokes, background objects, noisy texture, pixelated, distorted face, extra eyes, extra ears, bad anatomy, modern digital painting, glossy skin, overexposed highlights",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9019_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Preserve readable facial structure while reducing portrait color and volume into traditional engraving marks.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Black-ink sports portrait engraving",
+      "outputAssetIds": [
+        "asset_cev_9019_01",
+        "asset_cev_9019_02",
+        "asset_cev_9019_03"
+      ],
+      "stepId": "step_cev_9019_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9019_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9019/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Naiknelofar788/status/2042785774245154868",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Naiknelofar788/status/2042785774245154868"
+  },
+  "summary": "Three adult football portraits use black ink, fine cross-hatching, and textured ivory paper in a consistent linocut system.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-engraved-football-portraits",
+      "label": "Engraved football portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-high-contrast-linocut-portrait",
+      "label": "High-contrast linocut portrait"
+    }
+  ],
+  "title": "High-Contrast Engraved Football Portraits",
+  "variables": [
+    {
+      "name": "face",
+      "value": "fictional adult or authorized portrait reference"
+    },
+    {
+      "name": "linework",
+      "value": "fine black engraving hatching"
+    },
+    {
+      "name": "paper",
+      "value": "lightly textured ivory stock"
+    }
+  ]
+}

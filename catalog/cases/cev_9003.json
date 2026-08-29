@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-burger-fromage-fondu-cev_9003/",
+  "caseFamilyId": "cf_split_world_fast_food_posters",
+  "caseId": "cev_9003",
+  "caseRevisionId": "cev_9003@r0001",
+  "creator": {
+    "displayName": "Loriel.AI",
+    "handle": "@ou_zhen599",
+    "profileUrl": "https://x.com/ou_zhen599"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Vertical poster with a photoreal burger and molten cheese connecting it to a flat reaction illustration.",
+      "assetId": "asset_cev_9003_01",
+      "assetRevisionId": "asset_cev_9003_01@r0001",
+      "bytes": 400940,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9003/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "21ff9f2e23c5bc15023c0f79df0471f6614d9e53d02d12424fa66df66c41e257",
+      "width": 1639
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the split composition and cheese bridge, then adapt the fictional brand, meal, palette, and reaction character.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Split-world burger campaign poster",
+        "promptSha256": "99cd768be5466e326e47fd70ccc2e9307db3bb1097bdfbeb299b6e7bc84e5c3a",
+        "promptText": "Create a bold vertical fast-food campaign poster for a fictional burger brand called MELTDOWN BURGER, merging stronger Orbit energy with a more polished Transit-level premium finish. Preserve the original split-world visual logic exactly: the upper half is a stylized viral social-post environment featuring a hyper-real burger combo in a red fast-food interior, while the lower half is a clean cream background with a minimal cartoon reaction character lying below. The two worlds are connected by one dramatic central stream of molten cheese, which acts as the main visual axis of the whole poster.\n\nUpper section:\nBuild a premium social-post-style burger scene with one gigantic double-patty cheeseburger centered prominently, shot front-facing at slightly low eye level for maximum appetite impact. The burger must be extremely realistic and indulgent: glossy sesame bun, thick juicy beef patties, molten cheddar overflowing between layers, rich sauce, pickles, and subtle grill texture. Increase the Orbit feeling by making the cheese flow more forceful and vertically dominant, as if the burger is erupting with molten energy. Place a branded red soda cup with straw and a small fries carton nearby, but keep them clearly secondary to the burger. The red fast-food interior behind should feel warm, glowy, and internationally premium, with simplified menu-board light blocks and branded packaging atmosphere, not messy or overly busy.\n\nCheese bridge:\nThe molten cheese is the central hero motion. It must begin at the burger core and fall in one long, luxurious, glossy stream down the exact central axis of the composition. The flow should feel hot, thick, elastic, and gravity-driven, with beautiful narrowing and widening, premium highlight rolloff, and physically believable viscosity. Strengthen the Orbit effect by making this cheese stream feel like a visual impact column linking the two halves of the ad.\n\nLower section:\nOn a clean cream or pale warm-beige field, place one simple black-and-red cartoon-style youth character lying on the ground with mouth open upward, receiving the cheese stream directly into the mouth. Keep the illustration minimal, iconic, and playful, with just a few tiny splash or motion accents. The lower character must function as the comic emotional payoff, not a competing focal point.\n\nBranding and interface:\nKeep the upper section inspired by a premium social-post frame, with an original fictional brand header, simple interface cues, tiny icons, and minimal post details, all newly invented and not copied from any real platform or source. Push the Transit direction by making this UI-inspired structure cleaner, more restrained, and more believable as a flagship fast-food brand social visual. Typography and UI must remain secondary to the burger and cheese.\n\nLighting and realism:\nUse warm cinematic restaurant lighting in the upper half, with soft glow from menu lights and strong appetizing highlights on the bun, patties, cheese, fries, and cup. The burger must feel premium and hyper-real, with refined texture on meat, bun, and melting cheese. The lower illustration remains flat and graphic, creating a strong high-low contrast. Keep shadows controlled, clean, and commercially polished.\n\nColor system:\nDominant fast-food red, molten cheese orange-yellow, warm burger browns, cream lower background, black cartoon linework, and small white UI accents. Keep the palette bold, branded, high-contrast, and internationally campaign-ready.\n\nNegative prompt:\nno copied brand names, no copied social media text, no exact platform UI replica, no messy burger layers, no weak cheese flow, no low-detail fries, no muddy shadows, no black blotches, no cluttered illustration, no watermark, no existing logos.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9003_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Use one motion axis to unify contrasting visual worlds while preserving appetite appeal.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Split-world burger campaign poster",
+      "outputAssetIds": [
+        "asset_cev_9003_01"
+      ],
+      "stepId": "step_cev_9003_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9003_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9003/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/ou_zhen599/status/2090082343495286965",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/ou_zhen599/status/2090082343495286965"
+  },
+  "summary": "A vertical fast-food poster joins a photoreal burger scene and a flat reaction illustration with one central stream of molten cheese.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-food-beverage",
+      "label": "Food and beverage"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-fast-food-campaign-posters",
+      "label": "Split-world fast-food campaign posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-fast-food-campaign-poster",
+      "label": "Fast-food campaign poster"
+    }
+  ],
+  "title": "Split-World Melting Cheese Burger Poster",
+  "variables": [
+    {
+      "name": "brand",
+      "value": "fictional burger brand"
+    },
+    {
+      "name": "meal",
+      "value": "burger, drink, and fries"
+    },
+    {
+      "name": "palette",
+      "value": "fast-food red, cream, and cheese yellow"
+    }
+  ]
+}

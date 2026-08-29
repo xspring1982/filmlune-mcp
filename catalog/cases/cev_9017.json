@@ -1,0 +1,202 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/serum-bronzant-bord-eau-cev_9017/",
+  "caseFamilyId": "cf_beach_skincare_product_scenes",
+  "caseId": "cev_9017",
+  "caseRevisionId": "cev_9017@r0001",
+  "creator": {
+    "displayName": "Yaseen Khan Gul",
+    "handle": "@YaseenK7212",
+    "profileUrl": "https://x.com/YaseenK7212"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Amber Golden Glow bottle on wet sand at the edge of a foamy wave.",
+      "assetId": "asset_cev_9017_01",
+      "assetRevisionId": "asset_cev_9017_01@r0001",
+      "bytes": 693814,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9017/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "58fabfda72ba5da7084f18a1ee2865f77cb8e6238ec260d883193e3aa8164f65",
+      "width": 2048
+    },
+    {
+      "alt": "Golden Glow dropper bottle surrounded by clear water, sea foam, and warm light.",
+      "assetId": "asset_cev_9017_02",
+      "assetRevisionId": "asset_cev_9017_02@r0001",
+      "bytes": 421664,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9017/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "050de81a96c6b2e52f65c03b30e42bb9a259e9d312fd1325860b0c47ae37acbc",
+      "width": 1529
+    },
+    {
+      "alt": "Overhead view of a Golden Glow bronzing bottle on a beach beneath a small wave.",
+      "assetId": "asset_cev_9017_03",
+      "assetRevisionId": "asset_cev_9017_03@r0001",
+      "bytes": 492860,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 3,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9017/image-03-r0001.webp",
+      "role": "output",
+      "sha256": "8c89e0facf211376148d7149909b1aa6eb692307f3524dad9ef0cef2d8e4fd08",
+      "width": 2048
+    },
+    {
+      "alt": "Amber Golden Glow cosmetic bottle touching sea foam on sunlit sand.",
+      "assetId": "asset_cev_9017_04",
+      "assetRevisionId": "asset_cev_9017_04@r0001",
+      "bytes": 631770,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 4,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9017/image-04-r0001.webp",
+      "role": "output",
+      "sha256": "2d23f5f885ec1deb52ab43ccbfe98ce22a525db5e65b15a7bb025254a2979d32",
+      "width": 2048
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the overhead view, rectangular dropper bottle, and natural foam while adapting the label, color, and cosmetic formula without medical claims.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Cosmetic bottle in golden sea foam",
+        "promptSha256": "387ee23602a5a3f3126b30c72fea77fe1c7605492c966df8a4ad4abe133cd013",
+        "promptText": "Ultra-realistic summer skincare product photography of a bronzing drop bottle named \"Golden Glow - Bronzing Elixir\", rectangular matte bottle in warm sun-kissed bronze tone with a clean white cap, placed diagonally on wet beach sand as a gentle ocean wave washes over it, delicate sea foam and tiny bubbles surrounding the base, water partially flowing across the label, fine sand texture visible beneath shallow clear water, golden sunlight casting natural highlights and soft shadows, high-detail water ripples and realistic foam patterns, fresh summer aesthetic, minimal clean branding centered and sharp, warm golden-hour beach lighting, cinematic top-down flat lay composition, natural reflections on wet surface, editorial beauty campaign style, ultra-detailed, photorealistic 8K, soft warm color grading, luxury skincare advertisement Aspect ratio 4.5",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Golden Glow - Bronzing Elixir"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9017_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Use waves, bubbles, and reflective golden light as the primary styling system for a summer skincare still life.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Cosmetic bottle in golden sea foam",
+      "outputAssetIds": [
+        "asset_cev_9017_01",
+        "asset_cev_9017_02",
+        "asset_cev_9017_03",
+        "asset_cev_9017_04"
+      ],
+      "stepId": "step_cev_9017_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9017_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9017/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/YaseenK7212/status/2021835757183209806",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/YaseenK7212/status/2021835757183209806"
+  },
+  "summary": "Four product photographs place an amber dropper bottle on wet sand among foam, shallow water, and warm sunlight.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-beach-skincare-product-scenes",
+      "label": "Beach skincare product scenes"
+    },
+    {
+      "axis": "style",
+      "id": "style-sunlit-beach-product-photography",
+      "label": "Sunlit beach product photography"
+    }
+  ],
+  "title": "Golden Beach Skincare Bottle Photography",
+  "variables": [
+    {
+      "name": "product",
+      "value": "fictional cosmetic serum in a dropper bottle"
+    },
+    {
+      "name": "surface",
+      "value": "wet sand crossed by a small wave"
+    },
+    {
+      "name": "light",
+      "value": "warm late-day sunlight"
+    }
+  ]
+}

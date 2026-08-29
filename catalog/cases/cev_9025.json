@@ -1,0 +1,195 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiches-mode-distorsion-rouge-cev_9025/",
+  "caseFamilyId": "cf_distorted_fashion_campaign_posters",
+  "caseId": "cev_9025",
+  "caseRevisionId": "cev_9025@r0001",
+  "creator": {
+    "displayName": "Saul Goodman",
+    "handle": "@Goodmanprotocol",
+    "profileUrl": "https://x.com/Goodmanprotocol"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Red poster with an adult model whose dark outfit stretches into long graphic trails.",
+      "assetId": "asset_cev_9025_01",
+      "assetRevisionId": "asset_cev_9025_01@r0001",
+      "bytes": 202836,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9025/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "a43973052bfd9854260f89187586c0771e3d93cee8be8a18ca58333eee9ea472",
+      "width": 1122
+    },
+    {
+      "alt": "Red streetwear poster with an adult figure distorted by horizontal motion drag.",
+      "assetId": "asset_cev_9025_02",
+      "assetRevisionId": "asset_cev_9025_02@r0001",
+      "bytes": 172018,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9025/image-02-r0001.webp",
+      "role": "output",
+      "sha256": "5aa64cc4199486bfbe68de157fa4da315e6e184db40d59e14876a419b60e3c36",
+      "width": 1122
+    },
+    {
+      "alt": "Vertical fashion portrait of an adult on red with stretched clothing and film grain.",
+      "assetId": "asset_cev_9025_03",
+      "assetRevisionId": "asset_cev_9025_03@r0001",
+      "bytes": 155306,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 3,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9025/image-03-r0001.webp",
+      "role": "output",
+      "sha256": "a1a0ade068f764165b9fe8494f1ffdec1546d699003f12b1d5c42e9a5903275d",
+      "width": 1122
+    },
+    {
+      "alt": "Red campaign poster with an adult model, textile trails, and technical microtype.",
+      "assetId": "asset_cev_9025_04",
+      "assetRevisionId": "asset_cev_9025_04@r0001",
+      "bytes": 185026,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 4,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9025/image-04-r0001.webp",
+      "role": "output",
+      "sha256": "ac4fa909da8db1060f1d45b0d7bb03b81b874ee5a448316b7d85e789f91918cb",
+      "width": 1122
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the red field, full-body figure, and directional clothing trails while using a fictional adult model, unbranded clothing, and non-deceptive microtype.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Stretched streetwear silhouette on red",
+        "promptSha256": "9568267ca282cbff2c94e0626e16e776e915e3dd5b803ebc0992761856c65a56",
+        "promptText": "Hip-hop fashion model standing full-frame, clothing distorted into stretched streaks like motion drag, bold red background, retro film grain, barcode + tiny technical text in bottom area, modern fashion-magazine layout, expressive weirdness, cool attitude , 4K high detail. --ar 4:5 --raw",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9025_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Give a streetwear campaign a strong sense of motion while retaining a readable figure and editorial poster hierarchy.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Stretched streetwear silhouette on red",
+      "outputAssetIds": [
+        "asset_cev_9025_01",
+        "asset_cev_9025_02",
+        "asset_cev_9025_03",
+        "asset_cev_9025_04"
+      ],
+      "stepId": "step_cev_9025_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9025_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9025/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Goodmanprotocol/status/2048599189681291673",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Goodmanprotocol/status/2048599189681291673"
+  },
+  "summary": "Four vertical posters stretch adult models' clothing into controlled graphic trails over red backgrounds with film grain, barcodes, and technical microtype.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-distorted-fashion-campaign-posters",
+      "label": "Distorted fashion campaign posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-red-motion-drag-fashion-poster",
+      "label": "Red motion-drag fashion poster"
+    }
+  ],
+  "title": "Red Motion-Drag Fashion Campaign Posters",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "fictional full-body adult fashion model"
+    },
+    {
+      "name": "distortion",
+      "value": "clothing stretched into horizontal motion trails"
+    },
+    {
+      "name": "details",
+      "value": "retro grain, barcode, and decorative microtype"
+    }
+  ]
+}

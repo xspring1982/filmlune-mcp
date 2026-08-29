@@ -1,0 +1,226 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/couverture-presentation-produit-ia-cev_9024/",
+  "caseFamilyId": "cf_ai_product_presentation_covers",
+  "caseId": "cev_9024",
+  "caseRevisionId": "cev_9024@r0001",
+  "creator": {
+    "displayName": "Cellier",
+    "handle": "@cellier_",
+    "profileUrl": "https://x.com/cellier_"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Dark-blue Chronicle presentation cover with a white heading, interface mockup, and compact feature labels.",
+      "assetId": "asset_cev_9024_01",
+      "assetRevisionId": "asset_cev_9024_01@r0001",
+      "bytes": 104492,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1086,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9024/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "3b9d4cdc18aaa617497e556d2e2a36f43832bdbfd1b1045ad48ce92023d74713",
+      "width": 1448
+    }
+  ],
+  "mediaType": "image",
+  "method": "Keep the asymmetrical layout, generous whitespace, and protected source text; replace the brand, interface, and claims with authorized and verified material in any new work.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Editorial 4:3 cover for an AI platform",
+        "promptSha256": "a9a62e323b61c2135e817a643e73d18dd81d549e82a323f2377a34da70b62a19",
+        "promptText": "Create a premium 4:3 presentation cover slide introducing Chronicle, the AI-native presentation platform from http://chroniclehq.com.  \n\nStyle: \nelegant, minimal, modern, premium startup aesthetic. Similar to high-end brand guideline covers (like Apple / Linear / Notion style). Soft gradient background with subtle depth, clean whitespace, refined typography, polished editorial layout.  \n\nMain title: \nCHRONICLE  \n\nSubtitle: \nAI PRESENTATION PLATFORM  \n\nBody copy (small elegant text): \nTurn raw ideas into polished, high-impact presentations. \nStart from notes, docs, links, or existing decks. \nGenerate beautiful, on-brand slides with AI. \nEdit freely on a flexible canvas. \nExport to PPT, PDF, or publish as a website.  \n\nFeature highlights (small premium labels): \nSTORY-FIRST \nON-BRAND DESIGN \nAI EDITING \nFREEFORM CANVAS \nPPT EXPORT \nTEAM COLLABORATION  \n\nBottom-right elegant logo text: \nchronicle  \n\nVisual feeling: \nbusiness-class premium, strategy deck quality, consulting-grade presentation, slightly futuristic but highly professional.  \n\nComposition: \nclean editorial balance, asymmetrical layout, strong whitespace, presentation software hero shot feeling.  \n\nAspect ratio: \n4:3  \n\nLanguage: \nEnglish only",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "CHRONICLE"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "AI PRESENTATION PLATFORM"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Turn raw ideas into polished, high-impact presentations."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Start from notes, docs, links, or existing decks."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Generate beautiful, on-brand slides with AI."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Edit freely on a flexible canvas."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Export to PPT, PDF, or publish as a website."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "STORY-FIRST"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "ON-BRAND DESIGN"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "AI EDITING"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "FREEFORM CANVAS"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "PPT EXPORT"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "ui_text",
+            "value": "TEAM COLLABORATION"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "chronicle"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9024_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Open a digital-product presentation with a readable hierarchy that balances product identity, interface evidence, and concise capability copy.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Editorial 4:3 cover for an AI platform",
+      "outputAssetIds": [
+        "asset_cev_9024_01"
+      ],
+      "stepId": "step_cev_9024_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9024_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9024/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/cellier_/status/2046615173411262959",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/cellier_/status/2046615173411262959"
+  },
+  "summary": "A 4:3 cover introduces Chronicle through a dark-blue editorial layout, oversized type, an interface mockup, and compact feature labels.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-brand-identity",
+      "label": "Brand design"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-ai-product-presentation-covers",
+      "label": "AI product presentation covers"
+    },
+    {
+      "axis": "style",
+      "id": "style-premium-ai-product-deck-cover",
+      "label": "Premium AI product deck cover"
+    }
+  ],
+  "title": "Premium AI Product Presentation Cover",
+  "variables": [
+    {
+      "name": "product",
+      "value": "digital platform with an authorized identity"
+    },
+    {
+      "name": "layout",
+      "value": "asymmetrical 4:3 cover with an interface mockup"
+    },
+    {
+      "name": "palette",
+      "value": "dark blue, soft violet, and white"
+    }
+  ]
+}

@@ -38,6 +38,10 @@ assert.equal(typeof firstActiveRevisionId, "string");
 assert.equal(typeof firstTombstoneId, "string");
 const staleRevision = `${firstActiveId}@r9999`;
 assert.notEqual(staleRevision, firstActiveRevisionId);
+const languageNeutralExpected = (await Promise.all(manifest.activeIds.map(async (caseId) => {
+  const record = JSON.parse(await readFile(path.join(ROOT, "catalog/cases", `${caseId}.json`), "utf8"));
+  return record.outputLanguage === "und" ? { caseId, outputLanguage: "und" } : null;
+}))).filter((record) => record !== null);
 
 /** @param {string} directory @param {string} prefix */
 async function generatedFiles(directory, prefix) {
@@ -159,13 +163,17 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
 
     const firstPage = structured(await client.callTool({
       name: "search_cases",
-      arguments: { mediaType: "video", limit: 2 },
+      arguments: { mediaType: "image", limit: 2 },
     }));
-    assert.equal(/** @type {unknown[]} */ (firstPage.items).length, 2);
-    assert.equal(typeof firstPage.nextCursor, "string");
+    assert.equal(
+      /** @type {unknown[]} */ (firstPage.items).length,
+      Math.min(2, manifest.activeIds.length),
+    );
+    if (manifest.activeIds.length > 2) assert.equal(typeof firstPage.nextCursor, "string");
+    else assert.equal(firstPage.nextCursor, null);
     const repeated = structured(await client.callTool({
       name: "search_cases",
-      arguments: { mediaType: "video", limit: 2 },
+      arguments: { mediaType: "image", limit: 2 },
     }));
     assert.deepEqual(repeated, firstPage);
 
@@ -173,8 +181,17 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
       name: "search_cases",
       arguments: { outputLanguage: "und", limit: 50 },
     }));
-    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (languageNeutral.items)
-      .every(({ outputLanguage }) => outputLanguage === "und"), true);
+    assert.deepEqual(
+      /** @type {Array<{caseId:string,outputLanguage:string}>} */ (languageNeutral.items)
+        .map(({ caseId, outputLanguage }) => ({ caseId, outputLanguage })),
+      languageNeutralExpected,
+    );
+    const englishDiscovery = structured(await client.callTool({
+      name: "search_cases",
+      arguments: { outputLanguage: "en", limit: 50 },
+    }));
+    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (englishDiscovery.items)
+      .every(({ outputLanguage }) => outputLanguage === "en" || outputLanguage === "und"), true);
     const frenchDiscovery = structured(await client.callTool({
       name: "search_cases",
       arguments: { outputLanguage: "fr", limit: 50 },
@@ -192,7 +209,7 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
     assert.deepEqual(caseResult.availableOutputVariants, [{
       caseId: firstActiveId,
       caseRevisionId: firstActiveRevisionId,
-      outputLanguage: "und",
+      outputLanguage: "en",
       outputVariantId: currentCase.outputVariantId,
     }]);
 
@@ -203,8 +220,16 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
 
     const models = structured(await client.callTool({ name: "list_models", arguments: { limit: 50 } }));
     assert.equal(/** @type {unknown[]} */ (models.items).length, modelsCatalog.models.length);
-    const taxonomy = structured(await client.callTool({ name: "list_taxonomy", arguments: { limit: 50 } }));
-    assert.equal(/** @type {unknown[]} */ (taxonomy.items).length, taxonomyCatalog.taxonomy.length);
+    let taxonomy = structured(await client.callTool({ name: "list_taxonomy", arguments: { limit: 50 } }));
+    const taxonomyItems = [.../** @type {unknown[]} */ (taxonomy.items)];
+    while (typeof taxonomy.nextCursor === "string") {
+      taxonomy = structured(await client.callTool({
+        name: "list_taxonomy",
+        arguments: { cursor: taxonomy.nextCursor, limit: 50 },
+      }));
+      taxonomyItems.push(.../** @type {unknown[]} */ (taxonomy.items));
+    }
+    assert.equal(taxonomyItems.length, taxonomyCatalog.taxonomy.length);
     const changes = structured(await client.callTool({ name: "get_changes", arguments: { limit: 50 } }));
     assert.equal(/** @type {unknown[]} */ (changes.items).length, manifest.changes.length);
 
