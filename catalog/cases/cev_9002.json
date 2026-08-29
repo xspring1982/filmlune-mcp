@@ -1,0 +1,185 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiches-smartphone-pro-ultra-cev_9002/",
+  "caseFamilyId": "cf_smartphone_campaign_posters",
+  "caseId": "cev_9002",
+  "caseRevisionId": "cev_9002@r0001",
+  "creator": {
+    "displayName": "ᴍᴜʀᴘʜʏ",
+    "handle": "@Diplomeme",
+    "profileUrl": "https://x.com/Diplomeme"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Orange iPhone Pro campaign poster with a model presenting the device in forced perspective.",
+      "assetId": "asset_cev_9002_apple",
+      "assetRevisionId": "asset_cev_9002_apple@r0001",
+      "bytes": 120138,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9002/apple-r0001.webp",
+      "role": "hero",
+      "sha256": "09f31eb8827ae1fe15501aad3f25e37e7ab79016e2d2bd177f54dfd7bc2f365f",
+      "width": 1122
+    },
+    {
+      "alt": "Violet Samsung Ultra campaign poster with a model, smartphone, and S Pen in forced perspective.",
+      "assetId": "asset_cev_9002_samsung",
+      "assetRevisionId": "asset_cev_9002_samsung@r0001",
+      "bytes": 96682,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1402,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 2,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9002/samsung-r0001.webp",
+      "role": "output",
+      "sha256": "d24293ba26d208a18aba196386ce9b29dc5a3f8800ead4acac3912557b027998",
+      "width": 1122
+    }
+  ],
+  "mediaType": "image",
+  "method": "Select one variant, preserve its layered composition, and adapt the product, palette, headline, copy, and four feature modules without mixing the two art directions.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Apple Pro poster",
+        "promptSha256": "91231ca859250b471d4c23dc37349dcf2f55403f2b6af6f37caa101b376bcf1b",
+        "promptText": "Prompt : \n\nFORMAT:\n4:5 vertical premium smartphone campaign poster, ultra-high resolution (8K), global OOH + digital + social ready\nStyle: Apple-level minimalism × bold Gen-Z composition × hyper-real commercial photography\n\n🧠 CORE INTENT:\n“PRO, WITHOUT TRYING.”\n\nEffortless power.\nQuiet confidence.\nNo noise — just precision.\n\n🎬 SCENE COMPOSITION:\n\nBACKGROUND:\nPure matte white canvas with a dominant rounded rectangle block in ultra-vibrant burnt orange gradient (top-left → bottom-right glow)\n\nGIANT TYPOGRAPHY (BACKGROUND LAYER):\n“PRO”\n- ultra-bold geometric sans-serif\n- stretched wide kerning\n- partially cropped by frame edges\n- soft shadow depth\n- color: deep orange slightly darker than background block\n- subtle emboss effect\n\n👤 SUBJECT (HUMAN ELEMENT):\n\n- Female model, clean editorial look (Apple casting style)\n- Neutral expression (confident, calm, not smiling)\n- Hair: natural flow, slightly wind-touched\n- Outfit:\n  → muted tones (off-white + deep maroon jacket)\n  → minimal styling, no distractions\n\nPOSE:\n- Shot from slightly low angle (hero perspective)\n- One hand extended toward camera holding iPhone\n- Body slightly angled for depth\n- Face aligned toward viewer (eye contact)\n\n📱 PRODUCT (HERO FOCUS):\n\nDEVICE:\niPhone 17 Pro in Titanium Orange finish\n\nPOSITION:\n- Extreme foreground (forced perspective)\n- Slight tilt to reveal camera module depth\n\nDETAILING:\n- triple camera system hyper-sharp\n- lens reflections physically accurate\n- brushed titanium edge highlights\n- micro-scratches + realistic material response\n- Apple logo centered, subtle reflective gloss\n\nREFLECTION:\n- soft studio reflection on device edges\n- micro light bloom around camera rings\n\n✨ LIGHTING SYSTEM:\n\nMAIN LIGHT:\nSoft studio key light (front-left)\n→ smooth skin tones\n→ clean product highlights\n\nRIM LIGHT:\nWarm edge light from right\n→ enhances phone silhouette\n→ highlights metallic edges\n\nACCENT LIGHT:\nSubtle glow from background orange block\n\nSHADOW:\nSoft drop shadow under subject + phone\n(no harsh contrast)\n\n🎨 COLOR SYSTEM:\n\n- Primary: Apple Orange (hero)\n- Secondary: Clean white\n- Accent: warm highlights + skin tones\n- Contrast: deep micro-shadows\n\nNo over-saturation.\nNo neon.\nControlled premium palette.\n\n✨ GRAPHIC ELEMENTS:\n\n- Minimal sparkle icons ✦ (2–3 only)\n- Soft floating UI pill (glass morphism)\n- Very subtle grain for realism\n\n✍️ TYPOGRAPHY SYSTEM:\n\nTOP LEFT:\nApple logo (black, small, clean)\n\nTOP RIGHT:\n“Built for Apple Intelligence.” (thin sans-serif)\n\nMID LEFT (pill):\n“iPhone 17 Pro”\n\nCENTER DOMINANT:\n“PRO” (background type)\n\nBOTTOM RIGHT (body text):\nSmall paragraph:\n\n“iPhone 17 Pro. Uncompromising power.\nA19 Pro chip. Advanced camera system.\nDesigned for what’s next.”\n\n📊 FEATURE STRIP (BOTTOM GRID):\n\n4 rounded cards (glass-white panels):\n\n1. A19 PRO CHIP  \n   “Unstoppable performance.”\n\n2. 48MP PRO CAMERA  \n   “Total creative control.”\n\n3. 4K DOLBY VISION  \n   “Cinematic in every frame.”\n\n4. APPLE INTELLIGENCE  \n   “Personal. Private. Powerful.”\n\nIcons minimal line style\n\n📐 COMPOSITION GRID:\n\n- Top: brand + statement\n- Mid: subject + product (dominant)\n- Background: typography layer\n- Bottom: feature modules\n\nEye flow:\nFace → Phone → Camera → “PRO” → Features\n\n🎥 CAMERA SPECS:\n\n- ARRI Alexa Mini LF\n- 50mm anamorphic lens\n- shallow depth of field\n- HDR rendering\n- ultra-real skin + material detail\n- slight lens distortion for realism",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9002_01"
+      },
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Samsung Ultra poster",
+        "promptSha256": "4d92cd9f38f354ba1a8edb61c2149da4ef3aa2cd8622cdab8124e8fe5ce3ca03",
+        "promptText": "Samsung prompt : \n\nFORMAT:\n4:5 vertical premium smartphone campaign poster, ultra-high resolution (8K), global OOH + digital + social ready\nStyle: Samsung futuristic tech aesthetic × bold Gen-Z composition × hyper-real commercial photography\n\n🧠 CORE INTENT:\n“ULTRA, WITHOUT LIMITS.”\n\nPower that stretches beyond hardware.\nIntelligence that adapts in real time.\nBuilt for everything you throw at it.\n\n🎬 SCENE COMPOSITION:\n\nBACKGROUND:\nDeep cosmic gradient (black → electric violet → deep blue)\n+ subtle radial glow from center\n\nGIANT TYPOGRAPHY (BACKGROUND LAYER):\n“ULTRA”\n- ultra-bold extended sans-serif\n- glowing edges (neon violet)\n- partially masked behind subject\n- slight motion blur streak horizontally\n- futuristic depth layering\n\nGRID OVERLAY:\nVery subtle sci-fi grid (low opacity)\nadds tech depth\n\n👤 SUBJECT (HUMAN ELEMENT):\n\n- Male or female, sharp futuristic styling\n- Expression: focused, intense, slightly detached\n- Styling: techwear (black / reflective fabrics)\n\nPOSE:\n- Dynamic angle (slightly leaning forward)\n- One hand extended holding phone toward camera\n- Other hand holding S-Pen (gesture mid-air)\n\nCamera angle:\nslightly low + tilted (adds motion energy)\n\n📱 PRODUCT (HERO FOCUS):\n\nDEVICE:\nSamsung Galaxy S25 Ultra in Phantom Black / Titanium Grey\n\nPOSITION:\n- extreme foreground dominance\n- angled to show camera lenses + sharp edges\n\nDETAILING:\n- quad camera lenses hyper-real glass reflections\n- subtle lens glow (AI vision feel)\n- matte back texture visible\n- sharp chamfered edges highlighted\n- S-Pen visible near device\n\nREFLECTION:\n- controlled reflection on device edges\n- micro light streaks across lenses\n\n✨ LIGHTING SYSTEM:\n\nMAIN LIGHT:\nCool white key light (front-left)\n→ defines subject + device edges\n\nRIM LIGHT:\nNeon violet / electric blue edge light\n→ outlines silhouette\n→ emphasizes futuristic feel\n\nACCENT LIGHT:\nMoving light streak reflections across device\n\nSHADOW:\nHigh contrast but controlled (tech aesthetic)\n\n🎨 COLOR SYSTEM:\n\n- Primary: deep black / graphite\n- Accent: neon violet + electric blue\n- Secondary: cool white highlights\n\nHigh contrast, futuristic palette\n\n✨ GRAPHIC ELEMENTS:\n\n- light streaks (motion trails)\n- glowing particles (very subtle)\n- UI fragments floating (AI hint)\n- grid + scan lines (low opacity)\n\n✍️ TYPOGRAPHY SYSTEM:\n\nTOP LEFT:\nSamsung logo (white, minimal)\n\nTOP RIGHT:\n“Galaxy AI inside.” (thin futuristic sans-serif)\n\nMID LEFT (pill):\n“Galaxy S25 Ultra”\n\nCENTER DOMINANT:\n“ULTRA” (background type)\n\nBOTTOM RIGHT (body text):\n\n“Galaxy S25 Ultra. Engineered without limits.\n200MP precision. AI-powered zoom.\nPerformance that adapts to you.”\n\n📊 FEATURE STRIP (BOTTOM GRID):\n\n4 glass-dark panels:\n\n1. 200MP CAMERA  \n   “Extreme clarity.”\n\n2. AI ZOOM  \n   “See beyond distance.”\n\n3. SNAPDRAGON ELITE  \n   “Next-gen performance.”\n\n4. S-PEN  \n   “Precision control.”\n\nIcons: minimal neon line icons\n\n📐 COMPOSITION GRID:\n\n- Top: brand + statement\n- Mid: subject + product (dominant)\n- Background: ULTRA typography\n- Bottom: feature modules\n\nEye flow:\nFace → Phone → Camera → Glow → Features\n\n🎥 CAMERA SPECS:\n\n- ARRI Alexa Mini LF\n- 50mm anamorphic\n- shallow DOF\n- HDR lighting\n- cinematic contrast\n- slight lens distortion for realism",
+        "protectedLiterals": [],
+        "stepIndex": 2,
+        "variantId": "ppv_9002_02"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Reuse a proven campaign hierarchy while keeping each brand direction independent.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Apple Pro poster",
+      "outputAssetIds": [
+        "asset_cev_9002_apple"
+      ],
+      "stepId": "step_cev_9002_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9002_01"
+    },
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Samsung Ultra poster",
+      "outputAssetIds": [
+        "asset_cev_9002_samsung"
+      ],
+      "stepId": "step_cev_9002_02",
+      "stepIndex": 2,
+      "variantId": "ppv_9002_02"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9002/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Diplomeme/status/2050044222041124979",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Diplomeme/status/2050044222041124979"
+  },
+  "summary": "Two premium 4:5 smartphone campaign directions pair product-first forced perspective with distinct Apple-inspired and Samsung-inspired art systems.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-smartphone-campaign-posters",
+      "label": "Smartphone campaign posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-premium-campaign-poster",
+      "label": "Premium campaign poster"
+    }
+  ],
+  "title": "Pro and Ultra Smartphone Campaign Posters",
+  "variables": [
+    {
+      "name": "brand",
+      "value": "Apple or Samsung"
+    },
+    {
+      "name": "product",
+      "value": "premium smartphone"
+    },
+    {
+      "name": "headline",
+      "value": "short dominant promise"
+    },
+    {
+      "name": "palette",
+      "value": "minimal orange or futuristic violet"
+    }
+  ]
+}

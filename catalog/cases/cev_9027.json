@@ -1,0 +1,141 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-mode-graffiti-japonais-cev_9027/",
+  "caseFamilyId": "cf_japanese_graffiti_fashion_posters",
+  "caseId": "cev_9027",
+  "caseRevisionId": "cev_9027@r0001",
+  "creator": {
+    "displayName": "Zara",
+    "handle": "@ZaraIrahh",
+    "profileUrl": "https://x.com/ZaraIrahh"
+  },
+  "kind": "reusable_case",
+  "media": [
+    {
+      "alt": "Vertical poster with an adult woman in streetwear among colorful graffiti, stickers, and Japanese marks.",
+      "assetId": "asset_cev_9027_01",
+      "assetRevisionId": "asset_cev_9027_01@r0001",
+      "bytes": 784634,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 2048,
+      "kind": "image",
+      "mimeType": "image/webp",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "/media/external/cev_9027/image-01-r0001.webp",
+      "role": "hero",
+      "sha256": "549f1693ae210f66c3c40dd9f89fe79bcfa2de79ece593531fd16c8a417cd731",
+      "width": 1365
+    }
+  ],
+  "mediaType": "image",
+  "method": "Use a new pose, layered contemporary clothing, and street textures; verify every visible Japanese mark and avoid copying a specific person, brand, or artwork.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260824-r1",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "studio-reviewed-local-2026-08-24"
+  },
+  "outputLanguage": "ja",
+  "outputVariantId": "ov_original_ja_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Fashion portrait in a Japanese graffiti collage",
+        "promptSha256": "ef470741ca96299319503764e00d547618fee4031a490dc21a21efc7dd80d159",
+        "promptText": "Create a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Japanese visual culture. The poster should feature dynamic graffiti typography, layered spray-paint textures, hand-drawn symbols, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments that strongly reinforce the energetic atmosphere of the design. The overall composition should feel artistic, rebellious, fashionable, and visually striking, while still maintaining a premium editorial poster quality instead of looking messy or overdone. Humanity somehow turned vandalism into luxury wall art. Impressive species.\n\nThe subject must not replicate the exact pose or expression from the reference photo. Instead, create a completely new pose that feels natural, confident, and full of life. The expression should appear emotionally expressive, charismatic, and engaging, avoiding stiff, awkward, flat, or emotionless body language. The pose should reflect the elegance and sophistication commonly seen in international fashion models, with stylish posture, natural movement, and subtle attitude that enhances the overall cinematic fashion aesthetic.\n\nThe outfit should feature contemporary stylish casual fashion with strong visual appeal. Avoid plain or repetitive clothing designs. Use fashionable layering, modern streetwear inspiration, premium casual styling, and a balanced combination of colors, patterns, textures, and fabric types that create a rich and non-monotonous appearance. The clothing should feel trendy, fashionable, youthful, and visually premium while still fitting naturally into the Japanese graffiti poster concept.\n\nThe background and poster decorations should be filled with thematic urban Japanese-inspired visual elements such as graffiti walls, spray textures, painted symbols, urban signage, layered stickers, modern Japanese graphic motifs, abstract shapes, paint drips, street fashion aesthetics, and stylish decorative compositions that enhance depth and artistic intensity without distracting from the subject.\n\nLighting should feel cinematic and fashionable, with strong contrast, clean highlights, realistic skin texture, and high-end editorial poster quality. The final result must look like a premium modern street-fashion campaign poster with highly detailed textures, balanced composition, vibrant color harmony, realistic proportions, ultra-sharp focus, and immersive visual storytelling.\n\nUltra-detailed, highly aesthetic, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high resolution.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9027_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Combine a campaign-fashion silhouette with a dense urban composition while retaining subject readability and editorial balance.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Fashion portrait in a Japanese graffiti collage",
+      "outputAssetIds": [
+        "asset_cev_9027_01"
+      ],
+      "stepId": "step_cev_9027_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9027_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9027/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "allow",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/ZaraIrahh/status/2052041111586402673",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/ZaraIrahh/status/2052041111586402673"
+  },
+  "summary": "An adult woman anchors a vertical fashion poster layered with spray paint, urban stickers, neon brush marks, and Japanese calligraphic accents.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-japanese-graffiti-fashion-posters",
+      "label": "Japanese graffiti fashion posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-japanese-urban-graffiti-fashion",
+      "label": "Japanese urban-graffiti fashion"
+    }
+  ],
+  "title": "Japanese Graffiti-Inspired Fashion Poster",
+  "variables": [
+    {
+      "name": "pose",
+      "value": "natural and expressive adult fashion posture"
+    },
+    {
+      "name": "outfit",
+      "value": "layered contemporary streetwear"
+    },
+    {
+      "name": "graphics",
+      "value": "spray paint, stickers, neon, and verified calligraphy"
+    }
+  ]
+}

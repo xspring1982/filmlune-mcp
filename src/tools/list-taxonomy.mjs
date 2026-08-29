@@ -2,7 +2,7 @@
 
 import { exactInput, paginate, scopeHash } from "../catalog-reader/load-catalog.mjs";
 
-const AXES = new Set(["media", "model", "use_case", "style"]);
+const AXES = new Set(["media", "model", "use_case", "collection", "style"]);
 
 /**
  * @param {Awaited<ReturnType<import("../catalog-reader/load-catalog.mjs").loadCatalog>>} catalog

@@ -23,7 +23,7 @@ const PROTECTED_LITERAL_ROLES = new Set([
 /** @typedef {{schemaVersion:2,kind:"reusable_case"|"locator_only",caseId:string,caseRevisionId:string,caseFamilyId?:string,outputVariantId?:string,canonicalUrl?:string,presentationLanguage?:"en",outputLanguage?:string,publicationState?:string,mediaType?:"image"|"video",title?:string,summary?:string,purpose?:string,method?:string,variables?:unknown[],model?:Record<string,unknown>,taxonomy?:unknown[],creator?:Record<string,unknown>,source:Record<string,unknown>,provenance:Record<string,unknown>,rights:Record<string,unknown>,prompt?:{availability:string,variants:Array<Record<string,unknown>>},media?:Array<Record<string,unknown>>,recipe?:Array<Record<string,unknown>>,reportUrl?:string}} CatalogCase */
 /** @typedef {{schemaVersion:1,kind:"tombstone",caseId:string,caseRevisionId:string,status:"removed",removedAtUtc:string,reasonCode:string,reportUrl:string,provenance:Record<string,unknown>,rights:Record<string,unknown>}} CatalogTombstone */
 /** @typedef {{schemaVersion:2,catalogRevision:string,models:Array<{modelFamilyId:string,displayName:string,mediaType:"image"|"video",activeCaseIds:string[]}>}} ModelsDocument */
-/** @typedef {{schemaVersion:2,catalogRevision:string,taxonomy:Array<{id:string,label:string,axis:"media"|"model"|"use_case"|"style",activeCaseIds:string[]}>}} TaxonomyDocument */
+/** @typedef {{schemaVersion:2,catalogRevision:string,taxonomy:Array<{id:string,label:string,axis:"media"|"model"|"use_case"|"collection"|"style",activeCaseIds:string[]}>}} TaxonomyDocument */
 /** @typedef {{manifest:CatalogManifest,cases:Map<string,CatalogCase>,tombstones:Map<string,CatalogTombstone>,models:ModelsDocument,taxonomy:TaxonomyDocument}} ValidatedCatalog */
 
 /** @param {string|Uint8Array} value @returns {string} */
@@ -205,7 +205,9 @@ function validateRights(rights, kind) {
   if (kind === "locator") {
     if (rights.decision !== "unknown" || rights.mcp !== "source_link_only") fail();
   } else if (kind === "reusable") {
-    if ((rights.decision !== "owned" && rights.decision !== "licensed")
+    if ((rights.decision !== "owned"
+      && rights.decision !== "licensed"
+      && rights.decision !== "operator_risk_accepted")
       || rights.mcp !== "allow") fail();
   } else if (rights.decision !== "rejected" || rights.mcp !== "deny"
     || rights.prompt !== "deny" || rights.media !== "deny" || rights.social !== "deny") fail();
@@ -359,7 +361,8 @@ function decodeCase(value, manifest, expectedId) {
 
   validateRights(object(record.rights), "reusable");
   const rights = object(record.rights);
-  if (record.publicationState !== "local_contract_fixture"
+  if ((record.publicationState !== "local_contract_fixture"
+      && record.publicationState !== "website_master_projection")
     || record.presentationLanguage !== "en"
     || (record.mediaType !== "image" && record.mediaType !== "video")) fail();
   if (!FAMILY_ID.test(string(record.caseFamilyId))
@@ -388,7 +391,7 @@ function decodeCase(value, manifest, expectedId) {
   const taxonomyIds = taxonomy.map((value) => {
     const entry = object(value);
     exactKeys(entry, ["axis", "id", "label"]);
-    if (!new Set(["media", "model", "use_case", "style"]).has(string(entry.axis))) fail();
+    if (!new Set(["media", "model", "use_case", "collection", "style"]).has(string(entry.axis))) fail();
     string(entry.label);
     return string(entry.id);
   });
@@ -402,13 +405,17 @@ function decodeCase(value, manifest, expectedId) {
 
   const media = record.media;
   if (!Array.isArray(media)) fail();
+  const requiresMediaSha256 = manifest.generator.version === "mcp-catalog-v3"
+    && record.publicationState === "website_master_projection";
   const assetIds = new Set(media.map((value, index) => {
     const asset = object(value);
-    exactKeys(asset, [
+    const keys = [
       "alt", "assetId", "assetRevisionId", "bytes", "durationSeconds",
       "generationReferenceUse", "height", "kind", "mimeType", "ordinal", "posterUrl",
       "publicUrl", "role", "width",
-    ]);
+    ];
+    if (requiresMediaSha256) keys.push("sha256");
+    exactKeys(asset, keys);
     const assetId = string(asset.assetId);
     if (asset.assetRevisionId !== `${assetId}@r0001` || integer(asset.ordinal, 1) !== index + 1
       || (asset.kind !== "image" && asset.kind !== "video")
@@ -423,6 +430,7 @@ function decodeCase(value, manifest, expectedId) {
     string(asset.alt);
     publicPathOrHttps(asset.publicUrl);
     if (asset.posterUrl !== null) publicPathOrHttps(asset.posterUrl);
+    if (requiresMediaSha256) hash(asset.sha256);
     return assetId;
   }));
   if (assetIds.size !== media.length) fail();
@@ -487,7 +495,7 @@ function decodeManifest(value) {
   const generator = object(manifest.generator);
   exactKeys(generator, ["sha256", "version"]);
   const generatorVersion = string(generator.version);
-  if (generatorVersion !== "mcp-catalog-v2") fail();
+  if (generatorVersion !== "mcp-catalog-v2" && generatorVersion !== "mcp-catalog-v3") fail();
   const presentation = object(manifest.presentation);
   exactKeys(presentation, ["language", "revision", "sha256"]);
   if (presentation.language !== "en") fail();
@@ -597,7 +605,7 @@ function decodeTaxonomy(value, manifest, cases) {
     exactKeys(entry, ["activeCaseIds", "axis", "id", "label"]);
     const id = string(entry.id);
     const label = string(entry.label);
-    if (ids.has(id) || !new Set(["media", "model", "use_case", "style"]).has(string(entry.axis))) fail();
+    if (ids.has(id) || !new Set(["media", "model", "use_case", "collection", "style"]).has(string(entry.axis))) fail();
     ids.add(id);
     const activeCaseIds = stringArray(entry.activeCaseIds, false);
     if (activeCaseIds.join("\n") !== [...activeCaseIds].sort().join("\n")) fail();
@@ -611,7 +619,7 @@ function decodeTaxonomy(value, manifest, cases) {
     return {
       id,
       label,
-      axis: /** @type {"media"|"model"|"use_case"|"style"} */ (entry.axis),
+      axis: /** @type {"media"|"model"|"use_case"|"collection"|"style"} */ (entry.axis),
       activeCaseIds,
     };
   });

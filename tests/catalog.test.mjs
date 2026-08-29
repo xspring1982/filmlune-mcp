@@ -27,7 +27,7 @@ test("catalog validates the exact manifest-driven active and tombstone inventori
   assert.ok(firstActive);
   assert.equal(firstActive.schemaVersion, 2);
   assert.equal(firstActive.presentationLanguage, "en");
-  assert.equal(firstActive.outputLanguage, "und");
+  assert.equal(firstActive.outputLanguage, "en");
   assert.equal(typeof firstActive.caseFamilyId, "string");
   assert.equal(typeof firstActive.outputVariantId, "string");
   const familyLanguages = [...result.cases.values()].map((record) =>
