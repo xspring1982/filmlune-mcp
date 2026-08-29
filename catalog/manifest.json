@@ -29,7 +29,7 @@
     "cev_9028",
     "cev_9029"
   ],
-  "catalogRevision": "mcp-local-2ee6c0c44461786c",
+  "catalogRevision": "mcp-local-cc8e9209b7b8123c",
   "changes": [
     {
       "caseId": "cev_9002",
@@ -38,7 +38,7 @@
       "changeId": "change-cev_9002@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -53,7 +53,7 @@
       "changeId": "change-cev_9003@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -68,7 +68,7 @@
       "changeId": "change-cev_9004@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -83,7 +83,7 @@
       "changeId": "change-cev_9005@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -98,7 +98,7 @@
       "changeId": "change-cev_9006@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -113,7 +113,7 @@
       "changeId": "change-cev_9007@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -128,7 +128,7 @@
       "changeId": "change-cev_9008@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -143,7 +143,7 @@
       "changeId": "change-cev_9009@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -158,7 +158,7 @@
       "changeId": "change-cev_9010@r0002",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -173,7 +173,7 @@
       "changeId": "change-cev_9011@r0004",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -188,7 +188,7 @@
       "changeId": "change-cev_9012@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -203,7 +203,7 @@
       "changeId": "change-cev_9013@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -218,7 +218,7 @@
       "changeId": "change-cev_9014@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -233,7 +233,7 @@
       "changeId": "change-cev_9015@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -248,7 +248,7 @@
       "changeId": "change-cev_9016@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -263,7 +263,7 @@
       "changeId": "change-cev_9017@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -278,7 +278,7 @@
       "changeId": "change-cev_9018@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -293,7 +293,7 @@
       "changeId": "change-cev_9019@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -308,7 +308,7 @@
       "changeId": "change-cev_9020@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -323,7 +323,7 @@
       "changeId": "change-cev_9021@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -338,7 +338,7 @@
       "changeId": "change-cev_9022@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -353,7 +353,7 @@
       "changeId": "change-cev_9023@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -368,7 +368,7 @@
       "changeId": "change-cev_9024@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -383,7 +383,7 @@
       "changeId": "change-cev_9025@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -398,7 +398,7 @@
       "changeId": "change-cev_9026@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -413,7 +413,7 @@
       "changeId": "change-cev_9027@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -428,7 +428,7 @@
       "changeId": "change-cev_9028@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -443,7 +443,7 @@
       "changeId": "change-cev_9029@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -458,7 +458,7 @@
       "changeId": "change-cev_0001@r0002-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -473,7 +473,7 @@
       "changeId": "change-cev_0002@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -488,7 +488,7 @@
       "changeId": "change-cev_0003@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -503,7 +503,7 @@
       "changeId": "change-cev_0004@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -518,7 +518,7 @@
       "changeId": "change-cev_0005@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -533,7 +533,7 @@
       "changeId": "change-cev_0006@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -548,7 +548,7 @@
       "changeId": "change-cev_0007@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -563,7 +563,7 @@
       "changeId": "change-cev_0008@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -578,7 +578,7 @@
       "changeId": "change-cev_0009@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -593,7 +593,7 @@
       "changeId": "change-cev_0010@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -608,7 +608,7 @@
       "changeId": "change-cev_0011@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -623,7 +623,7 @@
       "changeId": "change-cev_0012@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -638,7 +638,7 @@
       "changeId": "change-cev_0013@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -653,7 +653,7 @@
       "changeId": "change-cev_0014@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -668,7 +668,7 @@
       "changeId": "change-cev_9001@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+        "generatorSha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
         "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
@@ -680,183 +680,183 @@
   "files": [
     {
       "path": "catalog/cases/cev_9002.json",
-      "sha256": "ca4d0edddf25b4c23840681f37700f45585b407dc9deb033d70b2d41ced1e209"
+      "sha256": "a4aca0848f8e7902d24457c730fe2f92b331371545f2a19a014e731062bc1271"
     },
     {
       "path": "catalog/cases/cev_9003.json",
-      "sha256": "16cb6df51640b84897571f396ad6999a55ae7e968d207295674dcc9287eaf918"
+      "sha256": "97a5436ce4c6e760bb2ca445622bba9db43e9eb0c3d0180b5dbffd17b2046f2c"
     },
     {
       "path": "catalog/cases/cev_9004.json",
-      "sha256": "70243c379514fcdad0a2ac2d13c3bab7386a1c3a263b8aeb07c5aa3d3d6c0b7c"
+      "sha256": "c35aad87c4353516a3160b5914b9c70614016c6729666a45324dd1f7797c632d"
     },
     {
       "path": "catalog/cases/cev_9005.json",
-      "sha256": "71901b75767f120bee71766941f16f8525ad4f1f6677a7a2ba09470e69c81080"
+      "sha256": "d11f2008b34e860fdc7a94874a7db87a2e71e1affbbecb04c6300c4d7ad13699"
     },
     {
       "path": "catalog/cases/cev_9006.json",
-      "sha256": "fe1dedf8531ea5c37d9ba8b47075803a2ba365376e7e3bb9bc483d207e15c73c"
+      "sha256": "f58a68f8b6fec82e5775766f9640b0181010e46af77fe65f69bf50549190a183"
     },
     {
       "path": "catalog/cases/cev_9007.json",
-      "sha256": "70a0035a648a35a1b1a2e6a2eeac32704209c07b7faaf8fa2862376f32622183"
+      "sha256": "fa7a5a1c443473f6678a59fee04eafef2cb92226693dca5a20c0fe0c1aeaff3f"
     },
     {
       "path": "catalog/cases/cev_9008.json",
-      "sha256": "83ffec7d736a56a2f787bc2da3f3dc13aacc6914224a09c8a7c96e93b80da10d"
+      "sha256": "4dab33072c372ad252770f8f8310975c524152244e64bf73d8746bbe008d8c26"
     },
     {
       "path": "catalog/cases/cev_9009.json",
-      "sha256": "cc17c07edf318c954479a4cf1c7fec8840e95ade8d6ba41cb0dd632639914eae"
+      "sha256": "728f2282db912e3395b3372f4c0e46cdefe558546cdd43ee94aca89442fcf110"
     },
     {
       "path": "catalog/cases/cev_9010.json",
-      "sha256": "5d029bb72f85b7c297ef0b4d0a84c84e0ef91251a766a2fc2b620f65c106c0ea"
+      "sha256": "9815f90f1a4a616b570a09bc070736d50e7beb501c4dd7af8d0aef4bf9ba1fb4"
     },
     {
       "path": "catalog/cases/cev_9011.json",
-      "sha256": "6b53e0f6c0fa08bb68cba73d620cbabc03ac4e6bfa5f95edf7dde54d5d577f94"
+      "sha256": "7fd424b1b48c9ac830e44ac38e92840ae20c3bafc364cfaf336318f2d04641cb"
     },
     {
       "path": "catalog/cases/cev_9012.json",
-      "sha256": "ba19fb116d24e2e65ada10c52d56ee81bb35c71b07dc25d2dacea9b5276f5f98"
+      "sha256": "9dc4d5b5ba34a19ad461e7171f2da5716d43348045e8b168cbd1c338cdcb2d75"
     },
     {
       "path": "catalog/cases/cev_9013.json",
-      "sha256": "e8eabb4ca308e2f20b35180571af54b5a59eef58341fae98214416e62a3c0bf8"
+      "sha256": "fb236ea77afaace134e0093fd9a86300f25c858c55ab9c462deb10b1a584513e"
     },
     {
       "path": "catalog/cases/cev_9014.json",
-      "sha256": "891d6ae4de632b29acb8137cb5dd4e2e5716cc82364a17b8806e10cb1de14333"
+      "sha256": "c33e61f06ca8615d9eb6b6586d775458a2985b26ab044214e38822754a2ca5b0"
     },
     {
       "path": "catalog/cases/cev_9015.json",
-      "sha256": "0308df8b682e698b7af5912adb76e5b2e304a4bc5f4bf803a7fc1025b45d34b2"
+      "sha256": "5e542a504138c640b86d11188f0f1338ce34fd73dc466454c3e26de350dd12fc"
     },
     {
       "path": "catalog/cases/cev_9016.json",
-      "sha256": "24a07167b18a53b24a59e6b1ca60a66f32c09c12b91da325c49e762b17d1a319"
+      "sha256": "a7756092659fcde0847daff0f095494182b1c70cf25bba441296586ef74ad394"
     },
     {
       "path": "catalog/cases/cev_9017.json",
-      "sha256": "2e84a6cc04865d3828f2478c686bb5cc194813fca35ca43ad55dfffaa83dc5c3"
+      "sha256": "459812af6345443fd389e3fa1b3c1b7762bdb18cea7444724d70cb85ce24316f"
     },
     {
       "path": "catalog/cases/cev_9018.json",
-      "sha256": "e370fffa2907229baaff6c9f7183b66de9e18f6dfb4b012d287ec5963e548606"
+      "sha256": "4081b25099f01633b5ebe5760f65ee790bb7da9459ac052804aa205ef34ea8ba"
     },
     {
       "path": "catalog/cases/cev_9019.json",
-      "sha256": "db9264a714ce14f669a1c5f2a8b02b2b7ac0657906d3d2a0ccfd1d0afee52f08"
+      "sha256": "667072802c69fe6fd27ead2b82eaef742802a6a3720908c3042d0bce7088b9ca"
     },
     {
       "path": "catalog/cases/cev_9020.json",
-      "sha256": "989f88130430ae4a28d1b9fc3d660ee192d216f0f18c1ec4329c7567431c13eb"
+      "sha256": "4877d953320024736d5af4f7ed5c296b30eb33e8680fe0d03df382421df52385"
     },
     {
       "path": "catalog/cases/cev_9021.json",
-      "sha256": "8c2c07f4859e7f494682348cf84667242b2d503e7dd4819cdb162b3c4a706739"
+      "sha256": "c0edd76cb1f1bfb5aa0f23a4f894333c32cb84982353cd2e9e581c96683f6b1e"
     },
     {
       "path": "catalog/cases/cev_9022.json",
-      "sha256": "1b10298db7b25c973ce0e7b26359195681e8acf648090be1bb444e233de4e989"
+      "sha256": "0f9c14e977a1be661fb41990ab6fbb415db6300575c874bb92c674f24b3bb77d"
     },
     {
       "path": "catalog/cases/cev_9023.json",
-      "sha256": "2d8314325d9ee1a3c829bbc6d7f50373becb0d453209f1a1d5230665c4f11965"
+      "sha256": "f345c914b5f270951cd9eecfa44e77fd1d105f463a46bbd1ec172266868e990c"
     },
     {
       "path": "catalog/cases/cev_9024.json",
-      "sha256": "9e153f350375a27fc5742e57b5f4f06b96bc971c2e4bc5a61395cc69c3c3d56f"
+      "sha256": "0edbe4dc868fe5d19126f40e29272abad6d0d264b018609a7321bff03207cc8f"
     },
     {
       "path": "catalog/cases/cev_9025.json",
-      "sha256": "e3b96359bb4bb0e3e21ab562a597d8c2ded2c2877cdf561183355a2dc59f8144"
+      "sha256": "23bc197df3d40c6c5cbd14d12925f85e31abd7232e9ddb11a60fa9bfa849ee9f"
     },
     {
       "path": "catalog/cases/cev_9026.json",
-      "sha256": "4cbefce7c9fcd148d64796991568d9703a7c360c37d9daf8e59eceda118137e4"
+      "sha256": "7ad0215cccfe462261459d8a3149584549341d590cbc2ae3883dc180c3717be3"
     },
     {
       "path": "catalog/cases/cev_9027.json",
-      "sha256": "cea4a6d10b72028cf8fa92d9cf7ea70c2bd7ed667fbc05d05778b6e36b43665b"
+      "sha256": "16e114cb80203de7c833b66edca00fd7ed538ea7cefaee6fdefe68505dbf6999"
     },
     {
       "path": "catalog/cases/cev_9028.json",
-      "sha256": "16488c85529ddadee9c5c167fa1fb92c8170b7050ffc19129bf562c251d3054a"
+      "sha256": "8b50bd2e789d11febe6aa8b5fd2de5114ddc1b4096df21a4c8440c8ca6e68038"
     },
     {
       "path": "catalog/cases/cev_9029.json",
-      "sha256": "bd7e9d98c16a5c4834d70fd11de36fb2a944f6a6e7dbf2e304111c1d02f90a2c"
+      "sha256": "1fed858da08e04cecb236d3dd002b61a28ad1c3928d830bb405b7a434b622362"
     },
     {
       "path": "catalog/models.json",
-      "sha256": "73485bc8a28fbfc31d1c35ca453bf78566670ef45e1dd64bc6f2806379aca4e2"
+      "sha256": "6d1782a727b336d537fcc961563f96e449a6c5c391a00216dbbda38688154364"
     },
     {
       "path": "catalog/taxonomy.json",
-      "sha256": "087655b8da287d5ac9128b696a0e668f64ef3abef74db073ca52cdcc89db22e9"
+      "sha256": "5d14c62ac67861bb05f0160bd4664000d91740782423a98551c1327d00a70126"
     },
     {
       "path": "catalog/tombstones/cev_0001.json",
-      "sha256": "4b0af1034facca751a868e6b11e1244e9261713d9a01dfb605f01ba36e51d939"
+      "sha256": "d173ca52c5014f7eaa763f75cc2982478fd6c934f7901605ca7a74b39e374cbd"
     },
     {
       "path": "catalog/tombstones/cev_0002.json",
-      "sha256": "e94153c2b47af701f8b6667a4e5e1f91d1707a2c8ffb551d4d94c09cb0ac87cd"
+      "sha256": "6b5a2b71b24f7d253746efc6415f02260285409a74fa30399d2eb73b9ea3a55e"
     },
     {
       "path": "catalog/tombstones/cev_0003.json",
-      "sha256": "5d50ae47a3cb71b195d65e21df94c3fed622b40c8a666e8c92f1110157354fb7"
+      "sha256": "a5edd9a0f4f0bbfc240f95959b0c32628ab6dbdc6612b2a0f6f5359ca322193c"
     },
     {
       "path": "catalog/tombstones/cev_0004.json",
-      "sha256": "eeeabbc0dc8dbdfc8c1fa9d3167cd61dd660dc7779a05b68cd86db7731b9747f"
+      "sha256": "518f74142b5802cd300eb42e608f3901befbcbdd652a34ad20fa54b8099fe9a1"
     },
     {
       "path": "catalog/tombstones/cev_0005.json",
-      "sha256": "5c920bdd8fc68644548213b5f6651700cca7a892473c9eddb46e118a76e420d8"
+      "sha256": "92ef7b847b3bff70f86fbd77c419e747f1f169a70273ad378fabd1760d24cc9c"
     },
     {
       "path": "catalog/tombstones/cev_0006.json",
-      "sha256": "1272e36d8b8c25c4e0ca3197d82c5ebb2cb07dc94bb52f9c8e75fa4a3d4bbe62"
+      "sha256": "03ce74bcb2f1a6333c6a2bc28569bafbf972daeae5e5f2acb0c99a313490eb4b"
     },
     {
       "path": "catalog/tombstones/cev_0007.json",
-      "sha256": "995f2ff8801ab9ffd09385f394c9632d2f565c060991fa594c08eb5f8fda12f8"
+      "sha256": "c58a115c64e084cc29eef85e54f852e8d4708df95df35a75c37d3a892bce2d9b"
     },
     {
       "path": "catalog/tombstones/cev_0008.json",
-      "sha256": "37213449d8c0f3932ff1caf4e40dbd458723bb5a69471da47a79bd14c2aa1473"
+      "sha256": "ae8679926f7265e4f7f1432387b905567c63c4e3e8ae72a7d6d339376adae355"
     },
     {
       "path": "catalog/tombstones/cev_0009.json",
-      "sha256": "2c56e9ac21fdc9e6c8acdd516920388bb5f04050fe082af85bcccbd1373d51c4"
+      "sha256": "adaa9064cc82e0f3228f830b57e002e1df404e7a66779867c900b60286652e8a"
     },
     {
       "path": "catalog/tombstones/cev_0010.json",
-      "sha256": "b85c679336298a13210e402af0b00d40d70213c21509fb8c6c1dc411ed66bbe4"
+      "sha256": "cc411ce7b8277dc348b53fea6d196451a32596ce50656c89c7a25831adf75140"
     },
     {
       "path": "catalog/tombstones/cev_0011.json",
-      "sha256": "5119b4feabd6b2fe01173bcd1b0bf964d3ad755edae026c4fd875da9a7c34f39"
+      "sha256": "cf8e849bdffb9938db1f54c261f6d49648f7d6f6b6a72f61c4e7aba34db2380d"
     },
     {
       "path": "catalog/tombstones/cev_0012.json",
-      "sha256": "9d1e0f212cdc3df6e0da92d5e9df6480d670487687a08168eb28438998b97623"
+      "sha256": "bbe0ef89d2bb042e34aa01a220e848034ef20ede5849fbeb22052adbd7340692"
     },
     {
       "path": "catalog/tombstones/cev_0013.json",
-      "sha256": "fdfb99a75036290dd627cd38308dfced9b4326bdd01831746443e87b2e9b1c73"
+      "sha256": "ef6489e85ac6aabc8dedd0710fbb6f333b34ae9a28e185ec9eac67a6b57c7471"
     },
     {
       "path": "catalog/tombstones/cev_0014.json",
-      "sha256": "8cc8448de7e27dd385b1c5f0448a60f4e24b2fc786e24d1d7096e5bcf386a4e1"
+      "sha256": "b10f32e8c5ce588876195267f5372013a2aee6680077f2fb5bfb0fddb7a0e06c"
     },
     {
       "path": "catalog/tombstones/cev_9001.json",
-      "sha256": "2e12aa508be6b59657bb266794ed61d80f8364811d2ffc58b0c60e3652e6b463"
+      "sha256": "d2dd671a055dd443e5028ea6455250a09d587da4522242d09e064d7340116185"
     },
     {
       "path": "schemas/case.v2.schema.json",
@@ -872,10 +872,10 @@
     }
   ],
   "generator": {
-    "sha256": "2933d325936015162558feafe92da8acf9cd6224a95478f1a69f4ba11d737282",
+    "sha256": "5c0288094d8b95ad68ed5b1c94c5f73db4bb4d4de0ea3f57a3a32db5ad53c469",
     "version": "mcp-catalog-v3"
   },
-  "modelsSha256": "73485bc8a28fbfc31d1c35ca453bf78566670ef45e1dd64bc6f2806379aca4e2",
+  "modelsSha256": "6d1782a727b336d537fcc961563f96e449a6c5c391a00216dbbda38688154364",
   "presentation": {
     "language": "en",
     "revision": "local-demo-mcp-en-2026-08-15.1",
@@ -892,7 +892,7 @@
     "sha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b",
     "websiteRepository": "filmlune.com"
   },
-  "taxonomySha256": "087655b8da287d5ac9128b696a0e668f64ef3abef74db073ca52cdcc89db22e9",
+  "taxonomySha256": "5d14c62ac67861bb05f0160bd4664000d91740782423a98551c1327d00a70126",
   "tombstoneIds": [
     "cev_0001",
     "cev_0002",
