@@ -3,12 +3,12 @@
   "caseRevisionId": "cev_0010@r0001",
   "kind": "tombstone",
   "provenance": {
-    "generatorSha256": "12a0ddaa095bbeac43f98da79e33b8c6497e7a7734700076ee76b3526ec48384",
+    "generatorSha256": "90119aa637e15d29b6e3865a4ea4d4a83939789f67a4ce4e3aba8077a13070b5",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "dd7794c70b884e88a35c4158d6372524de05c2c2839ce29a7ad6b088f606c540",
-    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-08-29.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "789b626e09a231a6958fa6c96fbdd1d723d3d246673ff90e4860961bd4a5968b"
+    "presentationSha256": "d5efa7cac31c8330d37302f8384e86fcc7bfb2b73b6cf89537f57b501c5d177b",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-09-01.2+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "84ac51e83c782f883f98d9291b5412f28e3c0ecf55f8946228476173826a5bb9"
   },
   "reasonCode": "LOCAL_FIXTURE_EDITORIAL_RETIREMENT",
   "removedAtUtc": "2026-08-13T04:00:00.000Z",
