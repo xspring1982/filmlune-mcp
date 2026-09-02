@@ -3,12 +3,12 @@
   "caseRevisionId": "cev_0010@r0001",
   "kind": "tombstone",
   "provenance": {
-    "generatorSha256": "90119aa637e15d29b6e3865a4ea4d4a83939789f67a4ce4e3aba8077a13070b5",
+    "generatorSha256": "f0c0e60b3c5b1b2f7fd243ea4121871d4c644a79b3d8aa1af2e62391faeb6d92",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
     "presentationSha256": "d5efa7cac31c8330d37302f8384e86fcc7bfb2b73b6cf89537f57b501c5d177b",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-08-29.1+external-video-hosted-cases-2026-09-01.2+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "84ac51e83c782f883f98d9291b5412f28e3c0ecf55f8946228476173826a5bb9"
+    "websiteSourceSha256": "3fa218ce1979786ed1b7c1fa51b2306a32b6266fafdbe28150f96cc49c96e49a"
   },
   "reasonCode": "LOCAL_FIXTURE_EDITORIAL_RETIREMENT",
   "removedAtUtc": "2026-08-13T04:00:00.000Z",
