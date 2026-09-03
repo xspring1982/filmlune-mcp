@@ -105,10 +105,20 @@ themselves. Website exporter parity, code review, and trusted repository or
 package distribution establish approval. Any future remote catalog updater
 must add a signed or externally pinned authenticity root before release.
 
-The [MIT license](LICENSE) covers the server software only. It does not grant
-rights to catalog records, prompts, media, social derivatives, or third-party
-source material. Each record carries its current rights projection. Denied
-prompt or media payloads are structurally absent.
+The [MIT license](LICENSE) covers the server software only. Prompt and catalog
+use is governed separately by the
+[FilmLune Prompt and Catalog Content License](CONTENT_LICENSE.md), together with
+each record's current rights projection. Eligible prompt records permit
+personal use, commercial generation, modification, and attributed individual
+reposting; they do not permit bulk scraping, prompt-pack/dataset resale,
+catalog mirroring, or competing MCP/API redistribution. Case images, videos,
+source posts, trademarks, likenesses, and third-party materials are not
+licensed with a prompt. Denied prompt or media payloads are structurally
+absent.
+
+Forking or cloning this public repository lets you run, evaluate, or contribute
+to the MCP software. It does not grant broader rights to the generated catalog
+or its media.
 
 ## Verify the candidate
 
