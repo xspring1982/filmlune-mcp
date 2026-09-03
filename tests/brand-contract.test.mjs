@@ -45,11 +45,27 @@ test("uses the FilmLune MCP package coordinate and website-owned public projecti
 });
 
 test("uses FilmLune in active server copy and documentation", async () => {
-  for (const relative of ["src/server/stdio.mjs", "README.md", "SECURITY.md", "LICENSE"]) {
+  for (const relative of [
+    "src/server/stdio.mjs",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE",
+    "CONTENT_LICENSE.md",
+  ]) {
     const contents = await text(relative);
     assert.match(contents, /FilmLune/, relative);
     assert.doesNotMatch(contents, /ÉcranGen|EcranGen|ecrangen\.com/, relative);
   }
+});
+
+test("separates eligible prompt permissions from media and bulk redistribution", async () => {
+  const license = await text("CONTENT_LICENSE.md");
+  assert.match(license, /Personal use/);
+  assert.match(license, /Commercial generation/);
+  assert.match(license, /Modification/);
+  assert.match(license, /Individual reposting/);
+  assert.match(license, /does \*\*not\*\* grant permission[\s\S]+case image, video, audio/);
+  assert.match(license, /may not:[\s\S]+distribute prompts or catalog records in bulk/);
 });
 
 test("keeps repository, schemas, generated presentation and tool descriptions English-only", async () => {
