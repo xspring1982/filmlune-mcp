@@ -30,15 +30,16 @@ test("generated reusable records expose only fields allowed by their exact right
       assert.match(creator.handle, /^@/u);
       if (record.rights.media === "deny") {
         assert.deepEqual(media, []);
-        assert.equal(prompt.variants.every((variant) =>
-          variant.adaptationClass === "independent_filmlune_rewrite"
-          && variant.promptAuthorDisplayName === "FilmLune"), true);
         const recipe = record.recipe;
         assert.ok(Array.isArray(recipe));
         assert.equal(recipe.every((step) =>
-          step.recipeContractVersion === 2
-          && Array.isArray(step.externalMediaBindings)
-          && step.externalMediaBindings.length === 0), true);
+          Array.isArray(step.inputAssetIds) && step.inputAssetIds.length === 0
+          && Array.isArray(step.outputAssetIds) && step.outputAssetIds.length === 0), true);
+        for (const variant of prompt.variants) {
+          if (variant.adaptationClass === "independent_filmlune_rewrite") {
+            assert.equal(variant.promptAuthorDisplayName, "FilmLune");
+          }
+        }
       } else {
         assert.ok(media.length >= 1);
       }

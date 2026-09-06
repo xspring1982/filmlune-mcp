@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/scene-action-bijouterie-cev_9041/",
+  "caseFamilyId": "cf_cev_9041",
+  "caseId": "cev_9041",
+  "caseRevisionId": "cev_9041@r0001",
+  "creator": {
+    "displayName": "Mimu | AI Tools & News",
+    "handle": "@mimu_ai1",
+    "profileUrl": "https://x.com/mimu_ai1"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Adapt the setting and limit the number of actions to keep the choreography readable. The result depicts fictional combat without graphic injury. The original prompt asks for 4K quality, but the file shown here is 1280 × 720 pixels and about 10 seconds long; it is not a 4K file. The prompt sets no duration; Studio proposes 10 seconds based on the observed clip. No source image is attached as a reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "Action Choreography in a Jewelry Boutique",
+        "promptSha256": "9f861bede74a56d8ca372c51777e8f10bed4e59929727bcf64e0699773ca89d9",
+        "promptText": "A dynamic, cinematic action sequence inside a luxury jewelry boutique at night. A confident young woman with long dark hair, olive skin, and sharp green eyes is the hero. She wears an elegant emerald silk evening gown and gold earrings. Three masked thieves in black tactical gear attempt a robbery, and she single-handedly defeats them with fast, precise martial arts choreography. She vaults over glass display cases, shattering them in dramatic slow motion as diamonds, pearls, and glass shards scatter and sparkle through the air like rain, catching warm spotlight beams. She slides across a marble counter, throws one attacker into a shelf of watches, and disarms the last with a spinning kick. At the end, she stands calm amid the glittering wreckage, picks up a single diamond ring, examines it in the light, and looks directly into the camera with a faint smile. Dynamic handheld camera, whip pans, slow-motion inserts, moody warm lighting with deep shadows, realistic physics, high production value, cinematic style, 4K.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9041_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study the contrast between fast action, slow-motion glass fragments and a still closing shot focused on a small object.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "Action Choreography in a Jewelry Boutique",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9041_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9041_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9041/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/mimu_ai1/status/2091215411341930633",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/mimu_ai1/status/2091215411341930633"
+  },
+  "summary": "A woman in a green gown confronts masked thieves among shattered display cases, then calmly examines a ring.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-jewelry-boutique-action",
+      "label": "Jewelry Boutique Action Scenes"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-boutique-action",
+      "label": "Warm-lit cinematic action"
+    }
+  ],
+  "title": "Action Choreography in a Jewelry Boutique",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "A woman in a green gown confronts masked thieves among shattered display cases, then calmly examines a ring."
+    }
+  ]
+}

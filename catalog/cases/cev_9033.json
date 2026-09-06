@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-reflets-verre-nuit-cev_9033/",
+  "caseFamilyId": "cf_cev_9033",
+  "caseId": "cev_9033",
+  "caseRevisionId": "cev_9033@r0001",
+  "creator": {
+    "displayName": "Taaruk",
+    "handle": "@Taaruk_",
+    "profileUrl": "https://x.com/Taaruk_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Place the subject behind curved glass and separate the sharp face from reflections. Reflection count and lip position vary in the results. Trailing parameters are retained as source text.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Night Portrait through Curved Glass",
+        "promptSha256": "70790257a3cadfa5cf513db555c8d6c0c7b07429960ce75b9d229d2a1230a90a",
+        "promptText": "Photorealistic experimental cinematic portrait inside a large rotating glass entrance at night. One naturally beautiful woman stands extremely close behind the central curved glass panel, framed from the chest upward, looking directly through the glass into the camera with calm open eyes and relaxed closed lips. Her central face remains completely clear and sharply resolved, surrounded by three elongated partial reflections of her profile flowing through the neighboring curved panels. Shoulder length dark wavy hair, distinctive natural face, subtle asymmetry, faint freckles, visible pores and realistic skin. Deep cobalt blue cotton crew neck top. The revolving glass transforms passing pedestrians and city lights into sweeping arcs of saturated crimson, cyan and warm amber around her. Rain droplets catch the light, one subtle flash shapes her face, rich transparent layers, strong circular movement, intimate eye level framing, authentic 35mm grain, analog color bleed, soft halation and raw optical realism --chaos 13 --ar 4:5 --raw --profile be6pjat --stylize 325 --weird 10 --hd",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9033_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create an impression of optical movement while keeping the main face readable.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Night Portrait through Curved Glass",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9033_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9033_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9033/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Taaruk_/status/2086678211837260118",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Taaruk_/status/2086678211837260118"
+  },
+  "summary": "Three variations surround a central face with side reflections and red, blue and amber light trails.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-glass-reflection-portraits",
+      "label": "Portraits through Glass"
+    },
+    {
+      "axis": "style",
+      "id": "style-optical-light-trails",
+      "label": "Reflections and light trails"
+    }
+  ],
+  "title": "Night Portrait through Curved Glass",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Three variations surround a central face with side reflections and red, blue and amber light trails."
+    }
+  ]
+}
