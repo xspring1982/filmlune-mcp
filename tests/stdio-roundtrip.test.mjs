@@ -21,7 +21,7 @@ const TOOL_NAMES = [
   "search_cases",
 ];
 
-/** @type {{activeIds:string[],tombstoneIds:string[],changes:Array<{caseId:string,caseRevisionId:string,changeKind:string}>}} */
+/** @type {{activeIds:string[],tombstoneIds:string[],changes:Array<{caseId:string,caseRevisionId:string,changeId:string,changeKind:string}>}} */
 const manifest = JSON.parse(await readFile(path.join(ROOT, "catalog/manifest.json"), "utf8"));
 /** @type {{models:unknown[]}} */
 const modelsCatalog = JSON.parse(await readFile(path.join(ROOT, "catalog/models.json"), "utf8"));
@@ -230,8 +230,25 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
       taxonomyItems.push(.../** @type {unknown[]} */ (taxonomy.items));
     }
     assert.equal(taxonomyItems.length, taxonomyCatalog.taxonomy.length);
-    const changes = structured(await client.callTool({ name: "get_changes", arguments: { limit: 50 } }));
-    assert.equal(/** @type {unknown[]} */ (changes.items).length, manifest.changes.length);
+    let changesPage = structured(await client.callTool({
+      name: "get_changes",
+      arguments: { limit: 50 },
+    }));
+    /** @type {Array<{changeId:string}>} */
+    const changeItems = [.../** @type {Array<{changeId:string}>} */ (changesPage.items)];
+    while (typeof changesPage.nextCursor === "string") {
+      changesPage = structured(await client.callTool({
+        name: "get_changes",
+        arguments: { cursor: changesPage.nextCursor, limit: 50 },
+      }));
+      changeItems.push(.../** @type {Array<{changeId:string}>} */ (changesPage.items));
+    }
+    assert.equal(changeItems.length, manifest.changes.length);
+    assert.equal(new Set(changeItems.map(({ changeId }) => changeId)).size, changeItems.length);
+    assert.deepEqual(
+      changeItems.map(({ changeId }) => changeId),
+      manifest.changes.map(({ changeId }) => changeId),
+    );
 
     const removed = structured(await client.callTool({
       name: "get_case",

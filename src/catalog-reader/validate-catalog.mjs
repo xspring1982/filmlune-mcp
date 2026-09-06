@@ -323,7 +323,8 @@ function validateRecipeStep(value, expectedIndex, prompt, assetIds, mediaDenied)
     stringArray(step.requiredAssetRoles);
     if (!Array.isArray(step.externalMediaBindings) || step.externalMediaBindings.length !== 0) fail();
     if (inputAssetIds.length !== 0 || outputAssetIds.length !== 0 || !mediaDenied) fail();
-  } else if (prompt.external || mediaDenied) fail();
+  } else if (prompt.external
+    || (mediaDenied && (inputAssetIds.length !== 0 || outputAssetIds.length !== 0))) fail();
 }
 
 /** @param {CatalogManifest} manifest @param {string} caseId @param {"upserted"|"removed"} changeKind @returns {string} */

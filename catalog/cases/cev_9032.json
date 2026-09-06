@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-collage-new-york-neon-cev_9032/",
+  "caseFamilyId": "cf_cev_9032",
+  "caseId": "cev_9032",
+  "caseRevisionId": "cev_9032@r0001",
+  "creator": {
+    "displayName": "Harboris",
+    "handle": "@harboriis",
+    "profileUrl": "https://x.com/harboriis"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the central face readable and arrange graphic elements around it. Animation describes the style here: the results are still images. Parameters at the end of the prompt remain source text; support depends on the model.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Neon New York Portrait Collage",
+        "promptSha256": "abcac7123d43ec139923e5d80e0f2403b4d135f65bd328878effd5c8c22b6b59",
+        "promptText": "Mixed media collage animation style, a stylish young woman walking confidently toward the camera, realistic photographic face and skin, shoulder-length softly wavy auburn hair, defined natural brows, almond-shaped eyes, refined feminine features, delicate gold hoop earrings, wearing a clean white T-shirt, outlined with glowing 2D neon green and hot pink scribble lines, New York background with recognizable urban city energy, skyscrapers, street elements, fire escapes, layered city depth, floating 3D chrome liquid shapes in the air, grungy edges, acid graphics aesthetic, dynamic fisheye lens perspective, vibrant juicy colors, high contrast, ultra-detailed, trendy editorial collage feel, stop-motion feel, bold modern composition --ar 4:5 --raw --profile glu65pn --stylize 60 --weird 4 --hd",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9032_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a sense of movement in a poster through layers, perspective and drawn outlines.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Neon New York Portrait Collage",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9032_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9032_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9032/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/harboriis/status/2070349176790192209",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/harboriis/status/2070349176790192209"
+  },
+  "summary": "Two still images combine a photographic portrait, city fragments, fluorescent outlines and chrome shapes.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-graphic-overlay-portraits",
+      "label": "Portraits with Graphic Overlays"
+    },
+    {
+      "axis": "style",
+      "id": "style-neon-collage",
+      "label": "Neon collage"
+    }
+  ],
+  "title": "Neon New York Portrait Collage",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Two still images combine a photographic portrait, city fragments, fluorescent outlines and chrome shapes."
+    }
+  ]
+}

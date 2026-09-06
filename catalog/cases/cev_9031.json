@@ -1,0 +1,120 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/fiches-archives-architecture-cev_9031/",
+  "caseFamilyId": "cf_cev_9031",
+  "caseId": "cev_9031",
+  "caseRevisionId": "cev_9031@r0001",
+  "creator": {
+    "displayName": "simeon-sanai",
+    "handle": "@Naiknelofar788",
+    "profileUrl": "https://x.com/Naiknelofar788"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Supply your own reference photograph, then arrange the landmark, a photographic detail and annotations. Check names, measurements and historical information: these are graphic compositions, not technical surveys.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Architectural Archive Cards",
+        "promptSha256": "09b7981f625ed4bac330fc42154a5f89abc25b3c8d44903c5ab7e8037cb6282f",
+        "promptText": "Use the uploaded photo as the primary reference. Create a sophisticated 4:3 landscape architectural specimen card inspired by museum archives, architectural surveys, and vintage scientific documentation. Keep the original location recognizable, but transform the presentation into a curated architectural study rather than a normal travel poster. * Place the main landmark as a large monochrome architectural cutout or finely detailed ink drawing. * Add a smaller original-color photographic fragment showing one distinctive detail of the location. * Include a simplified topographic contour map behind the architecture. * Add tiny numbered reference points, measurement marks, arrows, elevation lines, and architectural annotation symbols. * Use an aged cream paper background with subtle grain and imperfections. * Palette: black, warm beige, muted olive, and one restrained accent color extracted from the landmark. * Typography should be small, elegant, and archival: location name, country, year, No. 019, and 3 descriptive keywords. * Create subtle imperfections resembling screen printing, drafting ink, pencil marks, and old paper. * Keep generous negative space and a sophisticated museum-catalog aesthetic. Important: Avoid postcard layouts, circular stamps, tourist graphics, excessive text, cartoon styling, glossy effects, 3D rendering, and overly detailed illustrations. Overall mood: architectural archive × museum specimen × old survey document × contemporary editorial design.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "No. 019"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9031_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Turn a landmark photograph into an editorial composition inspired by architectural archives.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Architectural Archive Cards",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9031_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9031_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9031/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Naiknelofar788/status/2094626691234816034",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Naiknelofar788/status/2094626691234816034"
+  },
+  "summary": "The Great Wall, Leaning Tower of Pisa and Sydney Opera House appear on cream paper with drawings, photographic fragments and annotations.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-architecture-interiors",
+      "label": "Architecture and interiors"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-architectural-archive-cards",
+      "label": "Architectural Archive Cards"
+    },
+    {
+      "axis": "style",
+      "id": "style-archival-ink",
+      "label": "Archival ink and paper"
+    }
+  ],
+  "title": "Architectural Archive Cards",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "The Great Wall, Leaning Tower of Pisa and Sydney Opera House appear on cream paper with drawings, photographic fragments and annotations."
+    }
+  ]
+}
