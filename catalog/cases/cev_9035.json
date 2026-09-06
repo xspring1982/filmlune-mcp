@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-jus-orange-dessins-blancs-cev_9035/",
+  "caseFamilyId": "cf_cev_9035",
+  "caseId": "cev_9035",
+  "caseRevisionId": "cev_9035@r0001",
+  "creator": {
+    "displayName": "Heisenberg",
+    "handle": "@rovvmut_",
+    "profileUrl": "https://x.com/rovvmut_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep orange juice as the colour accent and use a single colour for the doodles. Check hands and accessories; the side holding the cup may vary.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Orange Juice Portrait with White Doodles",
+        "promptSha256": "5867149b89ff60af688c34971c67abd8ad0ff3406474f2def438b4724b7037fd",
+        "promptText": "A medium low-angle shot of a joyful young woman with dark hair and straight bangs, smiling brightly against a vibrant, clear blue sky. She wears a white graphic t-shirt featuring three landscape panels. In her right hand, she holds up a clear plastic cup filled with bright orange juice, featuring a white hand-drawn doodle of a smiley face on the side. Whimsical, hand-drawn white digital doodles are overlaid around her: stylized headphones rest around her neck, musical notes and stars float above her head, and glowing white motion outlines trace her silhouette. Bright, natural daylight evenly illuminates the scene, enhancing the playful, energetic pop-art aesthetic.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9035_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Pair a bright photograph with a few drawn elements to create a cheerful poster.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Orange Juice Portrait with White Doodles",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9035_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9035_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9035/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/rovvmut_/status/2056786034864927229",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/rovvmut_/status/2056786034864927229"
+  },
+  "summary": "A smiling portrait against a blue sky pairs a cup of orange juice with white headphone, star and musical-note doodles.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-graphic-overlay-portraits",
+      "label": "Portraits with Graphic Overlays"
+    },
+    {
+      "axis": "style",
+      "id": "style-white-doodles",
+      "label": "White doodles on photography"
+    }
+  ],
+  "title": "Orange Juice Portrait with White Doodles",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "A smiling portrait against a blue sky pairs a cup of orange juice with white headphone, star and musical-note doodles."
+    }
+  ]
+}

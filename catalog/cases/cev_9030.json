@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-parc-lumiere-ete-cev_9030/",
+  "caseFamilyId": "cf_cev_9030",
+  "caseId": "cev_9030",
+  "caseRevisionId": "cev_9030@r0001",
+  "creator": {
+    "displayName": "Aqsa",
+    "handle": "@Aqsahere_",
+    "profileUrl": "https://x.com/Aqsahere_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the relaxed pose and directional daylight, then adapt the outfit and park. The prompt specifies 4:5; the published image is taller.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Summer Sunlight Park Portrait",
+        "promptSha256": "09d72225ce7cfbbf450d8b38ff3a59f711c93471cef0b66ba9b122fe53593a4c",
+        "promptText": "A photorealistic candid outdoor portrait of a young woman standing in a peaceful urban park on a sunny afternoon. She has long dark-brown hair styled in a loose low ponytail, with wispy face-framing strands gently falling across her face. She gazes softly toward the side with a calm, thoughtful expression. She wears an olive-green cardigan over a delicate white textured ruffle camisole, paired with a long dark-green skirt. A deep burgundy-red shoulder bag hangs naturally at her side. One hand rests gently near her neck while the other is relaxed in front of her. She stands beside a paved walkway surrounded by green grass, mature leafy trees, and subtle urban buildings in the background. Strong sunlight filters through the trees, creating beautiful highlights in her hair, soft shadows, and a subtle lens flare in the upper corner. Natural smartphone photography, candid lifestyle aesthetic, warm sunlight, realistic skin texture, detailed hair strands, authentic fabric textures, soft atmospheric contrast, gentle vintage film grain, muted earthy color palette, shallow depth of field, cinematic natural lighting, peaceful summer mood, highly photorealistic, vertical 4:5 composition.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9030_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose a natural portrait by connecting clothing colours with the surrounding setting.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Summer Sunlight Park Portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9030_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9030_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9030/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Aqsahere_/status/2095351414524608662",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Aqsahere_/status/2095351414524608662"
+  },
+  "summary": "A portrait in green clothing combines sunlight through trees, a burgundy bag and a park background.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-urban-daylight-portraits",
+      "label": "Urban Daylight Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-natural-daylight",
+      "label": "Natural daylight"
+    }
+  ],
+  "title": "Summer Sunlight Park Portrait",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "A portrait in green clothing combines sunlight through trees, a burgundy bag and a park background."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-maille-creme-soleil-dore-cev_9036/",
+  "caseFamilyId": "cf_cev_9036",
+  "caseId": "cev_9036",
+  "caseRevisionId": "cev_9036@r0001",
+  "creator": {
+    "displayName": "auqib",
+    "handle": "@auqibhabib",
+    "profileUrl": "https://x.com/auqibhabib"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Supply your own portrait reference for identity, then adapt clothing and light. The prompt asks to preserve that reference’s face and framing; the creator’s input is not supplied.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Cream Knit Portrait in Golden Light",
+        "promptSha256": "ec8fcc6dd89f47fc20089c41040f406691b7d90be361a5ce2b8016ae8c1b51ec",
+        "promptText": "Ultra realistic close-up portrait of a beautiful young East Asian woman with the exact facial structure and soft feminine features from the reference image, natural glowing skin, subtle makeup, glossy peach lips, soft dimples, warm gentle smile, relaxed confident expression, medium-length dark brown wavy hair with natural volume and soft flyaways, direct eye contact with camera.\n\nKeep the exact composition, framing, pose, lighting, shadows, and cinematic mood from the original portrait reference. Warm golden hour sunlight hitting half of the face and body, dramatic soft shadows across the chest and background, dark blurred background with rich contrast and shallow depth of field.\n\nOutfit should be elegant minimal aesthetic fashion: cream ribbed knit top, soft beige wool overcoat casually draped over shoulders, delicate gold necklace, luxury clean-girl aesthetic, cozy premium fashion vibe.\n\nPhoto should feel natural and candid, not overposed. Preserve realistic skin texture, natural facial proportions, cinematic highlights, smooth warm color grading, luxury lifestyle photography look, ultra detailed, DSLR quality, 85mm lens, f/1.8 depth of field, high sharpness on eyes and face, soft background bokeh, premium Instagram aesthetic, realistic lighting, photorealistic, 4k.\n\nNegative prompt: cartoon, anime, exaggerated smile, oversaturated skin, plastic skin, distorted face, bad anatomy, low quality, blurry eyes, extra accessories, text, watermark, overediting, harsh HDR, duplicate features, unnatural pose, fake AI look, over sharpened skin.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9036_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Bring out the face and fabric textures through contrast between sunlight and a subdued background.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Cream Knit Portrait in Golden Light",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9036_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9036_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9036/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/auqibhabib/status/2053131052781334567",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/auqibhabib/status/2053131052781334567"
+  },
+  "summary": "A close portrait combines cream knitwear, a beige coat and warm light against a dark background.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-directional-light-beauty",
+      "label": "Directional-Light Beauty Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-golden-light",
+      "label": "Golden light"
+    }
+  ],
+  "title": "Cream Knit Portrait in Golden Light",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "A close portrait combines cream knitwear, a beige coat and warm light against a dark background."
+    }
+  ]
+}

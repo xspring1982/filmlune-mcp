@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-4a14a43c60dc033d",
+  "catalogRevision": "mcp-local-7f33492405c5cb81",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -20,6 +20,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9031"
+      ],
+      "axis": "collection",
+      "id": "collection-architectural-archive-cards",
+      "label": "Architectural Archive Cards"
+    },
+    {
+      "activeCaseIds": [
         "cev_9017"
       ],
       "axis": "collection",
@@ -33,6 +41,14 @@
       "axis": "collection",
       "id": "collection-beauty-editorial-covers",
       "label": "Beauty editorial covers"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9037"
+      ],
+      "axis": "collection",
+      "id": "collection-blind-shadow-portraits",
+      "label": "Portraits with Blind Shadows"
     },
     {
       "activeCaseIds": [
@@ -52,6 +68,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9038"
+      ],
+      "axis": "collection",
+      "id": "collection-coloured-studio-portraits",
+      "label": "Coloured-Background Studio Portraits"
+    },
+    {
+      "activeCaseIds": [
         "cev_9010"
       ],
       "axis": "collection",
@@ -60,11 +84,27 @@
     },
     {
       "activeCaseIds": [
+        "cev_9036"
+      ],
+      "axis": "collection",
+      "id": "collection-directional-light-beauty",
+      "label": "Directional-Light Beauty Portraits"
+    },
+    {
+      "activeCaseIds": [
         "cev_9025"
       ],
       "axis": "collection",
       "id": "collection-distorted-fashion-campaign-posters",
       "label": "Distorted fashion campaign posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9040"
+      ],
+      "axis": "collection",
+      "id": "collection-domestic-comedy-animation",
+      "label": "Short Animated Domestic Comedies"
     },
     {
       "activeCaseIds": [
@@ -100,6 +140,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9033"
+      ],
+      "axis": "collection",
+      "id": "collection-glass-reflection-portraits",
+      "label": "Portraits through Glass"
+    },
+    {
+      "activeCaseIds": [
         "cev_9004"
       ],
       "axis": "collection",
@@ -113,6 +161,23 @@
       "axis": "collection",
       "id": "collection-golden-hour-park-collages",
       "label": "Golden-hour park lifestyle collages"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9032",
+        "cev_9035"
+      ],
+      "axis": "collection",
+      "id": "collection-graphic-overlay-portraits",
+      "label": "Portraits with Graphic Overlays"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9039"
+      ],
+      "axis": "collection",
+      "id": "collection-haircare-video-demos",
+      "label": "Haircare Video Demonstrations"
     },
     {
       "activeCaseIds": [
@@ -137,6 +202,14 @@
       "axis": "collection",
       "id": "collection-japanese-graffiti-fashion-posters",
       "label": "Japanese graffiti fashion posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9041"
+      ],
+      "axis": "collection",
+      "id": "collection-jewelry-boutique-action",
+      "label": "Jewelry Boutique Action Scenes"
     },
     {
       "activeCaseIds": [
@@ -220,6 +293,15 @@
     },
     {
       "activeCaseIds": [
+        "cev_9030",
+        "cev_9034"
+      ],
+      "axis": "collection",
+      "id": "collection-urban-daylight-portraits",
+      "label": "Urban Daylight Portraits"
+    },
+    {
+      "activeCaseIds": [
         "cev_9006"
       ],
       "axis": "collection",
@@ -253,7 +335,16 @@
         "cev_9026",
         "cev_9027",
         "cev_9028",
-        "cev_9029"
+        "cev_9029",
+        "cev_9030",
+        "cev_9031",
+        "cev_9032",
+        "cev_9033",
+        "cev_9034",
+        "cev_9035",
+        "cev_9036",
+        "cev_9037",
+        "cev_9038"
       ],
       "axis": "media",
       "id": "media-image",
@@ -262,7 +353,10 @@
     {
       "activeCaseIds": [
         "cev_9010",
-        "cev_9011"
+        "cev_9011",
+        "cev_9039",
+        "cev_9040",
+        "cev_9041"
       ],
       "axis": "media",
       "id": "media-video",
@@ -285,7 +379,15 @@
         "cev_9025",
         "cev_9026",
         "cev_9027",
-        "cev_9029"
+        "cev_9029",
+        "cev_9030",
+        "cev_9031",
+        "cev_9032",
+        "cev_9033",
+        "cev_9034",
+        "cev_9035",
+        "cev_9036",
+        "cev_9038"
       ],
       "axis": "model",
       "id": "model-gpt-image-2",
@@ -294,7 +396,8 @@
     {
       "activeCaseIds": [
         "cev_9015",
-        "cev_9019"
+        "cev_9019",
+        "cev_9037"
       ],
       "axis": "model",
       "id": "model-nano-banana-2",
@@ -317,8 +420,18 @@
     },
     {
       "activeCaseIds": [
+        "cev_9039",
+        "cev_9041"
+      ],
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "activeCaseIds": [
         "cev_9010",
-        "cev_9011"
+        "cev_9011",
+        "cev_9040"
       ],
       "axis": "model",
       "id": "model-seedance-2-5",
@@ -327,11 +440,20 @@
     {
       "activeCaseIds": [
         "cev_9002",
-        "cev_9029"
+        "cev_9029",
+        "cev_9039"
       ],
       "axis": "use_case",
       "id": "scene-advertising-ecommerce",
       "label": "Advertising and e-commerce"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9031"
+      ],
+      "axis": "use_case",
+      "id": "scene-architecture-interiors",
+      "label": "Architecture and interiors"
     },
     {
       "activeCaseIds": [
@@ -390,7 +512,15 @@
         "cev_9012",
         "cev_9014",
         "cev_9016",
-        "cev_9021"
+        "cev_9021",
+        "cev_9030",
+        "cev_9032",
+        "cev_9033",
+        "cev_9034",
+        "cev_9035",
+        "cev_9036",
+        "cev_9037",
+        "cev_9038"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -409,11 +539,21 @@
     {
       "activeCaseIds": [
         "cev_9010",
-        "cev_9011"
+        "cev_9011",
+        "cev_9040",
+        "cev_9041"
       ],
       "axis": "use_case",
       "id": "scene-storyboard-motion",
       "label": "Storyboard, video and motion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9031"
+      ],
+      "axis": "style",
+      "id": "style-archival-ink",
+      "label": "Archival ink and paper"
     },
     {
       "activeCaseIds": [
@@ -425,11 +565,35 @@
     },
     {
       "activeCaseIds": [
+        "cev_9039"
+      ],
+      "axis": "style",
+      "id": "style-beauty-video-demo",
+      "label": "Natural-light beauty demonstration"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9037"
+      ],
+      "axis": "style",
+      "id": "style-blind-shadows",
+      "label": "Blind shadows"
+    },
+    {
+      "activeCaseIds": [
         "cev_9021"
       ],
       "axis": "style",
       "id": "style-candid-night-flash-portrait",
       "label": "Candid night-flash portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9041"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-boutique-action",
+      "label": "Warm-lit cinematic action"
     },
     {
       "activeCaseIds": [
@@ -473,6 +637,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9034"
+      ],
+      "axis": "style",
+      "id": "style-dappled-fashion",
+      "label": "Fashion and dappled shadows"
+    },
+    {
+      "activeCaseIds": [
         "cev_9010"
       ],
       "axis": "style",
@@ -502,6 +674,14 @@
       "axis": "style",
       "id": "style-golden-hour-lifestyle-portrait",
       "label": "Golden-hour lifestyle portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9036"
+      ],
+      "axis": "style",
+      "id": "style-golden-light",
+      "label": "Golden light"
     },
     {
       "activeCaseIds": [
@@ -553,6 +733,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9038"
+      ],
+      "axis": "style",
+      "id": "style-lime-studio",
+      "label": "Lime studio"
+    },
+    {
+      "activeCaseIds": [
         "cev_9015"
       ],
       "axis": "style",
@@ -561,11 +749,35 @@
     },
     {
       "activeCaseIds": [
+        "cev_9030"
+      ],
+      "axis": "style",
+      "id": "style-natural-daylight",
+      "label": "Natural daylight"
+    },
+    {
+      "activeCaseIds": [
         "cev_9012"
       ],
       "axis": "style",
       "id": "style-natural-phone-bedroom-portrait",
       "label": "Natural-light phone portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9032"
+      ],
+      "axis": "style",
+      "id": "style-neon-collage",
+      "label": "Neon collage"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9033"
+      ],
+      "axis": "style",
+      "id": "style-optical-light-trails",
+      "label": "Reflections and light trails"
     },
     {
       "activeCaseIds": [
@@ -638,6 +850,22 @@
       "axis": "style",
       "id": "style-vintage-watercolor-travel-poster",
       "label": "Vintage watercolor travel poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9040"
+      ],
+      "axis": "style",
+      "id": "style-warm-3d-comedy",
+      "label": "Warm 3D animated comedy"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9035"
+      ],
+      "axis": "style",
+      "id": "style-white-doodles",
+      "label": "White doodles on photography"
     }
   ]
 }
