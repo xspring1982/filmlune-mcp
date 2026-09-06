@@ -1,0 +1,156 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/routine-matinale-serum-cheveux-cev_9039/",
+  "caseFamilyId": "cf_cev_9039",
+  "caseId": "cev_9039",
+  "caseRevisionId": "cev_9039@r0001",
+  "creator": {
+    "displayName": "Noor",
+    "handle": "@noorlewisx",
+    "profileUrl": "https://x.com/noorlewisx"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Start with the four beats in the prompt and personalize your product. The three spoken lines and four on-screen texts are English in this original. Verify any claims before advertising use: the scene does not demonstrate a treatment’s effectiveness. The displayed video is 720 × 1260 pixels and about 15 seconds long; the prompt requests vertical 9:16. Source media is not attached as a Studio reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "Morning Hair Serum Routine",
+        "promptSha256": "386ad7e6708a26bbda03e1f433867a6e52ce856818519fac7bdffaaabd4982a8",
+        "promptText": "A realistic 15-second vertical beauty advertisement video of a young East Asian woman with long dark brown hair in a bright modern bathroom with wooden walls, large window with blinds, and natural sunlight streaming in. She wears a simple beige ribbed tank top and has natural glowing makeup with soft pink lips.\nStart with her holding a frosted glass spray bottle with a gold pump and white label, smiling brightly at the camera while looking slightly to the side. On-screen text appears: “My Hair Refresh ✨”. She speaks enthusiastically: “If your hair looks dry and messy in the morning, try this: just a little serum makes such a difference!”\nShe pumps a small amount of white serum onto her palm, then runs her fingers through her hair, applying the product. Text changes to “Smooth & Frizz-Free ✨”. She flips and smooths her hair, showing the transformation.\nNext, she runs both hands through her now shiny, smooth, silky hair while smiling and speaking: “Look how smooth and shiny my hair looks now!” Text changes to “Fresh Hair Finish ✨”.\nShe continues flipping and tossing her hair playfully, looking happy and confident. Final text appears: “Try It ✨”. She holds the bottle up again, smiling at the camera, and says: “This is definitely staying in my morning routine.”\nSoft natural lighting, warm golden hour sunlight, high-quality realistic skin texture, cinematic beauty commercial style, smooth camera movements, vertical 9:16 format, 15 seconds duration.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "My Hair Refresh ✨"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "If your hair looks dry and messy in the morning, try this: just a little serum makes such a difference!"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "Smooth & Frizz-Free ✨"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "Look how smooth and shiny my hair looks now!"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "Fresh Hair Finish ✨"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "Try It ✨"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "This is definitely staying in my morning routine."
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9039_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study the progression of a short beauty demonstration: introduce the product, show its application, stage the result and close with a direct-to-camera line.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "Morning Hair Serum Routine",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9039_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9039_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9039/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/noorlewisx/status/2092478694078251087",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/noorlewisx/status/2092478694078251087"
+  },
+  "summary": "In a bright bathroom, a woman presents and applies a serum, then shows her hair, with English dialogue and on-screen text.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-haircare-video-demos",
+      "label": "Haircare Video Demonstrations"
+    },
+    {
+      "axis": "style",
+      "id": "style-beauty-video-demo",
+      "label": "Natural-light beauty demonstration"
+    }
+  ],
+  "title": "Morning Hair Serum Routine",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "In a bright bathroom, a woman presents and applies a serum, then shows her hair, with English dialogue and on-screen text."
+    }
+  ]
+}

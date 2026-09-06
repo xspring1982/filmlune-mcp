@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-rouge-ombres-stores-cev_9037/",
+  "caseFamilyId": "cf_cev_9037",
+  "caseId": "cev_9037",
+  "caseRevisionId": "cev_9037@r0001",
+  "creator": {
+    "displayName": "auqib",
+    "handle": "@auqibhabib",
+    "profileUrl": "https://x.com/auqibhabib"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Adjust shadow direction and the strength of warm tones. The small symbols, collar and earrings described in the prompt are not all reproduced in the image.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Red Portrait with Blind Shadows",
+        "promptSha256": "bcfc2dbd9b86521c94d69488e74eded11d96af3ef57258f9182bcc0350b42ac1",
+        "promptText": "A stunning, high-resolution close-up portrait of an East Asian woman, gazing directly at the camera with a soulful expression. She is in a softly lit room, bathed in a warm, golden-orange sunlight coming from the side, filtered through venetian blinds. This lighting creates distinct, dark, parallel stripe shadows across her face, eyes, and hair, giving the composition a dramatic, cinematic feel. Her skin has a soft, sun-kissed, and smooth texture. She wears vibrant, glossy red lipstick that reflects the light, and small, ornate pearl drop earrings, partially in shadow. She is wearing a cozy, red knit turtleneck sweater. Subtle icons are placed on the collar: a tiny, stylized red heart to her lower left and a small white dove to the lower right. Her brown eyes are full of expression, reflecting the light, and her brown hair is slightly wavy and soft. The background is a soft, dark, indeterminate gradient, enhancing the contrast and focus on her face. The style is an editorial-quality, intimate beauty photograph with rich color grading.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9037_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Shape facial depth with side light broken into bands by blinds.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Red Portrait with Blind Shadows",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9037_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9037_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9037/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/auqibhabib/status/2052753391093469564",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/auqibhabib/status/2052753391093469564"
+  },
+  "summary": "Orange light and shadow bands cross a close portrait in red knitwear.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-blind-shadow-portraits",
+      "label": "Portraits with Blind Shadows"
+    },
+    {
+      "axis": "style",
+      "id": "style-blind-shadows",
+      "label": "Blind shadows"
+    }
+  ],
+  "title": "Red Portrait with Blind Shadows",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Orange light and shadow bands cross a close portrait in red knitwear."
+    }
+  ]
+}

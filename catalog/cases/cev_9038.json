@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-studio-fond-vert-citron-cev_9038/",
+  "caseFamilyId": "cf_cev_9038",
+  "caseId": "cev_9038",
+  "caseRevisionId": "cev_9038@r0001",
+  "creator": {
+    "displayName": "Duet | AI",
+    "handle": "@Sheldon056",
+    "profileUrl": "https://x.com/Sheldon056"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use your own portrait reference if you want to retain a face. Then adjust the background and green rim light while checking reflections in the glasses.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Black Outfit Portrait on a Lime Background",
+        "promptSha256": "a506d82bf02acfa37daee4eee928b7fca4c86f3b728e6f4ae31a7566b10eb943",
+        "promptText": "Ultra-realistic editorial portrait of a young man with tousled textured brown hair, piercing blue eyes, and a neatly groomed short beard. Wearing matte black round eyeglasses, a black turtleneck sweater, and a tailored black blazer. Medium close-up framing, looking slightly off-camera with a calm, intelligent, confident expression.\n\nVibrant neon lime-green seamless studio background with subtle gradient. Dramatic green rim lighting illuminating the hair, jawline, neck, and shoulders, creating a futuristic cinematic atmosphere. Professional fashion photography, luxury magazine cover aesthetic, ultra-detailed skin texture, visible pores, natural beard detail, sharp eyes, realistic reflections on glasses, high dynamic range.\n\nSoft key light from the front, subtle fill light, shallow depth of field, crisp focus on facial features, premium color grading, modern tech-founder style, minimalist composition, photorealistic, hyper-realistic, 8K, HDR, commercial advertising campaign quality.\n\nShot on an 85mm lens, f/1.8, ISO 100, studio lighting setup, ultra-sharp detail, centered composition, clean background, Vogue editorial photography, award-winning portrait photography.\n\nAdd for face consistency:\n\nFace closely matches the uploaded reference image, preserving the same facial structure, hairstyle, eye shape, beard pattern, skin tone, and overall identity while adapting only the pose, lighting, wardrobe, and background.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9038_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "682ef3ab3b72dc9be501e1d0947bd8b59a7c76105760d3819d7237e5d0c1f085",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "46e59cd7626acbd818ad30cbd4d2d9aa9f7d41c67bfe3b5c4290d6a86b405f97"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Give a portrait a strong visual identity with dark clothing and a saturated background.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Black Outfit Portrait on a Lime Background",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9038_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9038_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9038/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Sheldon056/status/2065271852570984765",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Sheldon056/status/2065271852570984765"
+  },
+  "summary": "A man in black glasses, a turtleneck and a blazer stands out against a lime studio background.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-coloured-studio-portraits",
+      "label": "Coloured-Background Studio Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-lime-studio",
+      "label": "Lime studio"
+    }
+  ],
+  "title": "Black Outfit Portrait on a Lime Background",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "A man in black glasses, a turtleneck and a blazer stands out against a lime studio background."
+    }
+  ]
+}

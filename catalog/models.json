@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-4a14a43c60dc033d",
+  "catalogRevision": "mcp-local-7f33492405c5cb81",
   "models": [
     {
       "activeCaseIds": [
@@ -18,7 +18,15 @@
         "cev_9025",
         "cev_9026",
         "cev_9027",
-        "cev_9029"
+        "cev_9029",
+        "cev_9030",
+        "cev_9031",
+        "cev_9032",
+        "cev_9033",
+        "cev_9034",
+        "cev_9035",
+        "cev_9036",
+        "cev_9038"
       ],
       "displayName": "GPT Image 2",
       "mediaType": "image",
@@ -27,7 +35,8 @@
     {
       "activeCaseIds": [
         "cev_9015",
-        "cev_9019"
+        "cev_9019",
+        "cev_9037"
       ],
       "displayName": "Nano Banana 2",
       "mediaType": "image",
@@ -51,11 +60,21 @@
     {
       "activeCaseIds": [
         "cev_9010",
-        "cev_9011"
+        "cev_9011",
+        "cev_9040"
       ],
       "displayName": "Seedance 2.5",
       "mediaType": "video",
       "modelFamilyId": "seedance-2-5"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9039",
+        "cev_9041"
+      ],
+      "displayName": "Seedance 2.0 · Pro",
+      "mediaType": "video",
+      "modelFamilyId": "seedance-2-0"
     }
   ],
   "schemaVersion": 2
