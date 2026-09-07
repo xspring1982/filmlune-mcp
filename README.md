@@ -2,8 +2,18 @@
 
 FilmLune MCP is a read-only Model Context Protocol server for FilmLune's
 rights-filtered public case catalog. This repository is an **M0 local candidate**:
-it exposes an English catalog over stdio and does not yet provide an HTTP
-service, hosted endpoint, package release, or media-generation API.
+it exposes an English catalog over stdio. This package does not provide an HTTP
+server or media-generation API and has no published package release.
+
+FilmLune also operates a separate, website-owned hosted endpoint at
+`https://filmlune.com/api/mcp`; see the [hosted MCP guide](https://filmlune.com/mcp/).
+Its five catalog tools are anonymous. The September 7 ordinary-account access
+change is prepared locally and awaits deployment: hosted generation will require
+an active email-verified FilmLune account, an owned unexpired scoped access key,
+shared safety/risk checks and eligible FilmLune credits, with no administrator
+role or invitation requirement. Welcome and daily credits apply only to GPT
+Image 2 at 1K Standard. This hosted access change adds no tools to this local
+stdio package.
 
 The server exposes exactly five tools:
 
@@ -136,9 +146,9 @@ provider acceptance, or production support.
 ## Current boundary
 
 M0 is local, deterministic, English-first, and read-only. The following are not
-implemented or claimed:
+implemented or claimed by this local package:
 
-- HTTP or a hosted remote MCP endpoint;
+- an HTTP server (the separately operated website endpoint is described above);
 - image or video generation;
 - provider selection, failover, or API-key handling;
 - FilmLune credits, billing, or subscriptions;
