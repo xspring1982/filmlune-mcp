@@ -1,4 +1,5 @@
 // @ts-check
+import { casePreview } from "./get-case.mjs";
 
 import { exactInput, paginate, scopeHash } from "../catalog-reader/load-catalog.mjs";
 
@@ -73,6 +74,7 @@ export function searchCases(catalog, value) {
     mediaType: record.mediaType,
     title: record.title,
     summary: record.summary,
+    preview: casePreview(record),
     model: record.model,
     taxonomy: record.taxonomy,
     provenance: record.provenance,

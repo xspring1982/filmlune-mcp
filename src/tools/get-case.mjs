@@ -40,5 +40,19 @@ export function getCase(catalog, value) {
     catalogRevision: catalog.manifest.catalogRevision,
     case: record,
     availableOutputVariants,
+    ...(record.kind === "reusable_case" ? { preview: casePreview(record) } : {}),
+  };
+}
+
+/** @param {import("../catalog-reader/validate-catalog.mjs").CatalogCase} record */
+export function casePreview(record) {
+  const video = record.media?.find(asset => asset.kind === "video");
+  const image = record.media?.find(asset => asset.kind === "image");
+  return {
+    imageUrl: new URL(String(video?.posterUrl ?? image?.publicUrl ?? `${record.canonicalUrl}opengraph-image/`), record.canonicalUrl).href,
+    pageUrl: record.canonicalUrl,
+    watchUrl: record.mediaType === "video" ? new URL(String(video?.publicUrl ?? record.canonicalUrl), record.canonicalUrl).href : null,
+    usage: "preview_only",
+    description: "View this example before choosing its prompt. Follow the case rights for reuse; access is not permission to republish.",
   };
 }
