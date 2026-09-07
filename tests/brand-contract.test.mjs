@@ -89,5 +89,6 @@ test("keeps repository, schemas, generated presentation and tool descriptions En
   assert.match(await text("README.md"), /M0 local candidate/);
   assert.match(await text("README.md"), /This package does not provide an HTTP\s+server/);
   assert.match(await text("README.md"), /website-owned hosted endpoint/);
-  assert.match(await text("README.md"), /ordinary-account access\s+change is prepared locally and awaits deployment/);
+  assert.match(await text("README.md"), /Hosted generation requires\s+an active email-verified FilmLune account/);
+  assert.match(await text("README.md"), /no administrator\s+role or invitation requirement/);
 });
