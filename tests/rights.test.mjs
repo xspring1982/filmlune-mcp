@@ -22,7 +22,13 @@ test("generated reusable records expose only fields allowed by their exact right
     assert.ok(creator);
     assert.ok(prompt);
     assert.ok(media);
-    if (record.publicationState === "website_master_projection") {
+    if (record.source.kind === "creator_submission") {
+      assert.equal(record.rights.decision, "licensed");
+      assert.equal(record.rights.social, "deny");
+      assert.equal(creator.handle, null);
+      assert.equal(media.length, 1);
+      assert.match(String(media[0]?.sha256), /^[a-f0-9]{64}$/u);
+    } else if (record.publicationState === "website_master_projection") {
       assert.equal(record.publicationState, "website_master_projection");
       assert.equal(record.rights.decision, "operator_risk_accepted");
       assert.notEqual(creator.displayName, "FilmLune");

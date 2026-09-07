@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-0f4f4d9401e6b666",
+  "catalogRevision": "mcp-local-c01cc6dd84f61336",
   "models": [
     {
       "activeCaseIds": [
@@ -26,7 +26,8 @@
         "cev_9034",
         "cev_9035",
         "cev_9036",
-        "cev_9038"
+        "cev_9038",
+        "cev_9201"
       ],
       "displayName": "GPT Image 2",
       "mediaType": "image",
@@ -59,6 +60,16 @@
     },
     {
       "activeCaseIds": [
+        "cev_9039",
+        "cev_9041",
+        "cev_9200"
+      ],
+      "displayName": "Seedance 2.0",
+      "mediaType": "video",
+      "modelFamilyId": "seedance-2-0"
+    },
+    {
+      "activeCaseIds": [
         "cev_9010",
         "cev_9011",
         "cev_9040"
@@ -66,15 +77,6 @@
       "displayName": "Seedance 2.5",
       "mediaType": "video",
       "modelFamilyId": "seedance-2-5"
-    },
-    {
-      "activeCaseIds": [
-        "cev_9039",
-        "cev_9041"
-      ],
-      "displayName": "Seedance 2.0 · Pro",
-      "mediaType": "video",
-      "modelFamilyId": "seedance-2-0"
     }
   ],
   "schemaVersion": 2

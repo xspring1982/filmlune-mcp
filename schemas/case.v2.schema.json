@@ -79,6 +79,8 @@
         "mimeType": {
           "enum": [
             "image/webp",
+            "image/png",
+            "image/jpeg",
             "video/mp4"
           ]
         },

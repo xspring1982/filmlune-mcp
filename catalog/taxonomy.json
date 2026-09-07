@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-0f4f4d9401e6b666",
+  "catalogRevision": "mcp-local-c01cc6dd84f61336",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -68,7 +68,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9038"
+        "cev_9038",
+        "cev_9201"
       ],
       "axis": "collection",
       "id": "collection-coloured-studio-portraits",
@@ -173,7 +174,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9039"
+        "cev_9039",
+        "cev_9200"
       ],
       "axis": "collection",
       "id": "collection-haircare-video-demos",
@@ -344,7 +346,8 @@
         "cev_9035",
         "cev_9036",
         "cev_9037",
-        "cev_9038"
+        "cev_9038",
+        "cev_9201"
       ],
       "axis": "media",
       "id": "media-image",
@@ -356,7 +359,8 @@
         "cev_9011",
         "cev_9039",
         "cev_9040",
-        "cev_9041"
+        "cev_9041",
+        "cev_9200"
       ],
       "axis": "media",
       "id": "media-video",
@@ -387,7 +391,8 @@
         "cev_9034",
         "cev_9035",
         "cev_9036",
-        "cev_9038"
+        "cev_9038",
+        "cev_9201"
       ],
       "axis": "model",
       "id": "model-gpt-image-2",
@@ -421,7 +426,8 @@
     {
       "activeCaseIds": [
         "cev_9039",
-        "cev_9041"
+        "cev_9041",
+        "cev_9200"
       ],
       "axis": "model",
       "id": "model-seedance-2-0",
@@ -441,7 +447,8 @@
       "activeCaseIds": [
         "cev_9002",
         "cev_9029",
-        "cev_9039"
+        "cev_9039",
+        "cev_9200"
       ],
       "axis": "use_case",
       "id": "scene-advertising-ecommerce",
@@ -520,7 +527,8 @@
         "cev_9035",
         "cev_9036",
         "cev_9037",
-        "cev_9038"
+        "cev_9038",
+        "cev_9201"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -565,7 +573,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9039"
+        "cev_9039",
+        "cev_9200"
       ],
       "axis": "style",
       "id": "style-beauty-video-demo",
@@ -733,7 +742,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9038"
+        "cev_9038",
+        "cev_9201"
       ],
       "axis": "style",
       "id": "style-lime-studio",
