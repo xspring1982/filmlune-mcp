@@ -87,5 +87,7 @@ test("keeps repository, schemas, generated presentation and tool descriptions En
   assert.doesNotMatch(await text("src/server/stdio.mjs"), /Rechercher|Lire une|Lister|française|retraits/);
   assert.deepEqual((await readdir(ROOT)).filter((entry) => entry.startsWith("README")), ["README.md"]);
   assert.match(await text("README.md"), /M0 local candidate/);
-  assert.match(await text("README.md"), /does not yet provide an HTTP\s+service/);
+  assert.match(await text("README.md"), /This package does not provide an HTTP\s+server/);
+  assert.match(await text("README.md"), /website-owned hosted endpoint/);
+  assert.match(await text("README.md"), /ordinary-account access\s+change is prepared locally and awaits deployment/);
 });
