@@ -420,8 +420,8 @@ function decodeCase(value, manifest, expectedId) {
     const assetId = string(asset.assetId);
     if (asset.assetRevisionId !== `${assetId}@r0001` || integer(asset.ordinal, 1) !== index + 1
       || (asset.kind !== "image" && asset.kind !== "video")
-      || (asset.mimeType !== "image/webp" && asset.mimeType !== "video/mp4")
-      || (asset.kind === "image") !== (asset.mimeType === "image/webp")
+      || (!["image/webp", "image/png", "image/jpeg", "video/mp4"].includes(string(asset.mimeType)))
+      || (asset.kind === "image") !== string(asset.mimeType).startsWith("image/")
       || !new Set(["hero", "reference", "keyframe", "output", "poster"]).has(string(asset.role))) fail();
     integer(asset.bytes, 1);
     integer(asset.width, 1);

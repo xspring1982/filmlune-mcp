@@ -24,6 +24,19 @@ The server exposes exactly five tools:
 | `list_taxonomy` | List the generated English taxonomy. |
 | `get_changes` | Read the deterministic additions, updates, and removals feed. |
 
+## Previewing a case
+
+`search_cases` and `get_case` include a `preview` with an absolute image URL,
+canonical detail page, and a video viewing URL when applicable. A client can
+show these before choosing a prompt. Existing approved hosted media links are
+preserved; read-only means the tools do not change server state, not that a
+browser cannot save a displayed image or video.
+
+Media access does not grant permission to repost. Follow each case's rights and
+source attribution. FilmLune's internal official-social authorization and
+Operator exports are separate and are not distributed by this public repository.
+No Agent-specific download credential is needed for publicly accessible media.
+
 ## What M0 does
 
 - validates every generated path and SHA-256 before startup;
