@@ -1,17 +1,35 @@
 {
-  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-studio-fond-vert-citron-cev_9038/",
-  "caseFamilyId": "cf_cev_9038",
-  "caseId": "cev_9038",
-  "caseRevisionId": "cev_9038@r0001",
+  "canonicalUrl": "https://filmlune.com/prompts/image/creation-977413e8526c1e33-cev_9201/",
+  "caseFamilyId": "cf_creator_cev_9201",
+  "caseId": "cev_9201",
+  "caseRevisionId": "cev_9201@r0001",
   "creator": {
-    "displayName": "Duet | AI",
-    "handle": "@Sheldon056",
-    "profileUrl": "https://x.com/Sheldon056"
+    "displayName": "汪三春",
+    "handle": null,
+    "profileUrl": "https://x.com/FilmLuneAI"
   },
   "kind": "reusable_case",
-  "media": [],
+  "media": [
+    {
+      "alt": "Variation: Black Outfit Portrait on a Lime Background",
+      "assetId": "cev_9201-output-1",
+      "assetRevisionId": "cev_9201-output-1@r0001",
+      "bytes": 1968867,
+      "durationSeconds": null,
+      "generationReferenceUse": true,
+      "height": 1536,
+      "kind": "image",
+      "mimeType": "image/png",
+      "ordinal": 1,
+      "posterUrl": null,
+      "publicUrl": "https://filmlune.com/api/gallery/media/cev_9201%40r0001/",
+      "role": "output",
+      "sha256": "0d5b3a5323a8e580ee03cfff869522aaec2ae854e5e7bdf51d34ba4a5c455b29",
+      "width": 1024
+    }
+  ],
   "mediaType": "image",
-  "method": "Use your own portrait reference if you want to retain a face. Then adjust the background and green rim light while checking reflections in the glasses.",
+  "method": "Use the exact prompt and model below. The selected result is a still image.",
   "model": {
     "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
     "displayName": "GPT Image 2",
@@ -20,7 +38,7 @@
     "modelVersion": "apimart-official-2026-09-01"
   },
   "outputLanguage": "und",
-  "outputVariantId": "ov_original_und_r0001",
+  "outputVariantId": "ov_creator_cev_9201_r0001",
   "presentationLanguage": "en",
   "prompt": {
     "availability": "available",
@@ -29,12 +47,12 @@
         "inputMode": "text_to_image",
         "instructionLanguage": "en",
         "kind": "image",
-        "label": "Black Outfit Portrait on a Lime Background",
+        "label": "Image prompt",
         "promptSha256": "a506d82bf02acfa37daee4eee928b7fca4c86f3b728e6f4ae31a7566b10eb943",
         "promptText": "Ultra-realistic editorial portrait of a young man with tousled textured brown hair, piercing blue eyes, and a neatly groomed short beard. Wearing matte black round eyeglasses, a black turtleneck sweater, and a tailored black blazer. Medium close-up framing, looking slightly off-camera with a calm, intelligent, confident expression.\n\nVibrant neon lime-green seamless studio background with subtle gradient. Dramatic green rim lighting illuminating the hair, jawline, neck, and shoulders, creating a futuristic cinematic atmosphere. Professional fashion photography, luxury magazine cover aesthetic, ultra-detailed skin texture, visible pores, natural beard detail, sharp eyes, realistic reflections on glasses, high dynamic range.\n\nSoft key light from the front, subtle fill light, shallow depth of field, crisp focus on facial features, premium color grading, modern tech-founder style, minimalist composition, photorealistic, hyper-realistic, 8K, HDR, commercial advertising campaign quality.\n\nShot on an 85mm lens, f/1.8, ISO 100, studio lighting setup, ultra-sharp detail, centered composition, clean background, Vogue editorial photography, award-winning portrait photography.\n\nAdd for face consistency:\n\nFace closely matches the uploaded reference image, preserving the same facial structure, hairstyle, eye shape, beard pattern, skin tone, and overall identity while adapting only the pose, lighting, wardrobe, and background.",
         "protectedLiterals": [],
         "stepIndex": 1,
-        "variantId": "ppv_9038_01"
+        "variantId": "cev_9201-prompt-1"
       }
     ]
   },
@@ -47,45 +65,42 @@
     "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
   },
   "publicationState": "website_master_projection",
-  "purpose": "Give a portrait a strong visual identity with dark clothing and a saturated background.",
+  "purpose": "Study this selected result and adapt its prompt for a new creation.",
   "recipe": [
     {
       "inputAssetIds": [],
       "inputMode": "text_to_image",
       "kind": "image",
-      "label": "Black Outfit Portrait on a Lime Background",
-      "outputAssetIds": [],
-      "stepId": "step_cev_9038_01",
+      "label": "Image prompt",
+      "outputAssetIds": [
+        "cev_9201-output-1"
+      ],
+      "stepId": "cev_9201-step-1",
       "stepIndex": 1,
-      "variantId": "ppv_9038_01"
+      "variantId": "cev_9201-prompt-1"
     }
   ],
-  "reportUrl": "/signaler/cev_9038/",
+  "reportUrl": "/signaler/cev_9201/",
   "rights": {
-    "decision": "operator_risk_accepted",
+    "decision": "licensed",
     "mcp": "allow",
-    "media": "deny",
+    "media": "allow",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"
   },
   "schemaVersion": 2,
   "source": {
-    "canonicalUrl": "https://x.com/Sheldon056/status/2065271852570984765",
-    "kind": "external_locator",
-    "publicEvidenceUrl": "https://x.com/Sheldon056/status/2065271852570984765"
+    "canonicalUrl": "https://filmlune.com/prompts/image/creation-977413e8526c1e33-cev_9201/",
+    "kind": "creator_submission",
+    "publicEvidenceUrl": null
   },
-  "summary": "A man in black glasses, a turtleneck and a blazer stands out against a lime studio background.",
+  "summary": "A selected variation of “Black Outfit Portrait on a Lime Background”, created with GPT Image 2 for the FilmLune gallery.",
   "taxonomy": [
     {
       "axis": "media",
       "id": "media-image",
       "label": "Image"
-    },
-    {
-      "axis": "model",
-      "id": "model-gpt-image-2",
-      "label": "GPT Image 2"
     },
     {
       "axis": "use_case",
@@ -101,13 +116,18 @@
       "axis": "style",
       "id": "style-lime-studio",
       "label": "Lime studio"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
     }
   ],
-  "title": "Black Outfit Portrait on a Lime Background",
+  "title": "Variation: Black Outfit Portrait on a Lime Background",
   "variables": [
     {
-      "name": "composition",
-      "value": "A man in black glasses, a turtleneck and a blazer stands out against a lime studio background."
+      "name": "Model",
+      "value": "GPT Image 2"
     }
   ]
 }
