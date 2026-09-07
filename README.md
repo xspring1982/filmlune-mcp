@@ -7,8 +7,7 @@ server or media-generation API and has no published package release.
 
 FilmLune also operates a separate, website-owned hosted endpoint at
 `https://filmlune.com/api/mcp`; see the [hosted MCP guide](https://filmlune.com/mcp/).
-Its five catalog tools are anonymous. The September 7 ordinary-account access
-change is prepared locally and awaits deployment: hosted generation will require
+Its five catalog tools are anonymous. Hosted generation requires
 an active email-verified FilmLune account, an owned unexpired scoped access key,
 shared safety/risk checks and eligible FilmLune credits, with no administrator
 role or invitation requirement. Welcome and daily credits apply only to GPT
