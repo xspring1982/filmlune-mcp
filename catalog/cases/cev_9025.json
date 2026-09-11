@@ -108,12 +108,12 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+    "generatorSha256": "6161a8318e3f2136d9b026970520a2f871c03ea29f3d8dde98d88151b2a50c06",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
     "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-11.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "da8a61b3ef34b0dc519b369b773ac9bd8ec574aef8ab5e893b164c005e9b54da"
   },
   "publicationState": "website_master_projection",
   "purpose": "Give a streetwear campaign a strong sense of motion while retaining a readable figure and editorial poster hierarchy.",
