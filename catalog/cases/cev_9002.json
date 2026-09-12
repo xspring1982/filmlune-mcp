@@ -9,42 +9,7 @@
     "profileUrl": "https://x.com/Diplomeme"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "Orange iPhone Pro campaign poster with a model presenting the device in forced perspective.",
-      "assetId": "asset_cev_9002_apple",
-      "assetRevisionId": "asset_cev_9002_apple@r0001",
-      "bytes": 120138,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9002/apple-r0001.webp",
-      "role": "hero",
-      "sha256": "09f31eb8827ae1fe15501aad3f25e37e7ab79016e2d2bd177f54dfd7bc2f365f",
-      "width": 1122
-    },
-    {
-      "alt": "Violet Samsung Ultra campaign poster with a model, smartphone, and S Pen in forced perspective.",
-      "assetId": "asset_cev_9002_samsung",
-      "assetRevisionId": "asset_cev_9002_samsung@r0001",
-      "bytes": 96682,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 2,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9002/samsung-r0001.webp",
-      "role": "output",
-      "sha256": "d24293ba26d208a18aba196386ce9b29dc5a3f8800ead4acac3912557b027998",
-      "width": 1122
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "Select one variant, preserve its layered composition, and adapt the product, palette, headline, copy, and four feature modules without mixing the two art directions.",
   "model": {
@@ -85,10 +50,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "ac4e23ed8b95235948d529f1355d362284012398d308d37eb97e738bc486b09c",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -100,9 +65,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Apple Pro poster",
-      "outputAssetIds": [
-        "asset_cev_9002_apple"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9002_01",
       "stepIndex": 1,
       "variantId": "ppv_9002_01"
@@ -112,9 +75,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Samsung Ultra poster",
-      "outputAssetIds": [
-        "asset_cev_9002_samsung"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9002_02",
       "stepIndex": 2,
       "variantId": "ppv_9002_02"
@@ -124,7 +85,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"

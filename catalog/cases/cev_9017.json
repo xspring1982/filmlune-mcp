@@ -9,76 +9,7 @@
     "profileUrl": "https://x.com/YaseenK7212"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "Amber Golden Glow bottle on wet sand at the edge of a foamy wave.",
-      "assetId": "asset_cev_9017_01",
-      "assetRevisionId": "asset_cev_9017_01@r0001",
-      "bytes": 693814,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 2048,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9017/image-01-r0001.webp",
-      "role": "hero",
-      "sha256": "58fabfda72ba5da7084f18a1ee2865f77cb8e6238ec260d883193e3aa8164f65",
-      "width": 2048
-    },
-    {
-      "alt": "Golden Glow dropper bottle surrounded by clear water, sea foam, and warm light.",
-      "assetId": "asset_cev_9017_02",
-      "assetRevisionId": "asset_cev_9017_02@r0001",
-      "bytes": 421664,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 2048,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 2,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9017/image-02-r0001.webp",
-      "role": "output",
-      "sha256": "050de81a96c6b2e52f65c03b30e42bb9a259e9d312fd1325860b0c47ae37acbc",
-      "width": 1529
-    },
-    {
-      "alt": "Overhead view of a Golden Glow bronzing bottle on a beach beneath a small wave.",
-      "assetId": "asset_cev_9017_03",
-      "assetRevisionId": "asset_cev_9017_03@r0001",
-      "bytes": 492860,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 2048,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 3,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9017/image-03-r0001.webp",
-      "role": "output",
-      "sha256": "8c89e0facf211376148d7149909b1aa6eb692307f3524dad9ef0cef2d8e4fd08",
-      "width": 2048
-    },
-    {
-      "alt": "Amber Golden Glow cosmetic bottle touching sea foam on sunlit sand.",
-      "assetId": "asset_cev_9017_04",
-      "assetRevisionId": "asset_cev_9017_04@r0001",
-      "bytes": 631770,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 2048,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 4,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9017/image-04-r0001.webp",
-      "role": "output",
-      "sha256": "2d23f5f885ec1deb52ab43ccbfe98ce22a525db5e65b15a7bb025254a2979d32",
-      "width": 2048
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "Keep the overhead view, rectangular dropper bottle, and natural foam while adapting the label, color, and cosmetic formula without medical claims.",
   "model": {
@@ -115,10 +46,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "ac4e23ed8b95235948d529f1355d362284012398d308d37eb97e738bc486b09c",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -130,12 +61,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Cosmetic bottle in golden sea foam",
-      "outputAssetIds": [
-        "asset_cev_9017_01",
-        "asset_cev_9017_02",
-        "asset_cev_9017_03",
-        "asset_cev_9017_04"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9017_01",
       "stepIndex": 1,
       "variantId": "ppv_9017_01"
@@ -145,7 +71,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"
