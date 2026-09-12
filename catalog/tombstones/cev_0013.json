@@ -3,12 +3,12 @@
   "caseRevisionId": "cev_0013@r0001",
   "kind": "tombstone",
   "provenance": {
-    "generatorSha256": "6161a8318e3f2136d9b026970520a2f871c03ea29f3d8dde98d88151b2a50c06",
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-11.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "da8a61b3ef34b0dc519b369b773ac9bd8ec574aef8ab5e893b164c005e9b54da"
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
   "reasonCode": "LOCAL_FIXTURE_EDITORIAL_RETIREMENT",
   "removedAtUtc": "2026-08-13T04:00:00.000Z",

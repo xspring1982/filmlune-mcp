@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/vlog-idole-coulisses-cev_9093/",
+  "caseFamilyId": "cf_cev_9093",
+  "caseId": "cev_9093",
+  "caseRevisionId": "cev_9093@r0001",
+  "creator": {
+    "displayName": "Harboris",
+    "handle": "@harboriis",
+    "profileUrl": "https://x.com/harboriis"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Reuse the exact English source prompt with source attribution; undisclosed settings remain unknown.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260905-r3",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "Backstage Idol Vlog",
+        "promptSha256": "65027554e84cb47a5701d82dd2f1158079dfad4fa9733b30fe182a274495df39",
+        "promptText": "Subject: A young, attractive East Asian female pop idol with long dark hair, wearing a sparkling sheer long-sleeve crop top, a black skirt, and dangling crystal earrings. Her demeanor is energetic, cheerful, and playful.\nStyle: Cinematic backstage vlog style. Cool, polished tones with warm highlights, 35mm film grain, and realistic handheld camera shake.\n\nCamera & Framing\nLighting: Bright indoor hallway lighting with soft overhead spotlights and warm reflections.\n\nFraming: Dynamic first-person (POV) selfie-cam angles, wide tracking shots, and close-ups as she interacts with the environment.\n\nEffects: Shallow depth of field and natural motion blur.\n\nAudio & Scene Dialogues\n00:00 - 00:01: Close-up POV selfie shot of the idol smiling and tossing her hair back in a backstage hallway.\nDialogue: \"Hey guys, we're backstage right now...\"\n\n00:02 - 00:03: Rapid handheld pan down a long corridor with crew members walking in the background.\nDialogue: \"Look how long this hallway is.\"\n\n00:04 - 00:05: Pointing at a dressing room door plaque bearing her name.\nDialogue: \"That's me! That's my name! (\"HEER\")\"\n\n00:06 - 00:06: Wide tracking shot of her walking quickly down the corridor.\n\n00:07 - 00:08: Full-length outfit check in a hallway mirror while adjusting her skirt.\nDialogue: \"Okay, outfit check. How do I look?\"\n\n00:09 - 00:11: Picking up a snack bar from a backstage catering table and taking a bite directly to the camera.\nDialogue: \"Ooh, snack table. Don't mind if I do.\"\n\n00:12 - 00:14: Waving goodbye, making a finger heart gesture, and turning to run toward the stage.\nDialogue: \"Wait, wait, wait! That's my cue. See you guys after the stage!\"\n\nRealism: Photorealistic 8K rendering with natural fabric movement, accurate skin textures, realistic lighting reflections on clothing and hair, and organic hand-held camera motion.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9093_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose a sequence in which the idol walks backstage, takes a snack, gestures to camera and runs to a stage cue.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "Backstage Idol Vlog",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9093_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9093_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9093/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/harboriis/status/2096466771561844919",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/harboriis/status/2096466771561844919"
+  },
+  "summary": "A young performer moves backstage, grabs a snack and runs to the stage.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-backstage-idol-vlogs",
+      "label": "Backstage Idol Vlogs"
+    },
+    {
+      "axis": "style",
+      "id": "style-backstage-vlog",
+      "label": "Realistic backstage vlog"
+    }
+  ],
+  "title": "Backstage Idol Vlog",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "A young East Asian pop idol presents a backstage vlog with a sparkling crop top and crystal earrings."
+    },
+    {
+      "name": "setting",
+      "value": "A cool backstage hallway/catering area with warm highlights and handheld vlog lighting."
+    },
+    {
+      "name": "action",
+      "value": "The idol walks backstage, takes a snack, gestures to camera and runs to a stage cue."
+    }
+  ]
+}

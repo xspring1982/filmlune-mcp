@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/collage-mode-couture-quatre-univers-cev_9126/",
+  "caseFamilyId": "cf_cev_9126",
+  "caseId": "cev_9126",
+  "caseRevisionId": "cev_9126@r0001",
+  "creator": {
+    "displayName": "Cherry",
+    "handle": "@hey_am_cherry",
+    "profileUrl": "https://x.com/hey_am_cherry"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Arrange four square frames: lavender couture in crystal, ivory couture in marble desert, green futuristic dress in underwater glass and red couture in the perfume-inspired room.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "2x2 Couture Collage in Four Surreal Luxury Worlds",
+        "promptSha256": "42dc91e158454d064b21b964344ec2197d5f93853fd609d3e119f10c037206dd",
+        "promptText": "2x2 grid collage of four unique ultra-realistic luxury fashion editorial photographs.\n\nSame female model in four different minimalist surreal fashion worlds.\n\nFrame 1:\n\nA female model standing alone inside a minimal translucent crystal room. She wears a flowing lavender silk couture gown with elegant sculptural folds. Clean purple gradient background, subtle crystal reflections, soft glowing light, simple futuristic luxury atmosphere.\n\nFrame 2:\n\nA female model sitting on a simple circular mirror platform in a minimal white marble desert space. She wears an ivory modern couture outfit with small metallic details. Clean background, soft golden sunlight, elegant shadows, quiet luxury fashion mood.\n\nFrame 3:\n\nA female model walking inside a minimal underwater-inspired glass room. She wears a bold emerald green futuristic dress. One simple glowing blue glass structure in the background, clean composition, beautiful reflections, premium fashion photography.\n\nFrame 4:\n\nA female model sitting inside a minimal perfume-inspired luxury room. She wears a deep red modern couture outfit. Simple warm background, elegant flowers as a small accent, cinematic golden lighting, sophisticated fashion mood.\n\nLuxury fashion magazine photography, minimalist design, clean composition, one main subject, premium Vogue aesthetic, modern couture, realistic skin texture, natural face, DSLR photography, 85mm lens, shallow depth of field, bright but soft lighting, high-end fashion campaign, ultra realistic, photorealistic.\n\nStyle:\n\nminimal luxury, clean visual storytelling, elegant simplicity, premium Instagram aesthetic.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9126_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Tell four couture-fashion variations with one model in a 2x2 composition of minimalist luxury.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "2x2 Couture Collage in Four Surreal Luxury Worlds",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9126_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9126_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9126/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/hey_am_cherry/status/2083402364418154689",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/hey_am_cherry/status/2083402364418154689"
+  },
+  "summary": "A square collage places the same woman in four minimalist worlds: crystal, marble desert, underwater glass and a perfume-inspired room.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-minimal-surreal-luxury-fashion",
+      "label": "Minimal surreal luxury fashion"
+    },
+    {
+      "axis": "style",
+      "id": "style-minimal-luxury-fashion",
+      "label": "Minimal luxury fashion"
+    }
+  ],
+  "title": "2x2 Couture Collage in Four Surreal Luxury Worlds",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Square 2x2 collage with one model and four minimalist couture worlds: crystal, marble, underwater glass and perfume."
+    }
+  ]
+}

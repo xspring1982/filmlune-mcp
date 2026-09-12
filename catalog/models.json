@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-2552d8747b410a00",
+  "catalogRevision": "mcp-local-5637604c861d729b",
   "models": [
     {
       "activeCaseIds": [
@@ -27,6 +27,22 @@
         "cev_9035",
         "cev_9036",
         "cev_9038",
+        "cev_9042",
+        "cev_9043",
+        "cev_9044",
+        "cev_9047",
+        "cev_9048",
+        "cev_9050",
+        "cev_9051",
+        "cev_9052",
+        "cev_9102",
+        "cev_9107",
+        "cev_9111",
+        "cev_9124",
+        "cev_9125",
+        "cev_9126",
+        "cev_9127",
+        "cev_9130",
         "cev_9201"
       ],
       "displayName": "GPT Image 2",
@@ -52,7 +68,8 @@
         "cev_9021",
         "cev_9022",
         "cev_9023",
-        "cev_9028"
+        "cev_9028",
+        "cev_9104"
       ],
       "displayName": "Nano Banana Pro",
       "mediaType": "image",
@@ -62,6 +79,10 @@
       "activeCaseIds": [
         "cev_9039",
         "cev_9041",
+        "cev_9064",
+        "cev_9065",
+        "cev_9069",
+        "cev_9131",
         "cev_9200"
       ],
       "displayName": "Seedance 2.0",
@@ -72,11 +93,30 @@
       "activeCaseIds": [
         "cev_9010",
         "cev_9011",
-        "cev_9040"
+        "cev_9093"
       ],
       "displayName": "Seedance 2.5",
       "mediaType": "video",
       "modelFamilyId": "seedance-2-5"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9056",
+        "cev_9057",
+        "cev_9058",
+        "cev_9059"
+      ],
+      "displayName": "GPT Image 2.5",
+      "mediaType": "image",
+      "modelFamilyId": "gpt-image-2-5"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9132"
+      ],
+      "displayName": "MiniMax H3 · estimation",
+      "mediaType": "video",
+      "modelFamilyId": "minimax-h3"
     }
   ],
   "schemaVersion": 2

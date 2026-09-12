@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-mode-japonaise-noir-blanc-rouge-cev_9050/",
+  "caseFamilyId": "cf_cev_9050",
+  "caseId": "cev_9050",
+  "caseRevisionId": "cev_9050@r0001",
+  "creator": {
+    "displayName": "𝗦𝗮𝗻𝗶𝗮",
+    "handle": "@saniaspeaks_",
+    "profileUrl": "https://x.com/saniaspeaks_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use an authorised visual reference for composition, then preserve generous white space, one red accent and Japanese copy checked by a competent speaker.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Monochrome Japanese Fashion Poster",
+        "promptSha256": "03cb44d83dbc6bddc501818b12e8e70db639fc24928d90cab3a97f8dedb38b34",
+        "promptText": "Create a premium Japanese-inspired minimalist fashion editorial poster featuring a stylish young woman as the main subject. IMAGE TYPE: minimal Japanese fashion branding poster, monochrome editorial campaign design, luxury lifestyle poster. TOPIC: streetwear, minimal fashion, Japanese lifestyle, zen clothing, contemporary fashion. STYLE & ART DIRECTION: same exact composition and visual hierarchy as the reference image, Japanese minimalist editorial aesthetic, Scandinavian-meets-Japanese branding style, monochrome photography composition, calm luxury fashion atmosphere, fine-art gallery poster design, Behance-quality editorial branding, zen-inspired visual storytelling. MAIN SUBJECT / HERO ELEMENT: a stylish female fashion model with calm emotional body language, elegant streetwear or minimalist lifestyle styling, black-and-white editorial photography, Japanese-inspired urban atmosphere, subtle confident expression, with a red-circle visual accent integrated into the composition. LAYOUT & COMPOSITION: single standalone vertical poster inspired by luxury campaign structures, large negative space dominance, minimal asymmetrical layout, brush-stroke framing textures, Japanese typography placement, gallery-style spacing rhythm, clean editorial hierarchy, minimal visual clutter. TEXT & TYPOGRAPHY: thin minimalist serif typography, vertical Japanese kanji typography, minimal sans-serif supporting text, luxury editorial spacing, small micro-text details, fashion-magazine inspired hierarchy, elegant monochrome typography system. DEPTH & LIGHTING: soft natural grayscale lighting, calm atmospheric shadows, minimal contrast mood, fine-art photography lighting, soft editorial highlights, cinematic monochrome ambiance. EXTRA DESIGN DETAILS: Japanese red sun symbol, brush-stroke textures, minimal paper texture overlays, soft grain details, editorial framing accents, fine-art poster balance, zen-inspired minimal shapes, gallery exhibition atmosphere. COLOR PALETTE: pure white, deep black, soft grayscale, Japanese red accent, minimal neutral harmony. CAMERA & RENDERING: editorial monochrome photography, fine-art fashion portrait style, minimal cinematic realism, soft luxury rendering, Behance-quality poster execution, high-end fashion editorial composition. QUALITY CONTROLS: Behance-quality fashion poster, premium minimalist branding, ultra-clean editorial composition, high-resolution monochrome design, same exact visual DNA as the reference, fine-art Japanese poster atmosphere.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9050_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a restrained premium fashion campaign with a limited palette and a clear typographic hierarchy.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Monochrome Japanese Fashion Poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9050_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9050_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9050/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/saniaspeaks_/status/2055661728185340066",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/saniaspeaks_/status/2055661728185340066"
+  },
+  "summary": "Two vertical posters combine monochrome fashion photography, a red disc, brush textures and Japanese characters in an urban setting.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-japanese-minimal-fashion-posters",
+      "label": "Japanese Minimal Fashion Posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-japanese-minimal-monochrome",
+      "label": "Japanese monochrome minimalism"
+    }
+  ],
+  "title": "Monochrome Japanese Fashion Poster",
+  "variables": [
+    {
+      "name": "silhouette",
+      "value": "minimal black streetwear"
+    },
+    {
+      "name": "accent",
+      "value": "red disc and brush strokes"
+    },
+    {
+      "name": "copy",
+      "value": "verified Japanese characters"
+    }
+  ]
+}

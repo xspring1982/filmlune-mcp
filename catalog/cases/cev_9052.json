@@ -1,0 +1,146 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/carnet-voyage-aeroport-avion-dessins-cev_9052/",
+  "caseFamilyId": "cf_cev_9052",
+  "caseId": "cev_9052",
+  "caseRevisionId": "cev_9052@r0001",
+  "creator": {
+    "displayName": "Taaruk",
+    "handle": "@Taaruk_",
+    "profileUrl": "https://x.com/Taaruk_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep clothing, luggage and drink consistent across both scenes. Add only a few arrows, stars and handwritten notes, then proofread all generated text.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Airport-to-Plane Travel Scrapbook",
+        "promptSha256": "bb44ee92caf3df173f5e98337c452cbc6730a9c5687a2d468e100998ae453cc8",
+        "promptText": "POV travel photography of a person sitting at an airport and inside an airplane, casual outfit with jeans and sneakers, small crossbody bag on lap, holding a drink can, warm golden sunlight streaming through windows. Scene 1: airport waiting area with luggage (suitcase and backpack), cinematic composition, cozy travel vibe. Scene 2: airplane seat view looking down at legs and tray area, window light casting soft shadows. Add playful hand-drawn doodles and annotations around objects (bags, drink, shoes, seat) including arrows, hearts, stars, clouds, and handwritten notes like “window seat dreams”, “ready for takeoff”, “good vibes only”, “travel • chill • repeat”. White and yellow sketch-style overlays, scrapbook aesthetic, soft warm color grading, shallow depth of field, ultra-realistic, Instagram story style, cinematic lifestyle photography, 4K",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "window seat dreams"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "ready for takeoff"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "good vibes only"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "travel • chill • repeat"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9052_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Tell a departure story in two coherent images with enough personal detail to feel like a travel journal.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Airport-to-Plane Travel Scrapbook",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9052_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9052_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9052/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Taaruk_/status/2051583400616849796",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Taaruk_/status/2051583400616849796"
+  },
+  "summary": "Two first-person views connect an airport wait and an aeroplane seat through golden light and hand-drawn annotations.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-travel-scrapbook-stories",
+      "label": "Travel Scrapbook Stories"
+    },
+    {
+      "axis": "style",
+      "id": "style-warm-travel-doodles",
+      "label": "Warm travel doodles"
+    }
+  ],
+  "title": "Airport-to-Plane Travel Scrapbook",
+  "variables": [
+    {
+      "name": "journey",
+      "value": "departure lounge followed by an aeroplane seat"
+    },
+    {
+      "name": "props",
+      "value": "suitcase, bag, drink and sneakers"
+    },
+    {
+      "name": "annotations",
+      "value": "arrows, hearts, stars and short notes"
+    }
+  ]
+}

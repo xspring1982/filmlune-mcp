@@ -1,7 +1,15 @@
 {
-  "catalogRevision": "mcp-local-2552d8747b410a00",
+  "catalogRevision": "mcp-local-5637604c861d729b",
   "schemaVersion": 2,
   "taxonomy": [
+    {
+      "activeCaseIds": [
+        "cev_9043"
+      ],
+      "axis": "collection",
+      "id": "collection-3d-social-profile-cards",
+      "label": "3D Social Profile Cards"
+    },
     {
       "activeCaseIds": [
         "cev_9024"
@@ -20,11 +28,35 @@
     },
     {
       "activeCaseIds": [
+        "cev_9132"
+      ],
+      "axis": "collection",
+      "id": "collection-ao-motion-graphics-trailers",
+      "label": "Graphic-character motion-design trailers"
+    },
+    {
+      "activeCaseIds": [
         "cev_9031"
       ],
       "axis": "collection",
       "id": "collection-architectural-archive-cards",
       "label": "Architectural Archive Cards"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9125"
+      ],
+      "axis": "collection",
+      "id": "collection-autumn-fashion-editorial-posters",
+      "label": "Autumn fashion editorial posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9093"
+      ],
+      "axis": "collection",
+      "id": "collection-backstage-idol-vlogs",
+      "label": "Backstage Idol Vlogs"
     },
     {
       "activeCaseIds": [
@@ -52,6 +84,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9104"
+      ],
+      "axis": "collection",
+      "id": "collection-cherry-juice-3d-product-shots",
+      "label": "3D Cherry Juice Bottle Product Shots"
+    },
+    {
+      "activeCaseIds": [
         "cev_9009"
       ],
       "axis": "collection",
@@ -68,12 +108,29 @@
     },
     {
       "activeCaseIds": [
+        "cev_9065"
+      ],
+      "axis": "collection",
+      "id": "collection-cinematic-city-walk-influencer-reels",
+      "label": "Cinematic City-Walk Influencer Reels"
+    },
+    {
+      "activeCaseIds": [
         "cev_9038",
         "cev_9201"
       ],
       "axis": "collection",
       "id": "collection-coloured-studio-portraits",
       "label": "Coloured-Background Studio Portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9047",
+        "cev_9051"
+      ],
+      "axis": "collection",
+      "id": "collection-consistent-portrait-grid-series",
+      "label": "Consistent Portrait Grid Series"
     },
     {
       "activeCaseIds": [
@@ -85,11 +142,20 @@
     },
     {
       "activeCaseIds": [
-        "cev_9036"
+        "cev_9048"
+      ],
+      "axis": "collection",
+      "id": "collection-cyberpunk-interface-portraits",
+      "label": "Cyberpunk Interface Portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9036",
+        "cev_9107"
       ],
       "axis": "collection",
       "id": "collection-directional-light-beauty",
-      "label": "Directional-Light Beauty Portraits"
+      "label": "Directional-light beauty portraits"
     },
     {
       "activeCaseIds": [
@@ -101,19 +167,27 @@
     },
     {
       "activeCaseIds": [
-        "cev_9040"
-      ],
-      "axis": "collection",
-      "id": "collection-domestic-comedy-animation",
-      "label": "Short Animated Domestic Comedies"
-    },
-    {
-      "activeCaseIds": [
         "cev_9018"
       ],
       "axis": "collection",
       "id": "collection-doodle-fashion-portraits",
       "label": "Doodle fashion portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9044"
+      ],
+      "axis": "collection",
+      "id": "collection-dynamic-sneaker-campaign-posters",
+      "label": "Dynamic Sneaker Campaign Posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9042"
+      ],
+      "axis": "collection",
+      "id": "collection-editorial-travel-collage-posters",
+      "label": "Editorial Travel Collage Posters"
     },
     {
       "activeCaseIds": [
@@ -130,6 +204,22 @@
       "axis": "collection",
       "id": "collection-fast-food-campaign-posters",
       "label": "Split-world fast-food campaign posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9056"
+      ],
+      "axis": "collection",
+      "id": "collection-floral-fashion-portraits",
+      "label": "Floral Fashion Portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9059"
+      ],
+      "axis": "collection",
+      "id": "collection-foldable-smartphone-campaign-posters",
+      "label": "Foldable Smartphone Campaign Posters"
     },
     {
       "activeCaseIds": [
@@ -199,11 +289,27 @@
     },
     {
       "activeCaseIds": [
+        "cev_9111"
+      ],
+      "axis": "collection",
+      "id": "collection-identity-scan-character-posters",
+      "label": "Monochrome scan character posters"
+    },
+    {
+      "activeCaseIds": [
         "cev_9027"
       ],
       "axis": "collection",
       "id": "collection-japanese-graffiti-fashion-posters",
       "label": "Japanese graffiti fashion posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9050"
+      ],
+      "axis": "collection",
+      "id": "collection-japanese-minimal-fashion-posters",
+      "label": "Japanese Minimal Fashion Posters"
     },
     {
       "activeCaseIds": [
@@ -215,6 +321,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9131"
+      ],
+      "axis": "collection",
+      "id": "collection-jungle-temple-fpv-fantasy",
+      "label": "Fantasy jungle-temple FPV dives"
+    },
+    {
+      "activeCaseIds": [
         "cev_9020"
       ],
       "axis": "collection",
@@ -223,11 +337,27 @@
     },
     {
       "activeCaseIds": [
+        "cev_9069"
+      ],
+      "axis": "collection",
+      "id": "collection-miniature-cupcake-construction-animation",
+      "label": "Miniature Construction Food Animation"
+    },
+    {
+      "activeCaseIds": [
         "cev_9026"
       ],
       "axis": "collection",
       "id": "collection-miniature-self-character-collages",
       "label": "Miniature-self character collages"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9126"
+      ],
+      "axis": "collection",
+      "id": "collection-minimal-surreal-luxury-fashion",
+      "label": "Minimal surreal luxury fashion"
     },
     {
       "activeCaseIds": [
@@ -263,6 +393,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9058"
+      ],
+      "axis": "collection",
+      "id": "collection-performance-car-editorial-posters",
+      "label": "Performance Car Editorial Posters"
+    },
+    {
+      "activeCaseIds": [
         "cev_9013"
       ],
       "axis": "collection",
@@ -271,11 +409,27 @@
     },
     {
       "activeCaseIds": [
+        "cev_9102"
+      ],
+      "axis": "collection",
+      "id": "collection-product-editorial-sticker-concepts",
+      "label": "Editorial Product Concepts with Illustrated Stickers"
+    },
+    {
+      "activeCaseIds": [
         "cev_9022"
       ],
       "axis": "collection",
       "id": "collection-red-studio-streetwear-portraits",
       "label": "Red-studio streetwear portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9064"
+      ],
+      "axis": "collection",
+      "id": "collection-seven-wonders-hyperlapse-travel-vlogs",
+      "label": "Seven Wonders Hyperlapse Travel Vlogs"
     },
     {
       "activeCaseIds": [
@@ -295,6 +449,22 @@
     },
     {
       "activeCaseIds": [
+        "cev_9130"
+      ],
+      "axis": "collection",
+      "id": "collection-south-asian-portrait-collages",
+      "label": "South Asian editorial portrait collages"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9052"
+      ],
+      "axis": "collection",
+      "id": "collection-travel-scrapbook-stories",
+      "label": "Travel Scrapbook Stories"
+    },
+    {
+      "activeCaseIds": [
         "cev_9030",
         "cev_9034"
       ],
@@ -304,11 +474,28 @@
     },
     {
       "activeCaseIds": [
-        "cev_9006"
+        "cev_9006",
+        "cev_9127"
       ],
       "axis": "collection",
       "id": "collection-watercolor-travel-posters",
       "label": "Vintage watercolor travel posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9057"
+      ],
+      "axis": "collection",
+      "id": "collection-window-lit-transit-portraits",
+      "label": "Window-Lit Transit Portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9124"
+      ],
+      "axis": "collection",
+      "id": "collection-y2k-fluorescent-cosmetics-ads",
+      "label": "Fluorescent Y2K cosmetics advertising"
     },
     {
       "activeCaseIds": [
@@ -347,6 +534,27 @@
         "cev_9036",
         "cev_9037",
         "cev_9038",
+        "cev_9042",
+        "cev_9043",
+        "cev_9044",
+        "cev_9047",
+        "cev_9048",
+        "cev_9050",
+        "cev_9051",
+        "cev_9052",
+        "cev_9056",
+        "cev_9057",
+        "cev_9058",
+        "cev_9059",
+        "cev_9102",
+        "cev_9104",
+        "cev_9107",
+        "cev_9111",
+        "cev_9124",
+        "cev_9125",
+        "cev_9126",
+        "cev_9127",
+        "cev_9130",
         "cev_9201"
       ],
       "axis": "media",
@@ -358,8 +566,13 @@
         "cev_9010",
         "cev_9011",
         "cev_9039",
-        "cev_9040",
         "cev_9041",
+        "cev_9064",
+        "cev_9065",
+        "cev_9069",
+        "cev_9093",
+        "cev_9131",
+        "cev_9132",
         "cev_9200"
       ],
       "axis": "media",
@@ -392,11 +605,46 @@
         "cev_9035",
         "cev_9036",
         "cev_9038",
+        "cev_9042",
+        "cev_9043",
+        "cev_9044",
+        "cev_9047",
+        "cev_9048",
+        "cev_9050",
+        "cev_9051",
+        "cev_9052",
+        "cev_9102",
+        "cev_9107",
+        "cev_9111",
+        "cev_9124",
+        "cev_9125",
+        "cev_9126",
+        "cev_9127",
+        "cev_9130",
         "cev_9201"
       ],
       "axis": "model",
       "id": "model-gpt-image-2",
       "label": "GPT Image 2"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9056",
+        "cev_9057",
+        "cev_9058",
+        "cev_9059"
+      ],
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9132"
+      ],
+      "axis": "model",
+      "id": "model-minimax-h3",
+      "label": "MiniMax H3"
     },
     {
       "activeCaseIds": [
@@ -417,7 +665,8 @@
         "cev_9021",
         "cev_9022",
         "cev_9023",
-        "cev_9028"
+        "cev_9028",
+        "cev_9104"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -427,6 +676,10 @@
       "activeCaseIds": [
         "cev_9039",
         "cev_9041",
+        "cev_9064",
+        "cev_9065",
+        "cev_9069",
+        "cev_9131",
         "cev_9200"
       ],
       "axis": "model",
@@ -437,7 +690,7 @@
       "activeCaseIds": [
         "cev_9010",
         "cev_9011",
-        "cev_9040"
+        "cev_9093"
       ],
       "axis": "model",
       "id": "model-seedance-2-5",
@@ -448,6 +701,12 @@
         "cev_9002",
         "cev_9029",
         "cev_9039",
+        "cev_9044",
+        "cev_9058",
+        "cev_9059",
+        "cev_9102",
+        "cev_9104",
+        "cev_9124",
         "cev_9200"
       ],
       "axis": "use_case",
@@ -472,7 +731,10 @@
     },
     {
       "activeCaseIds": [
-        "cev_9006"
+        "cev_9006",
+        "cev_9042",
+        "cev_9111",
+        "cev_9127"
       ],
       "axis": "use_case",
       "id": "scene-editorial-posters",
@@ -487,7 +749,12 @@
         "cev_9022",
         "cev_9025",
         "cev_9027",
-        "cev_9028"
+        "cev_9028",
+        "cev_9050",
+        "cev_9056",
+        "cev_9065",
+        "cev_9125",
+        "cev_9126"
       ],
       "axis": "use_case",
       "id": "scene-fashion-beauty",
@@ -528,6 +795,13 @@
         "cev_9036",
         "cev_9037",
         "cev_9038",
+        "cev_9047",
+        "cev_9048",
+        "cev_9051",
+        "cev_9057",
+        "cev_9107",
+        "cev_9130",
+        "cev_9132",
         "cev_9201"
       ],
       "axis": "use_case",
@@ -538,7 +812,11 @@
       "activeCaseIds": [
         "cev_9013",
         "cev_9020",
-        "cev_9026"
+        "cev_9026",
+        "cev_9043",
+        "cev_9052",
+        "cev_9069",
+        "cev_9093"
       ],
       "axis": "use_case",
       "id": "scene-social-content",
@@ -548,8 +826,9 @@
       "activeCaseIds": [
         "cev_9010",
         "cev_9011",
-        "cev_9040",
-        "cev_9041"
+        "cev_9041",
+        "cev_9064",
+        "cev_9131"
       ],
       "axis": "use_case",
       "id": "scene-storyboard-motion",
@@ -562,6 +841,22 @@
       "axis": "style",
       "id": "style-archival-ink",
       "label": "Archival ink and paper"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9125"
+      ],
+      "axis": "style",
+      "id": "style-autumn-fashion-editorial",
+      "label": "Autumn fashion editorial"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9093"
+      ],
+      "axis": "style",
+      "id": "style-backstage-vlog",
+      "label": "Realistic backstage vlog"
     },
     {
       "activeCaseIds": [
@@ -598,11 +893,27 @@
     },
     {
       "activeCaseIds": [
+        "cev_9104"
+      ],
+      "axis": "style",
+      "id": "style-cherry-juice-splash",
+      "label": "Cherry juice splash product advertising"
+    },
+    {
+      "activeCaseIds": [
         "cev_9041"
       ],
       "axis": "style",
       "id": "style-cinematic-boutique-action",
       "label": "Warm-lit cinematic action"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9131"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-fantasy-vfx",
+      "label": "Cinematic fantasy VFX"
     },
     {
       "activeCaseIds": [
@@ -646,6 +957,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9048"
+      ],
+      "axis": "style",
+      "id": "style-cyberpunk-data-interface",
+      "label": "Cyberpunk data interface"
+    },
+    {
+      "activeCaseIds": [
         "cev_9034"
       ],
       "axis": "style",
@@ -670,6 +989,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9130"
+      ],
+      "axis": "style",
+      "id": "style-golden-hour-fashion-portrait",
+      "label": "Golden-hour fashion portrait"
+    },
+    {
+      "activeCaseIds": [
         "cev_9014"
       ],
       "axis": "style",
@@ -678,7 +1005,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9004"
+        "cev_9004",
+        "cev_9107"
       ],
       "axis": "style",
       "id": "style-golden-hour-lifestyle-portrait",
@@ -726,6 +1054,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9050"
+      ],
+      "axis": "style",
+      "id": "style-japanese-minimal-monochrome",
+      "label": "Japanese monochrome minimalism"
+    },
+    {
+      "activeCaseIds": [
         "cev_9027"
       ],
       "axis": "style",
@@ -751,11 +1087,52 @@
     },
     {
       "activeCaseIds": [
-        "cev_9015"
+        "cev_9044"
+      ],
+      "axis": "style",
+      "id": "style-low-angle-sports-ad",
+      "label": "Low-angle sports advertising"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9126"
+      ],
+      "axis": "style",
+      "id": "style-minimal-luxury-fashion",
+      "label": "Minimal luxury fashion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9059"
+      ],
+      "axis": "style",
+      "id": "style-minimal-product-hero",
+      "label": "Minimal product hero"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9015",
+        "cev_9111"
       ],
       "axis": "style",
       "id": "style-monochrome-fashion-editorial-poster",
       "label": "Monochrome fashion editorial poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9132"
+      ],
+      "axis": "style",
+      "id": "style-motion-graphics-streetwear",
+      "label": "Streetwear motion design"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9047"
+      ],
+      "axis": "style",
+      "id": "style-muted-editorial-contact-sheet",
+      "label": "Muted editorial contact sheet"
     },
     {
       "activeCaseIds": [
@@ -799,6 +1176,22 @@
     },
     {
       "activeCaseIds": [
+        "cev_9042"
+      ],
+      "axis": "style",
+      "id": "style-paper-collage-travel",
+      "label": "Paper travel collage"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9043"
+      ],
+      "axis": "style",
+      "id": "style-pastel-3d-social-ui",
+      "label": "Pastel 3D social interface"
+    },
+    {
+      "activeCaseIds": [
         "cev_9013"
       ],
       "axis": "style",
@@ -839,11 +1232,43 @@
     },
     {
       "activeCaseIds": [
+        "cev_9102"
+      ],
+      "axis": "style",
+      "id": "style-soft-editorial-product",
+      "label": "Soft editorial product photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9051"
+      ],
+      "axis": "style",
+      "id": "style-soft-idol-photobook",
+      "label": "Soft natural photobook"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9057"
+      ],
+      "axis": "style",
+      "id": "style-soft-window-satin",
+      "label": "Soft backlit satin"
+    },
+    {
+      "activeCaseIds": [
         "cev_9017"
       ],
       "axis": "style",
       "id": "style-sunlit-beach-product-photography",
       "label": "Sunlit beach product photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9056"
+      ],
+      "axis": "style",
+      "id": "style-sunset-floral-photorealism",
+      "label": "Sunset floral photography"
     },
     {
       "activeCaseIds": [
@@ -855,6 +1280,23 @@
     },
     {
       "activeCaseIds": [
+        "cev_9069"
+      ],
+      "axis": "style",
+      "id": "style-video-3d-cartoon",
+      "label": "3D animation"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9064",
+        "cev_9065"
+      ],
+      "axis": "style",
+      "id": "style-video-cinematic-realism",
+      "label": "Cinematic realism"
+    },
+    {
+      "activeCaseIds": [
         "cev_9006"
       ],
       "axis": "style",
@@ -863,11 +1305,19 @@
     },
     {
       "activeCaseIds": [
-        "cev_9040"
+        "cev_9052"
       ],
       "axis": "style",
-      "id": "style-warm-3d-comedy",
-      "label": "Warm 3D animated comedy"
+      "id": "style-warm-travel-doodles",
+      "label": "Warm travel doodles"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9127"
+      ],
+      "axis": "style",
+      "id": "style-watercolor-ink-travel-sketch",
+      "label": "Ink and watercolor travel sketch"
     },
     {
       "activeCaseIds": [
@@ -876,6 +1326,22 @@
       "axis": "style",
       "id": "style-white-doodles",
       "label": "White doodles on photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9124"
+      ],
+      "axis": "style",
+      "id": "style-y2k-fluorescent-pop",
+      "label": "Fluorescent Y2K pop"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9058"
+      ],
+      "axis": "style",
+      "id": "style-yellow-automotive-editorial",
+      "label": "Yellow automotive editorial"
     }
   ]
 }

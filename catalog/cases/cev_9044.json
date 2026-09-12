@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-sneakers-saut-orange-cev_9044/",
+  "caseFamilyId": "cf_cev_9044",
+  "caseId": "cev_9044",
+  "caseRevisionId": "cev_9044@r0001",
+  "creator": {
+    "displayName": "Taaruk",
+    "handle": "@Taaruk_",
+    "profileUrl": "https://x.com/Taaruk_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Place the shoe in the extreme foreground, keep the orange studio background simple and add a light dust burst. Replace real branding with a fictional identity before commercial use.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Orange Jump Sneaker Campaign Poster",
+        "promptSha256": "3f27c22f08d17e2e1d5a3fc965d1cf108f2b36ab7357db249699f9348ff634a4",
+        "promptText": "A dynamic sportswear advertisement featuring a young athletic male model captured mid-air in an explosive jump toward the camera. Dramatic low-angle shot with strong foreshortening, making the sneakers appear oversized and dominant in the foreground. The model wears a monochrome beige tracksuit (hoodie and joggers) with white socks.\nFocus on ultra-detailed white running shoes with bold orange accents and textured mesh, sharp branding elements, and realistic materials. Dust and energy particles burst beneath the feet, creating a sense of motion and impact.\nBackground is a clean, vibrant orange gradient with subtle glow, minimal studio environment. Bold oversized typography faintly integrated in the background for a modern commercial look.\nHigh contrast studio lighting, crisp shadows, rim light outlining the subject, ultra-realistic textures, 8K resolution, professional product photography, Nike/Adidas campaign style",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9044_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create immediate campaign impact with a low angle, strong foreshortening and restrained motion particles.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Orange Jump Sneaker Campaign Poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9044_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9044_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9044/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Taaruk_/status/2049360876684398857",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Taaruk_/status/2049360876684398857"
+  },
+  "summary": "An athlete in a beige tracksuit jumps toward the lens while a white-and-orange sneaker dominates the foreground.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-dynamic-sneaker-campaign-posters",
+      "label": "Dynamic Sneaker Campaign Posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-low-angle-sports-ad",
+      "label": "Low-angle sports advertising"
+    }
+  ],
+  "title": "Orange Jump Sneaker Campaign Poster",
+  "variables": [
+    {
+      "name": "product",
+      "value": "white sneaker with orange accents"
+    },
+    {
+      "name": "outfit",
+      "value": "monochrome beige tracksuit"
+    },
+    {
+      "name": "background",
+      "value": "orange studio gradient"
+    }
+  ]
+}

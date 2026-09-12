@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-voyage-algerie-collage-editorial-cev_9042/",
+  "caseFamilyId": "cf_cev_9042",
+  "caseId": "cev_9042",
+  "caseRevisionId": "cev_9042@r0001",
+  "creator": {
+    "displayName": "Ayyoub Ai",
+    "handle": "@MaAyyoub",
+    "profileUrl": "https://x.com/MaAyyoub"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the hierarchy between portrait, headline and environmental fragments, then adapt the destination, landmarks, transport and food. Verify cultural details and generated lettering.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Algeria Editorial Travel Collage Poster",
+        "promptSha256": "797b70b582fc2606d22eb1fc06f6db17314d9187366fe417831c73df7325772a",
+        "promptText": "Create a stylized travel poster / graphic collage for [ALGERIA]. The main subject should be a stylish international tourist visiting [ALGERIA], clearly presented as a traveler and not a local resident. Show the tourist wearing modern travel fashion, with details such as a camera, backpack, sunglasses, map, or suitcase, exploring the culture and atmosphere of [ALGERIA]. Place the tourist in a dynamic composition surrounded by iconic architecture, streets, landscapes, landmarks, transportation, food, signage, and cultural elements associated with [ALGERIA]. Blend realistic character detail with a graphic collage background made of layered paper textures, torn poster edges, sticker elements, halftone dots, editorial typography, and bold geometric shapes. Include authentic visual motifs from [ALGERIA], but keep the tourist’s appearance and styling globally fashionable and clearly foreign to the setting. Add a large readable headline: “VISIT [ALGERIA]”. Modern, artistic, premium editorial travel poster aesthetic, balanced layout, print-worthy composition.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9042_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a destination poster in which one traveller leads the eye through a dense but readable cultural collage.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Algeria Editorial Travel Collage Poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9042_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9042_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9042/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/MaAyyoub/status/2048057470812074251",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/MaAyyoub/status/2048057470812074251"
+  },
+  "summary": "A traveller, landmarks, streets, transport and cultural fragments form a layered vertical poster for Algeria.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-editorial-travel-collage-posters",
+      "label": "Editorial Travel Collage Posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-paper-collage-travel",
+      "label": "Paper travel collage"
+    }
+  ],
+  "title": "Algeria Editorial Travel Collage Poster",
+  "variables": [
+    {
+      "name": "destination",
+      "value": "country or city"
+    },
+    {
+      "name": "landmarks",
+      "value": "architecture, streets, transport and food"
+    },
+    {
+      "name": "headline",
+      "value": "VISIT followed by the destination"
+    }
+  ]
+}
