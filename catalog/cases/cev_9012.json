@@ -9,42 +9,7 @@
     "profileUrl": "https://x.com/underwoodxie96"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "High-angle vertical portrait of an adult woman in a grey top sitting on sunlit white bedding.",
-      "assetId": "asset_cev_9012_01",
-      "assetRevisionId": "asset_cev_9012_01@r0001",
-      "bytes": 216394,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 2048,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9012/image-01-r0001.webp",
-      "role": "hero",
-      "sha256": "25aafe0d6659f718a84e06f8a82ada5fe2f1805af7645cf842f84292c5784fdc",
-      "width": 1153
-    },
-    {
-      "alt": "Second high-angle portrait of an adult woman in a grey top and blue jeans in a bright bedroom.",
-      "assetId": "asset_cev_9012_02",
-      "assetRevisionId": "asset_cev_9012_02@r0001",
-      "bytes": 247264,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 2048,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 2,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9012/image-02-r0001.webp",
-      "role": "output",
-      "sha256": "1ed9e5d859850167b4187cf069d76c00f17153d8825965b15e723a1cd2cd1ba2",
-      "width": 1153
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "Keep the overhead angle, explicitly adult subject, covered grey top, and white bedding while adapting identity, clothing, and room details.",
   "model": {
@@ -74,10 +39,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "9d6d45e49a85fa7d85012f8ec308dbfed89a7ffd5dc4f8d10853b8b5165a441d",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -89,10 +54,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Adult high-angle bedroom selfie",
-      "outputAssetIds": [
-        "asset_cev_9012_01",
-        "asset_cev_9012_02"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9012_01",
       "stepIndex": 1,
       "variantId": "ppv_9012_01"
@@ -102,7 +64,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"

@@ -9,42 +9,7 @@
     "profileUrl": "https://x.com/TechieBySA"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "A square composite table-tennis final with motion confined to the upper arena panel.",
-      "assetId": "asset_cev_9011_video_r0001",
-      "assetRevisionId": "asset_cev_9011_video_r0001@r0001",
-      "bytes": 4904134,
-      "durationSeconds": 15.046531,
-      "generationReferenceUse": false,
-      "height": 1080,
-      "kind": "video",
-      "mimeType": "video/mp4",
-      "ordinal": 1,
-      "posterUrl": "/media/external/cev_9011/poster-r0001.webp",
-      "publicUrl": "/media/external/cev_9011/video-r0001.mp4",
-      "role": "hero",
-      "sha256": "93faa8fcb04c2ae83f611a9471198f4be7ad1f68d2b5fa2d1da4fc9a307b6ec6",
-      "width": 1080
-    },
-    {
-      "alt": "The square composite opening frame for the animated table-tennis final.",
-      "assetId": "asset_cev_9011_poster_r0001",
-      "assetRevisionId": "asset_cev_9011_poster_r0001@r0001",
-      "bytes": 144056,
-      "durationSeconds": null,
-      "generationReferenceUse": false,
-      "height": 1080,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 2,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9011/poster-r0001.webp",
-      "role": "keyframe",
-      "sha256": "a07c7621ae4ca1d6cf1f94f8628519160decde3729c71b4ee8864e9728193ff9",
-      "width": 1080
-    }
-  ],
+  "media": [],
   "mediaType": "video",
   "method": "Generate IMAGE 1 with GPT Image 2. After completion, explicitly continue to VIDEO 2 so FilmLune binds that exact private image revision and pre-fills the Seedance prompt. Opening VIDEO 2 directly leaves the reference slot empty.",
   "model": {
@@ -85,10 +50,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "9d6d45e49a85fa7d85012f8ec308dbfed89a7ffd5dc4f8d10853b8b5165a441d",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -100,23 +65,17 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "IMAGE · 1",
-      "outputAssetIds": [
-        "asset_cev_9011_poster_r0001"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9011_01",
       "stepIndex": 1,
       "variantId": "ppv_9011_01"
     },
     {
-      "inputAssetIds": [
-        "asset_cev_9011_poster_r0001"
-      ],
+      "inputAssetIds": [],
       "inputMode": "image_to_video",
       "kind": "video",
       "label": "VIDEO · 2",
-      "outputAssetIds": [
-        "asset_cev_9011_video_r0001"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9011_02",
       "stepIndex": 2,
       "variantId": "ppv_9011_02"
@@ -126,7 +85,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"
