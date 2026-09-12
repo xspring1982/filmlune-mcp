@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/construction-miniature-cupcake-cev_9069/",
+  "caseFamilyId": "cf_cev_9069",
+  "caseId": "cev_9069",
+  "caseRevisionId": "cev_9069@r0001",
+  "creator": {
+    "displayName": "Nancy Diazz",
+    "handle": "@Nancy__Diazz",
+    "profileUrl": "https://x.com/Nancy__Diazz"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Sequence one miniature world through an establishing view, frosting and topping close-ups, a cherry lift and a final orbit. The source media is shown as an external original and is not attached as a Studio reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "MINIATURE CUPCAKE CONSTRUCTION",
+        "promptSha256": "c8c5cca854a2157a972fd62358766116f7bb5373069754c85f5517a26d8467e8",
+        "promptText": "0–2 sec Establishing Shot Wide aerial dolly-in A giant cupcake sits on a table while dozens of tiny construction workers arrive with miniature cranes, forklifts, and trucks. Soft cheerful music, tiny vehicle sounds. \n\n2–4 sec Frosting Scene Medium tracking shot A mixer truck pours silky pink frosting onto the cupcake as workers spread it evenly using tiny trowels. Cream pouring, tool scraping, upbeat music. \n\n4–6 sec Toppings Assembly Close-up + slow motion Conveyor belts deliver strawberries, blueberries, chocolate chunks, and rainbow sprinkles. Workers carefully place each topping. Conveyor sounds, sprinkle drops, light magical chimes. \n\n6–8 sec Cherry Lift Low-angle cinematic shot A miniature crane slowly lifts a giant shiny cherry toward the top while workers guide it with ropes. Crane motor, suspenseful orchestral rise. \n\n8–10 sec Final Reveal 360° orbit close-up The cherry lands perfectly. Confetti bursts into the air as workers celebrate. Camera circles the completed cupcake before fading out. Confetti pop, cheering, uplifting music ending. \n\n🎨 Visual Style Pixar-quality 3D animation Macro miniature world Bright pastel colors Warm golden lighting Ultra-detailed CGI Shallow depth of field Smooth cinematic camera movement 720p Cute, satisfying, premium animation feel",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9069_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study a playful 3D miniature animation built from macro scale, staged assembly beats and a satisfying final reveal.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "MINIATURE CUPCAKE CONSTRUCTION",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9069_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9069_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9069/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Nancy__Diazz/status/2073710315163021351",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Nancy__Diazz/status/2073710315163021351"
+  },
+  "summary": "Tiny construction crews build a giant cupcake, spread pink frosting, place fruit and sprinkles, then crown it with a cherry before a confetti reveal.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-miniature-cupcake-construction-animation",
+      "label": "Miniature Construction Food Animation"
+    },
+    {
+      "axis": "style",
+      "id": "style-video-3d-cartoon",
+      "label": "3D animation"
+    }
+  ],
+  "title": "Miniature Cupcake Construction",
+  "variables": [
+    {
+      "name": "scale",
+      "value": "one miniature construction world"
+    },
+    {
+      "name": "toppings",
+      "value": "pink frosting, fruit, sprinkles and a cherry"
+    },
+    {
+      "name": "finale",
+      "value": "final orbit and confetti reveal"
+    }
+  ]
+}

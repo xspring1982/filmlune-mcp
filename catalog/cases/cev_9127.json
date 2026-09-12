@@ -1,0 +1,126 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-aquarelle-omotesando-tokyo-cev_9127/",
+  "caseFamilyId": "cf_cev_9127",
+  "caseId": "cev_9127",
+  "caseRevisionId": "cev_9127@r0001",
+  "creator": {
+    "displayName": "しらき@パワポ図解",
+    "handle": "@kumiko_shiraki",
+    "profileUrl": "https://x.com/kumiko_shiraki"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the white paper, negative space, tree-lined avenue, boutiques and Omotesando typography. The other author’s quoted prompt is excluded from the bound source prompt.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Omotesando Tokyo Ink and Watercolor Travel Poster",
+        "promptSha256": "3d81ddd1732fabdb3c3ed94adba4ce0036bebdc8548310b8a3a63c2e42d8fc50",
+        "promptText": "Minimalist ultra-high-resolution travel sketch poster of Omotesando, Tokyo, on clean white sketchbook paper with subtle paper grain texture. Style: refined pen drawing + loose watercolor sketch. Delicate black ink linework, airy watercolor washes, elegant urban details. Show a calm everyday Omotesando street scene — the iconic zelkova tree-lined avenue, chic boutiques and flagship stores, small stylish cafés, people walking with shopping bags, bicycles, crosswalks, low-rise modern architecture mixed with traditional touches, subtle Japanese signage (Japanese characters on shop signs), fashionable Tokyo pedestrians, soft morning light filtering through the trees. Spacious editorial composition with generous negative space. Mood: calm, modern, sophisticated, poetic. Typography: \"[OMOTESANDO]\" \"Everyday Urban Rhythm\" Premium travel sketch aesthetic, minimal and stylish, ultra-realistic watercolor + ink travel journal style, ultra-high-resolution, 9:16.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "[OMOTESANDO]"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Everyday Urban Rhythm"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9127_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Turn an everyday Tokyo scene into an airy travel-sketch page with delicate ink lines and luminous washes.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Omotesando Tokyo Ink and Watercolor Travel Poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9127_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9127_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9127/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/kumiko_shiraki/status/2054758609825972398",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/kumiko_shiraki/status/2054758609825972398"
+  },
+  "summary": "A vertical poster sketches Omotesando in ink and watercolor, with a zelkova-lined avenue, boutiques, cafés, pedestrians and Japanese urban details.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-watercolor-travel-posters",
+      "label": "Vintage watercolor travel posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-watercolor-ink-travel-sketch",
+      "label": "Ink and watercolor travel sketch"
+    }
+  ],
+  "title": "Omotesando Tokyo Ink and Watercolor Travel Poster",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Vertical 9:16 Omotesando poster with fine ink, watercolor washes, trees, boutiques and negative space."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/bouteille-jus-cerise-eclaboussures-cev_9104/",
+  "caseFamilyId": "cf_cev_9104",
+  "caseId": "cev_9104",
+  "caseRevisionId": "cev_9104@r0001",
+  "creator": {
+    "displayName": "Zyrella",
+    "handle": "@Zyrellix",
+    "profileUrl": "https://x.com/Zyrellix"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the exact English prompt, attribute the original source, and keep the Nano Banana Pro claim separate from undisclosed settings.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Cherry Juice Bottle Splash",
+        "promptSha256": "3215f783fa1111d4ee55b61bbb93e1dbaf53764fdf6a0bd3d729cc7e8e589614",
+        "promptText": "Create an ultra-realistic 3D commercial-style product shot of a premium cherry juice bottle, suspended mid-air with intricate condensation droplets on its surface. The bottle should appear fresh and vibrant, with each condensation bead reflecting ambient light to enhance photorealism. Surround the product with dynamic elements like splashing droplets of cherry juice, whole cherries, and ice cubes, frozen in high-speed motion, each element sharply defined with vibrant clarity",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9104_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Present a cherry juice bottle as a 3D advertising product shot, surrounded by fruit, ice and splashes frozen in motion.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Cherry Juice Bottle Splash",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9104_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9104_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9104/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Zyrellix/status/2051879755356803125",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Zyrellix/status/2051879755356803125"
+  },
+  "summary": "A cherry juice bottle stays sharp amid suspended fruit, ice and splashes.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cherry-juice-3d-product-shots",
+      "label": "3D Cherry Juice Bottle Product Shots"
+    },
+    {
+      "axis": "style",
+      "id": "style-cherry-juice-splash",
+      "label": "Cherry juice splash product advertising"
+    }
+  ],
+  "title": "Cherry Juice Bottle Splash",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "A premium cherry juice bottle is presented in a suspended high-speed commercial product shot."
+    },
+    {
+      "name": "setting",
+      "value": "A warm neutral studio frames the cherry bottle with controlled light, ice cubes, whole cherries and juice splashes."
+    },
+    {
+      "name": "action",
+      "value": "Condensation, splashing cherry juice, cherries and ice are frozen in motion around the bottle."
+    }
+  ]
+}
