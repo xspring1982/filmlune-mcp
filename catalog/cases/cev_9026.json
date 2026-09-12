@@ -9,25 +9,7 @@
     "profileUrl": "https://x.com/miratechtool"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "Adult woman seated in a café surrounded by small 3D doubles playing across the table and room.",
-      "assetId": "asset_cev_9026_01",
-      "assetRevisionId": "asset_cev_9026_01@r0001",
-      "bytes": 243158,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1149,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9026/image-01-r0001.webp",
-      "role": "hero",
-      "sha256": "c8a5469347c1d89b3fb9b3a88448ca3fc409136f12163403aadb4467fdb06c12",
-      "width": 1369
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "Keep the base image, coherent shadows, and miniature scale while using an authorized photograph and preserving the two handwritten text fragments exactly.",
   "model": {
@@ -70,10 +52,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "ac4e23ed8b95235948d529f1355d362284012398d308d37eb97e738bc486b09c",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -85,9 +67,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Miniature 3D selves around a portrait",
-      "outputAssetIds": [
-        "asset_cev_9026_01"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9026_01",
       "stepIndex": 1,
       "variantId": "ppv_9026_01"
@@ -97,7 +77,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"

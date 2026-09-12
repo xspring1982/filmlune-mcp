@@ -9,59 +9,7 @@
     "profileUrl": "https://x.com/Naiknelofar788"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "Black-and-white engraved portrait of a smiling adult footballer on ivory paper.",
-      "assetId": "asset_cev_9019_01",
-      "assetRevisionId": "asset_cev_9019_01@r0001",
-      "bytes": 220640,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1264,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9019/image-01-r0001.webp",
-      "role": "hero",
-      "sha256": "dce2b56a62ad21bf0d9639c2921bfbe41c22e4393c30322fa4de93d991ad1f65",
-      "width": 848
-    },
-    {
-      "alt": "Black-and-white engraved portrait of a bearded adult footballer with fine hatching.",
-      "assetId": "asset_cev_9019_02",
-      "assetRevisionId": "asset_cev_9019_02@r0001",
-      "bytes": 302076,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1264,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 2,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9019/image-02-r0001.webp",
-      "role": "output",
-      "sha256": "8e251c8353701f9e67f26da8144eec22d8874ae3f8df6f5dc4eb187f34de6dd4",
-      "width": 848
-    },
-    {
-      "alt": "Black-and-white engraved portrait of a short-haired adult footballer on ivory.",
-      "assetId": "asset_cev_9019_03",
-      "assetRevisionId": "asset_cev_9019_03@r0001",
-      "bytes": 249538,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1264,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 3,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9019/image-03-r0001.webp",
-      "role": "output",
-      "sha256": "f45453a5aac18eab8aece7ae0436cc19a087ae3ccdf15ba72254b13631835567",
-      "width": 848
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "Keep the centered crop, paper texture, and engraved linework, then use a fictional face or a portrait reference with established rights.",
   "model": {
@@ -91,10 +39,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "ac4e23ed8b95235948d529f1355d362284012398d308d37eb97e738bc486b09c",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -106,11 +54,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Black-ink sports portrait engraving",
-      "outputAssetIds": [
-        "asset_cev_9019_01",
-        "asset_cev_9019_02",
-        "asset_cev_9019_03"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9019_01",
       "stepIndex": 1,
       "variantId": "ppv_9019_01"
@@ -120,7 +64,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"

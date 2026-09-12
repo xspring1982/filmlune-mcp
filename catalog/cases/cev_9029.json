@@ -9,76 +9,7 @@
     "profileUrl": "https://x.com/Diplomeme"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "Red chocolate-bar poster with an adult model, foreground product, and flying chocolate fragments.",
-      "assetId": "asset_cev_9029_01",
-      "assetRevisionId": "asset_cev_9029_01@r0001",
-      "bytes": 260552,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9029/image-01-r0001.webp",
-      "role": "hero",
-      "sha256": "171e0167011f7dc6d3fb67a06ce021f651f913cbd59eb83c3ceba394579db960",
-      "width": 1122
-    },
-    {
-      "alt": "Orange chocolate-bar advertisement with hero packaging, oversized slogans, and wafer particles.",
-      "assetId": "asset_cev_9029_02",
-      "assetRevisionId": "asset_cev_9029_02@r0001",
-      "bytes": 258820,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 2,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9029/image-02-r0001.webp",
-      "role": "output",
-      "sha256": "58fba0614e6b43d3ae53d6939453c18f1b7d2c480073b5b4c14de0d366d49db6",
-      "width": 1122
-    },
-    {
-      "alt": "Premium chocolate poster with an adult model, foreground wrapper, and a high-contrast commercial layout.",
-      "assetId": "asset_cev_9029_03",
-      "assetRevisionId": "asset_cev_9029_03@r0001",
-      "bytes": 313332,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 3,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9029/image-03-r0001.webp",
-      "role": "output",
-      "sha256": "2a1b9d1461ca273f56588015e82da9605108a27ad4fde4f40a0d675bbaed4617",
-      "width": 1122
-    },
-    {
-      "alt": "Vertical confectionery poster with a product hero, white typography, suspended crumbs, and a call to action.",
-      "assetId": "asset_cev_9029_04",
-      "assetRevisionId": "asset_cev_9029_04@r0001",
-      "bytes": 412838,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 4,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9029/image-04-r0001.webp",
-      "role": "output",
-      "sha256": "c31563f2b66debada82d3e0ff5d3f502d3952611bd777d1d638155370abc5378",
-      "width": 1122
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "The exact source recipe and protected text remain available under the accepted-risk lane; replace all brands, packaging, slogans, and claims with authorized fictional material in any new work.",
   "model": {
@@ -193,10 +124,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "ac4e23ed8b95235948d529f1355d362284012398d308d37eb97e738bc486b09c",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -208,12 +139,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Chocolate snap poster with oversized typography",
-      "outputAssetIds": [
-        "asset_cev_9029_01",
-        "asset_cev_9029_02",
-        "asset_cev_9029_03",
-        "asset_cev_9029_04"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9029_01",
       "stepIndex": 1,
       "variantId": "ppv_9029_01"
@@ -223,7 +149,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"
