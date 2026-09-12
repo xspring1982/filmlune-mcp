@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/ao-cobalt-blue-parkour-trailer-cev_9132/",
+  "caseFamilyId": "cf_cev_9132",
+  "caseId": "cev_9132",
+  "caseRevisionId": "cev_9132@r0001",
+  "creator": {
+    "displayName": "おのふみ| 3D×動画生成×個人開発",
+    "handle": "@onofumi_AI",
+    "profileUrl": "https://x.com/onofumi_AI"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Use the complete English prompt assembled from four ordered same-author replies as one direct text-to-video recipe; no external reference input is attached.",
+  "model": {
+    "capabilityRevisionId": "catalog-minimax-h3-standard-20260828-r2",
+    "displayName": "MiniMax H3 · estimation",
+    "modelFamilyId": "minimax-h3",
+    "modelId": "MiniMax-H3",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "AO Cobalt-Blue Parkour Motion-Graphics Trailer",
+        "promptSha256": "620892311e486b1971615f45036e5bf1ceca27b4148e0fade2eb15848bf5cb62",
+        "promptText": "1️⃣Create an explosive, motion-graphics-driven character reveal trailer in 16:9, exactly 13 distinct cuts, 24fps. AO is a cool, composed anime streetwear girl with a chin-length vivid blue bob with messy bangs, sharp ice-blue eyes, a light-blue knit beanie, an oversized white zip-up hooded windbreaker with blue drawstrings and a blue utility pocket on the left sleeve, a white crop top, light-blue drawstring shorts with a small barcode tag, and chunky white-and-blue platform sneakers. Preserve her exact face, proportions, hairstyle, outfit, materials, accessories and colors throughout; never redesign her. This film is 80% bold graphic design in motion and 20% character action: giant kinetic typography, hard-edged shapes, split-screens, flat color fields, barcode strips, UI ticks, halftone, speed lines and shutter flashes. Palette: ice blue, cobalt, white, silver-grey, black. Style: premium AAA motion-graphics title sequence x streetwear campaign film. Every graphic element moves fast and snaps hard on the beat.\n\n2️⃣ CUT 01 | 0.00-1.00s - Pure graphics: a massive cobalt circle slams onto a white field, two black bars wipe across, tiny UI ticks and a barcode strip flicker; the letters A and O punch in one after another with heavy impact shake. CUT 02 | 1.00-2.00s - The O becomes a porthole: extreme close-up of her ice-blue eye inside it, glancing up; RGB split flash, then the circle shatters into shards of flat color. CUT 03 | 2.00-3.10s - Black frame with an enormous white AO; she sprints in from frame left and power-slides across the baseline of the typography, speed lines and ice-blue streaks trailing, shards of the letters kicked up like sparks. Whip-pan out. CUT 04 | 3.10-4.00s - Split-screen triptych of flat cobalt/white/ice-blue panels; in each panel her silhouette performs a different move in stroboscopic freeze: takeoff, tuck, landing. Huge vertical text FULL SPEED scrolls behind the panels. CUT 05 | 4.00-5.10s - She leaps through a giant rotating ring of typography reading NO BRAKES NO LIMITS; camera tracks her mid-air spin in slow motion as the letters scatter, then snap-zoom on her confident face. CUT 06 | 5.10-6.00s - Hard cut: white editorial card, huge black JUMP with a cobalt slash; she vaults over the word itself, palm planted on the J, legs whipping across frame; the word compresses like a spring under her hand and rebounds.\n\n3️⃣ CUT 07 | 6.00-7.00s - Ice-blue field with a black diagonal stripe; she back-flips along the stripe in three stroboscopic ghost frames, each ghost tinted a different palette color; giant outlined text FLIP rotates 180 degrees in sync with her rotation. CUT 08 | 7.00-8.00s - Kinetic type barrage: the words COOL / FAST / CLEAN / BLUE slam in one per beat with shutter flashes and camera shake, while she slides on her knees across the foreground, jacket flaring, frost particles bursting from her sneakers. CUT 09 | 8.00-9.00s - Black frame, giant white wireframe grid tilting in 3D; she runs up the grid like a wall, kicks off, and hangs in the air as everything freezes; a cobalt circle stamps around her frozen pose like a target lock with UI brackets and data ticks. CUT 10 | 9.00-10.10s - Freeze releases into a burst: she dives toward camera through layered flat-color panes that shatter one by one like glass shutters, each shattering pane revealing a bigger letter of A-O; foreground wipe with her sneaker. CUT 11 | 10.10-11.10s - Rapid-fire poster montage: four full-screen graphic posters of her in different action poses (mid-flip, sliding, landing, hands-in-pockets) snap past with hard cuts, each with different bold layout, oversized numbers 01-04, barcodes and slashes. CUT 12 | 11.10-13.00s - Hero moment on a clean white cyclorama: she lands a final backflip dead center in slow motion, straightens with hands in pockets, and a shockwave of concentric cobalt rings, wind streaks and shattered typography blasts outward from her landing; brief iconic freeze with her faint confident smile, overexpose to white. CUT 13 | 13.00-15.00s - Final identity card: enormous black AO dominates a pale white field with translucent ice-blue rings, technical arcs, halftone and a rough black circular emblem containing a ghosted snow-crystal/barcode motif; she stands relaxed overlapping the letters, wind rippling her jacket; one last ice-blue pulse sweeps through the typography and a frost-ring flash punctuates the end.\n\n4️⃣ Editing: extremely aggressive rhythm - hard cuts on every beat, graphic matches, whip pans, snap zooms, stroboscopic freezes, foreground wipes, RGB splits, shutter flashes, impact shakes and speed ramps; every cut must feel compositionally different; typography is always fully readable before the character overlaps it. No weapons, no combat, no fire; all energy comes from motion design, wind, frost, glass and her parkour-style athleticism. BGM: hard-hitting electronic / drum-heavy future bass with aggressive drops, risers, sub hits and glitch fills locked to every cut; sneaker impacts, whooshes, glass shatters and typography slams are rhythmic sound-design elements. Peak at CUT 12 and end with a cold electronic logo stinger. Premium AAA quality, anime-inspired cinematic rendering, stylish and explosive, strong graphic-design identity, consistent character design, exactly 13 cuts.\"",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9132_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study a character-reveal trailer that binds athletic movement to readable kinetic typography and a consistent streetwear design.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "AO Cobalt-Blue Parkour Motion-Graphics Trailer",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9132_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9132_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9132/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/onofumi_AI/status/2089683944233160721",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/onofumi_AI/status/2089683944233160721"
+  },
+  "summary": "AO moves through thirteen cobalt and ice-blue graphic cuts with parkour, kinetic type and a final identity card.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-minimax-h3",
+      "label": "MiniMax H3"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-ao-motion-graphics-trailers",
+      "label": "Graphic-character motion-design trailers"
+    },
+    {
+      "axis": "style",
+      "id": "style-motion-graphics-streetwear",
+      "label": "Streetwear motion design"
+    }
+  ],
+  "title": "AO Cobalt-Blue Parkour Motion-Graphics Trailer",
+  "variables": [
+    {
+      "name": "character",
+      "value": "AO, personnage streetwear anime aux cheveux bleus, tenue blanche et bleue et proportions constantes."
+    },
+    {
+      "name": "edit",
+      "value": "Treize cuts distincts, typographie cinétique lisible, parkour, flashes, speed ramps et design graphique cobalt."
+    }
+  ]
+}

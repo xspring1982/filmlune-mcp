@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/carte-profil-sociale-3d-pastel-cev_9043/",
+  "caseFamilyId": "cf_cev_9043",
+  "caseId": "cev_9043",
+  "caseRevisionId": "cev_9043@r0001",
+  "creator": {
+    "displayName": "Mr Gafish | 鱼哥",
+    "handle": "@MrGafish",
+    "profileUrl": "https://x.com/MrGafish"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use a fictional interface, seat the character on the central opening and add a few floating interaction icons. Keep the shadows coherent across hand, card and miniature scene.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Pastel 3D Creator Profile Card",
+        "promptSha256": "1057b965e099f519f1274d5efcf3cd8614c940387d0da55b4128a9812c3ccd2c",
+        "promptText": "Create a warm vertical 3D creator-profile poster. A hand holds a large fictional social profile card with a square opening in its centre. An adult character sits naturally on the edge of that opening, integrated with realistic depth, contact shadows and glossy materials. Use a beige room with soft pastel accents, books, flowers in a vase and a vintage camera. Surround the card with a small number of floating like, comment and share symbols rendered as subtle luminous icons. Keep all names, avatars, counts and interface branding fictional. Blend polished animation-inspired character design with semi-realistic lighting, a centred composition and a premium creator-campaign finish.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9043_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Reframe a familiar social profile as a warm three-dimensional object for a creator portrait.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Pastel 3D Creator Profile Card",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9043_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9043_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9043/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/MrGafish/status/2052323461268467860",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/MrGafish/status/2052323461268467860"
+  },
+  "summary": "Two compositions turn a profile card held in one hand into a miniature scene with a seated character.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-3d-social-profile-cards",
+      "label": "3D Social Profile Cards"
+    },
+    {
+      "axis": "style",
+      "id": "style-pastel-3d-social-ui",
+      "label": "Pastel 3D social interface"
+    }
+  ],
+  "title": "Pastel 3D Creator Profile Card",
+  "variables": [
+    {
+      "name": "profile",
+      "value": "fictional name and avatar"
+    },
+    {
+      "name": "setting",
+      "value": "books, flowers and a vintage camera"
+    },
+    {
+      "name": "palette",
+      "value": "warm beige and soft pastels"
+    }
+  ]
+}

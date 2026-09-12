@@ -1,0 +1,134 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-automobile-jaune-gt3-rs-cev_9058/",
+  "caseFamilyId": "cf_cev_9058",
+  "caseId": "cev_9058",
+  "caseRevisionId": "cev_9058@r0001",
+  "creator": {
+    "displayName": "ᴍᴜʀᴘʜʏ",
+    "handle": "@Diplomeme",
+    "profileUrl": "https://x.com/Diplomeme"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the wing and rear angle as focal points, then arrange headline, statement and specifications around the car. Verify every figure and replace trademarks unless authorised.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Yellow GT3 RS Editorial Poster",
+        "promptSha256": "4719c596205c1b62086b7698f2456aa4a271c39a2546c9f2b407b15b75254b6b",
+        "promptText": "4:5 vertical social poster, ultra high resolution, 8K\n\nSCENE / BACKGROUND:\nFlat racing yellow with subtle gradient (light → deep amber)\nGrain texture 2–3%\nSoft rectangular overlays at 3% opacity\n\nPRODUCT:\nPorsche 911 GT3 RS\nGloss yellow with carbon details\nRear 3/4 angle, slightly elevated\nWing dominant\n\nPosition:\nRight of center\n\nTYPOGRAPHY:\n“PORSCHE”\nUltra tall, condensed, stretched\nDeep charcoal\n\nSecondary:\n“PORSCHE 911 GT3 RS”\n\nEDITORIAL:\n“Porsche — Where Precision Meets Passion”\n\nFocus:\nengineering, obsession, track DNA\n\nFADED TEXT:\n“GT3 RS” at 3–5%\n\nSPECS:\n386 kW / 525 PS\n3.2 s\n296 km/h\n\nLIGHTING:\nClean studio, sharp highlights\n\nMOOD:\nPrecision.\nIconic.\nTimeless performance.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "PORSCHE"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "PORSCHE 911 GT3 RS"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9058_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Present a performance car as an editorial icon through one dominant colour, a clean silhouette and concise technical data.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Yellow GT3 RS Editorial Poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9058_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9058_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9058/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Diplomeme/status/2097641872068063436",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Diplomeme/status/2097641872068063436"
+  },
+  "summary": "A yellow sports car seen from the rear three-quarter angle appears in a monochrome poster with oversized type and specifications.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-performance-car-editorial-posters",
+      "label": "Performance Car Editorial Posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-yellow-automotive-editorial",
+      "label": "Yellow automotive editorial"
+    }
+  ],
+  "title": "Yellow GT3 RS Editorial Poster",
+  "variables": [
+    {
+      "name": "vehicle",
+      "value": "yellow performance coupe from the rear three-quarter angle"
+    },
+    {
+      "name": "specifications",
+      "value": "verified power, acceleration and top speed"
+    },
+    {
+      "name": "background",
+      "value": "racing yellow with subtle grain"
+    }
+  ]
+}

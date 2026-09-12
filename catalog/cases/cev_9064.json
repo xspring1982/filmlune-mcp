@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/hyperlapse-selfie-sept-merveilles-cev_9064/",
+  "caseFamilyId": "cf_cev_9064",
+  "caseId": "cev_9064",
+  "caseRevisionId": "cev_9064@r0001",
+  "creator": {
+    "displayName": "simeon-sanai",
+    "handle": "@Naiknelofar788",
+    "profileUrl": "https://x.com/Naiknelofar788"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Use one recurring traveler, landmark reveals, transit inserts and quick selfie transitions. The source media is shown as an external original and is not attached as a Studio reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "SEVEN WONDERS SELFIE TRAVEL HYPERLAPSE",
+        "promptSha256": "7fe17a5430898f9bf80880db18fd8d8c07614fc69dd9085f4bbf02c1d8cf109e",
+        "promptText": "Create a cinematic hyperlapse selfie travel vlog following a single traveler across the New 7 Wonders of the World. The video should feel like an authentic viral travel vlog filmed over one unforgettable journey.\n\nSTYLE\n\nUltra-realistic cinematic travel film with vibrant color grading, realistic HDR lighting, natural skin tones, immersive ambience, handheld selfie-stick camera, ultra-wide 16–20mm lens, close selfie framing, subtle handheld movement, realistic motion blur, smooth optical flow, physically accurate movement, and excellent temporal consistency.\n\nCHARACTER CONSISTENCY\n\nThe same traveler appears naturally throughout the entire video. Maintain consistent facial features, hairstyle, age, skin tone, body proportions, clothing continuity, accessories, personality, and overall appearance across every scene.\n\nEDITING\n\nFast-paced cinematic hyperlapse with hard cuts approximately every 0.4 seconds, synchronized perfectly to the music beat. Every cut introduces a new location, angle, or action while maintaining seamless visual continuity.\n\nLOCATIONS\n\nJourney through all New 7 Wonders of the World:\n\n• Great Wall of China\n• Petra, Jordan\n• Christ the Redeemer, Brazil\n• Machu Picchu, Peru\n• Chichén Itzá, Mexico\n• Colosseum, Rome\n• Taj Mahal, India\n\nBlend these landmarks with authentic travel moments including airport arrivals, boarding flights, scenic train rides, local buses, bustling markets, rooftop viewpoints, panoramic skylines, traditional streets, street food, festivals, cultural interactions, and vibrant nighttime city scenes.\n\nWARDROBE\n\nStylish travel outfits appropriate for each destination, including lightweight jackets, scarves, desert wear, tropical shirts, casual streetwear, elegant travel clothing, and comfortable hiking outfits while maintaining accessory continuity.\n\nPERFORMANCE\n\nNatural travel-vlogger energy with genuine expressions.\n\nInclude waving, peace signs, thumbs-up, finger hearts, laughter, amazed reactions, pointing toward landmarks, playful perspective shots with monuments, spinning with the selfie stick, celebrating discoveries, dancing with locals, and moments of quiet admiration.\n\nENVIRONMENT\n\nAuthentic crowds, local architecture, realistic weather, sunrise, golden hour, daytime, blue hour, and nighttime scenes with immersive environmental detail and cinematic scale.\n\nQUALITY\n\nPhotorealistic film-quality rendering with stable subject tracking, natural facial animation, smooth motion, realistic lighting, accurate reflections, and clean visual continuity. Avoid flickering, geometry distortions, ghosting, duplicated subjects, visual artifacts, or inconsistent accessories.\n\nFINAL RESULT\n\nA premium 15-second cinematic hyperlapse travel vlog that feels like authentic footage of one traveler exploring all New 7 Wonders of the World, blending adventure, culture, history, and breathtaking realism into a fast-paced, unforgettable journey.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9064_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study a compact travel-vlog structure that connects landmark reveals, transit moments, food and direct-to-camera reactions.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "SEVEN WONDERS SELFIE TRAVEL HYPERLAPSE",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9064_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9064_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9064/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Naiknelofar788/status/2071550858035396655",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Naiknelofar788/status/2071550858035396655"
+  },
+  "summary": "A recurring traveler moves from airports and transport to the New 7 Wonders in a fast-paced selfie travel vlog.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-seven-wonders-hyperlapse-travel-vlogs",
+      "label": "Seven Wonders Hyperlapse Travel Vlogs"
+    },
+    {
+      "axis": "style",
+      "id": "style-video-cinematic-realism",
+      "label": "Cinematic realism"
+    }
+  ],
+  "title": "Seven Wonders Selfie Travel Hyperlapse",
+  "variables": [
+    {
+      "name": "traveler",
+      "value": "one recurring traveler across every scene"
+    },
+    {
+      "name": "stages",
+      "value": "airports, transit, markets and the New 7 Wonders"
+    },
+    {
+      "name": "rhythm",
+      "value": "music-synchronized hyperlapse cuts"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/publicite-cosmetique-y2k-couleurs-fluo-cev_9124/",
+  "caseFamilyId": "cf_cev_9124",
+  "caseId": "cev_9124",
+  "caseRevisionId": "cev_9124@r0001",
+  "creator": {
+    "displayName": "みどり🐲Midori Tatsuta",
+    "handle": "@midori_tatsuta",
+    "profileUrl": "https://x.com/midori_tatsuta"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the exact Japanese source prompt, Y2K art direction, fluorescent palette and 3:4 ratio; the Japanese prompt remains an exact protected source literal.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "ja",
+  "outputVariantId": "ov_original_ja_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Fluorescent Y2K Budget Cosmetics Ad",
+        "promptSha256": "cadc9de5722cd3856a8cefe3ad98c9490325d6afef4b5e439681efb58a536ca6",
+        "promptText": "Z世代向けの可愛いY2Kデザインのプチプラ化粧品広告画像を作って。ビビッドな配色で蛍光色も使用。アスペクト比は3:4。",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9124_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Give a makeup advertisement immediately legible Y2K energy through contrast, vivid colours and a 3:4 composition.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Fluorescent Y2K Budget Cosmetics Ad",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9124_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9124_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9124/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/midori_tatsuta/status/2045378877363798279",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/midori_tatsuta/status/2045378877363798279"
+  },
+  "summary": "Two advertising visuals use a vivid Y2K direction to present budget cosmetics in a 3:4 format with fluorescent colour accents.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-y2k-fluorescent-cosmetics-ads",
+      "label": "Fluorescent Y2K cosmetics advertising"
+    },
+    {
+      "axis": "style",
+      "id": "style-y2k-fluorescent-pop",
+      "label": "Fluorescent Y2K pop"
+    }
+  ],
+  "title": "Fluorescent Y2K Budget Cosmetics Ad",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "3:4 Y2K cosmetics ad with vivid palette and fluorescent accents."
+    }
+  ]
+}

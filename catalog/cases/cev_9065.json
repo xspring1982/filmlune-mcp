@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/marche-urbaine-personnage-principal-cev_9065/",
+  "caseFamilyId": "cf_cev_9065",
+  "caseId": "cev_9065",
+  "caseRevisionId": "cev_9065@r0001",
+  "creator": {
+    "displayName": "Sophia",
+    "handle": "@sophiaparkerr_",
+    "profileUrl": "https://x.com/sophiaparkerr_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Use one recurring subject, low-angle and orbit moves, a carefully staged frozen-crosswalk beat and a closing walk-past. The source media is shown as an external original and is not attached as a Studio reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "MAIN CHARACTER CITY WALK",
+        "promptSha256": "f6a6dc55489b7d5cff73c4c984dbb48e8377c1c511db1c9dae4bf219cf3232b8",
+        "promptText": "Style: Ultra-realistic cinematic influencer reel, luxury lifestyle aesthetic, 4K HDR, golden hour lighting, shallow depth of field, smooth gimbal movements, subtle lens flares, vibrant city atmosphere, fashion-commercial quality, confident feminine energy\n\n0:00–0:03\n\nCamera: Low-angle tracking shot following stylish heels walking down a charming European-style street. Coffee cup in one hand, phone in the other. Pedestrians naturally move aside as she walks.\nAction: She casually glances at the camera with a confident smirk.\nAudio: Trendy upbeat pop beat begins with city ambience.\n\n---\n\n0:03–0:06\n\nCamera:Orbit shot circling her in slow motion.\nAction: A gust of wind lifts her hair perfectly. She removes her sunglasses, makes eye contact with the camera, then effortlessly slides them back on. Time seems to slow while everyone around her blurs into motion.\nEffect: Dramatic speed ramp and cinematic lens flare.\n\n---\n\n0:06–0:09\n\nCamera: Wide cinematic shot as she confidently steps onto a busy crosswalk.\nAction: The traffic lights turn green, but for a brief moment the entire city freezes. Cars stop, birds hang in midair, pedestrians become motionless. Only she keeps walking with complete confidence.\nEffect: Epic cinematic sound hit.\n\n---\n\n0:09–0:12\n\nCamera: FPV drone smoothly rises from street level to reveal the entire skyline.\nAction: As she puts on her sunglasses, the frozen city instantly comes back to life. Cars move, people continue walking, and sunlight reflects dramatically off the skyscrapers.\nEffect: Whip transition synchronized to the music beat.\n\n---\n0:12–0:15\n\nCamera: Slow-motion close-up as she takes a sip of coffee while walking toward the camera.\nAction: She gives a playful wink, then walks past the lens. The camera turns to reveal everyone behind her subtly watching in admiration.\n\nMusic:Beat drops on the final frame with a clean cinematic logo-style ending.\n\nThis version adds a subtle \"reality bends around her\"moment, making it feel more dramatic and memorable while still fitting the polished female influencer aesthetic that performs well on short-form platforms.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9065_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study a short-form lifestyle reel built from tracking, orbit, freeze-and-resume effects and a direct-to-camera ending.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "MAIN CHARACTER CITY WALK",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9065_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9065_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9065/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/sophiaparkerr_/status/2079520974517805421",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/sophiaparkerr_/status/2079520974517805421"
+  },
+  "summary": "A confident woman walks through a sunlit city as a brief freeze in the crowd gives way to a skyline reveal and a coffee close-up.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-city-walk-influencer-reels",
+      "label": "Cinematic City-Walk Influencer Reels"
+    },
+    {
+      "axis": "style",
+      "id": "style-video-cinematic-realism",
+      "label": "Cinematic realism"
+    }
+  ],
+  "title": "Main Character City Walk",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "one recurring main character"
+    },
+    {
+      "name": "movement",
+      "value": "low tracking, orbit and aerial rise"
+    },
+    {
+      "name": "effect",
+      "value": "city freeze followed by a natural restart"
+    }
+  ]
+}

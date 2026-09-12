@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/jungle-temple-underground-sun-fpv-dive-cev_9131/",
+  "caseFamilyId": "cf_cev_9131",
+  "caseId": "cev_9131",
+  "caseRevisionId": "cev_9131@r0001",
+  "creator": {
+    "displayName": "LudovicCreator",
+    "handle": "@LudovicCreator",
+    "profileUrl": "https://x.com/LudovicCreator"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Use the complete English source prompt as a direct text-to-video recipe; the external source video is evidence only and is not attached as an input reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "FPV Dive Through a Jungle Temple to a Golden Underground Sun",
+        "promptSha256": "ada47b174328bb587dbc8696fdcb6169d3845078b2a013efffb080c7c98d0398",
+        "promptText": "Immersive first-person flying camera perspective, no visible drone or flying device. The camera dives through an ancient jungle temple swallowed by storm clouds, racing between vines, stone statues, waterfalls, and glowing ruins. At the end, the temple opens into a massive underground sun, releasing golden shockwaves and levitating stone rings. Continuous POV shot, no cuts, aggressive banking, cinematic motion blur, volumetric mist, high-end fantasy VFX.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9131_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study a continuous FPV fantasy-environment sequence with aggressive banking, volumetric mist and a strong final reveal.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "FPV Dive Through a Jungle Temple to a Golden Underground Sun",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9131_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9131_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9131/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/LudovicCreator/status/2073859479087550582",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/LudovicCreator/status/2073859479087550582"
+  },
+  "summary": "A first-person fantasy dive moves through a jungle temple, waterfalls and glowing ruins before opening onto a golden underground sun.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-jungle-temple-fpv-fantasy",
+      "label": "Fantasy jungle-temple FPV dives"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-fantasy-vfx",
+      "label": "Cinematic fantasy VFX"
+    }
+  ],
+  "title": "FPV Dive Through a Jungle Temple to a Golden Underground Sun",
+  "variables": [
+    {
+      "name": "scene",
+      "value": "Temple antique envahi par la jungle, cascades, brume d'orage et soleil souterrain doré."
+    },
+    {
+      "name": "camera",
+      "value": "Vue subjective FPV continue, sans drone visible, avec virages agressifs et flou de mouvement cinématographique."
+    }
+  ]
+}

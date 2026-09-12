@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-satin-blanc-train-cev_9057/",
+  "caseFamilyId": "cf_cev_9057",
+  "caseId": "cev_9057",
+  "caseRevisionId": "cev_9057@r0001",
+  "creator": {
+    "displayName": "Prompt アトリエ｜AI画像プロンプト",
+    "handle": "@CyberTotal2026",
+    "profileUrl": "https://x.com/CyberTotal2026"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Place the subject on the right, reserve a bright strip on the left and blur the other passengers. Preserve satin reflections without losing lace detail.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "White Satin Portrait by a Train Window",
+        "promptSha256": "44e0bcf787946604d0706639739865292c897b7c5dec0fb6a17a3b33b8ea700c",
+        "promptText": "Create a photorealistic vertical portrait inside a train or coach with blue upholstered seats. Place an adult woman slightly right of centre, seated beside a bright window and looking quietly toward the camera. Give her long dark hair falling across one eye and both shoulders. She wears a white satin camisole with delicate lace and a matching satin robe resting loosely below the shoulders. Frame her from about the waist up at seated chest height, leaving a broad luminous strip of window on the left. Strong diffused daylight from the window should shape her face, satin and hair while the opposite shadows remain soft. Keep other passengers and seats gently blurred, focus on natural fabric reflections and fine hair detail, and avoid clipped highlights or an over-polished skin finish.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9057_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a quiet portrait in transit by using the window as one broad directional light source.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "White Satin Portrait by a Train Window",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9057_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9057_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9057/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/CyberTotal2026/status/2097630846954172859",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/CyberTotal2026/status/2097630846954172859"
+  },
+  "summary": "A seated woman between a bright window and blue seats wears a white satin top and robe shaped by soft backlight.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-window-lit-transit-portraits",
+      "label": "Window-Lit Transit Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-soft-window-satin",
+      "label": "Soft backlit satin"
+    }
+  ],
+  "title": "White Satin Portrait by a Train Window",
+  "variables": [
+    {
+      "name": "outfit",
+      "value": "white satin top and robe"
+    },
+    {
+      "name": "setting",
+      "value": "blue seats and a train window"
+    },
+    {
+      "name": "light",
+      "value": "strong diffused light from the left"
+    }
+  ]
+}
