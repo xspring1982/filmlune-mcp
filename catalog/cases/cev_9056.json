@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-fleurs-roses-corset-bleu-cev_9056/",
+  "caseFamilyId": "cf_cev_9056",
+  "caseId": "cev_9056",
+  "caseRevisionId": "cev_9056@r0001",
+  "creator": {
+    "displayName": "dreamy digital arts",
+    "handle": "@dreamydigiarts",
+    "profileUrl": "https://x.com/dreamydigiarts"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Place some branches sharply near the subject and blur others at the frame edges. Balance blue clothing with pink flowers and keep the evening light diffuse.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Blue Corset Portrait among Pink Blossoms",
+        "promptSha256": "059fe9f44a3cf6b39a23b77fe443ca0f64a6a3c98d5dd69557901b446812862e",
+        "promptText": "A photograph of a woman among dense branches with pink flowers. The woman stands surrounded by flowering branches that fill the foreground and background. The composition is arranged so that the flowers partially overlap the edges of the frame, creating an immersive effect. The camera is positioned straight ahead, not tilted. The frame is medium-wide, with the woman shown from the upper hips upward.\nThe woman stands upright, her body facing the camera. Her head is slightly tilted upward. One hand is raised and gently touches her cheek, fingers positioned naturally. The pose is relaxed, without tension. The gaze is directed upward or slightly to the side, and the facial expression is soft.\nHairstyle: The hair is styled with soft volume at the roots, with individual strands neatly framing the face.\nThe hair reflects the light softly, without excessive shine. The skin appears natural, with soft highlights on the cheekbones and cheeks.\nEyeshadow in soft pastel shades (peach, beige, light pink) with a smooth transition to a darker tone at the outer corner of the eye. Black eyeliner with a subtle wing accentuates the shape of the eyes. Eyelashes are long and voluminous, thickly coated with black mascara. Lips are coated with a soft pink gloss with a subtle shimmer.\nThe skin looks perfectly smooth and matte.\nThe woman is wearing a blue off-the-shoulder corset top. The material is thick and holds its shape. The sleeves are voluminous, made of a translucent fabric that softly diffuses the light. The bottom is a white miniskirt with a small side slit. The fabric of the skirt is smooth, without any pronounced texture. Embellishments are minimal or absent.\nThe setting is a garden or park with flowering trees. The flowers are pink, dense, with green leaves. The foreground is partially blurred due to the depth of field. The background is also softened, but remains recognizable as a continuation of the floral space.\nThe lighting is natural, warm, and diffused, typical of sunset. The light is evenly distributed, creating soft shadows without sharp edges. The warm tones enhance the skin tone and petals.\nThe depth of field is shallow: the woman and nearby branches are in focus, while the background and foreground are blurred. The color palette is built on a combination of pink flowers, green foliage, a blue corset, and a white skirt.\nTextures are clearly visible: smooth skin, straight hair, the dense material of the corset, translucent sleeves, delicate flower petals, and leaves.\nThe photorealism is high",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9056_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create an immersive fashion portrait in which flowers connect foreground, subject and background.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Blue Corset Portrait among Pink Blossoms",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9056_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9056_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9056/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/dreamydigiarts/status/2097520379791135019",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/dreamydigiarts/status/2097520379791135019"
+  },
+  "summary": "A woman in a blue corset and white skirt stands among flowering branches under warm light and shallow depth of field.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-floral-fashion-portraits",
+      "label": "Floral Fashion Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-sunset-floral-photorealism",
+      "label": "Sunset floral photography"
+    }
+  ],
+  "title": "Blue Corset Portrait among Pink Blossoms",
+  "variables": [
+    {
+      "name": "outfit",
+      "value": "blue corset, translucent sleeves and white skirt"
+    },
+    {
+      "name": "blossoms",
+      "value": "dense pink flowering branches"
+    },
+    {
+      "name": "light",
+      "value": "warm diffused sunset"
+    }
+  ]
+}

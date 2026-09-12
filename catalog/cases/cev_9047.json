@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/grille-neuf-portraits-editoriaux-cev_9047/",
+  "caseFamilyId": "cf_cev_9047",
+  "caseId": "cev_9047",
+  "caseRevisionId": "cev_9047@r0001",
+  "creator": {
+    "displayName": "Melis✨",
+    "handle": "@miilesus",
+    "profileUrl": "https://x.com/miilesus"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Supply your own authorised character reference, keep clothing and light consistent, then give every cell a distinct crop, gesture and focus treatment.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Nine-Frame Intimate Editorial Portrait Grid",
+        "promptSha256": "c41e4f06ba234eacf9330a91440475df9681e31e95af0f835e37aef17c2e2f90",
+        "promptText": "Editorial 3x3 photo grid in a clean soft beige studio. Character (matches reference 100%) wearing lightweight dark navy shirt, ivory trousers, barefoot for raw simplicity. Lighting: large diffused key light directly front-right, silver reflector left, subtle rim from top. Shots to include: 1. extreme close-up of lips + cheekbone with blurred hand partially covering (85mm, f/1.8, razor-thin DOF); 2. tight crop on eyes looking into lens with reflection of light strip visible (85mm, f/2.0); 3. black & white close portrait resting chin on fist, face filling frame (50mm, f/2.2); 4. over-shoulder shot, blurred foreground fabric curtain framing half face (85mm, f/2.0); 5. very close frontal with hands overlapping face, light streak across eyes (50mm, f/2.5); 6. tight angled portrait showing hair falling into eyes, soft-focus background (85mm, f/2.2); 7. crop of hands touching jawline, eyes cropped out (50mm, f/3.2, detail-focused); 8. half-body seated sideways on low cube, head turned sharply away, blurred foreground (35mm, f/ 4.5); 9. intense close-up of profile with single tear-like water droplet, cinematic light slice across (85mm, f/ 1.9). Angles: mostly tight headshots with slight high/low tilts, maintaining variation. Capture RAW, professional muted grade, smooth tonal contrast, subtle cinematic grain. Mood: intimate, introspective, character-led editorial minimalism with delicate use of fabric as prop.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9047_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a varied editorial series while preserving the same character, clothing and lighting direction.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Nine-Frame Intimate Editorial Portrait Grid",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9047_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9047_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9047/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/miilesus/status/2049556448288407795",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/miilesus/status/2049556448288407795"
+  },
+  "summary": "A 3-by-3 contact sheet moves from extreme close-ups to a seated half-body portrait in one restrained beige studio.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-consistent-portrait-grid-series",
+      "label": "Consistent Portrait Grid Series"
+    },
+    {
+      "axis": "style",
+      "id": "style-muted-editorial-contact-sheet",
+      "label": "Muted editorial contact sheet"
+    }
+  ],
+  "title": "Nine-Frame Intimate Editorial Portrait Grid",
+  "variables": [
+    {
+      "name": "character",
+      "value": "user-supplied authorised reference"
+    },
+    {
+      "name": "outfit",
+      "value": "navy shirt and ivory trousers"
+    },
+    {
+      "name": "sequence",
+      "value": "nine complementary crops and gestures"
+    }
+  ]
+}

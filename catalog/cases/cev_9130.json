@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/collage-portrait-sud-asiatique-kurta-bleue-cev_9130/",
+  "caseFamilyId": "cf_cev_9130",
+  "caseId": "cev_9130",
+  "caseRevisionId": "cev_9130@r0001",
+  "creator": {
+    "displayName": "Sairah",
+    "handle": "@Sairah_0",
+    "profileUrl": "https://x.com/Sairah_0"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the three-photo layout, powder-blue kurta, gold jhumka earrings, indoor bokeh and eye focus. The square Studio option matches the observed dimensions.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Three-Photo South Asian Portrait Collage in a Blue Kurta",
+        "promptSha256": "16aed5b1e8f5431465638a28dad3ede3c328d7cf970b8c73d844ce7e1aabaa53",
+        "promptText": "Ultra-realistic South Asian female portrait collage, three-photo layout, beautiful young woman with soft fair skin, long silky dark brown hair, natural makeup, glossy pink lips, expressive brown eyes, delicate facial features, wearing a powder-blue embroidered traditional kurta with intricate white floral threadwork, ornate gold jhumka earrings, warm cinematic golden-hour lighting, shallow depth of field, creamy bokeh background, elegant indoor setting, soft window light, photorealistic skin texture, high-end fashion photography, intimate close-up composition, dreamy mood, luxury editorial style, 85mm lens, f/1.4, ultra detailed, sharp focus on eyes, natural color grading, HDR, 8K quality.\n\nNegative Prompt:\n\nblurry, low resolution, overexposed, oversaturated, harsh shadows, distorted face, asymmetrical eyes, extra fingers, bad anatomy, plastic skin, cartoon, CGI, watermark, text, logo, noise, grain, duplicate features, unnatural makeup, deformed earrings, cropped face, motion blur",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9130_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose an intimate editorial portrait where three repeated views, embroidery and golden light create a coherent presence.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Three-Photo South Asian Portrait Collage in a Blue Kurta",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9130_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9130_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9130/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Sairah_0/status/2064272462397722635",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Sairah_0/status/2064272462397722635"
+  },
+  "summary": "A square three-photo collage presents a South Asian woman in an embroidered powder-blue kurta, gold earrings and soft golden-hour light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-south-asian-portrait-collages",
+      "label": "South Asian editorial portrait collages"
+    },
+    {
+      "axis": "style",
+      "id": "style-golden-hour-fashion-portrait",
+      "label": "Golden-hour fashion portrait"
+    }
+  ],
+  "title": "Three-Photo South Asian Portrait Collage in a Blue Kurta",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Square three-photo South Asian portrait collage with an embroidered powder-blue kurta and golden light."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-portrait-halftone-fenetre-couleur-cev_9111/",
+  "caseFamilyId": "cf_cev_9111",
+  "caseId": "cev_9111",
+  "caseRevisionId": "cev_9111@r0001",
+  "creator": {
+    "displayName": "Larus Canus",
+    "handle": "@MrLarus",
+    "profileUrl": "https://x.com/MrLarus"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Work in 9:16 with a close portrait, black-and-white halftone, one cool scan window and short labels. Integrate typography into the body rather than empty space.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Halftone Portrait Poster with a Colour Scan Window",
+        "promptSha256": "bd2e0433fbd1d70897a7dfa7f96bd0bac92c160e9dff7c8effaa72f1ef52c32a",
+        "promptText": "Create a 9:16 experimental character poster using a close or waist-up portrait with expressive body language.\n\nKeep most of the portrait in high-contrast black and white, then add a clear halftone screen-print effect. Use finer dots on the face and denser dots in the hair, clothing and shadows, so it feels like a printed zine rather than simple photo grain.\n\nAdd one color scan window through an important part of the portrait. It can run vertically across the eye, face and hand, horizontally through the eyes and gesture, or extend from the face down into the collar and body.\n\nInside this window, return to clean high-resolution photography with realistic cool-neutral skin, blue-grey shadows and natural lip tones. Keep it crisp and free of halftone texture so the contrast between “printed portrait” and “real detail” feels obvious.\n\nUse oversized condensed typography as part of the composition rather than placing a title in empty space. Let the letters crop off the canvas, overlap the body, pass behind the subject or cut across the scan window.\n\nKeep the palette restrained: black, white and cool grey as the base, then one cool blue and one muted red / burgundy as accents.\n\nOnly add a few small identity-style labels such as “IDENTITY TRACE”, “SUBJECT ACTIVE”, “GESTURE READ” or “FEATURE ACTIVE”. A few thin lines, circles and open corner marks are enough.\n\nThe final image should feel like a mix of youth-culture poster, printed zine, character dossier and experimental magazine editorial.\n\nAvoid warm yellow grading, multiple random scan windows, floating facial features, heavy glitch effects, dense UI graphics, long paragraphs, numbering, Vol./Issue labels, sparkle symbols, logos or watermarks.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "IDENTITY TRACE"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "SUBJECT ACTIVE"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "GESTURE READ"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "FEATURE ACTIVE"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9111_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build an editorial poster where dot-printed texture, gesture and a clean colour area create a readable visual identity.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Halftone Portrait Poster with a Colour Scan Window",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9111_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9111_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9111/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/MrLarus/status/2089004186755092648",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/MrLarus/status/2089004186755092648"
+  },
+  "summary": "Four character posters contrast a black-and-white halftone portrait with one crisp colour scan window, condensed typography and identity markers.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-identity-scan-character-posters",
+      "label": "Monochrome scan character posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-monochrome-fashion-editorial-poster",
+      "label": "Monochrome fashion editorial poster"
+    }
+  ],
+  "title": "Halftone Portrait Poster with a Colour Scan Window",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Vertical 9:16 poster with close portrait, black-and-white halftone, colour scan window and identity labels."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/concept-affiche-smartphone-pliable-duo-cev_9059/",
+  "caseFamilyId": "cf_cev_9059",
+  "caseId": "cev_9059",
+  "caseRevisionId": "cev_9059@r0001",
+  "creator": {
+    "displayName": "ᴍᴜʀᴘʜʏ",
+    "handle": "@Diplomeme",
+    "profileUrl": "https://x.com/Diplomeme"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use fictional branding, show one device with physically coherent hinge geometry and keep the product sharper than the model. Limit feature modules to verified information.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Duo Foldable Smartphone Campaign Concept",
+        "promptSha256": "4e43d227acb1c563f585a44e36d6cfbf8e477ef228e157bc55c0f5e5af56457d",
+        "promptText": "4:5 vertical premium smartphone campaign poster, ultra-high resolution (8K), global OOH + digital + social ready\nStyle: Apple-level art direction × contemporary product photography × bold editorial composition × hyper-real commercial photography\n\n🧠 CORE INTENT:\n“ANYTHING’S POSABLE.”\n\nOne iPhone.\nMore ways to see it.\nMore ways to use it.\nMore ways to make it yours.\n\nEffortless flexibility.\nPhysical intelligence.\nOne device that adapts to the moment.\n\n🎬 SCENE COMPOSITION:\n\nBACKGROUND:\nPure matte white architectural studio environment with a dominant oversized rounded rectangle block in ultra-soft warm silver gradient (top-left → bottom-right illumination)\n\nThe background block creates a subtle dimensional stage behind the subject and product.\n\nGIANT TYPOGRAPHY (BACKGROUND LAYER):\n“DUO”\n\n* ultra-bold geometric sans-serif\n* stretched wide kerning\n* partially cropped by frame edges\n* soft shadow depth\n* color: very light warm grey\n* subtle embossed / debossed effect\n* typography positioned behind the subject and product\n* large enough to function as an architectural graphic element\n\n👤 SUBJECT (HUMAN ELEMENT):\n\nFemale model, clean contemporary editorial look, Apple-style casting\n\n* neutral expression\n* confident, calm, effortless\n* natural skin texture\n* hair: natural flow, slightly wind-touched\n* minimal makeup\n* understated styling\n\nOUTFIT:\n→ sculptural off-white tailored top\n→ deep graphite trousers\n→ minimal accessories\n→ no visible branding\n→ sophisticated contemporary styling\n\nPOSE:\n\n* Shot from slightly low angle (hero perspective)\n* Body slightly angled toward camera\n* One hand holding iPhone Duo in its compact closed configuration\n* Other hand lightly supporting the device as it opens\n* iPhone Duo positioned prominently between viewer and subject\n* Face aligned toward viewer\n* direct eye contact\n* relaxed posture\n* pose communicates control rather than excitement\n\n📱 PRODUCT (HERO FOCUS):\n\nDEVICE:\niPhone Duo\n\nFINISH:\nPremium titanium finish with physically accurate metallic surface response\n\nPOSITION:\nExtreme foreground (forced perspective)\nSlightly rotated toward camera to reveal the thin profile, hinge construction and display relationship\n\nThe device must remain the dominant visual object.\n\nPRODUCT CONFIGURATION:\niPhone Duo shown transitioning from compact outer-display mode into its expansive unfolded configuration.\n\nOne continuous physical device.\nNo impossible geometry.\nNo duplicated products.\nNo floating components.\n\nDETAILING:\n\n* ultra-thin titanium frame\n* precision hinge construction\n* seamless folding display\n* extremely thin bezels\n* hyper-sharp camera system\n* lens reflections physically accurate\n* brushed titanium edge highlights\n* subtle micro-scratches\n* realistic fingerprints / material response kept extremely subtle\n* Apple logo centered with restrained reflective gloss\n* physically accurate display reflections\n* realistic hinge shadow and contact points\n\nThe unfolded display should feel expansive and architectural rather than simply “larger.”\n\nREFLECTION:\n\n* soft studio reflection across titanium edges\n* subtle screen reflections\n* controlled highlight around hinge\n* micro light bloom around metallic edges\n\n✨ LIGHTING SYSTEM:\n\nMAIN LIGHT:\nSoft studio key light (front-left)\n→ smooth skin tones\n→ clean product highlights\n→ controlled white-to-silver transitions\n\nRIM LIGHT:\nCool-white edge light from right\n→ enhances phone silhouette\n→ separates titanium edges from white background\n→ reveals the thinness of the device\n\nACCENT LIGHT:\nVery subtle warm-silver glow from background architectural block\n\nSHADOW:\nSoft drop shadow beneath subject + phone\nSoft contact shadow around hinge\n(no harsh contrast)\n\n🎨 COLOR SYSTEM:\n\n* Primary: clean Apple white\n* Secondary: titanium silver / warm metallic grey\n* Accent: subtle graphite\n* Background: warm neutral white\n* Contrast: deep micro-shadows\n\nNo over-saturation.\nNo neon.\nNo unnecessary color effects.\nControlled premium palette.\n\n✨ GRAPHIC ELEMENTS:\n\n* Minimal sparkle icons ✦ (2 only)\n* One subtle translucent UI pill floating near the unfolded display\n* Thin technical construction line following the phone’s folding axis\n* Very subtle grain for realism\n* Minimal geometric indicators showing the transition between closed and open states\n\nAll graphic elements remain secondary to the product.\n\n✍️ TYPOGRAPHY SYSTEM:\n\nTOP LEFT:\nApple logo (black, small, clean)\n\nTOP RIGHT:\n“Anything’s posable.” (thin sans-serif)\n\nMID LEFT (pill):\n“iPhone Duo”\n\nCENTER DOMINANT:\n“DUO” (background type)\n\nBOTTOM RIGHT (body text):\nSmall paragraph:\n\n“iPhone Duo.\nOne beautifully designed iPhone.\nTwo ways to see it.\nMade to move with you.”\n\n📊 FEATURE STRIP (BOTTOM GRID):\n\n4 rounded cards (glass-white panels):\n\n1. 7.6″ INNER DISPLAY\n    “More room to see.”\n2. 5.4″ OUTER DISPLAY\n    “Ready when you are.”\n3. TITANIUM DESIGN\n    “Precision in every fold.”\n4. A20 PRO\n    “Pro performance. In a new form.”\n\nIcons minimal line style.\n\nCards must feel integrated into the poster rather than appearing as a generic technology specification panel.\n\n📐 COMPOSITION GRID:\n\n* Top: brand + statement\n* Mid: subject + product (dominant)\n* Background: giant “DUO” typography layer\n* Bottom: feature modules\n\nStrong vertical hierarchy.\n\nThe product overlaps the background typography.\n\nThe model creates secondary depth behind the phone.\n\nEye flow:\nFace → Phone → Hinge → “DUO” → Features\n\nThe iPhone Duo must remain the first visual priority.\n\n🎥 CAMERA SPECS:\n\n* ARRI Alexa Mini LF\n* 50mm premium anamorphic lens\n* shallow depth of field around subject\n* product maintained in extremely high optical clarity\n* HDR rendering\n* ultra-real skin + titanium material detail\n* subtle lens distortion for realism\n* physically accurate reflections\n* controlled cinematic highlight roll-off\n* realistic depth separation\n* premium commercial product photography\n\nSlightly low camera position for a subtle hero perspective.\n\nNo extreme wide-angle distortion.\nNo exaggerated perspective.\nNo artificial CGI appearance.\n\n🎯 FINAL ART DIRECTION:\n\nApple-level campaign restraint with enough visual tension to feel contemporary and editorial.\n\nThe poster should communicate that iPhone Duo is not simply a phone that folds.\n\nIts ability to change position becomes the central visual language of the campaign.\n\nPremium.\nPrecise.\nHuman.\nPhysical.\nConfident.\n\nNo generic foldable-phone aesthetic.\nNo futuristic sci-fi environment.\nNo excessive holograms.\nNo neon.\nNo cyberpunk styling.\nNo random floating UI.\nNo distorted hands.\nNo malformed device geometry.\nNo impossible hinge.\nNo duplicated cameras.\nNo fake Apple branding.\nNo clutter.\nNo cheap AI-rendered appearance.\n\nFINAL OUTPUT:\n4:5 vertical\n8K\nhyper-real commercial photography\npremium Apple campaign art direction\nglobal advertising quality\nOOH billboard ready\nsocial media ready\nBehance-level visual design",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "DUO"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Anything’s posable."
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9059_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Show the transition from a compact device to a larger display in a restrained, human product campaign.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Duo Foldable Smartphone Campaign Concept",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9059_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9059_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9059/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Diplomeme/status/2097978468642480487",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Diplomeme/status/2097978468642480487"
+  },
+  "summary": "A silver foldable smartphone fills the foreground before a model and a white architectural set dominated by the word DUO.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-foldable-smartphone-campaign-posters",
+      "label": "Foldable Smartphone Campaign Posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-minimal-product-hero",
+      "label": "Minimal product hero"
+    }
+  ],
+  "title": "Duo Foldable Smartphone Campaign Concept",
+  "variables": [
+    {
+      "name": "product",
+      "value": "titanium foldable smartphone"
+    },
+    {
+      "name": "headline",
+      "value": "large DUO background lettering"
+    },
+    {
+      "name": "modules",
+      "value": "four verified product features"
+    }
+  ]
+}

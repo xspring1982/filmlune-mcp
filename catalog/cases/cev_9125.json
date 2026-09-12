@@ -1,0 +1,120 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-mode-automne-pull-orange-jupe-verte-cev_9125/",
+  "caseFamilyId": "cf_cev_9125",
+  "caseId": "cev_9125",
+  "caseRevisionId": "cev_9125@r0001",
+  "creator": {
+    "displayName": "auqib",
+    "handle": "@auqibhabib",
+    "profileUrl": "https://x.com/auqibhabib"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the beige wall, golden light, orange knit, green skirt and the Autumn Elegance wording. The 3:4 Studio option follows the observed vertical dimensions.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Autumn Fashion Poster with Orange Knit and Green Skirt",
+        "promptSha256": "07f7fecc669955a21664f49b3a4b619f2f25a141f4bd01c2636670bad7d6af47",
+        "promptText": "Ultra-realistic autumn fashion editorial poster featuring a beautiful East Asian woman posing indoors against a warm beige wall, soft golden-hour sunlight casting cinematic leaf shadows across the scene, cozy luxury aesthetic, long wavy dark brown hair, glowing natural skin, subtle peach makeup, elegant gold drop earrings, oversized burnt-orange chunky knit sweater with cable-knit details and balloon sleeves, tucked into a dark forest-green high-waisted pleated skirt with delicate autumn leaf floral patterns, brown leather belt, warm earthy color palette, soft depth of field, aesthetic autumn decor with plaid blanket and brown ankle boots beside her, calm confident expression, Korean fashion magazine style, premium clothing advertisement photography, ultra detailed fabric texture, soft shadows, moody cozy atmosphere, typography on right side reading “Autumn Elegance” with minimal elegant serif font, editorial composition, photorealistic, 8k, luxury seasonal campaign ad.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "visible_text",
+            "value": "Autumn Elegance"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9125_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a seasonal clothing campaign where knit texture, earthy colour and leaf shadows carry the visual elegance.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Autumn Fashion Poster with Orange Knit and Green Skirt",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9125_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9125_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9125/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/auqibhabib/status/2057737623620517989",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/auqibhabib/status/2057737623620517989"
+  },
+  "summary": "A woman poses in an autumn fashion poster with an orange knit, pleated green skirt, leaf shadows and warm light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-autumn-fashion-editorial-posters",
+      "label": "Autumn fashion editorial posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-autumn-fashion-editorial",
+      "label": "Autumn fashion editorial"
+    }
+  ],
+  "title": "Autumn Fashion Poster with Orange Knit and Green Skirt",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Autumn fashion poster with orange knit, pleated green skirt, leaf shadows and Autumn Elegance typography."
+    }
+  ]
+}

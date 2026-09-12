@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/produits-editoriaux-sticker-kodak-shampoo-cev_9102/",
+  "caseFamilyId": "cf_cev_9102",
+  "caseId": "cev_9102",
+  "caseRevisionId": "cev_9102@r0001",
+  "creator": {
+    "displayName": "Maercih",
+    "handle": "@Maercihh",
+    "profileUrl": "https://x.com/Maercihh"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Reuse the exact English source prompt with source attribution; undisclosed settings remain unknown.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Editorial Products with Illustrated Stickers",
+        "promptSha256": "2c5bb546bb17bac43c8b21d1720cc236e38b7763942fec56f16d48b7ccfb535b",
+        "promptText": "Prompt 1.\n\nUltra-realistic close-up product photography of a vintage silver compact Kodak point-and-shoot camera placed on a clean white surface, soft warm beige lighting, minimalist Korean-inspired aesthetic, shallow depth of field, creamy background blur, subtle film grain texture, camera positioned slightly angled to the right, visible lens details and retro typography, tiny imperfections and realistic wear on the camera body, delicate hand-drawn sticker of a cute little girl holding a miniature camera attached to the left side of the camera, doodle-style illustration with black sketch lines, soft blush cheeks, tiny orange accent marks beside sticker, soft natural shadows, cozy nostalgic mood, muted ivory and warm gray color palette, editorial lifestyle photography, soft morning window light, realistic reflections on lens glass, premium Pinterest aesthetic composition.\nBottom area includes handwritten-style black text reading:\n“To someone I want to capture forever ♡”\nsmall orange heart accent, centered typography, casual notebook-style font.\nCamera settings aesthetic:\n50mm lens look, f/2.0 shallow focus, cinematic soft contrast, matte highlights, natural exposure, high-detail realism, soft white background with subtle warm gradients.\n\nPrompt 2\n\nUltra-realistic skincare and bathroom product photography of a transparent shampoo bottle with clear gel liquid and foam bubbles near the top, white pump dispenser, minimalist luxury packaging design, warm natural sunlight entering from the left creating soft shadows across the scene, cozy neutral-toned bathroom environment, creamy ivory and beige color palette, soft diffused lighting, highly realistic reflections on transparent plastic bottle.\nA cute hand-drawn sticker illustration of a little girl washing her hair with soap bubbles attached to the front-right side of the shampoo bottle, doodle-style black sketch lines, soft pink cheeks, tiny floating foam bubbles around the character, subtle glossy sticker texture visible.\nLabel design on bottle reads:\n“shampoo”\n“CLEAN & MOISTURIZING”\nminimal serif typography, luxury clean-girl aesthetic.\nBackground includes:\nsoft folded white towel, blurry white bottle in background, natural wooden brush with cream bristles in foreground, clean spa-like atmosphere, airy composition, subtle shadows and highlights, editorial skincare photography style.\nBottom handwritten caption reads:\n“I’ll keep you cool and refreshed from head to toe ”\ncasual handwritten font, centered placement, tiny blue water drop accent.\nCamera and lighting style:\n85mm product photography look, shallow depth of field, soft matte highlights, cinematic natural lighting, realistic transparent material rendering, premium Pinterest aesthetic, soft warm whites and creams.\nStyle tags:\nminimal skincare aesthetic, Korean product photography, clean girl aesthetic, soft lifestyle realism, cozy bathroom mood, Pinterest editorial style, cute sticker aesthetic, photorealistic, luxury minimalism.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9102_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Present each product in close-up with soft composition, realistic texture and a handwritten caption.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Editorial Products with Illustrated Stickers",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9102_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9102_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9102/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Maercihh/status/2058412283433468385",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Maercihh/status/2058412283433468385"
+  },
+  "summary": "Two editorial scenes present a Kodak camera and a shampoo bottle with illustrated stickers and handwritten captions.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-product-editorial-sticker-concepts",
+      "label": "Editorial Product Concepts with Illustrated Stickers"
+    },
+    {
+      "axis": "style",
+      "id": "style-soft-editorial-product",
+      "label": "Soft editorial product photography"
+    }
+  ],
+  "title": "Editorial Products with Illustrated Stickers",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "A vintage Kodak compact camera and a transparent shampoo bottle are presented as two soft editorial product-photography concepts."
+    },
+    {
+      "name": "setting",
+      "value": "Clean white and ivory product scenes use warm beige light, soft shadows, neutral interiors and Korean-inspired editorial styling."
+    },
+    {
+      "name": "action",
+      "value": "Each composition combines a clearly staged product with a hand-drawn little-girl sticker, readable handwritten copy and shallow-focus lifestyle details."
+    }
+  ]
+}

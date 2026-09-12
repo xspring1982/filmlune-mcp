@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-beaute-coreenne-lumiere-doree-cev_9107/",
+  "caseFamilyId": "cf_cev_9107",
+  "caseId": "cev_9107",
+  "caseRevisionId": "cev_9107@r0001",
+  "creator": {
+    "displayName": "Zephyra Leigh",
+    "handle": "@ZephyraLeigh",
+    "profileUrl": "https://x.com/ZephyraLeigh"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the lifestyle portrait, golden window light, striped sweater and pink palette. The 3:4 Studio option is selected to match the observed vertical source dimensions.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Korean Beauty Portrait in Golden-Hour Light",
+        "promptSha256": "10351dda09f471e40f1ade1e473d56f5eab585bbb6fd58856dcccf2afe05be69",
+        "promptText": "Create an ultra-realistic Korean beauty lifestyle portrait of a charming young woman in a cozy sunlit room. She has long, silky dark brown wavy hair cascading over her shoulders, flawless porcelain skin, large expressive eyes, naturally defined brows, soft rosy blush, subtle winged eyeliner, and glossy peach-pink lips.\n\nShe wears an oversized off-shoulder knitted sweater with brown and cream horizontal stripes, exposing one shoulder for a relaxed feminine look. Stylish black sunglasses rest casually on top of her head. Her expression is warm, confident, and effortlessly beautiful, looking directly at the camera.\n\nGolden-hour sunlight streams through a nearby window, casting soft warm highlights and delicate shadows across her face and hair. The room features pastel pink walls, creating a dreamy romantic atmosphere.\n\nKorean ulzzang aesthetic, cozy indoor lifestyle photography, natural beauty campaign, soft cinematic lighting, photorealistic skin texture, realistic hair detail, shallow depth of field, warm color grading, elegant composition, Instagram luxury influencer style, Vogue Korea inspired, 85mm lens, ultra-detailed, 8k ultra realistic.\n\nNegative Prompt:\nlow quality, blurry, bad anatomy, extra fingers, distorted hands, asymmetrical eyes, unrealistic skin, cartoon, anime, watermark, logo, text, noisy image, overprocessed face, oversaturated colors, duplicate accessories, low resolution, poorly drawn features.\n\nStyle Tags:\nKorean beauty portrait, golden-hour indoor photography, cozy aesthetic, soft feminine elegance, lifestyle influencer shoot, natural sunlight, photorealistic, luxury social media campaign, ultra detailed 8k, warm romantic atmosphere",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9107_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose a warm beauty portrait where window light, the striped outfit and the indoor atmosphere convey a confident presence.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Korean Beauty Portrait in Golden-Hour Light",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9107_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9107_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9107/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/ZephyraLeigh/status/2061901174199210420",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/ZephyraLeigh/status/2061901174199210420"
+  },
+  "summary": "Two lifestyle portraits show a young woman in a pink room with golden window light, a striped sweater and sunglasses resting on her head.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-directional-light-beauty",
+      "label": "Directional-light beauty portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-golden-hour-lifestyle-portrait",
+      "label": "Golden-hour lifestyle portrait"
+    }
+  ],
+  "title": "Korean Beauty Portrait in Golden-Hour Light",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Korean beauty portrait indoors with golden window light, striped sweater and pink room."
+    }
+  ]
+}
