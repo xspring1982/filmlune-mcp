@@ -9,76 +9,7 @@
     "profileUrl": "https://x.com/Goodmanprotocol"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "Red poster with an adult model whose dark outfit stretches into long graphic trails.",
-      "assetId": "asset_cev_9025_01",
-      "assetRevisionId": "asset_cev_9025_01@r0001",
-      "bytes": 202836,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9025/image-01-r0001.webp",
-      "role": "hero",
-      "sha256": "a43973052bfd9854260f89187586c0771e3d93cee8be8a18ca58333eee9ea472",
-      "width": 1122
-    },
-    {
-      "alt": "Red streetwear poster with an adult figure distorted by horizontal motion drag.",
-      "assetId": "asset_cev_9025_02",
-      "assetRevisionId": "asset_cev_9025_02@r0001",
-      "bytes": 172018,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 2,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9025/image-02-r0001.webp",
-      "role": "output",
-      "sha256": "5aa64cc4199486bfbe68de157fa4da315e6e184db40d59e14876a419b60e3c36",
-      "width": 1122
-    },
-    {
-      "alt": "Vertical fashion portrait of an adult on red with stretched clothing and film grain.",
-      "assetId": "asset_cev_9025_03",
-      "assetRevisionId": "asset_cev_9025_03@r0001",
-      "bytes": 155306,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 3,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9025/image-03-r0001.webp",
-      "role": "output",
-      "sha256": "a1a0ade068f764165b9fe8494f1ffdec1546d699003f12b1d5c42e9a5903275d",
-      "width": 1122
-    },
-    {
-      "alt": "Red campaign poster with an adult model, textile trails, and technical microtype.",
-      "assetId": "asset_cev_9025_04",
-      "assetRevisionId": "asset_cev_9025_04@r0001",
-      "bytes": 185026,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1402,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 4,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9025/image-04-r0001.webp",
-      "role": "output",
-      "sha256": "ac4fa909da8db1060f1d45b0d7bb03b81b874ee5a448316b7d85e789f91918cb",
-      "width": 1122
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "Keep the red field, full-body figure, and directional clothing trails while using a fictional adult model, unbranded clothing, and non-deceptive microtype.",
   "model": {
@@ -108,10 +39,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "9d6d45e49a85fa7d85012f8ec308dbfed89a7ffd5dc4f8d10853b8b5165a441d",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -123,12 +54,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Stretched streetwear silhouette on red",
-      "outputAssetIds": [
-        "asset_cev_9025_01",
-        "asset_cev_9025_02",
-        "asset_cev_9025_03",
-        "asset_cev_9025_04"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9025_01",
       "stepIndex": 1,
       "variantId": "ppv_9025_01"
@@ -138,7 +64,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"

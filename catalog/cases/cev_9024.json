@@ -9,25 +9,7 @@
     "profileUrl": "https://x.com/cellier_"
   },
   "kind": "reusable_case",
-  "media": [
-    {
-      "alt": "Dark-blue Chronicle presentation cover with a white heading, interface mockup, and compact feature labels.",
-      "assetId": "asset_cev_9024_01",
-      "assetRevisionId": "asset_cev_9024_01@r0001",
-      "bytes": 104492,
-      "durationSeconds": null,
-      "generationReferenceUse": true,
-      "height": 1086,
-      "kind": "image",
-      "mimeType": "image/webp",
-      "ordinal": 1,
-      "posterUrl": null,
-      "publicUrl": "/media/external/cev_9024/image-01-r0001.webp",
-      "role": "hero",
-      "sha256": "3b9d4cdc18aaa617497e556d2e2a36f43832bdbfd1b1045ad48ce92023d74713",
-      "width": 1448
-    }
-  ],
+  "media": [],
   "mediaType": "image",
   "method": "Keep the asymmetrical layout, generous whitespace, and protected source text; replace the brand, interface, and claims with authorized and verified material in any new work.",
   "model": {
@@ -142,10 +124,10 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "1d249360fb5e28e7049e3c364fb53509ca1df8e668c5c740d8ba7ce7c5eb0dae",
+    "generatorSha256": "9d6d45e49a85fa7d85012f8ec308dbfed89a7ffd5dc4f8d10853b8b5165a441d",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "1b8ec070a7f2ee3259b6b6fbd229322cf8240ea236bf3bbe4b7f6646f6637b1e",
+    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
     "websiteSourceSha256": "d94a04c680e0a78eb180230cab4d16f2aea0424ca333727611fa5394b2879165"
   },
@@ -157,9 +139,7 @@
       "inputMode": "text_to_image",
       "kind": "image",
       "label": "Editorial 4:3 cover for an AI platform",
-      "outputAssetIds": [
-        "asset_cev_9024_01"
-      ],
+      "outputAssetIds": [],
       "stepId": "step_cev_9024_01",
       "stepIndex": 1,
       "variantId": "ppv_9024_01"
@@ -169,7 +149,7 @@
   "rights": {
     "decision": "operator_risk_accepted",
     "mcp": "allow",
-    "media": "allow",
+    "media": "deny",
     "prompt": "allow",
     "social": "deny",
     "sourceLink": "allow"
