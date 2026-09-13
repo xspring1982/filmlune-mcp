@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-e6c6db645f57f9c1",
+  "catalogRevision": "mcp-local-37f8ca2cf325ac52",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -491,14 +491,6 @@
     },
     {
       "activeCaseIds": [
-        "cev_9124"
-      ],
-      "axis": "collection",
-      "id": "collection-y2k-fluorescent-cosmetics-ads",
-      "label": "Fluorescent Y2K cosmetics advertising"
-    },
-    {
-      "activeCaseIds": [
         "cev_9002",
         "cev_9003",
         "cev_9004",
@@ -550,7 +542,6 @@
         "cev_9104",
         "cev_9107",
         "cev_9111",
-        "cev_9124",
         "cev_9125",
         "cev_9126",
         "cev_9127",
@@ -616,7 +607,6 @@
         "cev_9102",
         "cev_9107",
         "cev_9111",
-        "cev_9124",
         "cev_9125",
         "cev_9126",
         "cev_9127",
@@ -706,7 +696,6 @@
         "cev_9059",
         "cev_9102",
         "cev_9104",
-        "cev_9124",
         "cev_9200"
       ],
       "axis": "use_case",
@@ -1326,14 +1315,6 @@
       "axis": "style",
       "id": "style-white-doodles",
       "label": "White doodles on photography"
-    },
-    {
-      "activeCaseIds": [
-        "cev_9124"
-      ],
-      "axis": "style",
-      "id": "style-y2k-fluorescent-pop",
-      "label": "Fluorescent Y2K pop"
     },
     {
       "activeCaseIds": [
