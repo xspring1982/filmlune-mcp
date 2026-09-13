@@ -38,12 +38,37 @@
     "cev_9037",
     "cev_9038",
     "cev_9039",
-    "cev_9040",
     "cev_9041",
+    "cev_9042",
+    "cev_9043",
+    "cev_9044",
+    "cev_9047",
+    "cev_9048",
+    "cev_9050",
+    "cev_9051",
+    "cev_9052",
+    "cev_9056",
+    "cev_9057",
+    "cev_9058",
+    "cev_9059",
+    "cev_9064",
+    "cev_9065",
+    "cev_9069",
+    "cev_9093",
+    "cev_9102",
+    "cev_9104",
+    "cev_9107",
+    "cev_9111",
+    "cev_9125",
+    "cev_9126",
+    "cev_9127",
+    "cev_9130",
+    "cev_9131",
+    "cev_9132",
     "cev_9200",
     "cev_9201"
   ],
-  "catalogRevision": "mcp-local-c01cc6dd84f61336",
+  "catalogRevision": "mcp-local-b9b1bf26c16730cd",
   "changes": [
     {
       "caseId": "cev_9002",
@@ -52,12 +77,12 @@
       "changeId": "change-cev_9002@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -67,12 +92,12 @@
       "changeId": "change-cev_9003@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -82,12 +107,12 @@
       "changeId": "change-cev_9004@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -97,12 +122,12 @@
       "changeId": "change-cev_9005@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -112,12 +137,12 @@
       "changeId": "change-cev_9006@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -127,12 +152,12 @@
       "changeId": "change-cev_9007@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -142,12 +167,12 @@
       "changeId": "change-cev_9008@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -157,12 +182,12 @@
       "changeId": "change-cev_9009@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -172,12 +197,12 @@
       "changeId": "change-cev_9010@r0003",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -187,12 +212,12 @@
       "changeId": "change-cev_9011@r0004",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -202,12 +227,12 @@
       "changeId": "change-cev_9012@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -217,12 +242,12 @@
       "changeId": "change-cev_9013@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -232,12 +257,12 @@
       "changeId": "change-cev_9014@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -247,12 +272,12 @@
       "changeId": "change-cev_9015@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -262,12 +287,12 @@
       "changeId": "change-cev_9016@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -277,12 +302,12 @@
       "changeId": "change-cev_9017@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -292,12 +317,12 @@
       "changeId": "change-cev_9018@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -307,12 +332,12 @@
       "changeId": "change-cev_9019@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -322,12 +347,12 @@
       "changeId": "change-cev_9020@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -337,12 +362,12 @@
       "changeId": "change-cev_9021@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -352,12 +377,12 @@
       "changeId": "change-cev_9022@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -367,12 +392,12 @@
       "changeId": "change-cev_9023@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -382,12 +407,12 @@
       "changeId": "change-cev_9024@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -397,12 +422,12 @@
       "changeId": "change-cev_9025@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -412,12 +437,12 @@
       "changeId": "change-cev_9026@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -427,12 +452,12 @@
       "changeId": "change-cev_9027@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -442,12 +467,12 @@
       "changeId": "change-cev_9028@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -457,12 +482,12 @@
       "changeId": "change-cev_9029@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -472,12 +497,12 @@
       "changeId": "change-cev_9030@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -487,12 +512,12 @@
       "changeId": "change-cev_9031@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -502,12 +527,12 @@
       "changeId": "change-cev_9032@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -517,12 +542,12 @@
       "changeId": "change-cev_9033@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -532,12 +557,12 @@
       "changeId": "change-cev_9034@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -547,12 +572,12 @@
       "changeId": "change-cev_9035@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -562,12 +587,12 @@
       "changeId": "change-cev_9036@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -577,12 +602,12 @@
       "changeId": "change-cev_9037@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -592,12 +617,12 @@
       "changeId": "change-cev_9038@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -607,27 +632,12 @@
       "changeId": "change-cev_9039@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
-      }
-    },
-    {
-      "caseId": "cev_9040",
-      "caseRevisionId": "cev_9040@r0001",
-      "changedAtUtc": "2026-08-12T00:00:00.000Z",
-      "changeId": "change-cev_9040@r0001",
-      "changeKind": "upserted",
-      "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
-        "generatorVersion": "mcp-catalog-v3",
-        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -637,12 +647,402 @@
       "changeId": "change-cev_9041@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9042",
+      "caseRevisionId": "cev_9042@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9042@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9043",
+      "caseRevisionId": "cev_9043@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9043@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9044",
+      "caseRevisionId": "cev_9044@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9044@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9047",
+      "caseRevisionId": "cev_9047@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9047@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9048",
+      "caseRevisionId": "cev_9048@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9048@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9050",
+      "caseRevisionId": "cev_9050@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9050@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9051",
+      "caseRevisionId": "cev_9051@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9051@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9052",
+      "caseRevisionId": "cev_9052@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9052@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9056",
+      "caseRevisionId": "cev_9056@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9056@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9057",
+      "caseRevisionId": "cev_9057@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9057@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9058",
+      "caseRevisionId": "cev_9058@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9058@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9059",
+      "caseRevisionId": "cev_9059@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9059@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9064",
+      "caseRevisionId": "cev_9064@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9064@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9065",
+      "caseRevisionId": "cev_9065@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9065@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9069",
+      "caseRevisionId": "cev_9069@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9069@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9093",
+      "caseRevisionId": "cev_9093@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9093@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9102",
+      "caseRevisionId": "cev_9102@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9102@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9104",
+      "caseRevisionId": "cev_9104@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9104@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9107",
+      "caseRevisionId": "cev_9107@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9107@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9111",
+      "caseRevisionId": "cev_9111@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9111@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9125",
+      "caseRevisionId": "cev_9125@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9125@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9126",
+      "caseRevisionId": "cev_9126@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9126@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9127",
+      "caseRevisionId": "cev_9127@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9127@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9130",
+      "caseRevisionId": "cev_9130@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9130@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9131",
+      "caseRevisionId": "cev_9131@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9131@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9132",
+      "caseRevisionId": "cev_9132@r0001",
+      "changedAtUtc": "2026-08-12T00:00:00.000Z",
+      "changeId": "change-cev_9132@r0001",
+      "changeKind": "upserted",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -652,12 +1052,12 @@
       "changeId": "change-cev_9200@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -667,12 +1067,12 @@
       "changeId": "change-cev_9201@r0001",
       "changeKind": "upserted",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -682,12 +1082,12 @@
       "changeId": "change-cev_0001@r0002-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -697,12 +1097,12 @@
       "changeId": "change-cev_0002@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -712,12 +1112,12 @@
       "changeId": "change-cev_0003@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -727,12 +1127,12 @@
       "changeId": "change-cev_0004@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -742,12 +1142,12 @@
       "changeId": "change-cev_0005@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -757,12 +1157,12 @@
       "changeId": "change-cev_0006@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -772,12 +1172,12 @@
       "changeId": "change-cev_0007@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -787,12 +1187,12 @@
       "changeId": "change-cev_0008@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -802,12 +1202,12 @@
       "changeId": "change-cev_0009@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -817,12 +1217,12 @@
       "changeId": "change-cev_0010@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -832,12 +1232,12 @@
       "changeId": "change-cev_0011@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -847,12 +1247,12 @@
       "changeId": "change-cev_0012@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -862,12 +1262,12 @@
       "changeId": "change-cev_0013@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -877,12 +1277,12 @@
       "changeId": "change-cev_0014@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     },
     {
@@ -892,251 +1292,389 @@
       "changeId": "change-cev_9001@r0001-removed",
       "changeKind": "removed",
       "provenance": {
-        "generatorSha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
         "generatorVersion": "mcp-catalog-v3",
         "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-        "presentationSha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e",
-        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-        "websiteSourceSha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0"
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9040",
+      "caseRevisionId": "cev_9040@r0001",
+      "changedAtUtc": "2026-09-12T01:34:59.000Z",
+      "changeId": "change-cev_9040@r0001-removed",
+      "changeKind": "removed",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+      }
+    },
+    {
+      "caseId": "cev_9124",
+      "caseRevisionId": "cev_9124@r0001",
+      "changedAtUtc": "2026-09-13T00:00:00.000Z",
+      "changeId": "change-cev_9124@r0001-removed",
+      "changeKind": "removed",
+      "provenance": {
+        "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+        "generatorVersion": "mcp-catalog-v3",
+        "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+        "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+        "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+        "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
       }
     }
   ],
   "files": [
     {
       "path": "catalog/cases/cev_9002.json",
-      "sha256": "848efbb194a93cb27b4141c606eb8fd4a9024ebc3f51a0cf88fe7956938550f4"
+      "sha256": "d9d21bb317790f61e0edce3901444ae480930e7f3ebf00a076b4c069c7614f96"
     },
     {
       "path": "catalog/cases/cev_9003.json",
-      "sha256": "8cf9eabc72075ca92b6c3504c62d1f17b8b3c31defb528f208247f8845356c04"
+      "sha256": "bb898694da9d48c0fc7bc875b166f73326d0f005933cc64abc81fc86b87a570e"
     },
     {
       "path": "catalog/cases/cev_9004.json",
-      "sha256": "30cbef269c7d46f64bff15b304085f581806e8171d8369efcf0bdf858c5ad512"
+      "sha256": "b037327f25f2abe51fdd1757b53d695f2377a6e3ccddc21e04d7702fa2399b26"
     },
     {
       "path": "catalog/cases/cev_9005.json",
-      "sha256": "47e98d77662c43f47db0df3a61eedaeadfb9949621ca32c1f2a5885adc2332fe"
+      "sha256": "dc7bba2ae2e36776b3d9e8023b1243f75be1a61351974947ecbf2b70723ad187"
     },
     {
       "path": "catalog/cases/cev_9006.json",
-      "sha256": "510ba9c49e3d776dcefe01b031f5ecf6d9d7de3403f485fb0439bc67eec2672f"
+      "sha256": "c56160eda763623a8959ed33b564c06b2a5bd2434760259e38bf2f446f6be962"
     },
     {
       "path": "catalog/cases/cev_9007.json",
-      "sha256": "e1b31b801a9840ea9c0d581a251726dedb6b6204e8c59c1e85ca1eac869458fa"
+      "sha256": "f9e6e3c34b8262497c4649d648d315b67a6a63d4768b5c9615882eae248fe122"
     },
     {
       "path": "catalog/cases/cev_9008.json",
-      "sha256": "3dcdfe5201af0467c1b8b2df44b01a5c1437d63bb6f40ba9ed39bf43becdfe94"
+      "sha256": "05ef2f031fd5cddb45bff3279b6faa73658bf0f170bbb0b4750c45161737a749"
     },
     {
       "path": "catalog/cases/cev_9009.json",
-      "sha256": "0766a1f876a27fefb11c16f624c93d1296f3335b473a5fa0a107fe0a8c948b96"
+      "sha256": "62883a6eaf7a0f57547230e4b392f59129508709a9536b46f7ff823d8e0102d4"
     },
     {
       "path": "catalog/cases/cev_9010.json",
-      "sha256": "2b49ecc4858d7ef023e8edc59ccfb2f0ead0b85a4b1c1a0037d85d4453d5ecfe"
+      "sha256": "04fe227c45a5119c585eef3b7a9f092b4ac3fada8fd54da0521bb1cdba050f70"
     },
     {
       "path": "catalog/cases/cev_9011.json",
-      "sha256": "e8056c31db2fbf3b824b4d3e130ceaf9bc6c90eada7434dfea73f36012105d49"
+      "sha256": "cc8e8fac31c20eb494efa60c9df125d1df747fcb5e222877dcc998dd59be3ecc"
     },
     {
       "path": "catalog/cases/cev_9012.json",
-      "sha256": "64ba35953561929e664b1940f21ea18567480b5fec3a7e78676c9633e8dfc085"
+      "sha256": "9bbe41218f9f46855594642b159c416f3e52a89a51bd2b8d56b26707993768a3"
     },
     {
       "path": "catalog/cases/cev_9013.json",
-      "sha256": "d20b492c78827626aa0d967a8e3f529ced9645f41860054c072cc059d2ac6363"
+      "sha256": "e3ac9a9b67c1a17d971e9fa4d7bde85995b0cc584a83ba9ed0c7d2bbc392706f"
     },
     {
       "path": "catalog/cases/cev_9014.json",
-      "sha256": "db00eecafe474164f21142327f1e918d3a4564f0660f2696ee1c782a91a4fc04"
+      "sha256": "1bb994bc7afc84606287f27b02caa27e1d467c9b72baa81b88894899a9a6e3df"
     },
     {
       "path": "catalog/cases/cev_9015.json",
-      "sha256": "5fa1703a244394b99d73450252427e16d3404b732f8285f4f7a670811fc0aab5"
+      "sha256": "4f9ce9f8660e65b5b5533864dba6c8af26360d47be27db710ebe5011e4db8bb5"
     },
     {
       "path": "catalog/cases/cev_9016.json",
-      "sha256": "1e6de1ac46b1dbd3d742acb3f4f3033e36ca8e5acde03a7c1b8cacad24238899"
+      "sha256": "a78c9506a13a51ecfefe1dbd9b6e379d267d2075ee57ec548f6e6f5d26b57ea2"
     },
     {
       "path": "catalog/cases/cev_9017.json",
-      "sha256": "f99fdc29ce1dbe5718896354819947db48bc90fe7f0e1ae731abbd580e6a1414"
+      "sha256": "471d90e7c223a23e136577fb300d292aaa7b2ae7f4edb1523c5647fd4919937d"
     },
     {
       "path": "catalog/cases/cev_9018.json",
-      "sha256": "dd9ce893f077ddc15a1ead0ebd57087c6dad023a05b216d123613def4bf75e16"
+      "sha256": "a412e2b66f7e8fc1a280fe4e5fb6e64d7cb5429989a3ff7d17e43fdf9e5e9dc8"
     },
     {
       "path": "catalog/cases/cev_9019.json",
-      "sha256": "7db86bcc0c266e8e645403af080d48469e5a05e8803f97650aa964140107235a"
+      "sha256": "8f6ff5dafe138a420f17706c68c4368b9ebdab6d4360ea36ed1e93efbfe16c44"
     },
     {
       "path": "catalog/cases/cev_9020.json",
-      "sha256": "a39d17a550c5c3205f0ad66857e97847cf03f3723b6464cf6e1d60236d05244c"
+      "sha256": "2c832d366d31d8da20817acf998bf794d696fbc4e2a5902f768e0d88c8693a30"
     },
     {
       "path": "catalog/cases/cev_9021.json",
-      "sha256": "80edab30cc4542eab1c90e9c5b395ba2e671f7c0b87139d35e806808b96fe2c2"
+      "sha256": "833222655341b810cf9815c44e0bcce8523d5e791da76d98b83a9ff9e2781c10"
     },
     {
       "path": "catalog/cases/cev_9022.json",
-      "sha256": "c7a12a570e0cdc7cbef2c5722769d776b91814f479c53aedbdedf22dbd5eed1e"
+      "sha256": "98523bdc35bb0865ebeca39414f767301866a6f660df23f9b946202ab488de82"
     },
     {
       "path": "catalog/cases/cev_9023.json",
-      "sha256": "575cfa47e59548c8370dc8a079f4e274a4c6721c8af2d07348c182e7de3fb223"
+      "sha256": "506f5811d83960d40c834dda97cf6bd3c0941d682294de9e27dfcf58a61c2e6e"
     },
     {
       "path": "catalog/cases/cev_9024.json",
-      "sha256": "638c1e50bcd9ee3a6aedc7cfa26b25927c022f1a032e8bb367f382055c76915a"
+      "sha256": "ca4943770968e9504adefe804789d77fccbb83641020768ca2ed7d2e47091a6a"
     },
     {
       "path": "catalog/cases/cev_9025.json",
-      "sha256": "d48b122c566295abfa925d2143a80660ea098eca2e91962b58d2edf64fff4435"
+      "sha256": "c2c49a956b1d7d7fac5e85d80dd43c180371fe324d13a9bbf79b98747fccfaa7"
     },
     {
       "path": "catalog/cases/cev_9026.json",
-      "sha256": "a0114b26955266a5f959b74c78de0f9f2c3f36c87302be22f2e82a310579f86f"
+      "sha256": "5ff5ed778efac163a28a9c5c21ba3b5ec84aef5d214707f0e86370bda1149796"
     },
     {
       "path": "catalog/cases/cev_9027.json",
-      "sha256": "bbbb3a9fb979ce23a5fa421e1b820ecd85e7ef1cd488467482b9aededb5e6640"
+      "sha256": "d879da8bdb04f73ff9e4b1844af845e0c13621a13d3145748cc40375d3d2df9f"
     },
     {
       "path": "catalog/cases/cev_9028.json",
-      "sha256": "327ec71fef4170438a2d3a6596eeeb1b462d3eee9f85bf5717b61ee9840ec14d"
+      "sha256": "55bfe04b3b492f9ce6fc821f8ccf603de303d2f1f40dd157bfc3bcf013b5aff4"
     },
     {
       "path": "catalog/cases/cev_9029.json",
-      "sha256": "fed9c422592ed4201b0aeac941422e7bf144e35b1b5abe39715ac79556868576"
+      "sha256": "c2f37ffdbd48b5f8c2f9dd2fce389062cd1562f415a02a6394e48dc9613dd7c5"
     },
     {
       "path": "catalog/cases/cev_9030.json",
-      "sha256": "85e5e05d504bf6aed6217404ce1840fc46c263d108d17234461ecc619184dbc7"
+      "sha256": "61a62b91b3aea950acf34dc203fffb23b4583713a1b7060bc18f3cf25221b150"
     },
     {
       "path": "catalog/cases/cev_9031.json",
-      "sha256": "3a0210ff365bbb4490e1fae8968c37e9f3741f09e3d51419d92c8c4a3f2545be"
+      "sha256": "8d09564d64370342f5f5b77062b1d842edc89a8a7faed6f109595a127204315f"
     },
     {
       "path": "catalog/cases/cev_9032.json",
-      "sha256": "1352f7e9911ffd166d3d0a3f4b3d0b866ba320f653294bfce437497aa51d3452"
+      "sha256": "e00ec2fba9c36e2f7453fe6fdfe21ed7145e4d429a519c210db6a7cb0e828557"
     },
     {
       "path": "catalog/cases/cev_9033.json",
-      "sha256": "76640de9a96508578662a575dbc19d28db36bb403d6983261618bf98c28c2b1b"
+      "sha256": "d27f862c8f00ac63be3ae6d5d001d15a49eb55016434cd2d1809b2cc43202cfd"
     },
     {
       "path": "catalog/cases/cev_9034.json",
-      "sha256": "4b14b7f392efb6e162eb785926a27ed66c0ca23b01f2aecb52148cea4550a8ee"
+      "sha256": "4cdf72c9d03152748f48bebe5395d8f5a3745a916e1e477643adc38126f6fac4"
     },
     {
       "path": "catalog/cases/cev_9035.json",
-      "sha256": "72084eb0989456c8e9067f04a24945d0e94102b1ade4742e4fff4c92255e27e9"
+      "sha256": "8034ec7a90fb310722296334c8e2b03fd33f8f29d6ed6069a3a01928fd75664d"
     },
     {
       "path": "catalog/cases/cev_9036.json",
-      "sha256": "966b0ffb7ae6d5a85cdc5afdaaabd412df6b66b4f5eaea56e29c106ab95089ad"
+      "sha256": "2ef79bf3d82b38c40169d594c27b7f73240f4ede3920fe38d12477f85406c7ac"
     },
     {
       "path": "catalog/cases/cev_9037.json",
-      "sha256": "5b9283af5911bd670f76d2fe6ed25e55796a41ea8da702e9a93e9c33e4e5fba8"
+      "sha256": "ad510a805ca953f107afbc6869da90b2fa66cb3f67d9ede4fb202341d9e20976"
     },
     {
       "path": "catalog/cases/cev_9038.json",
-      "sha256": "ff14b996ca76643dcc9ebda207f44694d921f30725dcf1b1cd69a9d60c3c0faa"
+      "sha256": "32a15b2da0b651f5c07cfda90703ca61e84598b19f8236ef2453e48b81072ed4"
     },
     {
       "path": "catalog/cases/cev_9039.json",
-      "sha256": "22db7a8deb0612dd85f89e811d56ded1f420c824bc8c3938ca7f214b9c838721"
-    },
-    {
-      "path": "catalog/cases/cev_9040.json",
-      "sha256": "3acf82f7ec9b5e5f1e4dc2937783cfaf40f710167c4bfe4544ba8dc1470d40ea"
+      "sha256": "fc6372eee6e252730c3cb7e1a7606913b85549daa243fcb2ff316d7a869f7526"
     },
     {
       "path": "catalog/cases/cev_9041.json",
-      "sha256": "325c0858098893e9606867b0686b6692c57f3d91b418d4196d93c445f031bdce"
+      "sha256": "ee995aa8e49eef16cf407ea33197cd39293983f5499a193d7ad8d04304b30613"
+    },
+    {
+      "path": "catalog/cases/cev_9042.json",
+      "sha256": "14cf35865e82254b49227dbdcc3dc410a52febbfdef8d98e3cf6e258d1e4d738"
+    },
+    {
+      "path": "catalog/cases/cev_9043.json",
+      "sha256": "75611be6f42e12acfe2892af87a0e338b1f8777f71bbc252782dd81dfb26da9d"
+    },
+    {
+      "path": "catalog/cases/cev_9044.json",
+      "sha256": "3ced4896957122542d006e2bee9f5a111fb8c771baae004da8b4da36ca28ad99"
+    },
+    {
+      "path": "catalog/cases/cev_9047.json",
+      "sha256": "e28da2f00e644d6c984a6e4ccc502d8536dde0c0b253f005c55f1997368ca0d0"
+    },
+    {
+      "path": "catalog/cases/cev_9048.json",
+      "sha256": "0417e033bbea241f12576ecbdde3c4635e9242110e1fda44b0c1e2042cd4e2d2"
+    },
+    {
+      "path": "catalog/cases/cev_9050.json",
+      "sha256": "7f5a11bc8744e5e7d4740742960ac64349378589c6b37eafd6ea369128f9daf1"
+    },
+    {
+      "path": "catalog/cases/cev_9051.json",
+      "sha256": "65f82c4a3d7e6ad59306666d90f030368478e62abd7e836124b5983050eced39"
+    },
+    {
+      "path": "catalog/cases/cev_9052.json",
+      "sha256": "144ca7e10479f3f1c4d1172dde36780050a161d0e58fb5f8de6e135795940979"
+    },
+    {
+      "path": "catalog/cases/cev_9056.json",
+      "sha256": "623949305fec7f0f16b4d4b449c0032db1987006e69e798646dd6b3c8a2301b2"
+    },
+    {
+      "path": "catalog/cases/cev_9057.json",
+      "sha256": "99c75f04faa246820cd3b8d9242cc32f0e9430d488715a8ae761721867ba54ca"
+    },
+    {
+      "path": "catalog/cases/cev_9058.json",
+      "sha256": "108084c42904f62a3bef857b1e93bee0c5a0feeb2148aa16ada99ddc6f0380d2"
+    },
+    {
+      "path": "catalog/cases/cev_9059.json",
+      "sha256": "b132c56ee0bb9587a7fdae6ff048ba111e64f90abbfaabc00f145ffd334b0fbc"
+    },
+    {
+      "path": "catalog/cases/cev_9064.json",
+      "sha256": "66695c371d395f10b80aefa9c256683bd8a97757e78684841d8da0f08f4cd96d"
+    },
+    {
+      "path": "catalog/cases/cev_9065.json",
+      "sha256": "26a0742193b5177055642e67bf2eb24d1e720da0269e73adb68c0fdeab8af828"
+    },
+    {
+      "path": "catalog/cases/cev_9069.json",
+      "sha256": "62e43fd890d102b1051c16307f046ab8da102a1c258ac087c83d2d60f509d277"
+    },
+    {
+      "path": "catalog/cases/cev_9093.json",
+      "sha256": "3f62b56db7793709bbcbba492c63c86f7015c55355d427f54d26576a03cbcb7a"
+    },
+    {
+      "path": "catalog/cases/cev_9102.json",
+      "sha256": "4dafd15a593a7d3f952294df6ad006a87064b76fc854cb05f43f49b6d1b9f141"
+    },
+    {
+      "path": "catalog/cases/cev_9104.json",
+      "sha256": "11d6a1f5f0a90caa68fa3e285c6d938763869de5895008229c00f1fcaaa0e283"
+    },
+    {
+      "path": "catalog/cases/cev_9107.json",
+      "sha256": "ffffb853da1006f6360b3d16ed8abba502f386a91efa2a4ca9fb2968191afad8"
+    },
+    {
+      "path": "catalog/cases/cev_9111.json",
+      "sha256": "5f38cbdb5e3291fccae4318202d426949ea06c412dc138df7a8be3a810256e96"
+    },
+    {
+      "path": "catalog/cases/cev_9125.json",
+      "sha256": "04fb0ed3f9a39076d0e90b4c1b4905f43ddcf3e2ae3ca7044a9e4fdd139f4da7"
+    },
+    {
+      "path": "catalog/cases/cev_9126.json",
+      "sha256": "03eefa096eb3fff757944298f2eb4fe8358a188a89a14222c6f15d2e8ecb50cc"
+    },
+    {
+      "path": "catalog/cases/cev_9127.json",
+      "sha256": "53f658a68a0d23f777c2a7d9645d60dbe251bb2cecd1e542f8d07541f17a77ce"
+    },
+    {
+      "path": "catalog/cases/cev_9130.json",
+      "sha256": "f9eb92c9cff6aaea4a69602f66b6f4d3e115e061c4aea9fcbc1284a4833eb1b9"
+    },
+    {
+      "path": "catalog/cases/cev_9131.json",
+      "sha256": "f62807999413c7d93dc9650ba2efca1582fbff1d91dcde3f52534952ce3d0789"
+    },
+    {
+      "path": "catalog/cases/cev_9132.json",
+      "sha256": "1e8003d20c75ead57abcece63bb1a5972b40d9e2412063699a2e336724ba071d"
     },
     {
       "path": "catalog/cases/cev_9200.json",
-      "sha256": "79bd11b07347a7dc22cb22f019ebbd572a4e643fe16ad47960ae8c3f290ab5b6"
+      "sha256": "867095633fd9d8c54c625e96010cbcbc48de0fba33c30ec841ecfb4bda97c821"
     },
     {
       "path": "catalog/cases/cev_9201.json",
-      "sha256": "aca25b378277af81c61785bfdc5d949ab41cc59e3059ff5e091e1d2a395b9e27"
+      "sha256": "01de85bd9a023908a3a7ddda2aaa8090e22bc1d92838babfc39bcaef6a429ea4"
     },
     {
       "path": "catalog/models.json",
-      "sha256": "21fc9ad58a08fadf9460cd65b3d98469c717ead1ed7fa55a7bf23822eba479ca"
+      "sha256": "10ce6ceb264cccd5c4ae844c202f6efe6ca12fc747e79d29126462a65cee66a1"
     },
     {
       "path": "catalog/taxonomy.json",
-      "sha256": "3e17d55e74e4a5f0b08949422fc47a15edd2216ddad1479c1f40d3361a7af667"
+      "sha256": "2e5308f9b337b39ce04a78cc285e51aab08d77d43e2cc50716a26ff18802790a"
     },
     {
       "path": "catalog/tombstones/cev_0001.json",
-      "sha256": "2893cabcddc2b5d97c48ec0ae7e8ea5ea068213429765a7780db6c9e1f3f1e14"
+      "sha256": "2a57d8395912d421a80a38bb6048d5f0f5f620be99448ef1e5814acd0c6db5a8"
     },
     {
       "path": "catalog/tombstones/cev_0002.json",
-      "sha256": "5d6986a7b85b032cbfaf0f6e83c5b0cdbc730acf95bdc361d924c9f2d4826ad0"
+      "sha256": "c6aefbc3239e56ec91a8bde42ef448b7236ea9950ff04dbce3c9b948b687a26d"
     },
     {
       "path": "catalog/tombstones/cev_0003.json",
-      "sha256": "5b843e5640138ee866ad279fec0562fb79571a13b739227563f1fcd5e4383367"
+      "sha256": "5d61cb03fa3fec0894f4d12eb67bb731e03d7c7c2390549c261ae315ccf01811"
     },
     {
       "path": "catalog/tombstones/cev_0004.json",
-      "sha256": "11ad4a9ab183bc6c85988cc3cc26001f3d9607eef7209cdf4e8ddecdf316bafa"
+      "sha256": "1ab766ced4741dbbc6c9afbf80bd9bfcdc36611693b25c66fe0ef201fd5107a5"
     },
     {
       "path": "catalog/tombstones/cev_0005.json",
-      "sha256": "b974b5f11104a7a4396a47dd543228865c2b340080bc62e3041a61b28ebfae74"
+      "sha256": "b4fb5b2d6af06546f4d7ab56a7d2a3c8b2f087da60d4affeac2d5525a50c99a6"
     },
     {
       "path": "catalog/tombstones/cev_0006.json",
-      "sha256": "acb32ffd0b5140a514d108ff38aa2810b796244ec9eb7846c4c214519212cfec"
+      "sha256": "bb2d50565b58c1531a7ded3679f24a44935a962cb9a9d8b5929541a51a5a5d52"
     },
     {
       "path": "catalog/tombstones/cev_0007.json",
-      "sha256": "e312b0b6592b134d0e083d6d587499a3da194da2b92578233298ec8a8e5060b3"
+      "sha256": "7b9ecfba77f7f7c943a3b3b479e2221a456b50229792f2ec583cc239a26bdba2"
     },
     {
       "path": "catalog/tombstones/cev_0008.json",
-      "sha256": "a76598a727c711946585c4cbbd28f079e28cb4f2db7ea29cf7a0d644b2c6ed64"
+      "sha256": "95452dd582aed7ea968702cdb43d6f31aabdf9c0a542398b8015dc7e75bcde09"
     },
     {
       "path": "catalog/tombstones/cev_0009.json",
-      "sha256": "2aec4cc60f6fbc21339f57f8db2f5e44624c5c81008bdc5feb66db42f2a8d0de"
+      "sha256": "b29f3e0241eec58b92551223b4004baeb85c1d9474ebb77611b743284f5d82c2"
     },
     {
       "path": "catalog/tombstones/cev_0010.json",
-      "sha256": "5e337c7a33fc5ff9b3f91fe6d5a161c84f6ac240f7c8f28f4ae1108184818a37"
+      "sha256": "ee5c56edadc3ed53f01b9752ce654c94022b7e6f21a8b516a6296c5926dd997b"
     },
     {
       "path": "catalog/tombstones/cev_0011.json",
-      "sha256": "c21e182a94d34bd826d2ea00bd688be0495b5ab91eb6a1ea356fce7688afef49"
+      "sha256": "a9b8476532e7bc01b609df8d8a480000c03695bb49e34fd164da3d1b06ac72f3"
     },
     {
       "path": "catalog/tombstones/cev_0012.json",
-      "sha256": "de298be82cddf9dbfcf520345704c6fddcb370d5d66187e50925b5c6e9328206"
+      "sha256": "86afd49a044134d537dd2c053e6cde8930d06cea62c371b42e3dda7a20f8e384"
     },
     {
       "path": "catalog/tombstones/cev_0013.json",
-      "sha256": "cb6c313441bc7a8d800193ecd4119bd076f2d02255f925292530a5dff176a55f"
+      "sha256": "9927076925dde0321661b08da7618d610745cac6ecf4084d9a08cf73324d74f0"
     },
     {
       "path": "catalog/tombstones/cev_0014.json",
-      "sha256": "7534bf832e8ae129e595667087a08e31aaf8c0b108d3f3aef5e2768f447534be"
+      "sha256": "fa3db906036dbe28a1af9ff25328d95e33be784edc493a36de2a92f0bc0aa30c"
     },
     {
       "path": "catalog/tombstones/cev_9001.json",
-      "sha256": "232ebfcdca8b6b9fa741ed9c7553ee9e9efa9a8646db6c8e74685ca0c25e457a"
+      "sha256": "35a47075beb766a98dc3bafa77010d37842d26c209ee3c2b891553c56d77f6ec"
+    },
+    {
+      "path": "catalog/tombstones/cev_9040.json",
+      "sha256": "1ddc5e63ffd421443ce0f62f1fd17216b38e6eb005a05eb042ed64055eb836b1"
+    },
+    {
+      "path": "catalog/tombstones/cev_9124.json",
+      "sha256": "1311e3b3fec742f7cd69142d769af537e5644d301cb637411a984328f560245e"
     },
     {
       "path": "schemas/case.v2.schema.json",
@@ -1152,14 +1690,14 @@
     }
   ],
   "generator": {
-    "sha256": "24d068312bc11113d1a75a1b4895a7b9d12f1d0e906079b6e0bdbbd0b7dc478c",
+    "sha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
     "version": "mcp-catalog-v3"
   },
-  "modelsSha256": "21fc9ad58a08fadf9460cd65b3d98469c717ead1ed7fa55a7bf23822eba479ca",
+  "modelsSha256": "10ce6ceb264cccd5c4ae844c202f6efe6ca12fc747e79d29126462a65cee66a1",
   "presentation": {
     "language": "en",
     "revision": "local-demo-mcp-en-2026-08-15.1",
-    "sha256": "4b52c35a4214f375cc40759db71bc614f916f2177e930da546f2fdcf5b25645e"
+    "sha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e"
   },
   "schemaHashes": {
     "caseV2": "1f95dd9ea5d51c79a903810e114dca88f9beb5eae9e7ede311da1e1387a7ba26",
@@ -1168,11 +1706,11 @@
   },
   "schemaVersion": 2,
   "source": {
-    "revision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-06.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-06.1+collection-registry-2026-08-29.1",
-    "sha256": "ab79df4e34fb2ebbc379500b1a87b8d02b7e54de572346603860a287a45bddd0",
+    "revision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "sha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488",
     "websiteRepository": "filmlune.com"
   },
-  "taxonomySha256": "3e17d55e74e4a5f0b08949422fc47a15edd2216ddad1479c1f40d3361a7af667",
+  "taxonomySha256": "2e5308f9b337b39ce04a78cc285e51aab08d77d43e2cc50716a26ff18802790a",
   "tombstoneIds": [
     "cev_0001",
     "cev_0002",
@@ -1188,6 +1726,8 @@
     "cev_0012",
     "cev_0013",
     "cev_0014",
-    "cev_9001"
+    "cev_9001",
+    "cev_9040",
+    "cev_9124"
   ]
 }
