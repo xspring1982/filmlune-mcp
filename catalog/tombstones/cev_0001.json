@@ -3,7 +3,7 @@
   "caseRevisionId": "cev_0001@r0002",
   "kind": "tombstone",
   "provenance": {
-    "generatorSha256": "1ec22a7253e285138170956041866ac54a7b779eb684f4d46ed300a9e4108a91",
+    "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
     "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
