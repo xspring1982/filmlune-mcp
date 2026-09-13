@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-e6c6db645f57f9c1",
+  "catalogRevision": "mcp-local-37f8ca2cf325ac52",
   "models": [
     {
       "activeCaseIds": [
@@ -38,7 +38,6 @@
         "cev_9102",
         "cev_9107",
         "cev_9111",
-        "cev_9124",
         "cev_9125",
         "cev_9126",
         "cev_9127",
