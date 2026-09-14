@@ -1,0 +1,152 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/citrus-body-wash-demo-cev_9285/",
+  "caseFamilyId": "cf_cev_9285",
+  "caseId": "cev_9285",
+  "caseRevisionId": "cev_9285@r0001",
+  "creator": {
+    "displayName": "Ayat",
+    "handle": "@aiwithaayat",
+    "profileUrl": "https://x.com/aiwithaayat"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Reuse the complete English direct-video prompt with source attribution. Lux, Vitamin C, Orange Blossom, Refreshing Vitamin C with Orange Blossom and 2x freshness remain exact source literals; no brand authorization, claim substantiation or advertising approval is inferred.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260905-r3",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "Citrus Body-Wash Product Demonstration",
+        "promptSha256": "c5211e4f351a4e2920c374fb6cdfd0734dbd0ddabde5219471a3a897c58abc2f",
+        "promptText": "Created video of a young attractive South Asian woman with glowing skin, dark hair tied in a high neat bun, wearing a soft white bathrobe, standing in a bright modern bathroom with white subway tiles, glass shower door, green plants on shelves and soft natural lighting. She smiles warmly at the camera while holding up a transparent orange Lux Body Wash bottle labeled Refreshing Vitamin C with Orange Blossom, showing the product clearly. The scene shifts to a close product shot of the same luxurious amber-colored bottle standing on a marble counter surrounded by fresh orange slices, white flowers and green leaves. She then pours the thick golden body wash onto a white mesh loofah, creates rich creamy white lather by squeezing and rubbing her hands, and finally holds the bottle again with small dollops of white foam on her cheeks while smiling brightly. The entire video feels fresh, premium and inviting with smooth cinematic camera movements, soft focus on the product details and her radiant expression, capturing the refreshing citrus scent and 2x freshness claim of the Lux Vitamin C body wash in a clean spa-like bathroom setting.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "Lux"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "Vitamin C"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "Orange Blossom"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "Refreshing Vitamin C with Orange Blossom"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "on_screen_text",
+            "value": "2x freshness"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9285_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "6bd16607fcdaafe30ec8c39218c82d85527f411013311f4b97b0606384f7d7a8",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "a2d13143368f1eadaa9a7958f3a0e210c1b8d050e307c93e55437cfad3a96521",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "56d18915aef2a3290490d273fdf6e9a3f7912ec5d27a7e340d7733246924dcd1"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Study a short vertical commercial progression from product hold to detail shot, lathering action and a final on-camera pose.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "Citrus Body-Wash Product Demonstration",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9285_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9285_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9285/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/aiwithaayat/status/2098624514972398078",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/aiwithaayat/status/2098624514972398078"
+  },
+  "summary": "A bright bathroom demonstration presents a Lux Vitamin C with Orange Blossom bottle, rich lather and a citrus product setup.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-bathroom-skincare-product-videos",
+      "label": "Bathroom skincare product videos"
+    },
+    {
+      "axis": "style",
+      "id": "style-citrus-skincare-product-demo",
+      "label": "Citrus skincare product demonstration"
+    }
+  ],
+  "title": "Citrus Body-Wash Product Demonstration",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "A South Asian woman presents a Lux Vitamin C with Orange Blossom body-wash bottle, lather and a final foam-on-cheeks pose."
+    },
+    {
+      "name": "setting",
+      "value": "A bright modern tiled bathroom with citrus props and soft natural light."
+    },
+    {
+      "name": "action",
+      "value": "Present the bottle, show the product detail, lather it on a mesh loofah and finish on camera."
+    }
+  ]
+}

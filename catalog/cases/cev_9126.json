@@ -39,12 +39,12 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "d603108775c8adc21f984a96d4633a3c880fc068532dfe6b944a13a615ee17fa",
+    "generatorSha256": "6bd16607fcdaafe30ec8c39218c82d85527f411013311f4b97b0606384f7d7a8",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "bba1365f2e90d5dab35226a2e323759df55ddce015c4de674b6ed9e53537cc5e",
+    "presentationSha256": "a2d13143368f1eadaa9a7958f3a0e210c1b8d050e307c93e55437cfad3a96521",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "17f87a7bcbe04c5fe57557f57a22d50bf4aaafbaf0b729a938624f4e3f808488"
+    "websiteSourceSha256": "56d18915aef2a3290490d273fdf6e9a3f7912ec5d27a7e340d7733246924dcd1"
   },
   "publicationState": "website_master_projection",
   "purpose": "Tell four couture-fashion variations with one model in a 2x2 composition of minimalist luxury.",
