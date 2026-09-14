@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-11ab0878c83431d1",
+  "catalogRevision": "mcp-local-00697228569a9c0b",
   "models": [
     {
       "activeCaseIds": [
@@ -92,7 +92,9 @@
       "activeCaseIds": [
         "cev_9010",
         "cev_9011",
-        "cev_9093"
+        "cev_9093",
+        "cev_9285",
+        "cev_9306"
       ],
       "displayName": "Seedance 2.5",
       "mediaType": "video",
@@ -103,7 +105,8 @@
         "cev_9056",
         "cev_9057",
         "cev_9058",
-        "cev_9059"
+        "cev_9059",
+        "cev_9305"
       ],
       "displayName": "GPT Image 2.5",
       "mediaType": "image",

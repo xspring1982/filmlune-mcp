@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/combat-wuxia-auberge-lanternes-cev_9306/",
+  "caseFamilyId": "cf_cev_9306",
+  "caseId": "cev_9306",
+  "caseRevisionId": "cev_9306@r0001",
+  "creator": {
+    "displayName": "Lavinia",
+    "handle": "@laviniavelle",
+    "profileUrl": "https://x.com/laviniavelle"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Use the complete English prompt below to generate a vertical 9:16 video: the fighter drinks from and throws a black wine jug, dodges and strikes guards, and moves through tables, mist, and lantern light.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260905-r3",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "VIDEO · 1",
+        "promptSha256": "3bed1701a183fabf594ef8f05c9f4374af93c5006cb005c992380e2585690bbc",
+        "promptText": "Cinematic 8k hyper-realistic action sequence dark atmospheric ancient East Asian wooden inn an elegant female martial artist in flowy pale green and white traditional Hanfu robes takes a quick sip from a black wine jug before throwing it into the air fast-paced Wuxia fight combat, wooden tables shattering into splinters, atmospheric dust and misty fog dramatic volumetric backlight streaming through wooden window slats rapid dynamic low angle camera movement whip pans fluid acrobatics dodging and striking multiple guards in red and black armor ends in slow motion as she stands victorious among fallen opponents, moody lantern-lit atmosphere, 9:16 aspect ratio, ultra-detailed, photorealistic, 4k.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9306_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "6bd16607fcdaafe30ec8c39218c82d85527f411013311f4b97b0606384f7d7a8",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "a2d13143368f1eadaa9a7958f3a0e210c1b8d050e307c93e55437cfad3a96521",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "56d18915aef2a3290490d273fdf6e9a3f7912ec5d27a7e340d7733246924dcd1"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a short wuxia scene that moves from a precise gesture to acrobatic combat and a slow-motion victory.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "VIDEO · 1",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9306_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9306_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9306/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/laviniavelle/status/2098987614581997681",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/laviniavelle/status/2098987614581997681"
+  },
+  "summary": "A martial artist in pale green and white Hanfu faces several guards in a wooden inn filled with mist and warm lantern light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-wuxia-lantern-lit-inn-combat",
+      "label": "Lantern-lit inn wuxia combat"
+    },
+    {
+      "axis": "style",
+      "id": "style-wuxia-cinematic-action",
+      "label": "Cinematic wuxia action"
+    }
+  ],
+  "title": "Wuxia Combat in a Lantern-Lit Inn",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "An elegant female martial artist in flowy pale green and white traditional Hanfu robes."
+    },
+    {
+      "name": "setting",
+      "value": "A dark atmospheric ancient East Asian wooden inn with lantern light, window slats, dust and mist."
+    },
+    {
+      "name": "action",
+      "value": "She sips from and throws a black wine jug, dodges and strikes multiple guards in red and black armor, then stands victorious in slow motion."
+    },
+    {
+      "name": "camera",
+      "value": "Rapid dynamic low-angle movement, whip pans, fluid acrobatics and dramatic volumetric backlight."
+    }
+  ]
+}
