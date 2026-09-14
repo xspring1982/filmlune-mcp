@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-11ab0878c83431d1",
+  "catalogRevision": "mcp-local-00697228569a9c0b",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -60,6 +60,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9285"
+      ],
+      "axis": "collection",
+      "id": "collection-bathroom-skincare-product-videos",
+      "label": "Bathroom skincare product videos"
+    },
+    {
+      "activeCaseIds": [
         "cev_9017"
       ],
       "axis": "collection",
@@ -89,6 +97,14 @@
       "axis": "collection",
       "id": "collection-cherry-juice-3d-product-shots",
       "label": "3D Cherry Juice Bottle Product Shots"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9305"
+      ],
+      "axis": "collection",
+      "id": "collection-chibi-conversation-stickers",
+      "label": "Chibi conversation stickers"
     },
     {
       "activeCaseIds": [
@@ -491,6 +507,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9306"
+      ],
+      "axis": "collection",
+      "id": "collection-wuxia-lantern-lit-inn-combat",
+      "label": "Lantern-lit inn wuxia combat"
+    },
+    {
+      "activeCaseIds": [
         "cev_9002",
         "cev_9003",
         "cev_9004",
@@ -546,7 +570,8 @@
         "cev_9126",
         "cev_9127",
         "cev_9130",
-        "cev_9201"
+        "cev_9201",
+        "cev_9305"
       ],
       "axis": "media",
       "id": "media-image",
@@ -564,7 +589,9 @@
         "cev_9093",
         "cev_9131",
         "cev_9132",
-        "cev_9200"
+        "cev_9200",
+        "cev_9285",
+        "cev_9306"
       ],
       "axis": "media",
       "id": "media-video",
@@ -622,7 +649,8 @@
         "cev_9056",
         "cev_9057",
         "cev_9058",
-        "cev_9059"
+        "cev_9059",
+        "cev_9305"
       ],
       "axis": "model",
       "id": "model-gpt-image-2-5",
@@ -680,7 +708,9 @@
       "activeCaseIds": [
         "cev_9010",
         "cev_9011",
-        "cev_9093"
+        "cev_9093",
+        "cev_9285",
+        "cev_9306"
       ],
       "axis": "model",
       "id": "model-seedance-2-5",
@@ -696,7 +726,8 @@
         "cev_9059",
         "cev_9102",
         "cev_9104",
-        "cev_9200"
+        "cev_9200",
+        "cev_9285"
       ],
       "axis": "use_case",
       "id": "scene-advertising-ecommerce",
@@ -805,7 +836,8 @@
         "cev_9043",
         "cev_9052",
         "cev_9069",
-        "cev_9093"
+        "cev_9093",
+        "cev_9305"
       ],
       "axis": "use_case",
       "id": "scene-social-content",
@@ -817,7 +849,8 @@
         "cev_9011",
         "cev_9041",
         "cev_9064",
-        "cev_9131"
+        "cev_9131",
+        "cev_9306"
       ],
       "axis": "use_case",
       "id": "scene-storyboard-motion",
@@ -930,6 +963,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9285"
+      ],
+      "axis": "style",
+      "id": "style-citrus-skincare-product-demo",
+      "label": "Citrus skincare product demonstration"
+    },
+    {
+      "activeCaseIds": [
         "cev_9022"
       ],
       "axis": "style",
@@ -1032,6 +1073,14 @@
       "axis": "style",
       "id": "style-historical-chinese-beauty-portrait",
       "label": "Historical Chinese beauty portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9305"
+      ],
+      "axis": "style",
+      "id": "style-image-chibi",
+      "label": "Chibi and kawaii"
     },
     {
       "activeCaseIds": [
@@ -1315,6 +1364,14 @@
       "axis": "style",
       "id": "style-white-doodles",
       "label": "White doodles on photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9306"
+      ],
+      "axis": "style",
+      "id": "style-wuxia-cinematic-action",
+      "label": "Cinematic wuxia action"
     },
     {
       "activeCaseIds": [

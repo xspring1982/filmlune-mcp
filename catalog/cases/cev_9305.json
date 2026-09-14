@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/autocollants-chibi-conversations-cev_9305/",
+  "caseFamilyId": "cf_cev_9305",
+  "caseId": "cev_9305",
+  "caseRevisionId": "cev_9305@r0001",
+  "creator": {
+    "displayName": "Kiki",
+    "handle": "@Mayz1169",
+    "profileUrl": "https://x.com/Mayz1169"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete English prompt below with its required character reference image. Keep the 4x4 layout, English captions and opaque white background; only the observed JPEG sheet is evidenced here, while the source GIF is recorded separately.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "IMAGE · 1",
+        "promptSha256": "0880ca710bf01746792bb09a5975fe96b3b36d33be01e41708f01cc56bf109be",
+        "promptText": "Here's my prompt:\n\nUse the uploaded character image to create 16 personalized chibi chat stickers in a 4×4 grid, plus a white-background GIF slideshow and individual PNG files.\n\nCHARACTER IDENTITY\nPreserve the character’s recognizable hairstyle, hair color, eyes, outfit, accessories, and signature colors across all 16 stickers.\n\nIf I identify a fictional character, reflect their established personality without inventing lore or presenting original captions as official quotes. If the character is unknown, use their visual design as a creative personality cue. Prioritize any personality details I provide.\n\nEVERYDAY CHAT COMES FIRST\nThese stickers should be useful in ordinary conversations with friends—not character posters, promotional slogans, or dramatic monologues.\n\nFirst choose a familiar conversational purpose, then adapt its wording and expression to the character.\n\nCover a balanced selection of:\ngreetings, agreement, refusal, thanks, apologies, laughter, confusion, surprise, affection, encouragement, celebration, waiting, tiredness, frustration, playful teasing, and saying goodbye.\n\nCreate short, natural English captions, usually 1–4 words. Use wording that English speakers would actually send in a casual chat.\n\nExamples of the desired naturalness include:\n“Hey!”, “Got it!”, “Nope.”, “Thank you!”, “My bad.”,\n“Wait, what?”, “Seriously?”, “You got this!”, “Not today.”,\n“On my way!”, “Need a break.”, and “Talk later!”\n\nThese are examples, not a fixed caption list. Choose captions that fit this character and the expressions you create.\n\nPERSONALITY WITHOUT AWKWARD DIALOGUE\nExpress the character’s personality mainly through facial expressions, gestures, posture, and tone.\n\nFor example:\n• A proud character can say “Nailed it!” with a smug smile.\n• A shy character can say “Thank you!” while blushing.\n• A dramatic character can say “Seriously?!” with an exaggerated reaction.\n• A reserved character can say “Got it.” with a subtle nod.\n\nAt least 12 of the 16 stickers should work in common everyday conversations. Up to 4 may include recognizable character interests or gentle fandom references, as long as they still have a clear conversational use.\n\nART STYLE\nUse polished big-head chibi anime sticker illustrations:\nexpressive glossy eyes, soft cel shading, clean outlines, and cute, readable gestures.\n\nPreserve recognizable character details while simplifying them for small sticker sizes. Use mostly chest-up compositions.\n\nAdd thick white die-cut borders with a subtle light-gray outer outline. Use a solid pure-white background.\n\nMatch each expression and gesture to its caption. Make all 16 reactions visually distinct. Use small decorative symbols sparingly and keep them relevant.\n\nTEXT AND LAYOUT\nArrange exactly 16 complete stickers in 4 equal rows and 4 equal columns.\n\nPlace one English caption above each character in large, readable, playful lettering. Use colors that complement the character’s palette.\n\nKeep the entire caption, character, hands, hair, accessories, props, and sticker border inside its own cell with generous white margins.\n\nNo overlapping cells, cropped elements, grid lines, numbering, watermarks, or extra text.\n\nDELIVERABLES\n1. One PNG containing the complete 4×4 sticker sheet.\n2. A ZIP containing all 16 stickers as separate PNG files.\n3. One GIF cycling through the 16 stickers in reading order, holding each for approximately 1.2 seconds and looping continuously.\n\nUse identical canvas dimensions and consistent positioning for all GIF frames.\nEvery frame must have an opaque pure-white background.\nExplicitly disable transparency and preserve pure white in the GIF palette.\nThe GIF should be a sticker slideshow, not a continuous character animation.\n\nFINAL CHECK\nBefore delivery, inspect:\n• Natural English and correct spelling.\n• Practical everyday uses and varied conversational meanings.\n• Clear agreement between captions and expressions.\n• Consistent character identity and correct anatomy.\n• Complete text and sticker borders.\n• Clean individual crops without neighboring sticker fragments.\n• A genuinely white, nontransparent GIF background.\n\nProceed with sensible creative choices without asking me to select every caption. Briefly explain the personality direction, then provide the finished files.\n\nIf GIF export or file extraction is unavailable, clearly state the limitation. Do not present a still image as an animated GIF.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9305_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "6bd16607fcdaafe30ec8c39218c82d85527f411013311f4b97b0606384f7d7a8",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "a2d13143368f1eadaa9a7958f3a0e210c1b8d050e307c93e55437cfad3a96521",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "56d18915aef2a3290490d273fdf6e9a3f7912ec5d27a7e340d7733246924dcd1"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Turn a supplied character image into readable chibi reactions for everyday conversation while preserving recognizable visual details.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "IMAGE · 1",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9305_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9305_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9305/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Mayz1169/status/2098434990270988292",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Mayz1169/status/2098434990270988292"
+  },
+  "summary": "A source-attributed square sheet presents sixteen chibi reactions with short English captions for everyday conversation on a white background.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-chibi-conversation-stickers",
+      "label": "Chibi conversation stickers"
+    },
+    {
+      "axis": "style",
+      "id": "style-image-chibi",
+      "label": "Chibi and kawaii"
+    }
+  ],
+  "title": "Chibi Conversation Sticker Sheet",
+  "variables": [
+    {
+      "name": "character_reference",
+      "value": "A user-supplied character image is required by the source prompt but is not bound in this evidence pack."
+    },
+    {
+      "name": "layout",
+      "value": "Sixteen stickers arranged in four equal rows and four equal columns, with one English caption per cell."
+    },
+    {
+      "name": "style",
+      "value": "Polished big-head chibi anime illustration with clean outlines, soft shading, white die-cut borders and an opaque white background."
+    },
+    {
+      "name": "output_boundary",
+      "value": "The exact JPEG sheet is observed; the source GIF is a separate source fact, while individual PNG files and a ZIP archive are not confirmed."
+    }
+  ]
+}
