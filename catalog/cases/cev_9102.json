@@ -29,22 +29,33 @@
         "inputMode": "text_to_image",
         "instructionLanguage": "en",
         "kind": "image",
-        "label": "Editorial Products with Illustrated Stickers",
-        "promptSha256": "2c5bb546bb17bac43c8b21d1720cc236e38b7763942fec56f16d48b7ccfb535b",
-        "promptText": "Prompt 1.\n\nUltra-realistic close-up product photography of a vintage silver compact Kodak point-and-shoot camera placed on a clean white surface, soft warm beige lighting, minimalist Korean-inspired aesthetic, shallow depth of field, creamy background blur, subtle film grain texture, camera positioned slightly angled to the right, visible lens details and retro typography, tiny imperfections and realistic wear on the camera body, delicate hand-drawn sticker of a cute little girl holding a miniature camera attached to the left side of the camera, doodle-style illustration with black sketch lines, soft blush cheeks, tiny orange accent marks beside sticker, soft natural shadows, cozy nostalgic mood, muted ivory and warm gray color palette, editorial lifestyle photography, soft morning window light, realistic reflections on lens glass, premium Pinterest aesthetic composition.\nBottom area includes handwritten-style black text reading:\n“To someone I want to capture forever ♡”\nsmall orange heart accent, centered typography, casual notebook-style font.\nCamera settings aesthetic:\n50mm lens look, f/2.0 shallow focus, cinematic soft contrast, matte highlights, natural exposure, high-detail realism, soft white background with subtle warm gradients.\n\nPrompt 2\n\nUltra-realistic skincare and bathroom product photography of a transparent shampoo bottle with clear gel liquid and foam bubbles near the top, white pump dispenser, minimalist luxury packaging design, warm natural sunlight entering from the left creating soft shadows across the scene, cozy neutral-toned bathroom environment, creamy ivory and beige color palette, soft diffused lighting, highly realistic reflections on transparent plastic bottle.\nA cute hand-drawn sticker illustration of a little girl washing her hair with soap bubbles attached to the front-right side of the shampoo bottle, doodle-style black sketch lines, soft pink cheeks, tiny floating foam bubbles around the character, subtle glossy sticker texture visible.\nLabel design on bottle reads:\n“shampoo”\n“CLEAN & MOISTURIZING”\nminimal serif typography, luxury clean-girl aesthetic.\nBackground includes:\nsoft folded white towel, blurry white bottle in background, natural wooden brush with cream bristles in foreground, clean spa-like atmosphere, airy composition, subtle shadows and highlights, editorial skincare photography style.\nBottom handwritten caption reads:\n“I’ll keep you cool and refreshed from head to toe ”\ncasual handwritten font, centered placement, tiny blue water drop accent.\nCamera and lighting style:\n85mm product photography look, shallow depth of field, soft matte highlights, cinematic natural lighting, realistic transparent material rendering, premium Pinterest aesthetic, soft warm whites and creams.\nStyle tags:\nminimal skincare aesthetic, Korean product photography, clean girl aesthetic, soft lifestyle realism, cozy bathroom mood, Pinterest editorial style, cute sticker aesthetic, photorealistic, luxury minimalism.",
+        "label": "Shampoo Bottle with Illustrated Sticker",
+        "promptSha256": "b463bf24944185e9cd93a43108f146f167b1f2e6c17fa0118cdbd7b3862f3873",
+        "promptText": "Ultra-realistic skincare and bathroom product photography of a transparent shampoo bottle with clear gel liquid and foam bubbles near the top, white pump dispenser, minimalist luxury packaging design, warm natural sunlight entering from the left creating soft shadows across the scene, cozy neutral-toned bathroom environment, creamy ivory and beige color palette, soft diffused lighting, highly realistic reflections on transparent plastic bottle.\nA cute hand-drawn sticker illustration of a little girl washing her hair with soap bubbles attached to the front-right side of the shampoo bottle, doodle-style black sketch lines, soft pink cheeks, tiny floating foam bubbles around the character, subtle glossy sticker texture visible.\nLabel design on bottle reads:\n“shampoo”\n“CLEAN & MOISTURIZING”\nminimal serif typography, luxury clean-girl aesthetic.\nBackground includes:\nsoft folded white towel, blurry white bottle in background, natural wooden brush with cream bristles in foreground, clean spa-like atmosphere, airy composition, subtle shadows and highlights, editorial skincare photography style.\nBottom handwritten caption reads:\n“I’ll keep you cool and refreshed from head to toe ”\ncasual handwritten font, centered placement, tiny blue water drop accent.\nCamera and lighting style:\n85mm product photography look, shallow depth of field, soft matte highlights, cinematic natural lighting, realistic transparent material rendering, premium Pinterest aesthetic, soft warm whites and creams.\nStyle tags:\nminimal skincare aesthetic, Korean product photography, clean girl aesthetic, soft lifestyle realism, cozy bathroom mood, Pinterest editorial style, cute sticker aesthetic, photorealistic, luxury minimalism.",
         "protectedLiterals": [],
         "stepIndex": 1,
         "variantId": "ppv_9102_01"
+      },
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Kodak Camera with Illustrated Sticker",
+        "promptSha256": "a843362dd9a54a53dd672173692506360bba084ab2916287c33bcc8d1ddd1bbd",
+        "promptText": "Ultra-realistic close-up product photography of a vintage silver compact Kodak point-and-shoot camera placed on a clean white surface, soft warm beige lighting, minimalist Korean-inspired aesthetic, shallow depth of field, creamy background blur, subtle film grain texture, camera positioned slightly angled to the right, visible lens details and retro typography, tiny imperfections and realistic wear on the camera body, delicate hand-drawn sticker of a cute little girl holding a miniature camera attached to the left side of the camera, doodle-style illustration with black sketch lines, soft blush cheeks, tiny orange accent marks beside sticker, soft natural shadows, cozy nostalgic mood, muted ivory and warm gray color palette, editorial lifestyle photography, soft morning window light, realistic reflections on lens glass, premium Pinterest aesthetic composition.\nBottom area includes handwritten-style black text reading:\n“To someone I want to capture forever ♡”\nsmall orange heart accent, centered typography, casual notebook-style font.\nCamera settings aesthetic:\n50mm lens look, f/2.0 shallow focus, cinematic soft contrast, matte highlights, natural exposure, high-detail realism, soft white background with subtle warm gradients.",
+        "protectedLiterals": [],
+        "stepIndex": 2,
+        "variantId": "ppv_9102_02"
       }
     ]
   },
   "provenance": {
-    "generatorSha256": "6bd16607fcdaafe30ec8c39218c82d85527f411013311f4b97b0606384f7d7a8",
+    "generatorSha256": "c48cc56c0166b8564de9be799b6aa44febbaa9a634a28557cde393accf279ec3",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "a2d13143368f1eadaa9a7958f3a0e210c1b8d050e307c93e55437cfad3a96521",
+    "presentationSha256": "f509bff99f41db06b630ca99d19219db47a314ea8559803bdd8e2101add05b87",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "56d18915aef2a3290490d273fdf6e9a3f7912ec5d27a7e340d7733246924dcd1"
+    "websiteSourceSha256": "507047d4f4edd1b2f072d567f34aa0607788a6b71701b62cdc204aa2a98463bb"
   },
   "publicationState": "website_master_projection",
   "purpose": "Present each product in close-up with soft composition, realistic texture and a handwritten caption.",
@@ -53,11 +64,21 @@
       "inputAssetIds": [],
       "inputMode": "text_to_image",
       "kind": "image",
-      "label": "Editorial Products with Illustrated Stickers",
+      "label": "Shampoo Bottle with Illustrated Sticker",
       "outputAssetIds": [],
       "stepId": "step_cev_9102_01",
       "stepIndex": 1,
       "variantId": "ppv_9102_01"
+    },
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Kodak Camera with Illustrated Sticker",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9102_02",
+      "stepIndex": 2,
+      "variantId": "ppv_9102_02"
     }
   ],
   "reportUrl": "/signaler/cev_9102/",
