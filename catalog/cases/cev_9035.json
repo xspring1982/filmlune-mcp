@@ -39,12 +39,12 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "6bd16607fcdaafe30ec8c39218c82d85527f411013311f4b97b0606384f7d7a8",
+    "generatorSha256": "c48cc56c0166b8564de9be799b6aa44febbaa9a634a28557cde393accf279ec3",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "a2d13143368f1eadaa9a7958f3a0e210c1b8d050e307c93e55437cfad3a96521",
+    "presentationSha256": "f509bff99f41db06b630ca99d19219db47a314ea8559803bdd8e2101add05b87",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "56d18915aef2a3290490d273fdf6e9a3f7912ec5d27a7e340d7733246924dcd1"
+    "websiteSourceSha256": "507047d4f4edd1b2f072d567f34aa0607788a6b71701b62cdc204aa2a98463bb"
   },
   "publicationState": "website_master_projection",
   "purpose": "Pair a bright photograph with a few drawn elements to create a cheerful poster.",
