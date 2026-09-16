@@ -1,0 +1,142 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/serie-affiches-mode-composition-circulaire-cev_9509/",
+  "caseFamilyId": "cf_cev_9509",
+  "caseId": "cev_9509",
+  "caseRevisionId": "cev_9509@r0001",
+  "creator": {
+    "displayName": "Larus Canus",
+    "handle": "@MrLarus",
+    "profileUrl": "https://x.com/MrLarus"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact English source prompt to generate four vertical 9:16 posters. Preserve each variation’s circular geometry, typographic hierarchy and negative space; the attached source outputs are finished examples and are not added as references.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Circular-composition high-fashion poster series",
+        "promptSha256": "db10682baae4e9781755aead84777d6cb8f7b650666fa4bff1512a6e98c670f4",
+        "promptText": "Create a 9:16 high-fashion editorial poster series with a strong circular composition system.\n\nThe overall style should feel like contemporary fashion magazine covers and luxury editorial posters: clean studio setup, minimal background, sharp typography, elegant serif headlines, refined layout, strong negative space, and a polished premium look.\n\nEach image should use circular geometry as the main visual structure, but the circle should be transformed, displaced, opened, or implied in different ways. The model must interact with the structure to create clear depth, movement, and spatial tension.\n\nKeep the layout modern and fashionable, with large English title text, small secondary editorial text, and a clear hierarchy. Avoid logos, watermarks, extra clutter, random symbols, and numbered labels.\n\nFor this second set, create four independent poster variations under the same visual system:\n\n1. “IRIS OPEN” — a woman in a metallic silver asymmetric dress stepping through a monumental dark graphite circular aperture made from overlapping curved blades, with a restrained cobalt accent, strong architectural depth, and a sharp futuristic-fashion mood without looking sci-fi.\n\n2. “OFF AXIS” — a dark-skinned woman in a vivid acid-chartreuse dress moving through three large brushed-silver circular slices displaced across different depths, creating strong foreground and background layering with a minimal warm-gray studio setting.\n\n3. “ROUND THE EDGE” — a woman in a deep navy sculptural coat dress walking along a monumental burgundy, dusty-rose, and ivory circular stepped platform, photographed from a high oblique angle, with the body following the curve and the coat creating a secondary motion line.\n\n4. “ABSENT CIRCLE” — a platinum-haired man in deep forest-green tailoring standing between large bone-white and graphite curved architectural panels that create a circular shape entirely through negative space, with a pale blue void at the center and a quiet minimalist mood.\n\nAll four images should feel visually unified but clearly different in circular mechanism, perspective, styling, and spatial logic. The first impression should be bold, architectural, clean, and highly design-driven.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "IRIS OPEN"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "OFF AXIS"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "ROUND THE EDGE"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "ABSENT CIRCLE"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9509_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a four-poster high-fashion editorial series in which each variation builds a distinct circular composition.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Circular-composition high-fashion poster series",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9509_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9509_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9509/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/MrLarus/status/2099455338369941580",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/MrLarus/status/2099455338369941580"
+  },
+  "summary": "Four fashion editorials explore a circle that is opened, displaced, followed around its edge or implied through architectural negative space.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-geometric-fashion-panel-posters",
+      "label": "Geometric panel fashion posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-minimal-luxury-fashion",
+      "label": "Minimal luxury fashion"
+    }
+  ],
+  "title": "Circular-composition high-fashion poster series",
+  "variables": [
+    {
+      "name": "Composition",
+      "value": "Vertical 9:16 series in which four fashion figures interact with opened, displaced, stepped or implied circular structures."
+    },
+    {
+      "name": "Variations",
+      "value": "IRIS OPEN, OFF AXIS, ROUND THE EDGE and ABSENT CIRCLE, each with a distinct circular mechanism and spatial logic."
+    }
+  ]
+}

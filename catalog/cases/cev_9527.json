@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/samurai-mecha-oni-mask-cev_9527/",
+  "caseFamilyId": "cf_cev_9527",
+  "caseId": "cev_9527",
+  "caseRevisionId": "cev_9527@r0001",
+  "creator": {
+    "displayName": "Michael Rabone",
+    "handle": "@michaelrabone",
+    "profileUrl": "https://x.com/michaelrabone"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "To reuse this recipe, describe the same samurai mecha character, oni mask and detailed robes, keep the 3:4 frame, and retain --profile m4t79x6 un6ime3 together with --stylize 300. Use Midjourney V8.2 in 2K and check that the mask, garment volumes and luminous accents remain coherent.",
+  "model": {
+    "capabilityRevisionId": "catalog-midjourney-v8-2-2k-standard-20260916-r1",
+    "displayName": "Midjourney V8.2",
+    "modelFamilyId": "midjourney-v8-2",
+    "modelId": "midjourney-v8-2",
+    "modelVersion": "apimart-official-2026-09-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Samurai mecha with an oni mask",
+        "promptSha256": "3b50586aee82e07599df30e958f6406cb6c3ef0c2c677821a4f0a4d71468e500",
+        "promptText": "Samurai Mecha wearing holographic oni mask, holographic runes, opulent robes, onyx skin, futuristic, led lights --ar 3:4 --raw --profile m4t79x6 un6ime3 --stylize 300 --hd --v 8.2",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9527_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a futuristic mecha character portrait with an oni mask and richly detailed clothing.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Samurai mecha with an oni mask",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9527_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9527_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9527/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/michaelrabone/status/2096961868371816638",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/michaelrabone/status/2096961868371816638"
+  },
+  "summary": "A mecha character with an oni mask, matte robe forms and colored accents makes up this futuristic portrait.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-midjourney-v8-2",
+      "label": "Midjourney V8.2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-character-portraits",
+      "label": "Cinematic character portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-samurai-oni-mecha",
+      "label": "Samurai mecha with an oni mask"
+    }
+  ],
+  "title": "Samurai mecha with an oni mask",
+  "variables": [
+    {
+      "name": "Subject",
+      "value": "Samurai mecha character with oni mask and detailed robes."
+    },
+    {
+      "name": "Frame and style",
+      "value": "3:4 frame; retain --profile m4t79x6 un6ime3 and --stylize 300."
+    }
+  ]
+}

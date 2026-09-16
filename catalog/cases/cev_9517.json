@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-cafe-parisien-travers-foule-cev_9517/",
+  "caseFamilyId": "cf_cev_9517",
+  "caseId": "cev_9517",
+  "caseRevisionId": "cev_9517@r0001",
+  "creator": {
+    "displayName": "Sairah",
+    "handle": "@Sairah_0",
+    "profileUrl": "https://x.com/Sairah_0"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the base recipe for a café reader framed by blurred passers-by. Customize the location, clothing and late-afternoon light while keeping the subject sharp. This example corresponds to the source post’s first image.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Cinematic Parisian café street portrait",
+        "promptSha256": "d8a6389173a1c0a5a96199cf54e1574aee40eac30ec7ee6c096f802d4e1e0fd5",
+        "promptText": "Ultra-photorealistic cinematic street photography of a young East Asian woman in her early 20s sitting alone at a charming old Parisian sidewalk café, captured candidly from across a busy pedestrian street. She has natural beauty, delicate facial features, soft realistic skin texture, subtle makeup, and long dark brown hair styled in loose natural waves with wispy bangs. She wears an elegant, modest dark chocolate-brown long-sleeve dress with a flowing silhouette, layered over a soft cream-colored skirt, paired with classic beige pointed-toe heels and a delicate wristwatch.\n\nShe sits naturally on a vintage woven rattan café chair beside a small round marble café table, quietly reading a handwritten paper menu. On the table are a small white porcelain coffee cup and saucer, a freshly baked croissant, and a simple glass vase filled with tiny delicate dried flowers. Her expression is calm, thoughtful and slightly dreamy, completely absorbed in the moment.\n\nComposition: vertical portrait photography, full-body environmental portrait, subject centered but naturally integrated into the scene, photographed from street level through moving pedestrians. Multiple people pass very close to the camera in the foreground, creating strong natural motion blur and partially obscuring the edges of the frame, while the woman remains sharply focused. Subtle background motion blur, shallow depth of field, cinematic separation between subject and surroundings.\n\nEnvironment: authentic vintage Parisian café exterior, dark wooden storefront, aged black-framed windows, handwritten French chalkboard menus, warm café interior visible through glass, classic woven bistro chairs, narrow European sidewalk, old stone pavement, intimate European street atmosphere.\n\nLighting: warm late-afternoon golden sunlight, soft directional sunlight falling naturally onto the woman and café table, warm amber highlights, deep natural shadows, subtle reflections in the windows, atmospheric golden-hour glow.\n\nPhotography: shot on a full-frame professional camera, 50mm lens, f/1.8, realistic optical depth of field, cinematic exposure, natural film grain, subtle halation, soft highlight roll-off, realistic motion blur, rich warm brown and amber tones, slightly muted colors, high dynamic range, authentic analog-film aesthetic, editorial fashion photography, candid documentary feeling, extremely detailed skin, realistic hair strands, realistic fabric texture, physically accurate lighting, no artificial CGI appearance.\n\nMood: quiet, romantic, nostalgic, sophisticated, intimate, dreamy Parisian afternoon, as if captured spontaneously by a photographer walking past the café.\n\nNegative prompt: CGI, 3D render, illustration, anime, plastic skin, overly smooth face, excessive makeup, beauty filter, distorted anatomy, extra fingers, malformed hands, duplicate people, unnatural poses, oversharpening, excessive HDR, artificial bokeh, unrealistic motion blur, text artifacts, watermark, low resolution.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9517_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a cinematic street portrait at a Parisian café with warm late-afternoon light and a softly blurred crowd.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Cinematic Parisian café street portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9517_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9517_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9517/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Sairah_0/status/2098614363020218648",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Sairah_0/status/2098614363020218648"
+  },
+  "summary": "A young adult reads a menu at a vintage Parisian café while passing pedestrians blur the foreground.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-urban-daylight-portraits",
+      "label": "Urban Daylight Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-street-cafe-portrait",
+      "label": "Cinematic Parisian café street portrait"
+    }
+  ],
+  "title": "Cinematic Parisian café street portrait",
+  "variables": [
+    {
+      "name": "Reference",
+      "value": "No uploaded reference image is required by the source prompt."
+    },
+    {
+      "name": "Composition",
+      "value": "Vertical street-level portrait with a sharp café reader and blurred pedestrians at the edges."
+    }
+  ]
+}

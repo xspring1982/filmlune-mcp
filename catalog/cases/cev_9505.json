@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/editorial-voyage-cotier-estival-1990-cev_9505/",
+  "caseFamilyId": "cf_cev_9505",
+  "caseId": "cev_9505",
+  "caseRevisionId": "cev_9505@r0001",
+  "creator": {
+    "displayName": "Wania",
+    "handle": "@AIwithWania",
+    "profileUrl": "https://x.com/AIwithWania"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact source prompt for two separate portrait frames, keeping the coastal settings, natural poses, coordinated pastel styling and late-1990s film look. The prompt asks for no text or logos. The first result contains background signage despite the no-text instruction.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Late-1990s coastal summer travel editorial",
+        "promptSha256": "1393de7bee6e7447f20fe2c2d41e24c2de8b2f7e8f44a4878fa062334e5640d5",
+        "promptText": "Create an ultra-realistic late-1990s summer travel editorial featuring a stylish young woman and a stylish young man in two separate portrait frames with the exact same visual theme and color grading.\n\nThe setting is a dreamy coastal destination inspired by Jeju Island and the Greek islands, with crystal-blue sea, rocky coastline, white seaside cafés, flowering plants, distant mountains, small boats, warm wooden furniture, and bright clear summer skies.\n\nThe woman is seated naturally at a charming seaside café. She wears a modest but fashionable pastel-blue puff-sleeve blouse with a flowing cream floral midi skirt, elegant minimal jewelry, and a relaxed straw hat. Her outfit must be tasteful and not revealing. Give her soft, slightly wavy shoulder-length hair with natural movement. Her pose should feel spontaneous and stylish—one hand resting lightly near her hat or hair, the other relaxed beside her, with a gentle natural smile.\n\nThe man is seated casually in the same coastal atmosphere, wearing a cream linen shirt, relaxed beige trousers, classic sunglasses, minimal wristwatch, and clean white sneakers. Give him naturally messy wavy hair and an effortless vintage European summer look. One arm rests casually on the chair while the other hand is near his face, creating a relaxed editorial pose.\n\nUse warm 1990s film photography, subtle Kodak-style grain, slightly faded highlights, soft golden sunlight, realistic skin texture, gentle shadows, natural imperfections, rich ocean blues, creamy whites, muted pastels, and nostalgic analog color grading.\n\nMake both portraits look like they were photographed for a rare 1998 international summer travel magazine, candid rather than posed, sophisticated but effortless, cinematic yet completely realistic.\n\nNo modern influencer look, no heavy makeup, no bold/revealing clothes, no artificial CGI appearance, no plastic skin, no excessive blur, no text or logos.\n\nVibe: “A forgotten summer somewhere by the sea — 1998.”",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9505_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a summer travel editorial that brings two natural portraits into one coherent coastal atmosphere.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Late-1990s coastal summer travel editorial",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9505_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9505_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9505/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/AIwithWania/status/2098773641303310647",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/AIwithWania/status/2098773641303310647"
+  },
+  "summary": "Two relaxed portraits present a coastal escape through a seaside café, blue water and a nostalgic film look.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-coastal-summer-travel-editorials",
+      "label": "Coastal summer travel editorials"
+    },
+    {
+      "axis": "style",
+      "id": "style-late-1990s-coastal-travel-editorial",
+      "label": "Late-1990s coastal travel editorial"
+    }
+  ],
+  "title": "Late-1990s coastal summer travel editorial",
+  "variables": [
+    {
+      "name": "composition",
+      "value": "Two separate portraits in a coastal summer setting with a late-1990s travel-magazine atmosphere."
+    }
+  ]
+}

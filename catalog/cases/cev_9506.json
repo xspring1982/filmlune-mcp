@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-streetwear-encre-noire-fond-jaune-cev_9506/",
+  "caseFamilyId": "cf_cev_9506",
+  "caseId": "cev_9506",
+  "caseRevisionId": "cev_9506@r0001",
+  "creator": {
+    "displayName": "Snow",
+    "handle": "@iamrealsnow",
+    "profileUrl": "https://x.com/iamrealsnow"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Upload your own portrait as the only identity reference, then use the exact prompt for a 9:16 left-facing profile. Keep the black denim jacket, mustard background, round sunglasses and ink splash integrated behind the head and shoulders.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Black-ink streetwear portrait on a mustard background",
+        "promptSha256": "d0191559857d6f86877249228c65486d14726947f811060c8aeab8d646d42725",
+        "promptText": "Use my uploaded male face as the ONLY identity reference for the main subject. Preserve my exact facial identity and natural appearance — facial structure, skin tone, eyes, eyebrows, nose, lips, cheekbones, jawline, facial proportions, hairline, beard pattern, and natural skin texture. Keep me instantly recognizable. Do not beautify, reshape, feminize, masculinize, age, de-age, or alter my facial features.\n\nCreate a premium hyper-realistic editorial portrait of me in a dramatic left-facing side profile, inspired by modern street-fashion and graphic art photography.\n\nPose: clean side profile, head slightly raised, confident and serious expression, shoulders angled subtly toward camera.\nHair: naturally textured, thick, slightly messy modern hairstyle with individual strands clearly visible.\nEyewear: sleek dark round sunglasses with realistic reflections.\nOutfit: premium black denim jacket, slightly oversized, layered construction, realistic stitching, buttons, seams and fabric texture.\nBackground: bold mustard-yellow / golden yellow solid backdrop.\nGraphic effect: explosive black ink and paint-splash artwork emerging organically from behind the head and shoulders, with scattered black brush strokes, splatters, droplets, thin dynamic strokes, and subtle yellow paint accents. Make the effect feel integrated into the portrait rather than pasted on.\nLighting: cinematic studio lighting, soft directional light on the face, subtle rim light around the hair and shoulders, deep but natural shadows.\nSkin: ultra-realistic pores, fine facial texture, natural imperfections, realistic skin tones.\nComposition: vertical fashion-poster composition, subject occupying the lower-right/center area with generous yellow negative space on the left and upper background.\nStyle: luxury fashion editorial + contemporary street art + high-end commercial photography.\nCamera: 85mm portrait lens, shallow depth of field, extremely sharp facial details, realistic photographic depth.\nColor palette: mustard yellow, black, warm skin tones, subtle metallic highlights.\nQuality: photorealistic, cinematic, highly detailed, premium magazine campaign aesthetic, realistic materials and lighting.\n\nAspect ratio: 9:16 vertical.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9506_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a vertical editorial portrait where the user’s own face remains the only identity reference.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Black-ink streetwear portrait on a mustard background",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9506_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9506_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9506/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/iamrealsnow/status/2098793939881099431",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/iamrealsnow/status/2098793939881099431"
+  },
+  "summary": "A side-profile streetwear portrait combines a black denim jacket, round sunglasses and an integrated ink splash against a bright mustard backdrop.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-graphic-overlay-portraits",
+      "label": "Portraits with Graphic Overlays"
+    },
+    {
+      "axis": "style",
+      "id": "style-street-fashion-ink-splash-editorial",
+      "label": "Black-ink streetwear editorial portrait"
+    }
+  ],
+  "title": "Black-ink streetwear portrait on a mustard background",
+  "variables": [
+    {
+      "name": "Identity reference",
+      "value": "Your own portrait as the only identity reference; never attach the source creator’s image."
+    },
+    {
+      "name": "Composition",
+      "value": "Vertical 9:16 left-facing profile with the subject low and to the right, leaving generous mustard negative space above and to the left."
+    }
+  ]
+}

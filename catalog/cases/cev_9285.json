@@ -70,12 +70,12 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "c48cc56c0166b8564de9be799b6aa44febbaa9a634a28557cde393accf279ec3",
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
     "generatorVersion": "mcp-catalog-v3",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "f509bff99f41db06b630ca99d19219db47a314ea8559803bdd8e2101add05b87",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "507047d4f4edd1b2f072d567f34aa0607788a6b71701b62cdc204aa2a98463bb"
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
   },
   "publicationState": "website_master_projection",
   "purpose": "Study a short vertical commercial progression from product hold to detail shot, lathering action and a final on-camera pose.",
