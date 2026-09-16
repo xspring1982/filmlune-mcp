@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/bande-photo-campus-coreen-annees-2000-cev_9533/",
+  "caseFamilyId": "cf_cev_9533",
+  "caseId": "cev_9533",
+  "caseRevisionId": "cev_9533@r0001",
+  "creator": {
+    "displayName": "Ciri",
+    "handle": "@Ciri_ai",
+    "profileUrl": "https://x.com/Ciri_ai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the source prompt for the desk pose, standing book pose and shoelace scene, preserving the beige knit vest, direct flash and handwritten doodles. The two source strips have different proportions; Studio 9:16 is a starting preset, not a verified original setting. Exact doodle and book lettering is unspecified.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-2k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Korean 2000s college photo strip",
+        "promptSha256": "4dcd8c61fb2418dd67c21f3248daea908eab715ed0bb48f3b13ca4b1049fb286",
+        "promptText": "A vertical 3-panel college photo strip. The subject is a girl with long hair in a beige knit vest. Panel 1(top): close up of her resting chin on the school desk, looking bored. Panel 2(middle): her standing against a white class wall, holding a book, slightly motion blur. Panel 3(Bottom): sitting on the wooden floor, trying shoelace. Aesthetic: Korean 2000s phone -camera quality, s' arm tint, slightly low resolution ow handwritten doodle overlay, Harsh flash, messy i'm korean girl",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9533_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a three panel college photo strip with one consistent subject, casual poses and a direct flash phone camera look.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Korean 2000s college photo strip",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9533_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9533_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9533/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Ciri_ai/status/2062044994064781574",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Ciri_ai/status/2062044994064781574"
+  },
+  "summary": "A vertical three panel strip follows a long haired college student through candid desk, classroom and shoelace moments.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-korean-2000s-college-photo-strips",
+      "label": "Korean 2000s college photo strips"
+    },
+    {
+      "axis": "style",
+      "id": "style-korean-2000s-phone-camera",
+      "label": "Korean 2000s phone-camera aesthetic"
+    }
+  ],
+  "title": "Korean 2000s college photo strip",
+  "variables": [
+    {
+      "name": "Reference",
+      "value": "No uploaded reference image is required by the source prompt."
+    },
+    {
+      "name": "Sequence",
+      "value": "Three vertical panels: bored at a desk, standing with a book and tying a shoelace."
+    }
+  ]
+}

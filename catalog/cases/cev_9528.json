@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/elderly-arikara-chief-cinematic-portrait-cev_9528/",
+  "caseFamilyId": "cf_cev_9528",
+  "caseId": "cev_9528",
+  "caseRevisionId": "cev_9528@r0001",
+  "creator": {
+    "displayName": "Michael Rabone",
+    "handle": "@michaelrabone",
+    "profileUrl": "https://x.com/michaelrabone"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "To reuse this recipe, describe the elder character, light face paint, feathers and hide-like garments, keep the 16:9 frame, and retain --profile m4t79x6 un6ime3 together with --stylize 300. Use Midjourney V8.2 in 2K; the result is a visual interpretation and does not guarantee historical or cultural accuracy.",
+  "model": {
+    "capabilityRevisionId": "catalog-midjourney-v8-2-2k-standard-20260916-r1",
+    "displayName": "Midjourney V8.2",
+    "modelFamilyId": "midjourney-v8-2",
+    "modelId": "midjourney-v8-2",
+    "modelVersion": "apimart-official-2026-09-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Arikara chief portrait",
+        "promptSha256": "3f1fdf90f273042b95d178e129b8e8a707fa99d7ec6b05048d270a394ff8ba15",
+        "promptText": "Elderly Arikara chief with white tribal face paint, buffalo and deerskin garments, feathers and jewellery, cinematic --ar 16:9 --raw --profile m4t79x6 un6ime3 --stylize 300 --hd --v 8.2",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9528_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a cinematic portrait of a character described in the prompt without promising historical or cultural accuracy.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Arikara chief portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9528_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9528_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9528/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/michaelrabone/status/2091842997646172639",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/michaelrabone/status/2091842997646172639"
+  },
+  "summary": "The source description of an Arikara chief is interpreted through light face paint, feathers and hide-like garments in a cinematic portrait.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-midjourney-v8-2",
+      "label": "Midjourney V8.2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-character-portraits",
+      "label": "Cinematic character portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-character-portrait",
+      "label": "Cinematic character portrait"
+    }
+  ],
+  "title": "Arikara chief portrait",
+  "variables": [
+    {
+      "name": "Subject",
+      "value": "Elder character with light face paint, feathers and hide-like garments."
+    },
+    {
+      "name": "Frame and style",
+      "value": "16:9 frame; retain --profile m4t79x6 un6ime3 and --stylize 300."
+    }
+  ]
+}

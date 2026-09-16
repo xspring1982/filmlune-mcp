@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/diorama-touche-clavier-voyage-cev_9523/",
+  "caseFamilyId": "cf_cev_9523",
+  "caseId": "cev_9523",
+  "caseRevisionId": "cev_9523@r0001",
+  "creator": {
+    "displayName": "Saul Goodman",
+    "handle": "@Goodmanprotocol",
+    "profileUrl": "https://x.com/Goodmanprotocol"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Replace [LOCATION] with a country or region. The prompt requests 4:5; the three reviewed source images are approximately 2:3 at 1024×1536, 1024×1536 and 1080×1620. The landmarks and travel layout are present, but neighboring key labels do not guarantee four distinct cities: Sydney is repeated in the Australian example and the Algeria output lacks the small landmark sign.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Keyboard-key travel diorama",
+        "promptSha256": "3951eb44bcc2e3ab9d02de58a6a1bfc8b7889536dd049eff09141895c6940132",
+        "promptText": "[LOCATION]:\nCreate a macro photograph of a mechanical keyboard, with one key popped open like a hinged jewelry-box lid, revealing a miniature isometric diorama inside dedicated to [LOCATION].\nAutomatically determine and include, based on [LOCATION]:\nThe single most iconic landmark or monument of [LOCATION], rendered as a detailed miniature paper-craft/claymation-style model\nFlora native or visually associated with [LOCATION]'s climate (e.g. palms for tropical/desert regions, cypress or olive trees for Mediterranean, pine for alpine, etc.), placed around the landmark\nA wooden signpost near the landmark labeled with the landmark's name\nA small figure of a traveler in a backpack and sunhat, standing near the signpost as if sightseeing\nA tiny sailboat or boat floating on a strip of stylized blue water in the foreground, if [LOCATION] is coastal or has a notable waterway — otherwise omit the water/boat and extend the stone/ground surface instead\nStone steps, terraces, or pathways leading up to the landmark, styled to match its real architecture\nThe diorama should use a soft, warm beige/cream/sandstone color palette with golden-hour directional lighting and shallow depth of field. The main key is labeled \"[LOCATION]\" in bold black text along its front edge.\nSurround the main key with blurred neighboring keyboard keys, each labeled with the names of 4 other major cities within [LOCATION] (automatically selected as the most well-known cities of that country/region).\nStyle: hyper-detailed miniature diorama, photorealistic keyboard texture, whimsical tilt-shift travel aesthetic, consistent with a travel-themed keyboard series.\naspect ratio 4:5",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9523_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a miniature travel diorama from a country or region.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Keyboard-key travel diorama",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9523_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9523_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9523/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Goodmanprotocol/status/2080241640011358646",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Goodmanprotocol/status/2080241640011358646"
+  },
+  "summary": "A keyboard key opens like a box to reveal a small location-specific travel scene with a landmark, flora, traveler and water when relevant.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-architecture-interiors",
+      "label": "Architecture and interiors"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-keyboard-key-travel-dioramas",
+      "label": "Keyboard-key travel dioramas"
+    },
+    {
+      "axis": "style",
+      "id": "style-keyboard-key-travel-diorama",
+      "label": "Keyboard-key miniature travel diorama"
+    }
+  ],
+  "title": "Keyboard-key travel diorama",
+  "variables": [
+    {
+      "name": "Location",
+      "value": "A country or region to turn into a miniature travel world."
+    }
+  ]
+}

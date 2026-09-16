@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/transformation-photo-vintage-annees-1980-cev_9519/",
+  "caseFamilyId": "cf_cev_9519",
+  "caseId": "cev_9519",
+  "caseRevisionId": "cev_9519@r0001",
+  "creator": {
+    "displayName": "Ai Bella",
+    "handle": "@zahra4sure",
+    "profileUrl": "https://x.com/zahra4sure"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact source prompt with your own uploaded reference photo. Preserve the identity while setting period clothing, an American street and analog film texture; the source output is external media and is not an input. The source is 1013 × 1553 pixels; 2:3 is the closest Studio preset. The prompt asks for period signage while also saying “no text”; the example includes a Coffee sign, but no overlaid headline. This example does not verify the original face match or the absence of all lettering.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "1980s vintage photo transformation",
+        "promptSha256": "01cf04dd0a096698c69ce173ed07da801130b111232b0b83a4fd699d47f858e6",
+        "promptText": "Transform my uploaded photo into a realistic authentic 1980s photograph. Keep my exact face, facial features, identity, skin tone, body proportions, and natural expression unchanged.\n\nStyle me like a fashionable young woman from the United States in the mid to late 1980s. Give me authentic 80s American fashion: high-waisted denim, oversized vintage jacket, fitted top, classic sneakers or ankle boots, simple gold accessories, and natural 80s-inspired hair with soft volume.\n\nPlace me in a stylish American setting from the 1980s, such as a classic American street, retro diner, vintage shopping area, or suburban neighborhood. Include period-accurate cars, storefronts, signage, architecture, and subtle background details that genuinely look like 1980s America.\n\nMake the photograph look like it was actually taken in the 1980s on a Kodak film camera. Use realistic analog film grain, soft flash photography, slightly warm faded colors, natural shadows, subtle lens imperfections, authentic film texture, and a nostalgic editorial photography feel.\n\nThe result must look like a genuine scanned photograph from an old American photo album, NOT an AI-generated image and NOT a modern photo with a vintage filter.\n\nNo modern clothing, no modern cars, no smartphones, no contemporary buildings, no text, no logos, no watermark. Preserve my face and identity perfectly.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9519_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a vintage 1980s photo transformation that preserves the uploaded identity while changing the styling, setting and film treatment.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "1980s vintage photo transformation",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9519_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9519_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9519/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/zahra4sure/status/2098432703016374738",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/zahra4sure/status/2098432703016374738"
+  },
+  "summary": "A user-supplied portrait becomes a warm scanned-looking 1980s American street photo with denim styling and period cars.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-vintage-1980s-photo-transformations",
+      "label": "Vintage 1980s photo transformations"
+    },
+    {
+      "axis": "style",
+      "id": "style-vintage-1980s-analog-photo",
+      "label": "1980s analog street portrait"
+    }
+  ],
+  "title": "1980s vintage photo transformation",
+  "variables": [
+    {
+      "name": "Reference",
+      "value": "Upload your own photo; the source prompt explicitly requires it to preserve identity."
+    },
+    {
+      "name": "Composition",
+      "value": "Vertical vintage street portrait with a sharp subject, period cars and warm analog texture."
+    }
+  ]
+}

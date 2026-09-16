@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-voyage-chateau-feerique-cev_9516/",
+  "caseFamilyId": "cf_cev_9516",
+  "caseId": "cev_9516",
+  "caseRevisionId": "cev_9516@r0001",
+  "creator": {
+    "displayName": "Aqsa",
+    "handle": "@Aqsahere_",
+    "profileUrl": "https://x.com/Aqsahere_"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact source prompt to place the young adult before a grand fantasy castle. Keep the long wavy hair, sparkling ear headband, light jacket, plaid tie and skort, natural smile, playful pose and vertical 3:4 travel-photography composition. The first example keeps the hands lowered; the second follows the requested open-arm pose. Pose details can vary.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Fairytale castle travel portrait",
+        "promptSha256": "2cff2ec4ad71a497a3cc9b4944b2ab0ba78243e6181e2357608d49b6cabfdf2b",
+        "promptText": "A realistic candid travel photo of a young East Asian woman having a fun, magical day at a fairytale castle. She’s standing in front of a grand European-style fantasy castle with tall ivory towers, elegant blue rooftops, golden spires, intricate stone details, and beautiful old-world architecture. The castle takes up most of the background, giving the scene a dreamy theme-park vacation feel.\nShe has long, naturally wavy chestnut-brown hair falling loosely over her shoulders and back. She’s wearing a cute blue-and-lavender glittery mouse-ear headband and smiling naturally while looking slightly upward and to the side, as if caught in a genuine happy moment.\nShe wears a cropped cream-white textured jacket with gold buttons over a clean white collared shirt and patterned plaid tie. Her high-waisted beige, cream, and muted-blue plaid skort has soft pleats that move naturally with her pose.\nShe stretches both arms outward and leans slightly toward the camera with an excited, playful energy. The pose feels spontaneous rather than posed, like a real vacation snapshot.\nThe castle courtyard behind her has wide pale-stone steps, decorative railings, colorful banners, and detailed medieval-inspired architecture. The sky is softly overcast with pale blue-gray clouds, creating gentle, flattering daylight and natural shadows.\nUltra-photorealistic travel photography, authentic youthful appearance, realistic skin texture, natural hair strands, detailed fabric textures, believable proportions, soft depth of field, subtle natural shadows, vibrant but slightly muted colors, candid smartphone photo aesthetic, dreamy vacation atmosphere, highly detailed, vertical 3:4 composition.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9516_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a candid travel portrait in front of a fairytale castle with a cheerful outfit and soft natural light.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Fairytale castle travel portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9516_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9516_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9516/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Aqsahere_/status/2098610123900064236",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Aqsahere_/status/2098610123900064236"
+  },
+  "summary": "A young adult traveler poses before an ivory fantasy castle with blue roofs, wearing a light plaid outfit and a sparkling ear headband in soft daylight.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-fairytale-castle-travel-portraits",
+      "label": "Fairytale castle travel portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-fairytale-castle-travel-portrait",
+      "label": "Fairytale castle travel portrait"
+    }
+  ],
+  "title": "Fairytale castle travel portrait",
+  "variables": [
+    {
+      "name": "Reference",
+      "value": "No uploaded reference image is required by the source prompt."
+    },
+    {
+      "name": "Composition",
+      "value": "Vertical candid portrait before an ivory castle with blue roofs, soft overcast daylight and a playful vacation pose."
+    }
+  ]
+}

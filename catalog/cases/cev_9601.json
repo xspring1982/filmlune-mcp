@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/cyberpunk-cat-character-turnaround-midjourney-v8-1-cev_9601/",
+  "caseFamilyId": "cf_cev_9601",
+  "caseId": "cev_9601",
+  "caseRevisionId": "cev_9601@r0001",
+  "creator": {
+    "displayName": "Zayan",
+    "handle": "@HustleXR",
+    "profileUrl": "https://x.com/HustleXR"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Replace the animal or character and garment color palette as needed, then check that the front, side and back views remain consistent. Use Midjourney V8.1 in 2K and keep the exact source flags --stylize 900 --hd --v 8.1.",
+  "model": {
+    "capabilityRevisionId": "catalog-midjourney-v8-1-2k-standard-20260816-r1",
+    "displayName": "Midjourney V8.1",
+    "modelFamilyId": "midjourney-v8-1",
+    "modelId": "midjourney-v8-1",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Cyberpunk cat character turnaround sheet",
+        "promptSha256": "e558d5e841d5bae1c6024392a1d66eec42d1b6449df84ba0b58506ef4b337803",
+        "promptText": "Character consistency. Cyberpunk-style roundabout sheet of a cat character --stylize 900 --hd --v 8.1",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9601_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a replacement sheet for an animal or character, then check consistency across the three views.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Cyberpunk cat character turnaround sheet",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9601_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9601_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9601/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/HustleXR/status/2065713145918918869",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/HustleXR/status/2065713145918918869"
+  },
+  "summary": "One square sheet presents the same cat character from the front, side and back.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-midjourney-v8-1",
+      "label": "Midjourney V8.1"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-character-presentation-boards",
+      "label": "Character presentation boards"
+    },
+    {
+      "axis": "style",
+      "id": "style-cel-shaded-cyberpunk-character-sheet",
+      "label": "Cel-shaded cyberpunk character sheet"
+    }
+  ],
+  "title": "Cyberpunk cat character sheet — three views",
+  "variables": [
+    {
+      "name": "Character",
+      "value": "Replace the cat with your chosen animal or character while retaining three views."
+    },
+    {
+      "name": "Outfit and palette",
+      "value": "Keep clothing and accessories consistent across front, side and back views."
+    }
+  ]
+}
