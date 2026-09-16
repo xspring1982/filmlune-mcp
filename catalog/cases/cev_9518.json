@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-studio-mode-annees-1980-cev_9518/",
+  "caseFamilyId": "cf_cev_9518",
+  "caseId": "cev_9518",
+  "caseRevisionId": "cev_9518@r0001",
+  "creator": {
+    "displayName": "Maya",
+    "handle": "@Mayaahh_h",
+    "profileUrl": "https://x.com/Mayaahh_h"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact source prompt for the retro hair, makeup, teal outfit, gold accessories and wood-paneled studio. Keep the direct gaze and centered square portrait.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "1980s editorial studio fashion portrait",
+        "promptSha256": "2a5a9576be700bf56c1145dc39f3c2f6f97581882d0dcb058bcdf8da44dd00f8",
+        "promptText": "Create a front-facing studio portrait of a glamorous woman inspired by iconic 1980s fashion photography. She has striking light blue eyes, fair skin with subtle natural freckles, and a calm, confident expression while looking directly into the camera. Her hair is voluminous, shoulder-length blonde curls styled in a textured shag cut with feathered layers and soft bangs, capturing the signature beauty trends of the decade.\n\nDress her in a luxurious 1980s outfit: an oversized teal knit sweater with strong padded shoulders, embellished with gold and black metallic accents, layered over a satin blouse with a high neckline. Pair it with high-waisted tailored trousers or a metallic pleated skirt, cinched with a statement belt featuring a large gold buckle. Add bold geometric drop earrings, multiple chunky gold chain necklaces with metallic disc charms, stacked bracelets, and elegant rings for an authentic vintage look.\n\nComplete the styling with classic 80s makeup: softly smoky eyes, defined lashes, warm blush, and muted rose lipstick. Place her against a rich dark wood-paneled studio background with warm ambient tones. Use soft cinematic key lighting, subtle rim light, and shallow depth of field to create a premium retro magazine aesthetic.\n\nUltra-detailed, realistic photography, 1980s editorial fashion portrait, Vogue-style studio shoot, warm color grading, analog film texture, Kodak Portra look, high detail, cinematic lighting, 85mm lens, f/1.8, shallow depth of field, authentic vintage atmosphere.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9518_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a frontal 1980s-inspired fashion portrait with structured shoulders, layered gold jewelry and warm studio light.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "1980s editorial studio fashion portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9518_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9518_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9518/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Mayaahh_h/status/2098422468260311048",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Mayaahh_h/status/2098422468260311048"
+  },
+  "summary": "A frontal fashion portrait combines voluminous blonde curls, teal knitwear, gold jewelry and a warm wood studio.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-1980s-editorial-fashion-portraits",
+      "label": "1980s editorial fashion portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-1980s-editorial-studio",
+      "label": "1980s editorial studio fashion portrait"
+    }
+  ],
+  "title": "1980s editorial studio fashion portrait",
+  "variables": [
+    {
+      "name": "Reference",
+      "value": "No uploaded reference image is required by the source prompt."
+    },
+    {
+      "name": "Composition",
+      "value": "Centered front-facing square studio portrait with structured shoulders and a warm dark-wood background."
+    }
+  ]
+}

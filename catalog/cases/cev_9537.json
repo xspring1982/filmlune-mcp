@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/planche-publicitaire-soins-quatre-panneaux-cev_9537/",
+  "caseFamilyId": "cf_cev_9537",
+  "caseId": "cev_9537",
+  "caseRevisionId": "cev_9537@r0001",
+  "creator": {
+    "displayName": "Loriel.AI",
+    "handle": "@ou_zhen599",
+    "profileUrl": "https://x.com/ou_zhen599"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Before generating, replace the example brand, product names, packaging text, claims and characters with elements you can use. Keep or describe a square 2x2 advertising layout that alternates close portraits, a skincare jar and a sun-care stick; adapt the products, benefits and palette to your campaign. Do not present an SPF number visible in an example image as measured efficacy.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Four-panel luxury skincare campaign board",
+        "promptSha256": "2595294e263bc63ec24da8a31dbe52019f8b74c899e2c82a4747b2a88683e71b",
+        "promptText": "Create a Cannes-level premium four-panel skincare campaign board for a fictional beauty brand called LUMERA SKIN, merging Orbit atmosphere with Transit material precision while slightly reducing the density of callout stickers and copy blocks. Strictly preserve the reference image’s core 2x2 social-poster structure: four square panels arranged in a balanced grid, two alternating hero products, two adult female beauty portraits, one unified color family, and a clear commercial hierarchy that makes every panel instantly readable while feeling more refined, more international, and more luxurious.\n\nOverall board structure: design a perfectly proportioned four-quadrant campaign board with clean panel divisions, strong rhythm, and one coherent brand system running through all four images. Alternate between two product categories: a radiant vitamin-C face cream jar in the top-left and bottom-right panels, and a sculptural SPF 50 sun-care stick in the top-right and bottom-left panels. Use two adult female models with distinct but compatible beauty identities. The board must feel like one cohesive award-level skincare launch rather than four disconnected posts.\n\nTop-left panel: intimate close beauty portrait of an adult curly-haired woman with visible freckles, luminous skin, soft lips, and expressive eyes. She holds a warm yellow vitamin-C cream jar close to her cheek. The palette is golden, creamy, and sunlit, with a warm editorial mood. Place one large headline in the upper area, one circular quantity badge, and only one or two slim benefit capsules rather than many scattered info elements. Keep the layout airy, elegant, and premium.\n\nTop-right panel: bright, fresh portrait of an adult woman with clean pulled-back hair and naturally glowing skin, smiling while holding a rounded yellow SPF stick near her cheek. Use a clean sunlit yellow background with soft organic shapes. Include one strong headline block near the top and one large SPF claim in the lower third, with no extra clutter beyond one restrained circular quantity badge. The mood should feel joyful, summer-ready, and elevated.\n\nBottom-left panel: a second SPF panel that echoes the top-right but shifts slightly into a softer lilac-yellow campaign variation, keeping the same product and model family while introducing a calmer pastel contrast. Maintain the same structural DNA but do not duplicate the pose exactly. Let the lighting remain fresh and beauty-clean, with only minimal supporting copy and one restrained information strip if needed for balance.\n\nBottom-right panel: a second vitamin-C cream panel with a more editorial crop and stronger product emphasis. Show the same or closely related curly-haired adult beauty model in a tighter glow-focused portrait, with the yellow jar enlarged in the lower-right zone and a premium cream texture swatch tile or inset near the product. Use one large headline cluster and one or two elegant benefit markers only. Keep the panel sophisticated, glossy, and materially rich.\n\nProduct and packaging design: invent elegant premium packaging for LUMERA SKIN. The vitamin-C cream jar should be sunny yellow with creamy ivory or soft gold detailing, refined serif-sans brand typography, and a rich but clean skincare identity. The SPF 50 stick should be a rounded pebble-shaped yellow container with minimalist premium labeling and tactile cosmetic realism. Both products must feel highly manufacturable, distinctive, and beautiful. Label text must be crisp, readable, and elegantly limited.\n\nOrbit mood: infuse the entire board with a soft “summer morning skincare diary” atmosphere. Let the yellow and lilac palette feel more breathable, airy, and emotionally warm. The models should feel naturally alive rather than posed like generic ad stock. Build a gentle sense of sunlight, optimism, and skin confidence across the campaign while maintaining high-end brand polish.\n\nTransit precision: push material realism to a world-class commercial standard. Emphasize premium jar and stick surfaces, label clarity, cream texture density, subtle gloss on plastic or coated packaging, realistic cream swatch folds, skin microtexture, pores, natural freckles, hydrated cheekbone reflections, lip detail, brow hairs, and finger anatomy. Hands holding products must be elegant, realistic, and fully correct. Lighting must be beauty-clean and controlled, with crisp highlight placement and no muddy skin rendering.\n\nTypography and information system: use original English-only campaign copy. Create large editorial headlines such as “C DAILY RITUAL” for the vitamin-C panels and “SUNSCREEN, REFINED” for the SPF panels. Supporting copy should be concise, premium, and limited, for example one short claim row and one quantity badge rather than dense clusters of stickers. Typography must remain bold, graphic, and commercially effective, but cleaner and less crowded than the reference. The result should feel more expensive because of restraint.\n\nColor direction: build the campaign around 45% citrus yellow, marigold, and soft golden cream, 25% skin beige and ivory, 20% lilac and lavender pastel support tones, and 10% soft charcoal, white, and champagne highlight accents. Keep the entire board visually unified and elegant, with each panel carrying a slightly different emotional temperature inside the same brand world.\n\nRendering style: ultra-photoreal luxury skincare campaign board, four-panel social advertising system, premium beauty portraiture, sunny yellow and lilac palette, Orbit-grade airy summer mood, Transit-grade packaging and skin realism, crisp editorial typography, world-class commercial art direction, high-end social campaign finish, 8k detail.\n\nNegative prompt: cheap beauty flyer design, inconsistent panel styling, too many stickers, overcrowded copy, unreadable text, generic fonts, low-detail packaging, warped cosmetic containers, childish layout, plastic skin, over-smoothed faces, broken fingers, mismatched lighting, muddy yellow palette, cluttered callouts, duplicate poses, low-end influencer aesthetic, oversaturated neon colors, messy composition",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9537_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a premium skincare campaign board that makes products, adult beauty portraits and concise editorial copy readable in one coherent grid.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Four-panel luxury skincare campaign board",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9537_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9537_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9537/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/ou_zhen599/status/2097994547506937937",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/ou_zhen599/status/2097994547506937937"
+  },
+  "summary": "A refined 2x2 skincare board alternates yellow vitamin-C cream and SPF stick portraits across an airy yellow and lilac campaign system.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-multipanel-product-campaigns",
+      "label": "Product campaign boards"
+    },
+    {
+      "axis": "style",
+      "id": "style-beauty-magazine-editorial",
+      "label": "Beauty magazine editorial"
+    }
+  ],
+  "title": "Four-panel luxury skincare campaign board",
+  "variables": [
+    {
+      "name": "Brand, packaging and claim wording",
+      "value": "Replace the example brand, product names, packaging text and claims with values you own or are licensed to use before generating."
+    },
+    {
+      "name": "Campaign panel system",
+      "value": "Keep a coherent multi-panel advertising hierarchy, such as a 2x2 grid alternating close portraits and products; adapt the real products, benefits, palette and scenes."
+    },
+    {
+      "name": "Characters and people",
+      "value": "Replace example characters with people you are permitted to depict, or describe non-identifying fictional adults."
+    }
+  ]
+}
