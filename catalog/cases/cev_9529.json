@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/girl-reaching-giant-whale-desert-illustration-cev_9529/",
+  "caseFamilyId": "cf_cev_9529",
+  "caseId": "cev_9529",
+  "caseRevisionId": "cev_9529@r0001",
+  "creator": {
+    "displayName": "Michael Rabone",
+    "handle": "@michaelrabone",
+    "profileUrl": "https://x.com/michaelrabone"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "To reuse this recipe, describe a girl reaching toward a giant whale over the desert, keep the 16:9 frame, and retain --sref 1852485870, --sw 100 and --stylize 300 to guide the style. Use Midjourney V8.2 in 1K; the result remains a narrative interpretation.",
+  "model": {
+    "capabilityRevisionId": "catalog-midjourney-v8-2-1k-standard-20260916-r1",
+    "displayName": "Midjourney V8.2",
+    "modelFamilyId": "midjourney-v8-2",
+    "modelId": "midjourney-v8-2",
+    "modelVersion": "apimart-official-2026-09-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Girl reaching toward a giant whale over the desert",
+        "promptSha256": "6057ac073f4c69aa251f3008b3dc68b5b239672325f6f63e1968cf0e98fc3b16",
+        "promptText": "Girl reaching her hand up to a giant whale flying high over the desert --ar 16:9 --raw --sref 1852485870 --sw 100 --stylize 300 --v 8.2",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9529_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "3e5ecdd0ddd614e73a996b70adfc88bd1f05b3e722075bb66b940a26791c911e",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a surreal narrative illustration with a human subject and a monumental fantastic element.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Girl reaching toward a giant whale over the desert",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9529_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9529_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9529/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/michaelrabone/status/2090348116276900309",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/michaelrabone/status/2090348116276900309"
+  },
+  "summary": "A girl reaches toward a giant whale flying over the desert in a grainy storybook-like illustration.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-midjourney-v8-2",
+      "label": "Midjourney V8.2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-surreal-narrative-illustrations",
+      "label": "Surreal narrative illustrations"
+    },
+    {
+      "axis": "style",
+      "id": "style-surreal-storybook-illustration",
+      "label": "Grainy storybook fantasy illustration"
+    }
+  ],
+  "title": "Girl reaching toward a giant whale over the desert",
+  "variables": [
+    {
+      "name": "Scene",
+      "value": "Girl reaching toward a giant whale over the desert."
+    },
+    {
+      "name": "Frame and style",
+      "value": "16:9 frame; retain --sref 1852485870, --sw 100 and --stylize 300."
+    }
+  ]
+}
