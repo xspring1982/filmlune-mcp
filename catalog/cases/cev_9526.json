@@ -1,0 +1,113 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/produit-mousse-photographie-cev_9526/",
+  "caseFamilyId": "cf_cev_9526",
+  "caseId": "cev_9526",
+  "caseRevisionId": "cev_9526@r0001",
+  "creator": {
+    "displayName": "Alexandra Aisling",
+    "handle": "@AllaAisling",
+    "profileUrl": "https://x.com/AllaAisling"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Replace [PRODUCT] with your chosen product. Keep its recognizable silhouette under varied moss textures, with a botanical setting and soft natural light. The examples show a lamp, backpack, shoe and headphones; parts such as the sole or fasteners retain conventional materials.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Moss-grown product photography",
+        "promptSha256": "996934235ec6d8530324d502ed5701e0228679bc61868fa21e397bfd4851752a",
+        "promptText": "A [PRODUCT] rendered as if entirely grown from living moss, perfectly maintaining product form while being undeniably alive and soft. Different moss varieties create texture variation: smooth cushion moss for flat surfaces, feathery fern moss for details, tiny fruiting bodies as accent points. Damp, verdant, breathing. Positioned in a botanical studio setting or against dark earth tones. Biophilic design meets product photography. Soft natural lighting emphasizing the life, the moisture, the green depth. Sharp focus, saturated natural greens, wellness brand aesthetic, ultra-high resolution, the manufactured made living.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9526_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create biophilic product photography that turns a manufactured form into a moss-grown object.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Moss-grown product photography",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9526_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9526_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9526/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/AllaAisling/status/2015443794217361458",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/AllaAisling/status/2015443794217361458"
+  },
+  "summary": "A product keeps its manufactured silhouette while appearing grown from living moss in a botanical studio.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-moss-grown-product-scenes",
+      "label": "Moss-grown product photography"
+    },
+    {
+      "axis": "style",
+      "id": "style-moss-grown-biophilic-product",
+      "label": "Biophilic moss-grown product photography"
+    }
+  ],
+  "title": "Moss-grown product photography",
+  "variables": [
+    {
+      "name": "Product",
+      "value": "The product whose silhouette should remain under a living moss texture."
+    }
+  ]
+}

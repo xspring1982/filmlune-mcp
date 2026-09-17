@@ -1,7 +1,15 @@
 {
-  "catalogRevision": "mcp-local-00de1329023dfbdd",
+  "catalogRevision": "mcp-local-9e1544664102d7fa",
   "schemaVersion": 2,
   "taxonomy": [
+    {
+      "activeCaseIds": [
+        "cev_9518"
+      ],
+      "axis": "collection",
+      "id": "collection-1980s-editorial-fashion-portraits",
+      "label": "1980s editorial fashion portraits"
+    },
     {
       "activeCaseIds": [
         "cev_9043"
@@ -92,6 +100,23 @@
     },
     {
       "activeCaseIds": [
+        "cev_9512"
+      ],
+      "axis": "collection",
+      "id": "collection-character-pose-sheets",
+      "label": "Character pose sheets"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9502",
+        "cev_9601"
+      ],
+      "axis": "collection",
+      "id": "collection-character-presentation-boards",
+      "label": "Character presentation boards"
+    },
+    {
+      "activeCaseIds": [
         "cev_9104"
       ],
       "axis": "collection",
@@ -124,11 +149,36 @@
     },
     {
       "activeCaseIds": [
+        "cev_9527",
+        "cev_9528"
+      ],
+      "axis": "collection",
+      "id": "collection-cinematic-character-portraits",
+      "label": "Cinematic character portraits"
+    },
+    {
+      "activeCaseIds": [
         "cev_9065"
       ],
       "axis": "collection",
       "id": "collection-cinematic-city-walk-influencer-reels",
       "label": "Cinematic City-Walk Influencer Reels"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9535"
+      ],
+      "axis": "collection",
+      "id": "collection-cinematic-portrait-name-posters",
+      "label": "Cinematic portrait name posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9505"
+      ],
+      "axis": "collection",
+      "id": "collection-coastal-summer-travel-editorials",
+      "label": "Coastal summer travel editorials"
     },
     {
       "activeCaseIds": [
@@ -215,6 +265,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9516"
+      ],
+      "axis": "collection",
+      "id": "collection-fairytale-castle-travel-portraits",
+      "label": "Fairytale castle travel portraits"
+    },
+    {
+      "activeCaseIds": [
         "cev_9003"
       ],
       "axis": "collection",
@@ -247,6 +305,23 @@
     },
     {
       "activeCaseIds": [
+        "cev_9536"
+      ],
+      "axis": "collection",
+      "id": "collection-fruit-ice-beverage-photography",
+      "label": "Beverage photography with fruit and ice"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9503",
+        "cev_9509"
+      ],
+      "axis": "collection",
+      "id": "collection-geometric-fashion-panel-posters",
+      "label": "Geometric panel fashion posters"
+    },
+    {
+      "activeCaseIds": [
         "cev_9033"
       ],
       "axis": "collection",
@@ -272,7 +347,9 @@
     {
       "activeCaseIds": [
         "cev_9032",
-        "cev_9035"
+        "cev_9035",
+        "cev_9501",
+        "cev_9506"
       ],
       "axis": "collection",
       "id": "collection-graphic-overlay-portraits",
@@ -353,11 +430,44 @@
     },
     {
       "activeCaseIds": [
+        "cev_9523"
+      ],
+      "axis": "collection",
+      "id": "collection-keyboard-key-travel-dioramas",
+      "label": "Keyboard-key travel dioramas"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9533"
+      ],
+      "axis": "collection",
+      "id": "collection-korean-2000s-college-photo-strips",
+      "label": "Korean 2000s college photo strips"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9522",
+        "cev_9524"
+      ],
+      "axis": "collection",
+      "id": "collection-miniature-character-dioramas",
+      "label": "Miniature character room dioramas"
+    },
+    {
+      "activeCaseIds": [
         "cev_9069"
       ],
       "axis": "collection",
       "id": "collection-miniature-cupcake-construction-animation",
       "label": "Miniature Construction Food Animation"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9513"
+      ],
+      "axis": "collection",
+      "id": "collection-miniature-puzzle-travel-dioramas",
+      "label": "Miniature puzzle-piece travel dioramas"
     },
     {
       "activeCaseIds": [
@@ -382,6 +492,22 @@
       "axis": "collection",
       "id": "collection-monochrome-fashion-name-posters",
       "label": "Monochrome fashion name posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9526"
+      ],
+      "axis": "collection",
+      "id": "collection-moss-grown-product-scenes",
+      "label": "Moss-grown product photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9537"
+      ],
+      "axis": "collection",
+      "id": "collection-multipanel-product-campaigns",
+      "label": "Product campaign boards"
     },
     {
       "activeCaseIds": [
@@ -449,6 +575,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9504"
+      ],
+      "axis": "collection",
+      "id": "collection-skincare-routine-commercials",
+      "label": "Skincare routine beauty commercials"
+    },
+    {
+      "activeCaseIds": [
         "cev_9028"
       ],
       "axis": "collection",
@@ -473,6 +607,22 @@
     },
     {
       "activeCaseIds": [
+        "cev_9529"
+      ],
+      "axis": "collection",
+      "id": "collection-surreal-narrative-illustrations",
+      "label": "Surreal narrative illustrations"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9534"
+      ],
+      "axis": "collection",
+      "id": "collection-travel-food-advertising-posters",
+      "label": "Travel food advertising posters"
+    },
+    {
+      "activeCaseIds": [
         "cev_9052"
       ],
       "axis": "collection",
@@ -482,11 +632,20 @@
     {
       "activeCaseIds": [
         "cev_9030",
-        "cev_9034"
+        "cev_9034",
+        "cev_9517"
       ],
       "axis": "collection",
       "id": "collection-urban-daylight-portraits",
       "label": "Urban Daylight Portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9519"
+      ],
+      "axis": "collection",
+      "id": "collection-vintage-1980s-photo-transformations",
+      "label": "Vintage 1980s photo transformations"
     },
     {
       "activeCaseIds": [
@@ -571,7 +730,32 @@
         "cev_9127",
         "cev_9130",
         "cev_9201",
-        "cev_9305"
+        "cev_9305",
+        "cev_9501",
+        "cev_9502",
+        "cev_9503",
+        "cev_9505",
+        "cev_9506",
+        "cev_9509",
+        "cev_9512",
+        "cev_9513",
+        "cev_9516",
+        "cev_9517",
+        "cev_9518",
+        "cev_9519",
+        "cev_9522",
+        "cev_9523",
+        "cev_9524",
+        "cev_9526",
+        "cev_9527",
+        "cev_9528",
+        "cev_9529",
+        "cev_9533",
+        "cev_9534",
+        "cev_9535",
+        "cev_9536",
+        "cev_9537",
+        "cev_9601"
       ],
       "axis": "media",
       "id": "media-image",
@@ -591,7 +775,8 @@
         "cev_9132",
         "cev_9200",
         "cev_9285",
-        "cev_9306"
+        "cev_9306",
+        "cev_9504"
       ],
       "axis": "media",
       "id": "media-video",
@@ -638,7 +823,14 @@
         "cev_9126",
         "cev_9127",
         "cev_9130",
-        "cev_9201"
+        "cev_9201",
+        "cev_9501",
+        "cev_9506",
+        "cev_9517",
+        "cev_9523",
+        "cev_9533",
+        "cev_9534",
+        "cev_9535"
       ],
       "axis": "model",
       "id": "model-gpt-image-2",
@@ -650,11 +842,39 @@
         "cev_9057",
         "cev_9058",
         "cev_9059",
-        "cev_9305"
+        "cev_9305",
+        "cev_9502",
+        "cev_9503",
+        "cev_9505",
+        "cev_9509",
+        "cev_9512",
+        "cev_9513",
+        "cev_9516",
+        "cev_9518",
+        "cev_9519",
+        "cev_9537"
       ],
       "axis": "model",
       "id": "model-gpt-image-2-5",
       "label": "GPT Image 2.5"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9601"
+      ],
+      "axis": "model",
+      "id": "model-midjourney-v8-1",
+      "label": "Midjourney V8.1"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9527",
+        "cev_9528",
+        "cev_9529"
+      ],
+      "axis": "model",
+      "id": "model-midjourney-v8-2",
+      "label": "Midjourney V8.2"
     },
     {
       "activeCaseIds": [
@@ -668,7 +888,8 @@
       "activeCaseIds": [
         "cev_9015",
         "cev_9019",
-        "cev_9037"
+        "cev_9037",
+        "cev_9524"
       ],
       "axis": "model",
       "id": "model-nano-banana-2",
@@ -684,7 +905,10 @@
         "cev_9022",
         "cev_9023",
         "cev_9028",
-        "cev_9104"
+        "cev_9104",
+        "cev_9522",
+        "cev_9526",
+        "cev_9536"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -698,7 +922,8 @@
         "cev_9065",
         "cev_9069",
         "cev_9131",
-        "cev_9200"
+        "cev_9200",
+        "cev_9504"
       ],
       "axis": "model",
       "id": "model-seedance-2-0",
@@ -727,7 +952,10 @@
         "cev_9102",
         "cev_9104",
         "cev_9200",
-        "cev_9285"
+        "cev_9285",
+        "cev_9504",
+        "cev_9526",
+        "cev_9534"
       ],
       "axis": "use_case",
       "id": "scene-advertising-ecommerce",
@@ -735,7 +963,9 @@
     },
     {
       "activeCaseIds": [
-        "cev_9031"
+        "cev_9031",
+        "cev_9513",
+        "cev_9523"
       ],
       "axis": "use_case",
       "id": "scene-architecture-interiors",
@@ -754,7 +984,11 @@
         "cev_9006",
         "cev_9042",
         "cev_9111",
-        "cev_9127"
+        "cev_9127",
+        "cev_9502",
+        "cev_9505",
+        "cev_9535",
+        "cev_9601"
       ],
       "axis": "use_case",
       "id": "scene-editorial-posters",
@@ -774,7 +1008,10 @@
         "cev_9056",
         "cev_9065",
         "cev_9125",
-        "cev_9126"
+        "cev_9126",
+        "cev_9503",
+        "cev_9509",
+        "cev_9537"
       ],
       "axis": "use_case",
       "id": "scene-fashion-beauty",
@@ -783,7 +1020,8 @@
     {
       "activeCaseIds": [
         "cev_9003",
-        "cev_9007"
+        "cev_9007",
+        "cev_9536"
       ],
       "axis": "use_case",
       "id": "scene-food-beverage",
@@ -793,7 +1031,11 @@
       "activeCaseIds": [
         "cev_9018",
         "cev_9019",
-        "cev_9023"
+        "cev_9023",
+        "cev_9512",
+        "cev_9522",
+        "cev_9524",
+        "cev_9529"
       ],
       "axis": "use_case",
       "id": "scene-illustration-3d",
@@ -822,7 +1064,16 @@
         "cev_9107",
         "cev_9130",
         "cev_9132",
-        "cev_9201"
+        "cev_9201",
+        "cev_9501",
+        "cev_9506",
+        "cev_9516",
+        "cev_9517",
+        "cev_9518",
+        "cev_9519",
+        "cev_9527",
+        "cev_9528",
+        "cev_9533"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -858,6 +1109,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9518"
+      ],
+      "axis": "style",
+      "id": "style-1980s-editorial-studio",
+      "label": "1980s editorial studio fashion portrait"
+    },
+    {
+      "activeCaseIds": [
         "cev_9031"
       ],
       "axis": "style",
@@ -882,7 +1141,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9005"
+        "cev_9005",
+        "cev_9537"
       ],
       "axis": "style",
       "id": "style-beauty-magazine-editorial",
@@ -891,7 +1151,8 @@
     {
       "activeCaseIds": [
         "cev_9039",
-        "cev_9200"
+        "cev_9200",
+        "cev_9504"
       ],
       "axis": "style",
       "id": "style-beauty-video-demo",
@@ -907,11 +1168,28 @@
     },
     {
       "activeCaseIds": [
+        "cev_9503"
+      ],
+      "axis": "style",
+      "id": "style-burnt-orange-panel-fashion-editorial",
+      "label": "Burnt-orange panel fashion editorial"
+    },
+    {
+      "activeCaseIds": [
         "cev_9021"
       ],
       "axis": "style",
       "id": "style-candid-night-flash-portrait",
       "label": "Candid night-flash portrait"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9512",
+        "cev_9601"
+      ],
+      "axis": "style",
+      "id": "style-cel-shaded-cyberpunk-character-sheet",
+      "label": "Cel-shaded cyberpunk character sheet"
     },
     {
       "activeCaseIds": [
@@ -931,11 +1209,35 @@
     },
     {
       "activeCaseIds": [
+        "cev_9502"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-character-bible",
+      "label": "Cinematic character bible sheet"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9528"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-character-portrait",
+      "label": "Cinematic character portrait"
+    },
+    {
+      "activeCaseIds": [
         "cev_9131"
       ],
       "axis": "style",
       "id": "style-cinematic-fantasy-vfx",
       "label": "Cinematic fantasy VFX"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9534"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-miniature-advertising",
+      "label": "Cinematic miniature advertising poster"
     },
     {
       "activeCaseIds": [
@@ -963,6 +1265,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9517"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-street-cafe-portrait",
+      "label": "Cinematic Parisian café street portrait"
+    },
+    {
+      "activeCaseIds": [
         "cev_9285"
       ],
       "axis": "style",
@@ -976,6 +1286,14 @@
       "axis": "style",
       "id": "style-clean-red-studio-fashion",
       "label": "Clean red-studio fashion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9536"
+      ],
+      "axis": "style",
+      "id": "style-commercial-product-photography",
+      "label": "Studio product photography"
     },
     {
       "activeCaseIds": [
@@ -1008,6 +1326,14 @@
       "axis": "style",
       "id": "style-documentary-travel",
       "label": "Travel documentary"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9516"
+      ],
+      "axis": "style",
+      "id": "style-fairytale-castle-travel-portrait",
+      "label": "Fairytale castle travel portrait"
     },
     {
       "activeCaseIds": [
@@ -1052,6 +1378,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9524"
+      ],
+      "axis": "style",
+      "id": "style-handcrafted-felt-character-diorama",
+      "label": "Soft handcrafted felt character diorama"
+    },
+    {
+      "activeCaseIds": [
         "cev_9019"
       ],
       "axis": "style",
@@ -1092,6 +1426,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9522"
+      ],
+      "axis": "style",
+      "id": "style-isometric-miniature-room-diorama",
+      "label": "Isometric miniature room diorama"
+    },
+    {
+      "activeCaseIds": [
         "cev_9050"
       ],
       "axis": "style",
@@ -1116,6 +1458,30 @@
     },
     {
       "activeCaseIds": [
+        "cev_9523"
+      ],
+      "axis": "style",
+      "id": "style-keyboard-key-travel-diorama",
+      "label": "Keyboard-key miniature travel diorama"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9533"
+      ],
+      "axis": "style",
+      "id": "style-korean-2000s-phone-camera",
+      "label": "Korean 2000s phone-camera aesthetic"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9505"
+      ],
+      "axis": "style",
+      "id": "style-late-1990s-coastal-travel-editorial",
+      "label": "Late-1990s coastal travel editorial"
+    },
+    {
+      "activeCaseIds": [
         "cev_9038",
         "cev_9201"
       ],
@@ -1133,7 +1499,16 @@
     },
     {
       "activeCaseIds": [
-        "cev_9126"
+        "cev_9513"
+      ],
+      "axis": "style",
+      "id": "style-miniature-puzzle-landmark-diorama",
+      "label": "Miniature puzzle-piece landmark diorama"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9126",
+        "cev_9509"
       ],
       "axis": "style",
       "id": "style-minimal-luxury-fashion",
@@ -1155,6 +1530,14 @@
       "axis": "style",
       "id": "style-monochrome-fashion-editorial-poster",
       "label": "Monochrome fashion editorial poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9526"
+      ],
+      "axis": "style",
+      "id": "style-moss-grown-biophilic-product",
+      "label": "Biophilic moss-grown product photography"
     },
     {
       "activeCaseIds": [
@@ -1230,7 +1613,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9013"
+        "cev_9013",
+        "cev_9501"
       ],
       "axis": "style",
       "id": "style-photo-comic-pop-collage",
@@ -1246,7 +1630,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9002"
+        "cev_9002",
+        "cev_9535"
       ],
       "axis": "style",
       "id": "style-premium-campaign-poster",
@@ -1267,6 +1652,14 @@
       "axis": "style",
       "id": "style-red-motion-drag-fashion-poster",
       "label": "Red motion-drag fashion poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9527"
+      ],
+      "axis": "style",
+      "id": "style-samurai-oni-mecha",
+      "label": "Samurai mecha with an oni mask"
     },
     {
       "activeCaseIds": [
@@ -1294,6 +1687,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9506"
+      ],
+      "axis": "style",
+      "id": "style-street-fashion-ink-splash-editorial",
+      "label": "Black-ink streetwear editorial portrait"
+    },
+    {
+      "activeCaseIds": [
         "cev_9017"
       ],
       "axis": "style",
@@ -1318,6 +1719,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9529"
+      ],
+      "axis": "style",
+      "id": "style-surreal-storybook-illustration",
+      "label": "Grainy storybook fantasy illustration"
+    },
+    {
+      "activeCaseIds": [
         "cev_9069"
       ],
       "axis": "style",
@@ -1332,6 +1741,14 @@
       "axis": "style",
       "id": "style-video-cinematic-realism",
       "label": "Cinematic realism"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9519"
+      ],
+      "axis": "style",
+      "id": "style-vintage-1980s-analog-photo",
+      "label": "1980s analog street portrait"
     },
     {
       "activeCaseIds": [

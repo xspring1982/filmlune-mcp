@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/routine-soin-beaute-video-pastel-cev_9504/",
+  "caseFamilyId": "cf_cev_9504",
+  "caseId": "cev_9504",
+  "caseRevisionId": "cev_9504@r0001",
+  "creator": {
+    "displayName": "Noor",
+    "handle": "@noorlewisx",
+    "profileUrl": "https://x.com/noorlewisx"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Use the complete prompt for a vertical 9:16 video of about 10 seconds. Keep the mint-and-peach bathroom and the cleanser, serum, cream and final product-lineup sequence. The source result applies cream with a cotton pad; that detail may vary in a new generation.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "Skincare routine beauty commercial",
+        "promptSha256": "82bbc01e61504407aa16bee958d99165880d5736b1e4719647de59c43c05d120",
+        "promptText": "A bright, clean beauty commercial of a young Southeast Asian woman with fair glowing skin, dark hair pulled neatly back, wearing a simple white camisole, standing in a modern bathroom with pastel mint and peach tiled walls, a round gold-rimmed mirror, and a white marble counter. Soft natural lighting, fresh and airy aesthetic, high-end skincare ad look.\nShe smiles at the camera while holding a light-blue Wardah Lightening Gentle Wash tube. Cut to close-up of her hands on the marble counter picking up a Wardah Lightening Serum dropper bottle among other matching light-blue tubes and a cream jar. She pulls the dropper out with a drop of serum falling. Then she gently pats the lightweight serum onto her cheek with her fingertips, skin looking dewy and radiant. Next she holds a Wardah Lightening Day Cream jar, unscrews the white lid, and applies a small amount of white cream to her face with a glowing finish. Final shot: she stands behind the full product lineup arranged neatly on the counter (Gentle Wash tubes, serums, day cream jar, toner) with both hands framed under her chin, smiling softly.\nCinematic beauty commercial style, shallow depth of field, soft highlights on skin, clean product packaging in matching powder-blue and white, no text overlay, photorealistic, 9:16 vertical.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9504_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a short beauty commercial that makes a skincare routine readable from product presentation through the closing lineup.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "Skincare routine beauty commercial",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9504_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9504_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9504/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/noorlewisx/status/2099360578741354744",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/noorlewisx/status/2099360578741354744"
+  },
+  "summary": "A young woman presents a Wardah Lightening routine in a pastel bathroom, moving from cleanser to cream before a final product lineup.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-skincare-routine-commercials",
+      "label": "Skincare routine beauty commercials"
+    },
+    {
+      "axis": "style",
+      "id": "style-beauty-video-demo",
+      "label": "Natural-light beauty demonstration"
+    }
+  ],
+  "title": "Skincare routine beauty commercial",
+  "variables": [
+    {
+      "name": "Products",
+      "value": "Cleanser, serum and cream with matching packaging."
+    },
+    {
+      "name": "Sequence",
+      "value": "Presentation, successive applications and a final product lineup."
+    },
+    {
+      "name": "Setting",
+      "value": "Mint-and-peach bathroom with a round mirror and marble counter."
+    }
+  ]
+}

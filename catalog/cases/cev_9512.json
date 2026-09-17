@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/cyberpunk-character-sixteen-pose-sheet-cev_9512/",
+  "caseFamilyId": "cf_cev_9512",
+  "caseId": "cev_9512",
+  "caseRevisionId": "cev_9512@r0001",
+  "creator": {
+    "displayName": "Mahnoor Fatima",
+    "handle": "@MahnoorAi12",
+    "profileUrl": "https://x.com/MahnoorAi12"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Keep the exact image prompt from the source post and its 4x4 structure of sixteen numbered poses. The attached image is a finished external example; no user reference file is added automatically, and the video from the same post is outside this image case.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Cyberpunk 16-pose character sheet",
+        "promptSha256": "b8456afd0b321d285da11be00fc2da5ab9d2d1d54fe6d7059993163e968442ce",
+        "promptText": "Create a 4×4 dance pose sheet featuring one original character, with exactly 16 equally sized panels in one square image.\n\nCHARACTER DESIGN\nDesign a sharp cyberpunk hacker with an asymmetrical black-and-magenta bob, one glowing cybernetic eye, a fitted black tactical jacket with circuit-pattern accents, fingerless tech gloves with small screen displays, cargo pants, and chunky boots with neon soles. Keep her exact face, hairstyle, colors, proportions, outfit, and accessories fully consistent across all 16 panels — no redesigns, recolors, or costume changes between panels.\n\nART STYLE\nRender in 2D anime, high-contrast cel-shading with neon rim light, with crisp outlines and consistent lighting across every panel.\n\nCHOREOGRAPHY\nDesign a cohesive 16-pose dance sequence with a clear beginning, build-up, climax, and ending, ordered left to right, top to bottom. Include: an opening pose that establishes personality; a small rhythmic step with a coordinated arm gesture; a side step with one arm extended; a compact expressive gesture near the face; a grounded stance with arms crossing or sweeping inward; a knee lift or weight shift; an open expansive pose with arms spread; a playful balance pose; a turning pose showing a three-quarter rear view; a forward-reaching diagonal lean; a strong upward-reaching accent; a climactic jump (or full-body extension if jumping doesn't suit the character); a lowered stance with a forward gesture; a dynamic side-facing transition; a signature gesture unique to the character; and a confident final pose with a clear finishing silhouette.\n\nCOMPOSITION\nUse a clean white background, thin grid lines, and small readable numbers 1–16 in the upper-left corner of each panel. One full-body depiction of the character per panel, consistent scale, camera distance, lighting, and rendering style throughout. Fixed camera angle while the character turns naturally. Keep the entire character — hair, hands, feet, wings, tails, and accessories — inside each panel with comfortable margins, with subtle ground shadows and natural secondary movement in hair and fabric.\n\nAVOID\nRepeated or near-identical poses, identity drift, costume changes, inconsistent proportions, extra or missing limbs, malformed hands, cropped body parts, overlapping panels, additional characters, motion trails, background scenery, unlisted props, speech bubbles, and watermarks.\n\nFinal output: one polished square image, a clearly organized 4×4 grid of 16 distinct, character-appropriate dance poses.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9512_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a square character sheet with sixteen distinct, ordered dance poses.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Cyberpunk 16-pose character sheet",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9512_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9512_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9512/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/MahnoorAi12/status/2098967287957184997",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/MahnoorAi12/status/2098967287957184997"
+  },
+  "summary": "A square 4x4 sheet presents sixteen numbered dance poses for one stylized cyberpunk character on a white background.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-character-pose-sheets",
+      "label": "Character pose sheets"
+    },
+    {
+      "axis": "style",
+      "id": "style-cel-shaded-cyberpunk-character-sheet",
+      "label": "Cel-shaded cyberpunk character sheet"
+    }
+  ],
+  "title": "Cyberpunk 16-pose character sheet",
+  "variables": [
+    {
+      "name": "Character",
+      "value": "Consistent hairstyle, palette and cyberpunk outfit"
+    },
+    {
+      "name": "Sequence",
+      "value": "Sixteen distinct poses in a numbered 4×4 grid"
+    }
+  ]
+}
