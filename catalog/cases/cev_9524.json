@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/diorama-feutrine-personnage-cev_9524/",
+  "caseFamilyId": "cf_cev_9524",
+  "caseId": "cev_9524",
+  "caseRevisionId": "cev_9524@r0001",
+  "creator": {
+    "displayName": "Marcio Lima 利真 マルシオ 💎",
+    "handle": "@Preda2005",
+    "profileUrl": "https://x.com/Preda2005"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Fill in the name, profession or archetype, cube material and small desk objects. The prompt says 1080×1080; the two selected source outputs are observed at 2048×2048. They show the requested daytime nature-connected setting, while the other attached variants remain outside this case because their settings diverge strongly.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Felt character diorama",
+        "promptSha256": "548e25d79e3985e1359ace5a9856bc9530c02c4d9f77c9cb800c7c516a3aad53",
+        "promptText": "Create a 3D isometric diorama illustration of an original character named [CHARACTER NAME], peacefully working or practicing a creative activity in a nature-inspired environment, sitting at a wooden desk near a large open window with sunlight flowing in and soft greenery visible outside.\n\nThe character should be inspired by [ARCHETYPE / PROFESSION – e.g. writer, painter, meditator, calligraphy artist, tea master] and have a unique visual identity, including soft, natural clothing, organic textures, and a calm, introspective personality.\n\nThe entire scene must have a handcrafted felt aesthetic, with soft rounded shapes, visible stitching details, and clean, polished textures.\n\nThe diorama is enclosed inside a rounded cube structure with subtle hexagonal proportions, made of [MATERIAL STYLE – e.g. soft matte ceramic, light frosted resin, natural wood finish].\n\nThe environment must strongly reflect a peaceful, nature-connected lifestyle, including plants, natural wood furniture, soft textiles, and minimalistic decor.\n\nOn the desk, include small detailed objects such as [OBJECT 1 – e.g. tea cup], [OBJECT 2 – e.g. brush or pen], [OBJECT 3 – e.g. notebook or scroll].\n\nLighting should be bright, soft, and natural, with warm sunlight beams entering through the window, creating a serene and airy atmosphere, with a clean white background outside the diorama.\n\nRender in 1080x1080, ultra-detailed, photorealistic style.\n\nInclude a small stitched fabric name tag sewn onto the INNER wall of the diorama (top-left corner inside the cube), clearly integrated into the scene, not floating and not outside the structure, displaying the name: [CHARACTER NAME].",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9524_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a felt diorama that stages a character and a creative activity in a natural setting.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Felt character diorama",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9524_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9524_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9524/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Preda2005/status/2035592959685525590",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Preda2005/status/2035592959685525590"
+  },
+  "summary": "An original character works at a desk inside a rounded felt cube with plants, soft light and a stitched name tag.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-miniature-character-dioramas",
+      "label": "Miniature character room dioramas"
+    },
+    {
+      "axis": "style",
+      "id": "style-handcrafted-felt-character-diorama",
+      "label": "Soft handcrafted felt character diorama"
+    }
+  ],
+  "title": "Felt character diorama",
+  "variables": [
+    {
+      "name": "Character name",
+      "value": "An original name to show on the stitched name tag."
+    },
+    {
+      "name": "Archetype or profession",
+      "value": "Writer, painter, meditator, calligraphy artist, tea master, or another role."
+    },
+    {
+      "name": "Material style",
+      "value": "Soft matte ceramic, light frosted resin, natural wood finish, or another chosen material."
+    },
+    {
+      "name": "Desk objects",
+      "value": "A cup, brush, pen, notebook, scroll, or other chosen details."
+    }
+  ]
+}

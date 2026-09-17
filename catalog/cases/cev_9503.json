@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-mode-panneaux-orange-brule-cev_9503/",
+  "caseFamilyId": "cf_cev_9503",
+  "caseId": "cev_9503",
+  "caseRevisionId": "cev_9503@r0001",
+  "creator": {
+    "displayName": "Harboris",
+    "handle": "@harboriis",
+    "profileUrl": "https://x.com/harboriis"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact source prompt for a vertical 2:3 composition, keeping the three panels, hat and burnt-orange contrast on white. The prompt asks for no text or logo.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Burnt-orange three-panel fashion poster",
+        "promptSha256": "6e619039018d65f31ec222a8bf721ebc615d9d05de78b07d8e05aca63fc29a42",
+        "promptText": "Create a vertical 2:3 fashion editorial poster with a minimalist, modern aesthetic. Use a clean white background with three tall, rectangular orange panels arranged vertically across the center, with narrow white gaps between them. The middle panel is slightly taller than the two outer panels.\n\nFeature a realistic young woman with fair skin, delicate facial features, and light brown hair styled neatly under a large, wide-brimmed burnt-orange cowboy hat. She wears an elegant burnt-orange long-sleeve blouse with soft folds and a refined fashion-forward look.\n\nPosition the woman in a three-quarter profile, facing slightly toward the camera with a calm, confident expression. Her head and oversized hat extend across all three orange panels, while her body is primarily visible through the center panel. The orange panels should create a striking cutout effect, with parts of the portrait appearing to overlap the panel edges.\n\nUse warm studio lighting, soft natural skin texture, subtle shadows, crisp edges, high-end fashion photography, balanced negative space, and a premium contemporary magazine design. Use a monochromatic burnt-orange color palette against a pure white background.\n\nNo text, no logos, no typography, no borders, no extra objects. Focus entirely on the woman, the oversized hat, and the geometric orange panel composition.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9503_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a clean fashion poster where a portrait and three burnt-orange panels form a contemporary composition.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Burnt-orange three-panel fashion poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9503_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9503_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9503/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/harboriis/status/2099350017844867510",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/harboriis/status/2099350017844867510"
+  },
+  "summary": "A woman in a burnt-orange hat crosses three geometric panels on white in a contemporary fashion poster.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-fashion-beauty",
+      "label": "Fashion and beauty"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-geometric-fashion-panel-posters",
+      "label": "Geometric panel fashion posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-burnt-orange-panel-fashion-editorial",
+      "label": "Burnt-orange panel fashion editorial"
+    }
+  ],
+  "title": "Burnt-orange three-panel fashion poster",
+  "variables": [
+    {
+      "name": "Aspect ratio",
+      "value": "Vertical 2:3."
+    },
+    {
+      "name": "Layout",
+      "value": "Three orange panels on white, with a taller center panel."
+    },
+    {
+      "name": "Text",
+      "value": "No text or logos."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/fiche-personnages-chef-chat-cev_9502/",
+  "caseFamilyId": "cf_cev_9502",
+  "caseId": "cev_9502",
+  "caseRevisionId": "cev_9502@r0001",
+  "creator": {
+    "displayName": "TechieSA",
+    "handle": "@TechieBySA",
+    "profileUrl": "https://x.com/TechieBySA"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact source prompt with your own chef and cat character sheets; the finished source output is not attached automatically. Preserve the split layout, central fish, palette and requested labels.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260909-r2",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Character bible sheet for the chef and the cat",
+        "promptSha256": "11a54ff14f9184a1b80c24dac6fac9c5d9d6079a7a2926f9cafe6d7d014f53d8",
+        "promptText": "\"Create a premium cinematic character bible sheet for THE CHEF & THE CAT. Use uploaded character sheets as strict visual reference for both characters. Do not change either's appearance.\n\nLAYOUT: Split screen partner format. Two halves divided by a bold dramatic dividing element in the center.\n\nLEFT SIDE — CHEF: Clean white watercolor splash behind him fading into center. Large bold brushstroke text CHEF top left in deep red. Below small text: SATURDAY AFTERNOON / KITCHEN. One massive dramatic cropped hero image of the chef from mid-thigh up — desperate exhausted expression, white chef uniform, tall white hat slightly crooked, one arm outstretched reaching for something he can't catch, white watercolor splash radiating behind him.\n\nCENTER: Bold dramatic THE FISH in deep red, slightly worn. Below it small text: KITCHEN. ONE FISH. ONE PROBLEM.\n\nRIGHT SIDE — CAT: Warm orange watercolor splash behind him fading into center. Large bold brushstroke text THE CAT top right in deep orange. Below small text: FLUFFY / UNBOTHERED. One massive dramatic cropped hero image of the cat from mid-body up — narrow judgemental eyes, smug expression, large fish dangling from its mouth, arrogant tail curled upward, orange watercolor splash radiating behind him.\n\nBOTTOM CENTER: Color palette — clean white, warm orange, deep red, black. Tagline centered: HEY!!\n\nOVERALL: Clean white background, white watercolor left side, warm orange watercolor right side, dramatic deep red center divider, bold flat color blocking, chunky simplified forms, hard edge shadows, thick black outlines, vibrant saturated colors, minimal clean typography, cinematic cel-shaded 3D anime, hand-painted textures, not cartoon not Disney not Pixar, print ready.\"",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9502_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a two-panel character bible sheet where the chef and the cat frame the same visual problem.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Character bible sheet for the chef and the cat",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9502_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9502_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9502/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/TechieBySA/status/2099460145449185433",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/TechieBySA/status/2099460145449185433"
+  },
+  "summary": "A split character sheet contrasts an exhausted chef and an unbothered cat around one fish with a cinematic graphic hierarchy.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2-5",
+      "label": "GPT Image 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-character-presentation-boards",
+      "label": "Character presentation boards"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-character-bible",
+      "label": "Cinematic character bible sheet"
+    }
+  ],
+  "title": "Character bible sheet for the chef and the cat",
+  "variables": [
+    {
+      "name": "Character references",
+      "value": "Your own chef and cat character sheets."
+    },
+    {
+      "name": "Layout",
+      "value": "Two characters separated by a central fish, with a palette and labels."
+    }
+  ]
+}

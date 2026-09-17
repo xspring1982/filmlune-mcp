@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/portrait-mixte-ombre-griffonnee-studio-blanc-cev_9501/",
+  "caseFamilyId": "cf_cev_9501",
+  "caseId": "cev_9501",
+  "caseRevisionId": "cev_9501@r0001",
+  "creator": {
+    "displayName": "Sarmad Tahir",
+    "handle": "@itxsarmadd",
+    "profileUrl": "https://x.com/itxsarmadd"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the exact source prompt with your own uploaded reference image; the finished source output is not attached automatically. Keep both figures visible and let the mischievous pose vary with each generation.",
+  "model": {
+    "capabilityRevisionId": "studio-reviewed-candidate-gpt-image-2-1k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Mixed-media portrait with a doodle shadow on a white studio wall",
+        "promptSha256": "242994c30ed79bfcc59cbec4c2f21b0b2502a727275f8f4e45401e47f9b4f035",
+        "promptText": "Use the uploaded reference image as the strict identity and outfit reference. Preserve the face, facial features, skin tone, hairstyle, hair colour, accessories, outfit, and overall vibe exactly as shown.\nCreate a high-quality vertical (4:5 or 9:16) mixed-media portrait featuring:\nA realistic full-body version of the person. A black hand-drawn doodle-shadow of the same person on the wall beside them.\n\nThe real person should look cute, slightly embarrassed, playful, and naturally copying a new random mischievous pose each generation. The doodle-shadow should perform the same pose idea in a much more exaggerated, chaotic, cartoonish way, with manga motion lines, stars, hearts, and sparkles.\n\nUse a clean white/cream studio wall, minimal background, soft natural lighting, and keep both figures fully visible. The doodle should clearly resemble the real person through hairstyle, accessories, outfit silhouette, and pose.\n\nNegative Prompt: outfit changes, identity changes, realistic second person, normal shadow, horror, anime human, cluttered background, repeated pointing or finger-gun poses, stiff pose, extra limbs/fingers, distorted body, text, watermark, logo, AI artifacts.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9501_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a full-body mixed-media portrait where a person and a doodle shadow share a playful gesture.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Mixed-media portrait with a doodle shadow on a white studio wall",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9501_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9501_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9501/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/itxsarmadd/status/2099334317306761376",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/itxsarmadd/status/2099334317306761376"
+  },
+  "summary": "A full-body person poses beside a black doodle shadow on a clean studio wall in a playful mixed-media portrait.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-graphic-overlay-portraits",
+      "label": "Portraits with Graphic Overlays"
+    },
+    {
+      "axis": "style",
+      "id": "style-photo-comic-pop-collage",
+      "label": "Photo and comic pop collage"
+    }
+  ],
+  "title": "Mixed-media portrait with a doodle shadow on a white studio wall",
+  "variables": [
+    {
+      "name": "Reference image",
+      "value": "Your own photo of the person, including their outfit and accessories."
+    },
+    {
+      "name": "Composition",
+      "value": "A full-body person and their black doodle counterpart share a pose against a light wall."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/photographie-publicitaire-soda-peche-cev_9536/",
+  "caseFamilyId": "cf_cev_9536",
+  "caseId": "cev_9536",
+  "caseRevisionId": "cev_9536@r0001",
+  "creator": {
+    "displayName": "M-studioAi",
+    "handle": "@Strength04_X",
+    "profileUrl": "https://x.com/Strength04_X"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Place the can upright in the center and frame it with whole fruit and large clear ice cubes. Keep condensation, frosty highlights and diffused studio light. To adapt the recipe, change the label wording and flavor together with the matching fruit, then check the rendered label for legibility.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Peach soda product photography",
+        "promptSha256": "3775bd93b418522b92953e96dbd00eabd5655d3b928956c03a725ac684624afc",
+        "promptText": "Ultra-realistic commercial product photography of a pastel peach-colored soda can labeled “OLIPOP – Peaches & Cream” placed upright in the center, surrounded tightly by fresh whole peaches at the bottom and large transparent ice cubes stacked around and partially covering the top of the can, heavy condensation droplets covering the can and fruit, tiny carbonation bubbles visible on the peaches, crushed ice texture with sharp edges and frosty highlights, soft diffused studio lighting.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9536_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a realistic, appetizing beverage product image with a centered can and a cool fruit-and-ice setting.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Peach soda product photography",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9536_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9536_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9536/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Strength04_X/status/2022677800046797093",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Strength04_X/status/2022677800046797093"
+  },
+  "summary": "A peach soda can sits at the center of fresh peaches and clear ice, with condensation and soft studio light shaping a crisp commercial product image.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-food-beverage",
+      "label": "Food and beverage"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-fruit-ice-beverage-photography",
+      "label": "Beverage photography with fruit and ice"
+    },
+    {
+      "axis": "style",
+      "id": "style-commercial-product-photography",
+      "label": "Studio product photography"
+    }
+  ],
+  "title": "Peach soda product photography",
+  "variables": [
+    {
+      "name": "Brand and flavor",
+      "value": "Replace the label wording and choose fruit that matches the flavor."
+    },
+    {
+      "name": "Composition",
+      "value": "Keep the centered can, whole fruit, transparent ice and condensation droplets."
+    }
+  ]
+}

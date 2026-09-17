@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/affiche-cinematographique-double-portrait-cev_9535/",
+  "caseFamilyId": "cf_cev_9535",
+  "caseId": "cev_9535",
+  "caseRevisionId": "cev_9535@r0001",
+  "creator": {
+    "displayName": "Orion",
+    "handle": "@Prime_54",
+    "profileUrl": "https://x.com/Prime_54"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Replace [CELEBRITY NAME], [PRIMARY COLOR], [QUOTE 1] and [QUOTE 2] before generating. Keep the giant close-up behind the full body figure, neon frame and distressed metallic name. The prompt asks for a first name while the example uses a surname; specify your intended lettering and check both quotes in the result.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-2k-standard-20260901-r2",
+    "displayName": "GPT Image 2",
+    "modelFamilyId": "gpt-image-2",
+    "modelId": "gpt-image-2",
+    "modelVersion": "apimart-official-2026-09-01"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Cinematic dual portrait celebrity poster",
+        "promptSha256": "d54785156877fde4f3a727b1edcc5f778fec3bdb05b1b9eccf9811f6773feb2d",
+        "promptText": "Create a premium cinematic Instagram poster featuring [CELEBRITY NAME] in a bold, dark, high-end editorial style. The composition includes two versions of the celebrity: a giant monochrome close-up portrait in the background with a serious, introspective expression, looking downward, and a full-body version in the foreground, walking confidently with hands in pockets, wearing stylish casual clothing that matches their signature look.\n\nThe background is pitch black with dramatic [PRIMARY COLOR] paint splashes, smoke particles, floating dust, subtle sparks, and volumetric lighting. Behind the full-body subject is a glowing neon rectangular frame in [PRIMARY COLOR], creating strong depth and separation.\n\nPlace massive 3D block letters of the celebrity’s first name across the lower half of the poster, textured with cracked metal, rough stone, or distressed concrete, illuminated with matching [PRIMARY COLOR] rim lighting and subtle reflections. Overlay the full signature or surname in elegant silver handwritten script across the large text.\n\nAdd two motivational quotes in clean condensed uppercase typography:\n\nLeft:\n“[QUOTE 1]”\n\nRight:\n“[QUOTE 2]”\n\nUse cinematic rim lighting, ultra-realistic skin texture, high facial detail, realistic fabric folds, glossy wet reflective floor, dramatic shadows, premium movie-poster color grading, depth of field, HDR lighting, volumetric atmosphere, hyper-realistic digital artwork, luxury editorial design, award-winning poster composition, 8K quality, razor-sharp details, symmetrical layout, Instagram viral poster aesthetic.\n\nColor Suggestions\n• Red: Passion, power, intensity.\n• Blue: Calm, legendary, iconic.\n• Gold: Success, victory, luxury.\n• Orange: Energy, ambition.\n• Purple: Royal, mysterious.\n• Cyan: Futuristic, creative.\n• Green: Growth, resilience.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9535_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "570ac3021161b78a7e89b3720b55132df5e44df65307ed0988523c72b1f5a5f1",
+    "generatorVersion": "mcp-catalog-v3",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
+    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a cinematic celebrity poster with a dual portrait hierarchy, strong graphic overlays and a premium dark editorial finish.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Cinematic dual portrait celebrity poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9535_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9535_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9535/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Prime_54/status/2070845563244085560",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Prime_54/status/2070845563244085560"
+  },
+  "summary": "A premium vertical poster pairs a giant monochrome celebrity close-up with a full body walking figure, neon framing and distressed name typography.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-gpt-image-2",
+      "label": "GPT Image 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-portrait-name-posters",
+      "label": "Cinematic portrait name posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-premium-campaign-poster",
+      "label": "Premium campaign poster"
+    }
+  ],
+  "title": "Cinematic dual portrait celebrity poster",
+  "variables": [
+    {
+      "name": "[CELEBRITY NAME]",
+      "value": "Replace with a person whose likeness and name you are allowed to use."
+    },
+    {
+      "name": "[PRIMARY COLOR]",
+      "value": "Replace every occurrence with one accent color."
+    },
+    {
+      "name": "[QUOTE 1]",
+      "value": "Replace with your own short authorized left quote."
+    },
+    {
+      "name": "[QUOTE 2]",
+      "value": "Replace with your own short authorized right quote."
+    }
+  ]
+}

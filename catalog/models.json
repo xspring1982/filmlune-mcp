@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-00de1329023dfbdd",
+  "catalogRevision": "mcp-local-9e1544664102d7fa",
   "models": [
     {
       "activeCaseIds": [
@@ -42,7 +42,14 @@
         "cev_9126",
         "cev_9127",
         "cev_9130",
-        "cev_9201"
+        "cev_9201",
+        "cev_9501",
+        "cev_9506",
+        "cev_9517",
+        "cev_9523",
+        "cev_9533",
+        "cev_9534",
+        "cev_9535"
       ],
       "displayName": "GPT Image 2",
       "mediaType": "image",
@@ -52,7 +59,8 @@
       "activeCaseIds": [
         "cev_9015",
         "cev_9019",
-        "cev_9037"
+        "cev_9037",
+        "cev_9524"
       ],
       "displayName": "Nano Banana 2",
       "mediaType": "image",
@@ -68,7 +76,10 @@
         "cev_9022",
         "cev_9023",
         "cev_9028",
-        "cev_9104"
+        "cev_9104",
+        "cev_9522",
+        "cev_9526",
+        "cev_9536"
       ],
       "displayName": "Nano Banana Pro",
       "mediaType": "image",
@@ -82,7 +93,8 @@
         "cev_9065",
         "cev_9069",
         "cev_9131",
-        "cev_9200"
+        "cev_9200",
+        "cev_9504"
       ],
       "displayName": "Seedance 2.0",
       "mediaType": "video",
@@ -106,11 +118,39 @@
         "cev_9057",
         "cev_9058",
         "cev_9059",
-        "cev_9305"
+        "cev_9305",
+        "cev_9502",
+        "cev_9503",
+        "cev_9505",
+        "cev_9509",
+        "cev_9512",
+        "cev_9513",
+        "cev_9516",
+        "cev_9518",
+        "cev_9519",
+        "cev_9537"
       ],
       "displayName": "GPT Image 2.5",
       "mediaType": "image",
       "modelFamilyId": "gpt-image-2-5"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9601"
+      ],
+      "displayName": "Midjourney V8.1",
+      "mediaType": "image",
+      "modelFamilyId": "midjourney-v8-1"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9527",
+        "cev_9528",
+        "cev_9529"
+      ],
+      "displayName": "Midjourney V8.2",
+      "mediaType": "image",
+      "modelFamilyId": "midjourney-v8-2"
     },
     {
       "activeCaseIds": [
