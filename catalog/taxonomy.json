@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-93f023c5d8ac07f5",
+  "catalogRevision": "mcp-local-9e4bacee9a95e6bf",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -187,7 +187,8 @@
         "cev_9201",
         "cev_9802",
         "cev_9803",
-        "cev_9820"
+        "cev_9820",
+        "cev_9822"
       ],
       "axis": "collection",
       "id": "collection-coloured-studio-portraits",
@@ -844,7 +845,8 @@
         "cev_9818",
         "cev_9819",
         "cev_9820",
-        "cev_9821"
+        "cev_9821",
+        "cev_9822"
       ],
       "axis": "media",
       "id": "media-image",
@@ -1017,7 +1019,8 @@
         "cev_9817",
         "cev_9819",
         "cev_9820",
-        "cev_9821"
+        "cev_9821",
+        "cev_9822"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -1202,7 +1205,8 @@
         "cev_9818",
         "cev_9819",
         "cev_9820",
-        "cev_9821"
+        "cev_9821",
+        "cev_9822"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -1951,6 +1955,14 @@
       "axis": "style",
       "id": "style-sunlit-boat-lifestyle",
       "label": "Sunlit lifestyle photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9822"
+      ],
+      "axis": "style",
+      "id": "style-sunlit-streetwear-studio",
+      "label": "Window-lit studio streetwear"
     },
     {
       "activeCaseIds": [
