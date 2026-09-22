@@ -53,9 +53,9 @@
     "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "079f42aee1ba1b46eb5ce725340f8aa60b760a788b4bf06dafceee5b14432371",
+    "presentationSha256": "8945fe1499c183139959e7d6274d2602dc777ed9e41ddb0d4d30e04cea9d82b5",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "fc0565c0f7cf3b29f7327d34b2fad551903edeeded68c52927f97637b5857f17"
+    "websiteSourceSha256": "a35c9366410d4f4aa66d770c00849d53dc2f159fcb2967343541823e902abb4b"
   },
   "publicationState": "website_master_projection",
   "purpose": "Present each product in close-up with soft composition, realistic texture and a handwritten caption.",
