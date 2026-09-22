@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/wooden-boat-linen-suit-lifestyle-portrait-cev_9805/",
+  "caseFamilyId": "cf_cev_9805",
+  "caseId": "cev_9805",
+  "caseRevisionId": "cev_9805@r0001",
+  "creator": {
+    "displayName": "Picts by AI",
+    "handle": "@pictsbyai",
+    "profileUrl": "https://x.com/pictsbyai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt with Nano Banana Pro in vertical 3:4. Keep the passenger-seat viewpoint, wooden wheel, throttle lever and warm-brown linen against blue water. Adapt clothing or landscape without losing the hand-to-control relationships. The 35 mm and f/5.6 phrases describe the desired look, not verified photographic metadata.\n\nLimitations: The prompt puts the left hand on the wheel and the right on the throttle; the reviewed image reverses those left/right roles. One hand is still steering and the other is on the throttle, but the pose is not a literal reproduction. The base recipe requires no reference image. The example is not a FilmLune reproduction or a work attributed to the photographer named as an inspiration in the prompt. The 1529 × 2048 archive is an X-distributed version, not the generator’s native file; exact settings and seed are not evidenced.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Linen Suit Portrait on a Wooden Lake Boat",
+        "promptSha256": "aa13ee03c1382a8d835b5b4169c652cacde68bd6d710ea62b66a84c4ed9e2ca1",
+        "promptText": "A confident young handsome male sits upright with a slight lean forward, angled forty-five degrees to the left in the pristine white leather seat of a classic wooden boat. He wears a highly textured warm brown linen double-breasted suit jacket over a crisp white collared shirt with exposed cuffs, accessorized with classic dark round tortoiseshell sunglasses masking a neutral, serious expression with firmly closed lips as he gazes off-camera. His medium-length wavy brown hair is pushed back with a windblown, unstructured texture, showcasing natural imperfections, distinct flyaways, and organic volume without a defined part. His left hand firmly grips the ten o'clock position of a pristine, glossy mahogany steering wheel featuring rivet details and chrome spokes, fingers wrapped securely around the rim with knuckles slightly visible, while his relaxed right hand rests casually on a chrome and black throttle lever beside him with fingers gently draped. He is navigating deep turquoise-blue lake water characterized by choppy white wakes, surrounded by the boat's luxurious interior featuring pristine white leather seating with visible piping and stitching. In the deep background, large sloping green mountains are softened by atmospheric blue haze and distance under a clear, expansive sky blue horizon. The energetic, luxurious scene is bathed in bright, highly directional mid-day natural sunlight hitting from the front-top-left, creating a highly saturated, high-contrast palette of warm browns and cool blues. Harsh, deeply defined black shadows carve into the fabric folds, under his jaw, across the right side of his face and neck, beneath his arms, and deep inside the boat cockpit, while brilliant specular highlights punch bright reflections onto his hair, nose, the wooden steering wheel rim, chrome fittings, and the water surface. Captured from a straight-on perspective from the adjacent passenger seat using a full-frame digital camera with a 35mm lens, an aperture of f/5.6 for a medium depth of field that keeps the subject and boat tack sharp while smoothly falling off toward the distant alpine mountains, and a fast shutter speed to freeze the motion. This hyperrealistic, Slim Aarons-inspired editorial lifestyle photograph features an enhanced contrast S-curve, a slight warming filter to emphasize the sunlit atmosphere, boosted clarity on the clothing and wood textures, and is perfectly framed in a 3:4 vertical aspect ratio.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9805_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "265a896f14c0ac2f0d3ac146b5301b9cb7d7548f164a3b41b1b957410c6161cc",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "29d1eb5d29d586faab5bcc314bd8f9958a9c55f2bde5609f57a6c0153cf110ba"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a leisure portrait where the linen suit, hands on the boat controls and mountain lake all support one readable activity.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Linen Suit Portrait on a Wooden Lake Boat",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9805_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9805_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9805/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/pictsbyai/status/2096875619631964326",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/pictsbyai/status/2096875619631964326"
+  },
+  "summary": "A high-contrast lifestyle portrait combining brown linen, polished wood and an alpine lake.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-environmental-lifestyle-portraits",
+      "label": "Environmental lifestyle portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-sunlit-boat-lifestyle",
+      "label": "Sunlit lifestyle photography"
+    }
+  ],
+  "title": "Linen Suit Portrait on a Wooden Lake Boat",
+  "variables": [
+    {
+      "name": "Action and props",
+      "value": "One hand on the wheel and the other on the throttle, with a coherent seated posture."
+    },
+    {
+      "name": "Clothing and materials",
+      "value": "Brown double-breasted linen jacket, white shirt, polished wood and chrome."
+    },
+    {
+      "name": "Setting and light",
+      "value": "Blue lake, distant mountains and direct midday sunlight."
+    },
+    {
+      "name": "Optional personalisation",
+      "value": "The author’s own-photo suggestion is optional; use only a photo you are entitled to use."
+    }
+  ]
+}
