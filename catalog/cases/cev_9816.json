@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/coral-paper-quilling-fashion-relief-cev_9816/",
+  "caseFamilyId": "cf_cev_9816",
+  "caseId": "cev_9816",
+  "caseRevisionId": "cev_9816@r0001",
+  "creator": {
+    "displayName": "Gilbert Odera | Your AI Plug",
+    "handle": "@yourPlugAI",
+    "profileUrl": "https://x.com/yourPlugAI"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the self-contained prompt with Nano Banana 2, explicitly named by the author. Establish the pale flat-lay backing first, then organise the figure, petal skirt and floral border by visual priority. Use tight coils for hair and roses, and broad folded forms for the skirt and bow. Soft overhead studio light should separate the layers without turning the border into a photographic environment. The recipe does not require a reference photograph.\n\nLimitations: This is a generated paper-craft appearance, not evidence of a physically fabricated object or a usable cutting and assembly pattern. Only the source post’s first of four images is selected. The retained original is 2048 × 2048 pixels; the prompt gives no aspect ratio, and the suggested 1:1 Studio option is not an attested source setting. Both bags are present, but the tote hangs from an arm rather than being held literally as written. Jewellery and hand gestures are ordinary output variations, not an exact-reproduction promise. The GILBERTO signature and small gold bag emblem are not specified by the prompt. The original is preserved without a brand, licence or partnership claim; review graphic marks before commercial use.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Coral Paper-Quilling Fashion Relief",
+        "promptSha256": "3b02a02416975bceffd79b810db8c79e6108eb8ea70ad8056e5b6a0b701e958b",
+        "promptText": "3D paper quilling and layered paper craft art of an elegant fashion illustration, flat lay view on a clean, off-white textured paper backdrop with soft overhead studio lighting and subtle drop shadows.\n\nIn the center stands a stylized woman crafted entirely from layered cut paper. She wears a striking coral-red sleeveless dress with a sweetheart neckline, a thin black waist belt accented with a tiny gold buckle, and a dramatically layered, flowing petal skirt with a high front slit.\n\nOn her head is a matching wide-brimmed coral-red sun hat with a thin black band. She has long, voluminous black quilled hair cascading in soft curls, a minimalist faceless design with red lipstick, dangling red drop earrings, and black pointed high heels. She gracefully holds a woven beige wicker tote bag in one hand and carries a small quilted black handbag over her forearm.\n\nThe composition is framed along all four corners with intricate quilled paper floral arrangements containing deep red roses, coral-red five-petal flowers with bright yellow centers, beige quilled spiral roses, green leaves, and small red buds. The top-left corner is accented by a large, elegant coral-red folded paper bow.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9816_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "079f42aee1ba1b46eb5ce725340f8aa60b760a788b4bf06dafceee5b14432371",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "fc0565c0f7cf3b29f7327d34b2fad551903edeeded68c52927f97637b5857f17"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose a decorative panel whose central figure, accessories and floral corners appear built on the same paper backing, with consistent layer thickness and cast shadows.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Coral Paper-Quilling Fashion Relief",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9816_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9816_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9816/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/yourPlugAI/status/2095169126356451536",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/yourPlugAI/status/2095169126356451536"
+  },
+  "summary": "A petal-layered dress, black paper curls and floral corners form a square decorative relief panel.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-decorative-paper-relief-panels",
+      "label": "Decorative paper-relief panels"
+    },
+    {
+      "axis": "style",
+      "id": "style-layered-paper-quilling",
+      "label": "Layered cut paper and quilling"
+    }
+  ],
+  "title": "Coral Paper-Quilling Fashion Relief",
+  "variables": [
+    {
+      "name": "Panel hierarchy",
+      "value": "One dominant central figure, a top-left bow and four floral corner groups, leaving clear backing around the head."
+    },
+    {
+      "name": "Paper forms",
+      "value": "Black coils for hair, spirals for roses, broad stacked petals for the skirt and narrow folds for the leaves."
+    },
+    {
+      "name": "Contrast",
+      "value": "Coral and dark red against off-white, with black hair and accessories, green leaves and beige coils."
+    },
+    {
+      "name": "Relief lighting",
+      "value": "Soft overhead light and short cast shadows between layers; keep a single flat backing plane."
+    }
+  ]
+}

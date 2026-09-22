@@ -42,9 +42,9 @@
     "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "31e75f1590ff1b494a737a7a85c611c6ce6aa7da4b36b2e4b39b7450508c810b",
+    "presentationSha256": "079f42aee1ba1b46eb5ce725340f8aa60b760a788b4bf06dafceee5b14432371",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "2a8ee0f0e8554c3b7a31d4d8733bb3d466e41b9f3b628f2ef538eae1e9eea160"
+    "websiteSourceSha256": "fc0565c0f7cf3b29f7327d34b2fad551903edeeded68c52927f97637b5857f17"
   },
   "publicationState": "website_master_projection",
   "purpose": "Explore detail hierarchy in a painted portrait: keep the face readable while letting the clothing and outer contours become loose.",
