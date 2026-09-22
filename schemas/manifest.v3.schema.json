@@ -1,0 +1,350 @@
+{
+  "$defs": {
+    "change": {
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "caseId": {
+              "pattern": "^cev_[0-9]{4}$",
+              "type": "string"
+            },
+            "caseRevisionId": {
+              "pattern": "^cev_[0-9]{4}@r[0-9]{4}$",
+              "type": "string"
+            },
+            "changedAtUtc": {
+              "format": "date-time",
+              "type": "string"
+            },
+            "changeId": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "changeKind": {
+              "enum": [
+                "upserted",
+                "removed"
+              ]
+            },
+            "entityKind": {
+              "const": "case"
+            },
+            "provenance": {
+              "$ref": "#/$defs/provenance"
+            }
+          },
+          "required": [
+            "caseId",
+            "caseRevisionId",
+            "changeId",
+            "changeKind",
+            "changedAtUtc",
+            "entityKind",
+            "provenance"
+          ],
+          "type": "object"
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "changedAtUtc": {
+              "format": "date-time",
+              "type": "string"
+            },
+            "changeId": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "changeKind": {
+              "enum": [
+                "upserted",
+                "removed"
+              ]
+            },
+            "entityKind": {
+              "const": "prompt_template"
+            },
+            "promptTemplateId": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "type": "string"
+            },
+            "promptTemplateRevisionId": {
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*@r[0-9]{4}$",
+              "type": "string"
+            },
+            "provenance": {
+              "$ref": "#/$defs/provenance"
+            }
+          },
+          "required": [
+            "changeId",
+            "changeKind",
+            "changedAtUtc",
+            "entityKind",
+            "promptTemplateId",
+            "promptTemplateRevisionId",
+            "provenance"
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "file": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "not": {
+            "const": "catalog/manifest.json"
+          },
+          "pattern": "^(?:catalog|schemas)/[a-z0-9_./-]+\\.json$",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "type": "object"
+    },
+    "generator": {
+      "additionalProperties": false,
+      "properties": {
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "version": {
+          "const": "mcp-catalog-v4"
+        }
+      },
+      "required": [
+        "sha256",
+        "version"
+      ],
+      "type": "object"
+    },
+    "presentation": {
+      "additionalProperties": false,
+      "properties": {
+        "language": {
+          "const": "en"
+        },
+        "revision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "revision",
+        "sha256"
+      ],
+      "type": "object"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "generatorSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "generatorVersion": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "websiteSourceRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "websiteSourceSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "generatorSha256",
+        "generatorVersion",
+        "presentationRevision",
+        "presentationSha256",
+        "websiteSourceRevision",
+        "websiteSourceSha256"
+      ],
+      "type": "object"
+    },
+    "schemaHashes": {
+      "additionalProperties": false,
+      "properties": {
+        "caseV2": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "manifestV2": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "manifestV3": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "promptTemplateTombstoneV1": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "promptTemplateV1": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "tombstoneV1": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "caseV2",
+        "manifestV2",
+        "manifestV3",
+        "promptTemplateTombstoneV1",
+        "promptTemplateV1",
+        "tombstoneV1"
+      ],
+      "type": "object"
+    },
+    "source": {
+      "additionalProperties": false,
+      "properties": {
+        "revision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "websiteRepository": {
+          "const": "filmlune.com"
+        }
+      },
+      "required": [
+        "revision",
+        "sha256",
+        "websiteRepository"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://filmlune.com/schemas/mcp/manifest.v3.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Hash-bound manifest with separate Website-case and MCP-only prompt inventories.",
+  "properties": {
+    "activeIds": {
+      "items": {
+        "pattern": "^cev_[0-9]{4}$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "catalogRevision": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "changes": {
+      "items": {
+        "$ref": "#/$defs/change"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "files": {
+      "items": {
+        "$ref": "#/$defs/file"
+      },
+      "minItems": 8,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "generator": {
+      "$ref": "#/$defs/generator"
+    },
+    "modelsSha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "presentation": {
+      "$ref": "#/$defs/presentation"
+    },
+    "promptTemplateIds": {
+      "items": {
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "promptTemplateTombstoneIds": {
+      "items": {
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "schemaHashes": {
+      "$ref": "#/$defs/schemaHashes"
+    },
+    "schemaVersion": {
+      "const": 3
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "taxonomySha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "tombstoneIds": {
+      "items": {
+        "pattern": "^cev_[0-9]{4}$",
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "activeIds",
+    "catalogRevision",
+    "changes",
+    "files",
+    "generator",
+    "modelsSha256",
+    "presentation",
+    "promptTemplateIds",
+    "promptTemplateTombstoneIds",
+    "schemaHashes",
+    "schemaVersion",
+    "source",
+    "taxonomySha256",
+    "tombstoneIds"
+  ],
+  "title": "FilmLune MCP catalog manifest v3",
+  "type": "object"
+}

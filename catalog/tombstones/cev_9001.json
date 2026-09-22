@@ -3,12 +3,12 @@
   "caseRevisionId": "cev_9001@r0001",
   "kind": "tombstone",
   "provenance": {
-    "generatorSha256": "7d71bb2edec453f1c252c4e7d053d0375c03131bbf67eee7bad7674442530c38",
-    "generatorVersion": "mcp-catalog-v3",
+    "generatorSha256": "791822736359904b3174dc2597ac66cf0608d51d1463af900b3887e6affb8a8f",
+    "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
     "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
-    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1",
-    "websiteSourceSha256": "52c2202d04289be1ce43da1f27bb9db187b450458f41ec8c1cc32940dcd70aba"
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "aea7c29d6c9caa9518dedaf7c90c9fef1f1d122a2449cf1895f643654eeb1a7c"
   },
   "reasonCode": "LOCAL_FIXTURE_WITHDRAWN",
   "removedAtUtc": "2026-08-12T00:00:00.000Z",
