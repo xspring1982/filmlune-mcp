@@ -39,12 +39,12 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "791822736359904b3174dc2597ac66cf0608d51d1463af900b3887e6affb8a8f",
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "e125fd18565c1278c8ef00caa73075ff8c2359941bebefab30bd33cb816e247e",
+    "presentationSha256": "265a896f14c0ac2f0d3ac146b5301b9cb7d7548f164a3b41b1b957410c6161cc",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "aea7c29d6c9caa9518dedaf7c90c9fef1f1d122a2449cf1895f643654eeb1a7c"
+    "websiteSourceSha256": "29d1eb5d29d586faab5bcc314bd8f9958a9c55f2bde5609f57a6c0153cf110ba"
   },
   "publicationState": "website_master_projection",
   "purpose": "Combine a campaign-fashion silhouette with a dense urban composition while retaining subject readability and editorial balance.",

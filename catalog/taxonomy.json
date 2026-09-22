@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-bdaaa9352740eb6e",
+  "catalogRevision": "mcp-local-6be32470b99d65ef",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -150,7 +150,8 @@
     {
       "activeCaseIds": [
         "cev_9527",
-        "cev_9528"
+        "cev_9528",
+        "cev_9804"
       ],
       "axis": "collection",
       "id": "collection-cinematic-character-portraits",
@@ -183,7 +184,9 @@
     {
       "activeCaseIds": [
         "cev_9038",
-        "cev_9201"
+        "cev_9201",
+        "cev_9802",
+        "cev_9803"
       ],
       "axis": "collection",
       "id": "collection-coloured-studio-portraits",
@@ -262,6 +265,14 @@
       "axis": "collection",
       "id": "collection-engraved-football-portraits",
       "label": "Engraved football portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9805"
+      ],
+      "axis": "collection",
+      "id": "collection-environmental-lifestyle-portraits",
+      "label": "Environmental lifestyle portraits"
     },
     {
       "activeCaseIds": [
@@ -633,7 +644,8 @@
       "activeCaseIds": [
         "cev_9030",
         "cev_9034",
-        "cev_9517"
+        "cev_9517",
+        "cev_9801"
       ],
       "axis": "collection",
       "id": "collection-urban-daylight-portraits",
@@ -755,7 +767,12 @@
         "cev_9535",
         "cev_9536",
         "cev_9537",
-        "cev_9601"
+        "cev_9601",
+        "cev_9801",
+        "cev_9802",
+        "cev_9803",
+        "cev_9804",
+        "cev_9805"
       ],
       "axis": "media",
       "id": "media-image",
@@ -908,7 +925,12 @@
         "cev_9104",
         "cev_9522",
         "cev_9526",
-        "cev_9536"
+        "cev_9536",
+        "cev_9801",
+        "cev_9802",
+        "cev_9803",
+        "cev_9804",
+        "cev_9805"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -1073,7 +1095,12 @@
         "cev_9519",
         "cev_9527",
         "cev_9528",
-        "cev_9533"
+        "cev_9533",
+        "cev_9801",
+        "cev_9802",
+        "cev_9803",
+        "cev_9804",
+        "cev_9805"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -1318,6 +1345,14 @@
       "axis": "style",
       "id": "style-dappled-fashion",
       "label": "Fashion and dappled shadows"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9801"
+      ],
+      "axis": "style",
+      "id": "style-daylight-balcony-fashion",
+      "label": "Daylight balcony fashion"
     },
     {
       "activeCaseIds": [
@@ -1573,6 +1608,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9804"
+      ],
+      "axis": "style",
+      "id": "style-neon-cel-shaded-character",
+      "label": "Neon cel-shaded character"
+    },
+    {
+      "activeCaseIds": [
         "cev_9032"
       ],
       "axis": "style",
@@ -1647,6 +1690,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9803"
+      ],
+      "axis": "style",
+      "id": "style-red-black-fedora-chiaroscuro",
+      "label": "Red and black chiaroscuro"
+    },
+    {
+      "activeCaseIds": [
         "cev_9025"
       ],
       "axis": "style",
@@ -1700,6 +1751,14 @@
       "axis": "style",
       "id": "style-sunlit-beach-product-photography",
       "label": "Sunlit beach product photography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9805"
+      ],
+      "axis": "style",
+      "id": "style-sunlit-boat-lifestyle",
+      "label": "Sunlit lifestyle photography"
     },
     {
       "activeCaseIds": [
@@ -1757,6 +1816,14 @@
       "axis": "style",
       "id": "style-vintage-watercolor-travel-poster",
       "label": "Vintage watercolor travel poster"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9802"
+      ],
+      "axis": "style",
+      "id": "style-vintage-white-hat-beauty",
+      "label": "Vintage beauty with red accents"
     },
     {
       "activeCaseIds": [
