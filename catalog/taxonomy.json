@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-e9a5d20e84255574",
+  "catalogRevision": "mcp-local-be717d7ab3cba082",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -219,6 +219,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9816"
+      ],
+      "axis": "collection",
+      "id": "collection-decorative-paper-relief-panels",
+      "label": "Decorative paper-relief panels"
+    },
+    {
+      "activeCaseIds": [
         "cev_9036",
         "cev_9107",
         "cev_9810",
@@ -270,7 +278,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9805"
+        "cev_9805",
+        "cev_9814"
       ],
       "axis": "collection",
       "id": "collection-environmental-lifestyle-portraits",
@@ -410,6 +419,14 @@
       "axis": "collection",
       "id": "collection-identity-scan-character-posters",
       "label": "Monochrome scan character posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9815"
+      ],
+      "axis": "collection",
+      "id": "collection-illustrated-editorial-portrait-posters",
+      "label": "Illustrated editorial portrait posters"
     },
     {
       "activeCaseIds": [
@@ -807,7 +824,10 @@
         "cev_9809",
         "cev_9810",
         "cev_9811",
-        "cev_9813"
+        "cev_9813",
+        "cev_9814",
+        "cev_9815",
+        "cev_9816"
       ],
       "axis": "media",
       "id": "media-image",
@@ -943,7 +963,9 @@
         "cev_9037",
         "cev_9524",
         "cev_9810",
-        "cev_9813"
+        "cev_9813",
+        "cev_9814",
+        "cev_9816"
       ],
       "axis": "model",
       "id": "model-nano-banana-2",
@@ -972,7 +994,8 @@
         "cev_9807",
         "cev_9808",
         "cev_9809",
-        "cev_9811"
+        "cev_9811",
+        "cev_9815"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -1053,7 +1076,8 @@
         "cev_9505",
         "cev_9535",
         "cev_9601",
-        "cev_9809"
+        "cev_9809",
+        "cev_9815"
       ],
       "axis": "use_case",
       "id": "scene-editorial-posters",
@@ -1101,7 +1125,8 @@
         "cev_9522",
         "cev_9524",
         "cev_9529",
-        "cev_9811"
+        "cev_9811",
+        "cev_9816"
       ],
       "axis": "use_case",
       "id": "scene-illustration-3d",
@@ -1149,7 +1174,8 @@
         "cev_9807",
         "cev_9808",
         "cev_9810",
-        "cev_9813"
+        "cev_9813",
+        "cev_9814"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -1389,6 +1415,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9815"
+      ],
+      "axis": "style",
+      "id": "style-crosshatched-ink-zine",
+      "label": "Cross-hatched ink with fanzine annotations"
+    },
+    {
+      "activeCaseIds": [
         "cev_9048"
       ],
       "axis": "style",
@@ -1589,6 +1623,14 @@
       "axis": "style",
       "id": "style-late-1990s-coastal-travel-editorial",
       "label": "Late-1990s coastal travel editorial"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9816"
+      ],
+      "axis": "style",
+      "id": "style-layered-paper-quilling",
+      "label": "Layered cut paper and quilling"
     },
     {
       "activeCaseIds": [
@@ -1915,6 +1957,14 @@
       "axis": "style",
       "id": "style-vintage-white-hat-beauty",
       "label": "Vintage beauty with red accents"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9814"
+      ],
+      "axis": "style",
+      "id": "style-warm-environmental-editorial",
+      "label": "Warm environmental editorial"
     },
     {
       "activeCaseIds": [
