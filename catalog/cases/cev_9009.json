@@ -42,9 +42,9 @@
     "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "265a896f14c0ac2f0d3ac146b5301b9cb7d7548f164a3b41b1b957410c6161cc",
+    "presentationSha256": "31e75f1590ff1b494a737a7a85c611c6ce6aa7da4b36b2e4b39b7450508c810b",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "29d1eb5d29d586faab5bcc314bd8f9958a9c55f2bde5609f57a6c0153cf110ba"
+    "websiteSourceSha256": "2a8ee0f0e8554c3b7a31d4d8733bb3d466e41b9f3b628f2ef538eae1e9eea160"
   },
   "publicationState": "website_master_projection",
   "purpose": "Build a refined period beauty portrait while keeping FilmLune's model choice and English recipe separate from source facts.",

@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/family-morning-country-courtyard-cev_9808/",
+  "caseFamilyId": "cf_cev_9808",
+  "caseId": "cev_9808",
+  "caseRevisionId": "cev_9808@r0001",
+  "creator": {
+    "displayName": "WeWant Mars",
+    "handle": "@Madhuribhai",
+    "profileUrl": "https://x.com/Madhuribhai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt with Nano Banana Pro. Organize four figures around three actions: watering plants, preparing food at the window and playing together. Link foreground and background through pots, laundry and tree-filtered light while keeping each gesture clear. Vertical framing follows the example; the source does not attest a numerical ratio.\n\nLimitations: Family roles and social context are fictional prompt premises, not verified identities or documentary reporting. The rug and adults' apparent ages are rendering choices, not prescribed details. No seed or exact generation ratio is supplied. The archived X rendition is 768 × 1376 pixels; 35 mm is a requested photographic look, not camera metadata.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "A Family Morning in a Country Courtyard",
+        "promptSha256": "4093b522dd8f8af8e68d1a12a8681d344604434c40d3f8c0a7414fd29985d70f",
+        "promptText": "Ultra-realistic candid photograph of a middle-class South Asian family having a peaceful Sunday morning in their small countryside home, father watering plants in the garden, mother preparing breakfast near an open window, two children playing barefoot nearby, simple clothing and authentic expressions, slightly imperfect old walls, hanging laundry, sunlight filtering through trees, realistic household objects everywhere, natural skin textures, genuine family interaction, warm morning atmosphere, documentary photography, 35mm lens, realistic depth, no staged posing, no artificial perfection.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9808_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "31e75f1590ff1b494a737a7a85c611c6ce6aa7da4b36b2e4b39b7450508c810b",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "2a8ee0f0e8554c3b7a31d4d8733bb3d466e41b9f3b628f2ef538eae1e9eea160"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a readable family scene by connecting several ordinary activities within one shared space instead of arranging unrelated poses.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "A Family Morning in a Country Courtyard",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9808_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9808_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9808/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Madhuribhai/status/2099018286948302938",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Madhuribhai/status/2099018286948302938"
+  },
+  "summary": "Watering plants, preparing a meal and children's play share one courtyard in warm morning light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-everyday-narrative-scenes",
+      "label": "Everyday narrative scenes"
+    },
+    {
+      "axis": "style",
+      "id": "style-documentary-everyday",
+      "label": "Everyday documentary aesthetic"
+    }
+  ],
+  "title": "A Family Morning in a Country Courtyard",
+  "variables": [
+    {
+      "name": "Actions and figures",
+      "value": "Two adults watering and cooking; two children sharing toys."
+    },
+    {
+      "name": "Spatial depth",
+      "value": "Plants near the viewer, play on the ground and an open cooking window behind."
+    },
+    {
+      "name": "Atmosphere",
+      "value": "Warm morning light, worn walls, simple clothing and everyday objects."
+    }
+  ]
+}

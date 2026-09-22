@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/painted-portrait-study-unfinished-edges-cev_9811/",
+  "caseFamilyId": "cf_cev_9811",
+  "caseId": "cev_9811",
+  "caseRevisionId": "cev_9811@r0001",
+  "creator": {
+    "displayName": "Zayan",
+    "handle": "@HustleXR",
+    "profileUrl": "https://x.com/HustleXR"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the full prompt with Nano Banana Pro, the version named in the source post. Keep an earthy palette and an undecorated cream ground. Build the face with blocks of tone, then loosen the edges and lower garment into dry-brush marks. The prompt specifies vertical 9:16. For a new creation, describe your chosen subject separately: the source text does not lock any identity.\n\nLimitations: This prompt describes a painting technique, not a specific person; it does not guarantee this face, hairstyle or individual likeness. The retained file is 768 × 1376 pixels, approximately the requested 9:16. Native resolution, seed and provider settings are undocumented. Oil and canvas effects are digital. The image does not establish a physical painting, real photograph or endorsement by any depicted person.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Portrait Study with Unfinished Edges",
+        "promptSha256": "94b62ff3c6228b39eb7c9c09c5da37816ca027cadb4beab6a49abe1ad0ad39bc",
+        "promptText": "Painterly semi-realistic digital oil painting, expressive visible brushwork, refined yet spontaneous traditional oil-sketch aesthetic. Warm earthy palette with muted sienna, raw umber, ochre, dusty beige, and soft cream tones. Skin and forms built through layered brush strokes, tonal blocking, subtle impasto, and controlled color variation rather than smooth airbrushing. Facial features have selectively defined, confident edges, while contours gradually dissolve into loose, rough, gestural strokes. Soft directional lighting with warm highlights and gently desaturated cool-brown shadows. Organic imperfect brush texture, painterly construction marks, dry-brush accents, broken edges, subtle canvas-like texture. Clothing and lower areas intentionally unfinished, fading into rough abstract strokes, partial forms, negative space, and visible painterly gestures. Background completely plain and minimal: raw cream/beige ground with very thin, sparse, rough impressionistic brush sweeps, softly textured, understated, no objects, no scenery, no patterns, no architectural elements. Elegant artistic incompleteness, sophisticated gallery-quality digital painting, restrained detail, natural brush rhythm, atmospheric simplicity, controlled imperfection. Vertical 9:16 composition.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9811_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "31e75f1590ff1b494a737a7a85c611c6ce6aa7da4b36b2e4b39b7450508c810b",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "2a8ee0f0e8554c3b7a31d4d8733bb3d466e41b9f3b628f2ef538eae1e9eea160"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Explore detail hierarchy in a painted portrait: keep the face readable while letting the clothing and outer contours become loose.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Portrait Study with Unfinished Edges",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9811_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9811_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9811/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/HustleXR/status/2096209304537932228",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/HustleXR/status/2096209304537932228"
+  },
+  "summary": "Warm painted facial planes stand out against a cream ground while the collar and shoulders dissolve into loose brush marks.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-painterly-portrait-studies",
+      "label": "Painted portrait studies"
+    },
+    {
+      "axis": "style",
+      "id": "style-digital-oil-sketch",
+      "label": "Digital oil sketch"
+    }
+  ],
+  "title": "Portrait Study with Unfinished Edges",
+  "variables": [
+    {
+      "name": "Detail hierarchy",
+      "value": "Defined facial features, a partially resolved collar and shoulders that fade into loose paint."
+    },
+    {
+      "name": "Palette and lighting",
+      "value": "Sienna, umber, ochre and cream; soft directional highlights with less-saturated brown shadows."
+    },
+    {
+      "name": "Degree of incompletion",
+      "value": "Vary broken edges, dry-brush traces and negative space without introducing scenery."
+    }
+  ]
+}
