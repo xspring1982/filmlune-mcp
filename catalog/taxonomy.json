@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-be717d7ab3cba082",
+  "catalogRevision": "mcp-local-01f9c882f4ef896d",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -279,7 +279,8 @@
     {
       "activeCaseIds": [
         "cev_9805",
-        "cev_9814"
+        "cev_9814",
+        "cev_9818"
       ],
       "axis": "collection",
       "id": "collection-environmental-lifestyle-portraits",
@@ -663,7 +664,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9529"
+        "cev_9529",
+        "cev_9817"
       ],
       "axis": "collection",
       "id": "collection-surreal-narrative-illustrations",
@@ -827,7 +829,9 @@
         "cev_9813",
         "cev_9814",
         "cev_9815",
-        "cev_9816"
+        "cev_9816",
+        "cev_9817",
+        "cev_9818"
       ],
       "axis": "media",
       "id": "media-image",
@@ -965,7 +969,8 @@
         "cev_9810",
         "cev_9813",
         "cev_9814",
-        "cev_9816"
+        "cev_9816",
+        "cev_9818"
       ],
       "axis": "model",
       "id": "model-nano-banana-2",
@@ -995,7 +1000,8 @@
         "cev_9808",
         "cev_9809",
         "cev_9811",
-        "cev_9815"
+        "cev_9815",
+        "cev_9817"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -1126,7 +1132,8 @@
         "cev_9524",
         "cev_9529",
         "cev_9811",
-        "cev_9816"
+        "cev_9816",
+        "cev_9817"
       ],
       "axis": "use_case",
       "id": "scene-illustration-3d",
@@ -1175,7 +1182,8 @@
         "cev_9808",
         "cev_9810",
         "cev_9813",
-        "cev_9814"
+        "cev_9814",
+        "cev_9818"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -1782,6 +1790,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9817"
+      ],
+      "axis": "style",
+      "id": "style-photoreal-surreal-scale-narrative",
+      "label": "Photoreal-looking surreal scale narrative"
+    },
+    {
+      "activeCaseIds": [
         "cev_9024"
       ],
       "axis": "style",
@@ -1960,7 +1976,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9814"
+        "cev_9814",
+        "cev_9818"
       ],
       "axis": "style",
       "id": "style-warm-environmental-editorial",

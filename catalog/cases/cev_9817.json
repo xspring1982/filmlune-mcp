@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/world-inside-tear-moonlit-museum-cev_9817/",
+  "caseFamilyId": "cf_cev_9817",
+  "caseId": "cev_9817",
+  "caseRevisionId": "cev_9817@r0001",
+  "creator": {
+    "displayName": "WeWant Mars",
+    "handle": "@Madhuribhai",
+    "profileUrl": "https://x.com/Madhuribhai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the self-contained prompt with Nano Banana Pro, explicitly named in the source post. Establish the great hall and its leading lines before placing the back-view observer in front of the statue. Make the suspended tear the meeting point between the surrounding museum and the miniature landscape visible through its surface. Separate cool moonlight from the restrained inner illumination; marble reflections and ripples below the tear connect the impossible event to the room. No reference image is required by this recipe.\n\nLimitations: This is a generated image, not a photograph of a real museum. The retained source file is 2048 × 1529 pixels; the 4k header and 8K prompt wording do not prove a native output at either resolution. Two smaller droplets accompany the main tear, which is not a perfect sphere. One-metre clearance and physical scale cannot be measured from the image; exact literal reproduction is not promised. Miniature storms, headlights, watching paintings and hundreds of interactions cannot all be verified individually. The 35mm, ray-tracing and perfect-optics wording guides appearance, not an attested camera or physical simulation. No aspect ratio is set by the prompt. The suggested 4:3 Studio option approximates the observed canvas, not a verified source setting. Falling and rippling describe a frozen moment; no motion or audio is supplied.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "A World Inside a Tear in a Museum",
+        "promptSha256": "221835fb2319bf4364af9307992fa88028a56871df37aa168e7db0ebd696ab05",
+        "promptText": "Create an extraordinarily detailed, photorealistic cinematic image of a solitary human figure standing completely still in an enormous abandoned museum at night. The museum is dark, silent, and architecturally majestic, with towering classical walls, enormous empty frames, marble floors, and faint moonlight entering through a shattered glass ceiling.\n\nThe person is seen from behind, wearing a simple, elegant black coat. Their face is NOT visible.\n\nThe central visual phenomenon: a single enormous tear is falling from one of the eyes of a gigantic stone statue positioned at the far end of the museum. But instead of ordinary liquid, the tear is a perfectly transparent miniature universe. Inside the falling droplet exists an impossibly detailed alternate world — tiny mountains, oceans, cities, thunderstorms, forests, roads filled with microscopic headlights, and a tiny moon — all physically contained inside the spherical tear.\n\nThe tear is frozen in midair approximately one meter above the marble floor, creating a breathtaking optical illusion. Its surface reflects the entire museum with perfect physical accuracy while the miniature world inside remains alive and illuminated.\n\nHundreds of ordinary museum objects subtly interact with the phenomenon: dust particles suspended in moonlight, fragments of broken glass reflecting tiny galaxies, old paintings whose subjects appear to be looking toward the tear, and shallow ripples forming on the marble beneath it despite the droplet never touching the floor.\n\nMake the human figure extremely small compared with the statue and architecture, emphasizing scale and existential wonder.\n\nLighting: realistic moonlight mixed with extremely subtle natural illumination coming from inside the tear. Strong volumetric light rays, physically accurate reflections, realistic refraction through the water, delicate shadows, cinematic contrast, natural atmospheric haze.\n\nCamera: low cinematic perspective, 35mm full-frame lens, shallow but controlled depth of field, extremely high dynamic range, carefully composed leading lines directing the eye from the person → statue → floating tear.\n\nAesthetic: surreal concept executed with absolute photorealism. It must look like a real photograph captured by an elite cinematographer, NOT digital art.\n\nUltra-fine skin, fabric, marble, dust, glass and water textures. Physically believable optics. Ray-traced reflections and refractions. Micro-details everywhere. Natural film grain. Subtle lens imperfections. No excessive glow.\n\nComposition should feel like a once-in-a-lifetime photograph that makes the viewer stop scrolling and stare.\n\n8K detail, photorealistic, cinematic masterpiece, museum-scale composition, surreal realism, optical illusion, emotionally haunting, sophisticated visual storytelling, award-winning photography.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9817_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "8945fe1499c183139959e7d6274d2602dc777ed9e41ddb0d4d30e04cea9d82b5",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "a35c9366410d4f4aa66d770c00849d53dc2f159fcb2967343541823e902abb4b"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a surreal narrative around the scale contrast between a human observer, a monumental statue and a world contained inside one droplet.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "A World Inside a Tear in a Museum",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9817_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9817_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9817/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Madhuribhai/status/2094049290142532056",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Madhuribhai/status/2094049290142532056"
+  },
+  "summary": "A visitor faces a colossal statue and a suspended transparent tear holding a miniature landscape inside a moonlit museum.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-illustration-3d",
+      "label": "Illustration and 3D"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-surreal-narrative-illustrations",
+      "label": "Surreal narrative illustrations"
+    },
+    {
+      "axis": "style",
+      "id": "style-photoreal-surreal-scale-narrative",
+      "label": "Photoreal-looking surreal scale narrative"
+    }
+  ],
+  "title": "A World Inside a Tear in a Museum",
+  "variables": [
+    {
+      "name": "Narrative scales",
+      "value": "Keep three levels readable: human observer, monumental statue and miniature landscape inside the tear."
+    },
+    {
+      "name": "Setting and perspective",
+      "value": "A classical night-time gallery, damaged glass roof, marble floor and leading lines aimed at the phenomenon."
+    },
+    {
+      "name": "Contained world",
+      "value": "Mountains, water, small lights and a moon seen through a transparent enclosure, without spreading the inner world across the museum."
+    },
+    {
+      "name": "Light and visual grounding",
+      "value": "Moonlight, subtle inner illumination, a floor reflection and ripples below the tear, without overwhelming glow."
+    }
+  ]
+}
