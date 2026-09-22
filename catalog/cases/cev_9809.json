@@ -1,0 +1,146 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/alpine-lake-collect-moments-poster-cev_9809/",
+  "caseFamilyId": "cf_cev_9809",
+  "caseId": "cev_9809",
+  "caseRevisionId": "cev_9809@r0001",
+  "creator": {
+    "displayName": "Aniya Intelligence",
+    "handle": "@aniyaintel",
+    "profileUrl": "https://x.com/aniyaintel"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the full prompt with Nano Banana Pro at 9:16. Keep the rear-facing traveler lower centre, the boat on the right and enough open sky for the four text lines. Preserve COLLECT, Moments, NOT THINGS and TRAVEL • EXPLORE • LIVE exactly. Check the lettering, cabin placement and lake reflections. Only the first source image is bound to this recipe.\n\nLimitations: The other three images in the same post use different scenes and slogans; they are excluded, not verified recipe variations. The 941 × 1672 X rendition is close to requested 9:16, but does not establish native resolution, seed or provider. No real destination is verified. Changing visible words creates another output requiring review, not a translation of this retained result.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Alpine Lake Poster: Collect Moments",
+        "promptSha256": "1a7460946b1932656f34ee16ddb2ccce71c96d986c65cf9033cf7bd8d8784c14",
+        "promptText": "Create a premium, hyper-realistic cinematic travel editorial poster in 9:16 vertical format.\n\nScene: A breathtaking alpine mountain lake with crystal-clear turquoise water, surrounded by dramatic snow-capped mountains, dense evergreen pine forests, and steep rocky cliffs. The lake perfectly reflects the mountains and sky. A small rustic wooden cabin sits near the right shoreline, while a traditional wooden rowboat is tied beside a wooden dock in the foreground.\n\nIn the center foreground, show a solo traveler sitting on the wooden dock with their back facing the camera, looking peacefully toward the mountains. The traveler wears a brown wide-brimmed hat, burnt-orange outdoor jacket, beige/brown hiking backpack, and neutral outdoor clothing. Natural, realistic proportions and subtle clothing texture.\n\nComposition: Cinematic wide-angle photography, traveler positioned in the lower center, boat on the lower right, expansive lake and mountains dominating the background. Strong depth, natural perspective, layered landscape, peaceful adventurous atmosphere.\n\nLighting: Soft golden morning light, bright blue sky with scattered fluffy clouds, subtle atmospheric haze around the mountains, realistic sunlight and natural shadows. Rich but authentic colors, turquoise water, earthy brown foreground, lush green forest, cool blue mountains.\n\nTypography: Add elegant travel-poster typography over the upper portion of the image:\n\nSmall uppercase text: “COLLECT”\nLarge stylish handwritten/script text: “Moments”\nMedium uppercase text below: “NOT THINGS”\nMinimal decorative horizontal lines with a small heart symbol\nSmall uppercase tagline: “TRAVEL • EXPLORE • LIVE”\n\nUse sophisticated dark teal typography, clean spacing, premium editorial design, balanced hierarchy, highly legible text, and tasteful minimal decoration.\n\nStyle: Luxury travel magazine, cinematic photography, ultra-detailed, photorealistic, professional DSLR photography, HDR, realistic water reflections, natural skin/clothing textures, subtle filmic color grading, atmospheric depth, premium Pinterest travel aesthetic, inspirational and peaceful mood.\n\nAvoid: distorted people, extra limbs, unrealistic architecture, excessive saturation, blurry details, cartoon appearance, fake-looking water, cluttered typography, logos, watermarks.",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "COLLECT"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "Moments"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "NOT THINGS"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "headline",
+            "value": "TRAVEL • EXPLORE • LIVE"
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9809_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "31e75f1590ff1b494a737a7a85c611c6ce6aa7da4b36b2e4b39b7450508c810b",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "2a8ee0f0e8554c3b7a31d4d8733bb3d466e41b9f3b628f2ef538eae1e9eea160"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Combine an immersive landscape with a legible travel message, reserving the upper sky for type and the lower frame for a contemplative figure.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Alpine Lake Poster: Collect Moments",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9809_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9809_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9809/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/aniyaintel/status/2097549831489405424",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/aniyaintel/status/2097549831489405424"
+  },
+  "summary": "A rear-facing traveler beside a lake anchors the scene while a clear travel-message hierarchy fills the open sky.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-landscape-quote-posters",
+      "label": "Landscape quote posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-scenic-editorial-typography",
+      "label": "Scenic editorial typography"
+    }
+  ],
+  "title": "Alpine Lake Poster: Collect Moments",
+  "variables": [
+    {
+      "name": "Message hierarchy",
+      "value": "Small COLLECT capitals, large script Moments, NOT THINGS below and the final tagline, preserving the example's English wording."
+    },
+    {
+      "name": "Landscape arrangement",
+      "value": "Foreground dock and traveler, boat on the right, lake and mountain depth behind."
+    },
+    {
+      "name": "Colour and light",
+      "value": "Turquoise water, dark teal typography, orange jacket and morning light."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/street-barber-haircut-daily-life-cev_9806/",
+  "caseFamilyId": "cf_cev_9806",
+  "caseId": "cev_9806",
+  "caseRevisionId": "cev_9806@r0001",
+  "creator": {
+    "displayName": "WeWant Mars",
+    "handle": "@Madhuribhai",
+    "profileUrl": "https://x.com/Madhuribhai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the full prompt with Nano Banana Pro. Describe the standing barber, seated customer and haircut separately, then connect the mirror and shop opening to the street outside. Keep faces and hands readable while traffic is softer, and preserve imperfect surface textures. A vertical frame is a practical starting choice from this example, not an evidenced numerical source setting.\n\nLimitations: Small signs and incidental product marks are not verified advertising text and can be approximate or reversed. No affiliation is claimed. The 1143 × 2048 archive is an X-delivered version; the prompt’s 4K and 35 mm wording does not establish native resolution or photographic metadata. This is a generated image, not verified reporting about a real shop; no seed or exact generation ratio is evidenced.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "A Haircut in a Small Street Barbershop",
+        "promptSha256": "8f49b3a96f7c60d044e35e55844e25fbb5a0a3ba08316e2a7388b0f059dadfa0",
+        "promptText": "Photorealistic 4K street photograph of a young barber cutting a customer's hair at a tiny roadside barbershop, both men naturally interacting and smiling, old mirror reflecting the street outside, scissors and combs scattered realistically across the counter, dusty walls, electric fan, passing motorcycles softly blurred outside, realistic skin pores, facial hair and hair strands, imperfect lighting, authentic South Asian street atmosphere, candid documentary photography, 35mm lens, no posing, no artificial smoothness.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9806_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "31e75f1590ff1b494a737a7a85c611c6ce6aa7da4b36b2e4b39b7450508c810b",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "2a8ee0f0e8554c3b7a31d4d8733bb3d466e41b9f3b628f2ef538eae1e9eea160"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Tell an everyday story by connecting the barber’s gesture, the customer’s expression and the objects of a small shop opening onto the street.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "A Haircut in a Small Street Barbershop",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9806_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9806_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9806/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Madhuribhai/status/2100159035823763691",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Madhuribhai/status/2100159035823763691"
+  },
+  "summary": "A barber and customer smile as the mirror, tools and street traffic extend the story of the haircut.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-everyday-narrative-scenes",
+      "label": "Everyday narrative scenes"
+    },
+    {
+      "axis": "style",
+      "id": "style-documentary-everyday",
+      "label": "Everyday documentary aesthetic"
+    }
+  ],
+  "title": "A Haircut in a Small Street Barbershop",
+  "variables": [
+    {
+      "name": "Interaction",
+      "value": "A standing barber cuts a seated customer’s hair; keep both expressions natural."
+    },
+    {
+      "name": "Props and depth",
+      "value": "Mirror, scissors, combs and fan nearby; softer motorcycles and passers-by beyond the entrance."
+    },
+    {
+      "name": "Light and texture",
+      "value": "Imperfect lighting, worn walls and skin/hair detail without excessive smoothing."
+    }
+  ]
+}

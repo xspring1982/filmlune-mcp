@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-6be32470b99d65ef",
+  "catalogRevision": "mcp-local-e9a5d20e84255574",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -220,7 +220,9 @@
     {
       "activeCaseIds": [
         "cev_9036",
-        "cev_9107"
+        "cev_9107",
+        "cev_9810",
+        "cev_9813"
       ],
       "axis": "collection",
       "id": "collection-directional-light-beauty",
@@ -273,6 +275,16 @@
       "axis": "collection",
       "id": "collection-environmental-lifestyle-portraits",
       "label": "Environmental lifestyle portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9806",
+        "cev_9807",
+        "cev_9808"
+      ],
+      "axis": "collection",
+      "id": "collection-everyday-narrative-scenes",
+      "label": "Everyday narrative scenes"
     },
     {
       "activeCaseIds": [
@@ -457,6 +469,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9809"
+      ],
+      "axis": "collection",
+      "id": "collection-landscape-quote-posters",
+      "label": "Landscape quote posters"
+    },
+    {
+      "activeCaseIds": [
         "cev_9522",
         "cev_9524"
       ],
@@ -543,6 +563,14 @@
       "axis": "collection",
       "id": "collection-outdoor-lifestyle-portraits",
       "label": "Outdoor garden lifestyle portraits"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9811"
+      ],
+      "axis": "collection",
+      "id": "collection-painterly-portrait-studies",
+      "label": "Painted portrait studies"
     },
     {
       "activeCaseIds": [
@@ -772,7 +800,14 @@
         "cev_9802",
         "cev_9803",
         "cev_9804",
-        "cev_9805"
+        "cev_9805",
+        "cev_9806",
+        "cev_9807",
+        "cev_9808",
+        "cev_9809",
+        "cev_9810",
+        "cev_9811",
+        "cev_9813"
       ],
       "axis": "media",
       "id": "media-image",
@@ -906,7 +941,9 @@
         "cev_9015",
         "cev_9019",
         "cev_9037",
-        "cev_9524"
+        "cev_9524",
+        "cev_9810",
+        "cev_9813"
       ],
       "axis": "model",
       "id": "model-nano-banana-2",
@@ -930,7 +967,12 @@
         "cev_9802",
         "cev_9803",
         "cev_9804",
-        "cev_9805"
+        "cev_9805",
+        "cev_9806",
+        "cev_9807",
+        "cev_9808",
+        "cev_9809",
+        "cev_9811"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -1010,7 +1052,8 @@
         "cev_9502",
         "cev_9505",
         "cev_9535",
-        "cev_9601"
+        "cev_9601",
+        "cev_9809"
       ],
       "axis": "use_case",
       "id": "scene-editorial-posters",
@@ -1057,7 +1100,8 @@
         "cev_9512",
         "cev_9522",
         "cev_9524",
-        "cev_9529"
+        "cev_9529",
+        "cev_9811"
       ],
       "axis": "use_case",
       "id": "scene-illustration-3d",
@@ -1100,7 +1144,12 @@
         "cev_9802",
         "cev_9803",
         "cev_9804",
-        "cev_9805"
+        "cev_9805",
+        "cev_9806",
+        "cev_9807",
+        "cev_9808",
+        "cev_9810",
+        "cev_9813"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -1225,6 +1274,14 @@
       "axis": "style",
       "id": "style-cherry-juice-splash",
       "label": "Cherry juice splash product advertising"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9810"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-beauty-light",
+      "label": "Cinematic beauty lighting"
     },
     {
       "activeCaseIds": [
@@ -1353,6 +1410,24 @@
       "axis": "style",
       "id": "style-daylight-balcony-fashion",
       "label": "Daylight balcony fashion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9811"
+      ],
+      "axis": "style",
+      "id": "style-digital-oil-sketch",
+      "label": "Digital oil sketch"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9806",
+        "cev_9807",
+        "cev_9808"
+      ],
+      "axis": "style",
+      "id": "style-documentary-everyday",
+      "label": "Everyday documentary aesthetic"
     },
     {
       "activeCaseIds": [
@@ -1711,6 +1786,22 @@
       "axis": "style",
       "id": "style-samurai-oni-mecha",
       "label": "Samurai mecha with an oni mask"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9809"
+      ],
+      "axis": "style",
+      "id": "style-scenic-editorial-typography",
+      "label": "Scenic editorial typography"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9813"
+      ],
+      "axis": "style",
+      "id": "style-soft-daylight-portrait",
+      "label": "Soft-daylight portrait"
     },
     {
       "activeCaseIds": [
