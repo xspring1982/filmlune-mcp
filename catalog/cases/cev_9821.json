@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/underfoot-pedestrians-transparent-floor-blue-sky-cev_9821/",
+  "caseFamilyId": "cf_cev_9821",
+  "caseId": "cev_9821",
+  "caseRevisionId": "cev_9821@r0001",
+  "creator": {
+    "displayName": "Christopher Fryant",
+    "handle": "@cfryant",
+    "profileUrl": "https://x.com/cfryant"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt from the author's reply, linked to the main post that names Nano Banana Pro. Put the viewpoint underneath a transparent plexiglass plane and aim it straight upward. Bring the shoe soles close to the foreground, then arrange several clothed figures in mid-stride above the observer. Keep the blue sky as negative space and exclude buildings, edges and divisions in the plane. The generally left-to-right instruction suggests a tendency, not a measurable trajectory in one still. No reference photograph or particular identity is required.\n\nLimitations: The selected image retains faint reflections and surface marks despite the nearly invisible plexiglass instruction. Stride orientations vary and do not demonstrate uniform left-to-right travel. The source contains four variants. Only the first is retained here; they are not four distinct cases, and the other three are outside this visual packet. The retained file is 2048 × 1143 pixels. Suggested Studio 16:9 approximates the canvas; the prompt attests no numeric ratio, seed or provider settings. Extreme foreshortening partly hides faces and limbs. This is a generated concept, not evidence of a real installation or a guarantee of the same people and strides.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Pedestrians Seen from Beneath a Transparent Floor",
+        "promptSha256": "df8ea9ee27542d80e3e5d774eb5f3cfd30048d658902ce4a1937fa506d217d63",
+        "promptText": "View from under a plane of completely transparent plexiglass. We are looking straight up. Many people are walking on the plexiglass. In the background is a pure blue sky. No buildings visible. No edges or separations in the plexiglass. It’s as if the plexiglass isn’t even there. We are very close to the people. The people are in the process of walking. The people are walking generally from left to right. The soles of their shoes are very close to the foreground.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9821_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "fdef1f7d32b8be5eaafa025f49b3935036db2dc38f3e0ed2076c361a9dd571fd",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "36bab6bfd9f46ca59f6a333cabb4e48558addecc09f2e93df4159572a87880cc"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build an impossible underfoot crowd perspective by using the scale difference between soles, bodies and sky to make the walking action immediately readable.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Pedestrians Seen from Beneath a Transparent Floor",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9821_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9821_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9821/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/cfryant/status/2008198858405462492",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/cfryant/status/2008198858405462492"
+  },
+  "summary": "Large nearby soles dominate the foreground while walking figures recede against a blue sky, with no buildings or walkway edges.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-extreme-underfoot-group-scenes",
+      "label": "Underfoot group perspectives"
+    },
+    {
+      "axis": "style",
+      "id": "style-extreme-underfoot-perspective",
+      "label": "Straight-up underfoot perspective"
+    }
+  ],
+  "title": "Pedestrians Seen from Beneath a Transparent Floor",
+  "variables": [
+    {
+      "name": "Observer position",
+      "value": "Directly under the feet, looking vertically toward the sky and close to the soles; do not replace this with an ordinary low street-level view."
+    },
+    {
+      "name": "Scale and overlaps",
+      "value": "Large near soles with foreshortened legs and bodies farther away; distribute strides while retaining a readable group."
+    },
+    {
+      "name": "Background and support",
+      "value": "Blue sky without buildings, transparent plane without visible frame or seams; inspect residual reflections."
+    },
+    {
+      "name": "Implied motion",
+      "value": "Different walking phases with a general left-to-right tendency; ordinary clothing and a non-sexualized reading."
+    }
+  ]
+}

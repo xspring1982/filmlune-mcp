@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-01f9c882f4ef896d",
+  "catalogRevision": "mcp-local-93f023c5d8ac07f5",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -186,7 +186,8 @@
         "cev_9038",
         "cev_9201",
         "cev_9802",
-        "cev_9803"
+        "cev_9803",
+        "cev_9820"
       ],
       "axis": "collection",
       "id": "collection-coloured-studio-portraits",
@@ -295,6 +296,14 @@
       "axis": "collection",
       "id": "collection-everyday-narrative-scenes",
       "label": "Everyday narrative scenes"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9821"
+      ],
+      "axis": "collection",
+      "id": "collection-extreme-underfoot-group-scenes",
+      "label": "Underfoot group perspectives"
     },
     {
       "activeCaseIds": [
@@ -692,7 +701,8 @@
         "cev_9030",
         "cev_9034",
         "cev_9517",
-        "cev_9801"
+        "cev_9801",
+        "cev_9819"
       ],
       "axis": "collection",
       "id": "collection-urban-daylight-portraits",
@@ -831,7 +841,10 @@
         "cev_9815",
         "cev_9816",
         "cev_9817",
-        "cev_9818"
+        "cev_9818",
+        "cev_9819",
+        "cev_9820",
+        "cev_9821"
       ],
       "axis": "media",
       "id": "media-image",
@@ -1001,7 +1014,10 @@
         "cev_9809",
         "cev_9811",
         "cev_9815",
-        "cev_9817"
+        "cev_9817",
+        "cev_9819",
+        "cev_9820",
+        "cev_9821"
       ],
       "axis": "model",
       "id": "model-nano-banana-pro",
@@ -1183,7 +1199,10 @@
         "cev_9810",
         "cev_9813",
         "cev_9814",
-        "cev_9818"
+        "cev_9818",
+        "cev_9819",
+        "cev_9820",
+        "cev_9821"
       ],
       "axis": "use_case",
       "id": "scene-portrait-characters",
@@ -1481,6 +1500,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9821"
+      ],
+      "axis": "style",
+      "id": "style-extreme-underfoot-perspective",
+      "label": "Straight-up underfoot perspective"
+    },
+    {
+      "activeCaseIds": [
         "cev_9516"
       ],
       "axis": "style",
@@ -1693,6 +1720,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9820"
+      ],
+      "axis": "style",
+      "id": "style-monochrome-floral-beauty",
+      "label": "Tonal red floral beauty"
+    },
+    {
+      "activeCaseIds": [
         "cev_9526"
       ],
       "axis": "style",
@@ -1844,6 +1879,14 @@
       "axis": "style",
       "id": "style-samurai-oni-mecha",
       "label": "Samurai mecha with an oni mask"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9819"
+      ],
+      "axis": "style",
+      "id": "style-saturated-street-fashion-editorial",
+      "label": "Saturated street-fashion editorial"
     },
     {
       "activeCaseIds": [
