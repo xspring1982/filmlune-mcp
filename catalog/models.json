@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-01f9c882f4ef896d",
+  "catalogRevision": "mcp-local-93f023c5d8ac07f5",
   "models": [
     {
       "activeCaseIds": [
@@ -96,7 +96,10 @@
         "cev_9809",
         "cev_9811",
         "cev_9815",
-        "cev_9817"
+        "cev_9817",
+        "cev_9819",
+        "cev_9820",
+        "cev_9821"
       ],
       "displayName": "Nano Banana Pro",
       "mediaType": "image",

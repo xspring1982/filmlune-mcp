@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/full-body-red-tailoring-weathered-teal-door-cev_9819/",
+  "caseFamilyId": "cf_cev_9819",
+  "caseId": "cev_9819",
+  "caseRevisionId": "cev_9819@r0001",
+  "creator": {
+    "displayName": "𝑨𝒇𝒓𝒊𝒏",
+    "handle": "@afrinxai",
+    "profileUrl": "https://x.com/afrinxai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the self-contained prompt with Nano Banana Pro, explicitly named in the source post. Frame an adult from head to toe and place one hand on the hip to open the shape of the blazer and wide-leg trousers. Contrast red tailoring against teal wooden panels, then frame the door with peeling orange and red walls. A black crop top, narrow tie and round sunglasses structure the upper body; natural-looking light should separate garment sheen from worn matte surfaces without erasing the setting. No reference image is required.\n\nLimitations: The retained file is 672 × 1200 pixels. The prompt requests full-body framing without a numeric ratio; suggested Studio 9:16 approximates the canvas and is not an attested source setting or proof of native resolution. The footwear does not exactly reproduce the requested matching gold/red pointed-toe heels: silver straps, an open-toe form and red details are visible. The hair is loosely wavy rather than strongly curled, and the threshold appears as a pale slab rather than cobblestones. Shadows are softer than the strong-sunlight wording. This generated image does not establish real leather, a specific historic location, a person's identity or an actual photo session. The current post names Nano Banana Pro. Seed, provider settings and generation-route acceptance are not documented. Reusing the prompt does not guarantee an identical reproduction.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Red Tailoring Against a Weathered Teal Door",
+        "promptSha256": "092954bacbf1552a36f85be44951c24928c36ab06c6b4951f1d03c683a88c21c",
+        "promptText": "A full-body fashion photograph of a woman with voluminous, curly dark hair, wearing an all-red tailored pantsuit with a matching blazer and wide-leg trousers. She styles it with a black crop top shirt, a narrow red tie, and round tortoise-shell sunglasses with large hoop earrings. She is posing confidently, with one hand on her hip, leaning against a brightly painted, weathered teal-blue wooden door framed by peeling orange and red stucco walls on a cobblestone step. She wears gold and red pointed-toe heels. The natural sunlight creates strong shadows, highlighting the rich textures of her leather-like pants, the blazer fabric, and the aged paint.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9819_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "fdef1f7d32b8be5eaafa025f49b3935036db2dc38f3e0ed2076c361a9dd571fd",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "36bab6bfd9f46ca59f6a333cabb4e48558addecc09f2e93df4159572a87880cc"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose a full-body fashion portrait in which clothing and architectural surfaces support each other while keeping the silhouette readable against a saturated setting.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Red Tailoring Against a Weathered Teal Door",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9819_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9819_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9819/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/afrinxai/status/2095363907779224058",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/afrinxai/status/2095363907779224058"
+  },
+  "summary": "A head-to-toe fashion portrait pairs a red pantsuit with a weathered teal doorway framed by orange and red walls.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-urban-daylight-portraits",
+      "label": "Urban Daylight Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-saturated-street-fashion-editorial",
+      "label": "Saturated street-fashion editorial"
+    }
+  ],
+  "title": "Red Tailoring Against a Weathered Teal Door",
+  "variables": [
+    {
+      "name": "Silhouette and pose",
+      "value": "An adult head-to-toe figure, tailored blazer, wide-leg trousers, one hand at the hip and a slight lean against the door."
+    },
+    {
+      "name": "Clothing-to-setting contrast",
+      "value": "Red clothing, teal door panels and orange/red wall planes; keep garment edges clear against the surrounding colour blocks."
+    },
+    {
+      "name": "Accessories",
+      "value": "Black crop top, slim red tie, round sunglasses and large hoops; check the two shoes for consistency separately."
+    },
+    {
+      "name": "Surfaces and light",
+      "value": "Weathered wood, peeling stucco and a worn threshold, lit to distinguish glossy clothing from matte architectural texture."
+    }
+  ]
+}

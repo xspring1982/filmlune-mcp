@@ -42,9 +42,9 @@
     "generatorSha256": "a2e9df91133f4d8b34f3c951565553089fcd7906eb1e75929e09bfb46d125008",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
-    "presentationSha256": "8945fe1499c183139959e7d6274d2602dc777ed9e41ddb0d4d30e04cea9d82b5",
+    "presentationSha256": "fdef1f7d32b8be5eaafa025f49b3935036db2dc38f3e0ed2076c361a9dd571fd",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "a35c9366410d4f4aa66d770c00849d53dc2f159fcb2967343541823e902abb4b"
+    "websiteSourceSha256": "36bab6bfd9f46ca59f6a333cabb4e48558addecc09f2e93df4159572a87880cc"
   },
   "publicationState": "website_master_projection",
   "purpose": "Compare a photograph and a stylized character interpretation in one frame through consistent color and silhouette.",
