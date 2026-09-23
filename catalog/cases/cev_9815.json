@@ -39,12 +39,12 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "900bcd91be8739565aa1f1737770f7045d8869b225c487546b8170369ebdf6a4",
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
     "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "7ae1dd2170c85a7c662bee85e36793ebfb9c81f7adec312e6f2d22c1c1ea0cae"
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
   },
   "publicationState": "website_master_projection",
   "purpose": "Build an editorial poster where the drawn portrait is the focal point and smaller headings and annotations create a technical fanzine-page hierarchy.",
