@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/seated-streetwear-white-cube-pink-studio-window-shadows-cev_9822/",
+  "caseFamilyId": "cf_cev_9822",
+  "caseId": "cev_9822",
+  "caseRevisionId": "cev_9822@r0001",
+  "creator": {
+    "displayName": "Zeeshi",
+    "handle": "@AIwithZeeshi",
+    "profileUrl": "https://x.com/AIwithZeeshi"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the self-contained prompt with Nano Banana Pro, explicitly named by the author. Seat one person cross-legged on a white cube and raise both arms so the hands rest behind the head. Pair a cropped dark sweatshirt with loose pink trousers and white sneakers: the top contrasts with the backdrop while the trousers echo it. Describe a loose updo, stray strands and fine necklaces without making accessories the main subject. Introduce warm side light that draws rectangular window-frame shadows on the wall. Check the actual output format and the separation of legs, shoes and cube. The recipe requires no identity photo or other reference image.\n\nLimitations: The retained file is 1024 × 1024 pixels. It is square despite the prompt requesting a vertical portrait, and it is not evidence of a 4K output. Suggested Studio 1:1 follows the observed canvas, not an attested author setting. Hands are partly hidden behind the hair, so not every finger can be checked. The bottom of the cube is cropped; the pose and support remain readable, but this is not a complete anatomical study. The prompt calls for cargo trousers, but the pose does not make every pocket and seam clearly verifiable. This is an interpreted outfit, not a product specification or verified brand. The post names Nano Banana Pro without a seed or provider settings. Reusing the recipe does not guarantee the same face, identical shadows or pixel-exact reproduction.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Seated Streetwear Portrait in a Pink Studio",
+        "promptSha256": "3bd2015249a2e5388b6a70c98290237a60415cfc08afc3df5e02274e2d7d97a1",
+        "promptText": "Ultra-realistic lifestyle fashion portrait of a young woman sitting casually on a white rectangular cube against a soft dusty-pink studio background. She has naturally tousled dark brown hair loosely tied up, with a few soft strands framing her face, subtle natural makeup, small hoop earrings and delicate layered gold necklaces. She wears an oversized washed-black cropped sweatshirt, relaxed dusty-pink cargo pants, and clean white low-top sneakers.\n\nShe sits cross-legged with both arms raised, hands gently resting behind her head, looking slightly to the side with a soft natural smile and relaxed expression. Warm sunlight enters from the side, creating realistic window-frame shadows on the pink wall and subtle shadows on the floor. Editorial streetwear aesthetic, soft warm lighting, natural skin texture, realistic fabric details, candid pose, 4K photorealism, shallow depth of field, clean minimalist composition, vertical portrait.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9822_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a relaxed fashion portrait in which a full seated pose, clothing contrast and window shadows organize a coloured studio background.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Seated Streetwear Portrait in a Pink Studio",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9822_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9822_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9822/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/AIwithZeeshi/status/2101889893370573105",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/AIwithZeeshi/status/2101889893370573105"
+  },
+  "summary": "A cross-legged pose on a white cube combines a dark sweatshirt, pink trousers and window-frame shadows in a relaxed fashion portrait.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-coloured-studio-portraits",
+      "label": "Coloured-Background Studio Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-sunlit-streetwear-studio",
+      "label": "Window-lit studio streetwear"
+    }
+  ],
+  "title": "Seated Streetwear Portrait in a Pink Studio",
+  "variables": [
+    {
+      "name": "Pose and support",
+      "value": "Crossed legs on a white cube, raised arms and hands behind the head; keep both shoes readable."
+    },
+    {
+      "name": "Clothing palette",
+      "value": "Washed-black cropped sweatshirt, loose pink trousers and white sneakers; a dusty-pink backdrop echoes the trousers."
+    },
+    {
+      "name": "Window light",
+      "value": "Warm side light and clear rectangular shadows on the background; preserve detail in the dark fabric."
+    },
+    {
+      "name": "Expression and finish",
+      "value": "Slightly averted gaze, a subtle smile, loosely tied hair with stray strands and delicate jewellery."
+    }
+  ]
+}

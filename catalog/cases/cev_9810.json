@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/beauty-portrait-sunbeam-dark-background-cev_9810/",
+  "caseFamilyId": "cf_cev_9810",
+  "caseId": "cev_9810",
+  "caseRevisionId": "cev_9810@r0001",
+  "creator": {
+    "displayName": "dreamy digital arts",
+    "handle": "@dreamydigiarts",
+    "profileUrl": "https://x.com/dreamydigiarts"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt with Nano Banana 2, explicitly named in the original post. Keep the dark background free of objects and describe a narrow side beam across eye level. Tilt the head and bring one shoulder forward for depth. A 3:4 frame is a suitable starting option for the retained image, not a verified source setting.\n\nLimitations: The output has partly gathered hair and a shallow-angle beam, not a word-for-word rendition of fully loose long hair and a pronounced diagonal. The author names Nano Banana 2; a secondary Pro label does not establish a different model. The X rendition is 896 × 1200 pixels. Seed, provider, native resolution and camera settings are not evidenced.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Beauty Portrait Cut by a Sunbeam",
+        "promptSha256": "e71a94259bd6a7071ccf4eaf577606d5edfb8b5b7bb419f4be282aa092489429",
+        "promptText": "ultra-detailed cinematic beauty portrait of a woman with dramatic natural sunlight cutting across her face against a dark background. Camera angle: tight portrait close-up focusing on the face and shoulders, slightly tilted head creating a dynamic composition. Pose: the woman tilts her head slightly toward the light source while looking directly toward the camera. Her shoulder is turned slightly forward creating a soft diagonal line. Expression: calm sensual expression with relaxed lips and intense eye contact. Hair: long light hair styled loosely with a few strands falling across the face, catching the sunlight. Outfit: minimal black spaghetti strap top revealing the collarbone and shoulders. Lighting: strong warm golden sunlight entering from the side, creating a sharp diagonal beam of light across the face while the rest of the background remains dark. Environment: deep dark background with no visible objects, emphasizing dramatic lighting contrast and the illuminated skin texture. Details: natural glowing skin, visible eyelashes, subtle lip gloss reflecting the sunlight, cinematic shadow contrast",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9810_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Make a narrow light beam the focus of a close portrait by linking the gaze, head tilt and foreground shoulder.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Beauty Portrait Cut by a Sunbeam",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9810_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9810_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9810/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/dreamydigiarts/status/2096621949346603069",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/dreamydigiarts/status/2096621949346603069"
+  },
+  "summary": "A warm strip of sunlight crosses the eyes against a dark backdrop, with a forward shoulder shaping the close portrait.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-directional-light-beauty",
+      "label": "Directional-light beauty portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-beauty-light",
+      "label": "Cinematic beauty lighting"
+    }
+  ],
+  "title": "Beauty Portrait Cut by a Sunbeam",
+  "variables": [
+    {
+      "name": "Light beam",
+      "value": "Warm, narrow side light; check its position across the eyes and cheek."
+    },
+    {
+      "name": "Framing and pose",
+      "value": "Face-and-shoulders close-up, tilted head, forward shoulder and direct gaze."
+    },
+    {
+      "name": "Contrast",
+      "value": "Very dark backdrop, textured skin and a few illuminated hair strands without narrative props."
+    }
+  ]
+}

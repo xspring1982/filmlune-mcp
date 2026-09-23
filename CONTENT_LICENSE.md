@@ -6,11 +6,20 @@ This license applies to prompt text and catalog presentation made available in
 the FilmLune MCP catalog. It is separate from the [MIT license](LICENSE), which
 covers the server software only.
 
+It does not replace or narrow an upstream third-party license recorded on an
+MCP-only prompt template. When a record carries its own `license.spdx`, URL,
+hash, attribution, and modification notice, that exact upstream license governs
+the prompt text. For example, the pinned Google Research PartiPrompts pilot
+records are distributed under Apache-2.0; the restrictions below apply only to
+FilmLune-authored or FilmLune-licensed catalog content, not to override those
+Apache-2.0 rights.
+
 ## Eligible prompt records
 
-The permissions below apply only to the exact prompt text in a current catalog
-record whose rights data says `rights.prompt=allow`. A record-level denial,
-removal, or narrower notice takes precedence over this license.
+The permissions below apply only to the exact prompt text in a current FilmLune
+case record whose rights data says `rights.prompt=allow`. A record-level denial,
+removal, narrower notice, or separately declared upstream license takes
+precedence over this license.
 
 FilmLune grants these permissions only to the extent that FilmLune owns or is
 authorized to license the relevant text. This license does not transfer

@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/daylight-denim-balcony-portrait-cev_9801/",
+  "caseFamilyId": "cf_cev_9801",
+  "caseId": "cev_9801",
+  "caseRevisionId": "cev_9801@r0001",
+  "creator": {
+    "displayName": "Aynelle",
+    "handle": "@aynellex",
+    "profileUrl": "https://x.com/aynellex"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt with Nano Banana Pro. Keep the medium framing, hand raised toward the high bun, direct gaze and open shirt draped over the shoulders. Adapt the balcony, clothing or accessories while retaining natural light and readable urban depth. Check the hand position, glasses frame and shirt folds.\n\nLimitations: The prompt specifies no aspect ratio or seed. The archived source is 922 × 1152 pixels; the proposed Studio 4:5 format is a starting choice, not a verified original setting. No reference photo is required, and identical facial identity, buildings or accessories are not guaranteed.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Daylight Balcony Portrait in Denim",
+        "promptSha256": "889ab825aeb72d14d8c7b2388096ffed97acd8f75bca4839c176b5a027c94451",
+        "promptText": "Realistic medium shot photo of a woman on an urban balcony, running a hand through her high bun with loose tendrils. She looks directly at the camera with a confident expression, wearing a black spaghetti-strap crop top and an oversized light blue denim shirt left unbuttoned and draped off her shoulders. Key details include distinct square gold-framed sunglasses with dark lenses, small gold hoop earrings, and bold matte red lipstick.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9801_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a balcony fashion portrait around the raised-hand gesture and the contrast between pale denim and a black top.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Daylight Balcony Portrait in Denim",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9801_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9801_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9801/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/aynellex/status/2096268980789076053",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/aynellex/status/2096268980789076053"
+  },
+  "summary": "A natural-light fashion portrait built around a high bun, square sunglasses and an open denim shirt.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-urban-daylight-portraits",
+      "label": "Urban Daylight Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-daylight-balcony-fashion",
+      "label": "Daylight balcony fashion"
+    }
+  ],
+  "title": "Daylight Balcony Portrait in Denim",
+  "variables": [
+    {
+      "name": "Gesture and framing",
+      "value": "Medium portrait with one hand toward the bun and a direct gaze."
+    },
+    {
+      "name": "Clothing",
+      "value": "Black thin-strap top and open pale-blue denim shirt."
+    },
+    {
+      "name": "Accessories and setting",
+      "value": "Square sunglasses, small gold hoops and an urban balcony."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/coconut-counter-beach-portrait-cev_9814/",
+  "caseFamilyId": "cf_cev_9814",
+  "caseId": "cev_9814",
+  "caseRevisionId": "cev_9814@r0001",
+  "creator": {
+    "displayName": "dreamy digital arts",
+    "handle": "@dreamydigiarts",
+    "profileUrl": "https://x.com/dreamydigiarts"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt with Nano Banana 2, explicitly credited in the original post. Start with a vertical 9:16 frame at counter height. Place large coconuts close to the camera, the subject centrally and a softly active beach behind. Keep both forearms supported, the coconut near the counter edge, damp swept-back hair and warm light. No reference photo, logo or lettering is required by the recipe.\n\nLimitations: Both hands surround the coconut in the image, while the text mentions one hand holding it. The relationship is coherent but not a literal reproduction of every gesture. The retained X image is 768 × 1376 pixels, slightly different from exact 9:16. The prompt explicitly requests 9:16, but provider parameters, seed and native output format are not evidenced. Only one of the source post’s three variants is selected. Exact facial features, bracelet and roof shape are not fixed by the recipe; no real-person likeness or exact geographical location is promised.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Coconut-Counter Beach Portrait",
+        "promptSha256": "000db8c81f1acd9d5143cc9e37474afc6e7dc92ce9e2cc0a8f4eb467606804ba",
+        "promptText": "Create a photorealistic luxury fashion editorial at a weathered coconut stand overlooking a busy tropical beach. Compose natively for a vertical 9:16 frame from counter height, with large foreground coconuts naturally framing the lower image while the subject occupies the central safe area. A distant mountain, bright shoreline, and soft beach activity establish location without competing for attention.  She leans naturally across the worn wooden counter in a minimalist black triangle swim wear, damp hair swept back with realistic wet texture. Both forearms rest on the counter as one hand loosely cradles a fresh coconut, creating believable interaction with the stand. Her expression is calm, direct, and quietly magnetic.  Warm late-afternoon sunlight wraps across her face, shoulders, and collarbones while soft reflected light from the sand preserves natural skin tones. Show authentic wood grain, weathered coconuts, salt-worn surfaces, realistic fabric, subtle humidity, restrained filmic grading, and premium editorial realism. Keep the beach softly active, avoid clutter, logos, readable text, watermarks, exaggerated posing, or painterly rendering.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9814_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose a holiday portrait where hands, coconut and counter tell the story of a beach break, with readable depth from the foreground to the mountains.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Coconut-Counter Beach Portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9814_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9814_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9814/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/dreamydigiarts/status/2097603415404941324",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/dreamydigiarts/status/2097603415404941324"
+  },
+  "summary": "Foreground coconuts frame a woman leaning on a weathered counter, with a lively beach and distant mountains behind her.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-environmental-lifestyle-portraits",
+      "label": "Environmental lifestyle portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-warm-environmental-editorial",
+      "label": "Warm environmental editorial"
+    }
+  ],
+  "title": "Coconut-Counter Beach Portrait",
+  "variables": [
+    {
+      "name": "Depth",
+      "value": "Close foreground coconuts, a midground counter, and the beach and mountain in the background."
+    },
+    {
+      "name": "Gesture and prop",
+      "value": "Forearms resting on wood and a naturally held coconut; check finger contact and grip."
+    },
+    {
+      "name": "Light and textures",
+      "value": "Warm late-afternoon sunlight, reflected sand light, worn timber and natural skin and damp-hair texture without a painted finish."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "$defs": {
+    "license": {
+      "additionalProperties": false,
+      "properties": {
+        "attribution": {
+          "const": "Google Research — Parti / PartiPrompts"
+        },
+        "modificationNotice": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "spdx": {
+          "const": "Apache-2.0"
+        },
+        "text": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "pattern": "^https://github\\.com/google-research/parti/blob/[a-f0-9]{40}/LICENSE$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "attribution",
+        "modificationNotice",
+        "sha256",
+        "spdx",
+        "text",
+        "url"
+      ],
+      "type": "object"
+    },
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "generatorSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "generatorVersion": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "websiteSourceRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "websiteSourceSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "generatorSha256",
+        "generatorVersion",
+        "presentationRevision",
+        "presentationSha256",
+        "websiteSourceRevision",
+        "websiteSourceSha256"
+      ],
+      "type": "object"
+    },
+    "source": {
+      "additionalProperties": false,
+      "properties": {
+        "pinnedCommit": {
+          "pattern": "^[a-f0-9]{40}$",
+          "type": "string"
+        },
+        "repository": {
+          "const": "google-research/parti"
+        },
+        "repositoryUrl": {
+          "const": "https://github.com/google-research/parti"
+        },
+        "sourceBlobSha1": {
+          "pattern": "^[a-f0-9]{40}$",
+          "type": "string"
+        },
+        "sourceLine": {
+          "minimum": 2,
+          "type": "integer"
+        },
+        "sourcePath": {
+          "const": "PartiPrompts.tsv"
+        },
+        "sourceSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "sourceUrl": {
+          "format": "uri",
+          "pattern": "^https://github\\.com/google-research/parti/blob/[a-f0-9]{40}/PartiPrompts\\.tsv#L[0-9]+$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "pinnedCommit",
+        "repository",
+        "repositoryUrl",
+        "sourceBlobSha1",
+        "sourceLine",
+        "sourcePath",
+        "sourceSha256",
+        "sourceUrl"
+      ],
+      "type": "object"
+    },
+    "websiteProjection": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical": {
+          "const": false
+        },
+        "caseWall": {
+          "const": false
+        },
+        "hreflang": {
+          "const": false
+        },
+        "route": {
+          "const": false
+        },
+        "sitemap": {
+          "const": false
+        }
+      },
+      "required": [
+        "canonical",
+        "caseWall",
+        "hreflang",
+        "route",
+        "sitemap"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://filmlune.com/schemas/mcp/prompt-template.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "An attributed prompt text record with no Website, media, model, or generation claim.",
+  "properties": {
+    "classification": {
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "challenge": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "category",
+        "challenge",
+        "note"
+      ],
+      "type": "object"
+    },
+    "distributionScope": {
+      "const": "mcp_only"
+    },
+    "generationClaim": {
+      "const": "none"
+    },
+    "kind": {
+      "const": "mcp_prompt_template"
+    },
+    "license": {
+      "$ref": "#/$defs/license"
+    },
+    "mediaBytesIncluded": {
+      "const": false
+    },
+    "prompt": {
+      "additionalProperties": false,
+      "properties": {
+        "language": {
+          "const": "en"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "type": "string"
+        }
+      },
+      "required": [
+        "language",
+        "sha256",
+        "text"
+      ],
+      "type": "object"
+    },
+    "promptTemplateId": {
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "type": "string"
+    },
+    "promptTemplateRevisionId": {
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*@r[0-9]{4}$",
+      "type": "string"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "referenceClaim": {
+      "const": "none"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "websiteProjection": {
+      "$ref": "#/$defs/websiteProjection"
+    }
+  },
+  "required": [
+    "classification",
+    "distributionScope",
+    "generationClaim",
+    "kind",
+    "license",
+    "mediaBytesIncluded",
+    "prompt",
+    "promptTemplateId",
+    "promptTemplateRevisionId",
+    "provenance",
+    "referenceClaim",
+    "schemaVersion",
+    "source",
+    "websiteProjection"
+  ],
+  "title": "FilmLune MCP-only prompt template v1",
+  "type": "object"
+}

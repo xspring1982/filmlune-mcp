@@ -21,7 +21,7 @@ const TOOL_NAMES = [
   "search_cases",
 ];
 
-/** @type {{activeIds:string[],tombstoneIds:string[],changes:Array<{caseId:string,caseRevisionId:string,changeId:string,changeKind:string}>}} */
+/** @type {{activeIds:string[],tombstoneIds:string[],promptTemplateIds:string[],changes:Array<{entityKind:string,caseId?:string,caseRevisionId?:string,promptTemplateId?:string,promptTemplateRevisionId?:string,changeId:string,changeKind:string}>}} */
 const manifest = JSON.parse(await readFile(path.join(ROOT, "catalog/manifest.json"), "utf8"));
 /** @type {{models:unknown[]}} */
 const modelsCatalog = JSON.parse(await readFile(path.join(ROOT, "catalog/models.json"), "utf8"));
@@ -31,11 +31,16 @@ const firstActiveId = manifest.activeIds[0];
 const firstActiveChange = manifest.changes.find(({ caseId, changeKind }) =>
   caseId === firstActiveId && changeKind === "upserted");
 const firstTombstoneId = manifest.tombstoneIds[0];
+const firstPromptTemplateId = manifest.promptTemplateIds[0];
+const firstPromptTemplateChange = manifest.changes.find(({ promptTemplateId, changeKind }) =>
+  promptTemplateId === firstPromptTemplateId && changeKind === "upserted");
 assert.equal(typeof firstActiveId, "string");
 assert.ok(firstActiveChange);
 const firstActiveRevisionId = firstActiveChange.caseRevisionId;
 assert.equal(typeof firstActiveRevisionId, "string");
 assert.equal(typeof firstTombstoneId, "string");
+assert.equal(typeof firstPromptTemplateId, "string");
+assert.ok(firstPromptTemplateChange);
 const staleRevision = `${firstActiveId}@r9999`;
 assert.notEqual(staleRevision, firstActiveRevisionId);
 const languageNeutralExpected = (await Promise.all(manifest.activeIds.map(async (caseId) => {
@@ -148,17 +153,21 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
   });
   try {
     await client.connect(transport);
+    const getSchema = (await client.listTools()).tools.find(({ name }) => name === "get_case")?.inputSchema;
+    assert.ok(getSchema);
+    assert.ok(Array.isArray(getSchema.oneOf));
+    assert.equal(getSchema.oneOf.length, 2);
     assert.equal(client.getServerVersion()?.name, "filmlune-mcp");
     assert.equal(client.getServerVersion()?.version, "0.1.0");
     const listed = await client.listTools();
     assert.deepEqual(listed.tools.map(({ name }) => name).sort(), TOOL_NAMES);
     assert.match(
       listed.tools.find(({ name }) => name === "search_cases")?.description ?? "",
-      /^Search FilmLune's public, rights-filtered case catalog\.$/,
+      /^Search FilmLune's rights-filtered public cases and MCP-only prompt templates\.$/,
     );
     assert.match(
       listed.tools.find(({ name }) => name === "get_case")?.description ?? "",
-      /^Read one exact public FilmLune case revision or tombstone and its available output-language variants\.$/,
+      /^Read exactly one public FilmLune case\/tombstone or MCP-only prompt template\/tombstone\.$/,
     );
 
     const firstPage = structured(await client.callTool({
@@ -213,6 +222,58 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
       outputVariantId: currentCase.outputVariantId,
     }]);
 
+    const promptResult = structured(await client.callTool({
+      name: "get_case",
+      arguments: {
+        promptTemplateId: firstPromptTemplateId,
+        promptTemplateRevisionId: firstPromptTemplateChange.promptTemplateRevisionId,
+      },
+    }));
+    const promptTemplate = /** @type {Record<string,unknown>} */ (promptResult.promptTemplate);
+    assert.equal(promptTemplate.promptTemplateId, firstPromptTemplateId);
+    assert.equal(Object.hasOwn(promptResult, "preview"), false);
+    assert.equal(Object.hasOwn(promptTemplate, "canonicalUrl"), false);
+
+    const promptSearch = structured(await client.callTool({
+      name: "search_cases",
+      arguments: { query: firstPromptTemplateId, limit: 50 },
+    }));
+    assert.equal(/** @type {Array<Record<string,unknown>>} */ (promptSearch.items)
+      .some(({ promptTemplateId }) => promptTemplateId === firstPromptTemplateId), false);
+    const promptText = /** @type {{text:string}} */ (promptTemplate.prompt).text;
+    const promptTextSearch = structured(await client.callTool({
+      name: "search_cases",
+      arguments: { query: promptText, limit: 50 },
+    }));
+    assert.equal(/** @type {Array<Record<string,unknown>>} */ (promptTextSearch.items)
+      .some(({ promptTemplateId }) => promptTemplateId === firstPromptTemplateId), true);
+
+    // Exercise every manifest-declared template through the actual MCP transport,
+    // not only the imported tool functions or a single representative template.
+    for (const promptTemplateId of manifest.promptTemplateIds) {
+      const expected = JSON.parse(await readFile(
+        path.join(ROOT, "catalog/prompt-templates", `${promptTemplateId}.json`), "utf8",
+      ));
+      const retrieved = structured(await client.callTool({
+        name: "get_case",
+        arguments: { promptTemplateId, promptTemplateRevisionId: expected.promptTemplateRevisionId },
+      }));
+      assert.deepEqual(retrieved.promptTemplate, expected);
+      assert.deepEqual(Object.keys(retrieved).sort(), ["catalogRevision", "promptTemplate"]);
+      const discovered = structured(await client.callTool({
+        name: "search_cases",
+        arguments: { query: expected.prompt.text, limit: 50 },
+      }));
+      const summary = /** @type {Array<Record<string,unknown>>} */ (discovered.items)
+        .find((entry) => entry.promptTemplateId === promptTemplateId);
+      assert.ok(summary, `Missing search result: ${promptTemplateId}`);
+      for (const field of ["preview", "canonicalUrl", "media", "model", "recipe"]) {
+        assert.equal(Object.hasOwn(summary, field), false, `${promptTemplateId}:${field}`);
+      }
+      assert.equal(Object.hasOwn(/** @type {Record<string,unknown>} */ (summary.prompt), "text"), false);
+      assert.equal(Object.hasOwn(/** @type {Record<string,unknown>} */ (summary.license), "text"), false);
+    }
+
     toolError(await client.callTool({
       name: "get_case",
       arguments: { caseId: firstActiveId, caseRevisionId: staleRevision },
@@ -249,6 +310,14 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
       changeItems.map(({ changeId }) => changeId),
       manifest.changes.map(({ changeId }) => changeId),
     );
+    const promptChanges = structured(await client.callTool({
+      name: "get_changes",
+      arguments: { entityKind: "prompt_template", limit: 50 },
+    }));
+    assert.equal(/** @type {Array<{entityKind:string}>} */ (promptChanges.items)
+      .every(({ entityKind }) => entityKind === "prompt_template"), true);
+    assert.equal(/** @type {unknown[]} */ (promptChanges.items).length,
+      manifest.promptTemplateIds.length);
 
     const removed = structured(await client.callTool({
       name: "get_case",
@@ -261,6 +330,10 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
       name: "get_case",
       arguments: { caseId: "cev_9999" },
     }), /MCP_UNKNOWN_CASE/);
+    toolError(await client.callTool({
+      name: "get_case",
+      arguments: { caseId: firstActiveId, promptTemplateId: firstPromptTemplateId },
+    }), /Invalid|MCP_INVALID_INPUT/i);
     toolError(await client.callTool({
       name: "search_cases",
       arguments: { limit: 0 },

@@ -178,6 +178,7 @@ async function addExternalRecord(target) {
   manifest.activeIds.sort((/** @type {string} */ left, /** @type {string} */ right) =>
     left.localeCompare(right, "en"));
   const externalChange = {
+    entityKind: "case",
     changeId: `change-${record.caseRevisionId}`,
     caseId: record.caseId,
     caseRevisionId: record.caseRevisionId,
@@ -186,13 +187,17 @@ async function addExternalRecord(target) {
     provenance,
   };
   const activeChanges = [
-    ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "upserted"),
+    ...manifest.changes.filter((/** @type {any} */ { entityKind, changeKind }) =>
+      entityKind === "case" && changeKind === "upserted"),
     externalChange,
   ].sort((/** @type {any} */ left, /** @type {any} */ right) =>
     left.caseId.localeCompare(right.caseId, "en"));
   manifest.changes = [
     ...activeChanges,
-    ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "removed"),
+    ...manifest.changes.filter((/** @type {any} */ { entityKind, changeKind }) =>
+      entityKind === "case" && changeKind === "removed"),
+    ...manifest.changes.filter((/** @type {any} */ { entityKind }) =>
+      entityKind === "prompt_template"),
   ];
   const updates = new Map([
     [recordRelative, sha256(recordBytes)],
@@ -288,6 +293,7 @@ async function addFrenchOutputVariant(target) {
   manifest.activeIds.sort((/** @type {string} */ left, /** @type {string} */ right) =>
     left.localeCompare(right, "en"));
   const externalChange = {
+    entityKind: "case",
     changeId: `change-${record.caseRevisionId}`,
     caseId: record.caseId,
     caseRevisionId: record.caseRevisionId,
@@ -296,13 +302,17 @@ async function addFrenchOutputVariant(target) {
     provenance: record.provenance,
   };
   const activeChanges = [
-    ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "upserted"),
+    ...manifest.changes.filter((/** @type {any} */ { entityKind, changeKind }) =>
+      entityKind === "case" && changeKind === "upserted"),
     externalChange,
   ].sort((/** @type {any} */ left, /** @type {any} */ right) =>
     left.caseId.localeCompare(right.caseId, "en"));
   manifest.changes = [
     ...activeChanges,
-    ...manifest.changes.filter((/** @type {any} */ { changeKind }) => changeKind === "removed"),
+    ...manifest.changes.filter((/** @type {any} */ { entityKind, changeKind }) =>
+      entityKind === "case" && changeKind === "removed"),
+    ...manifest.changes.filter((/** @type {any} */ { entityKind }) =>
+      entityKind === "prompt_template"),
   ];
   const updates = new Map([
     [recordRelative, sha256(recordBytes)],
@@ -399,8 +409,10 @@ async function removeExternalRecord(target) {
     left.localeCompare(right, "en"));
   const removedChanges = [
     ...manifest.changes.filter((/** @type {any} */ change) =>
-      change.caseId !== caseId && change.changeKind === "removed"),
+      change.entityKind === "case" && change.caseId !== caseId
+        && change.changeKind === "removed"),
     {
+      entityKind: "case",
       changeId: `change-${caseRevisionId}-removed`,
       caseId,
       caseRevisionId,
@@ -412,8 +424,11 @@ async function removeExternalRecord(target) {
     left.caseId.localeCompare(right.caseId, "en"));
   manifest.changes = [
     ...manifest.changes.filter((/** @type {any} */ change) =>
-      change.caseId !== caseId && change.changeKind === "upserted"),
+      change.entityKind === "case" && change.caseId !== caseId
+        && change.changeKind === "upserted"),
     ...removedChanges,
+    ...manifest.changes.filter((/** @type {any} */ change) =>
+      change.entityKind === "prompt_template"),
   ];
   const updates = new Map([
     [tombstoneRelative, sha256(tombstoneBytes)],

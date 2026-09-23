@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/black-ink-annotated-fanzine-portrait-cev_9815/",
+  "caseFamilyId": "cf_cev_9815",
+  "caseId": "cev_9815",
+  "caseRevisionId": "cev_9815@r0001",
+  "creator": {
+    "displayName": "Zayan",
+    "handle": "@HustleXR",
+    "profileUrl": "https://x.com/HustleXR"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Reuse the complete prompt with Nano Banana Pro, explicitly credited by the author. It asks for a ballpoint treatment translated into black ink, dense cross-hatching and white annotations on red. Prioritise contrast and the face-heading-notes hierarchy. The recipe is self-contained and does not request a reference photograph. Preserve the suffixes as source text without presenting them as verified provider settings.\n\nLimitations: The prompt does not specify identity or exact facial features. No real-person likeness is promised; only the source post’s second image is selected. The words, repeated ZINE and tiny notes are not controlled final copy. Proofread and correct lettering before using the result as a real cover or commercial design. The retained file is 447 × 800 pixels, close to but not exactly 9:16. It is not a high-resolution print master, and no upscaling was performed here. The --ar 9:16 and --stylize 750 suffixes are source text. Provider support for them, the seed and other execution settings are not evidenced.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Black-Ink Fanzine Portrait Poster",
+        "promptSha256": "32c8367aa1a4a8062b976db57f143ed5ff7f7b04b83974f09902f9bfaacecfd6",
+        "promptText": "\"Ultra-detailed blue ballpoint pen illustration translated into monochrome black ink, dense cross-hatching and fine hatch shading, intricate biro sketch texture, obsessive linework, engraved contour rendering, hand-drawn pen illustration aesthetic, expressive organic strokes, editorial surreal composition, high-detail facial rendering, layered sketchbook construction lines, vintage technical scribbles and handwritten notes in pure white only over bold red background, white typographic annotations integrated into backdrop, underground zine poster aesthetic, raw imperfect ink marks, high-contrast black ink subject against vivid red field, experimental graphic design, avant-garde magazine cover style --ar 9:16 --stylize 750.\"",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9815_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build an editorial poster where the drawn portrait is the focal point and smaller headings and annotations create a technical fanzine-page hierarchy.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Black-Ink Fanzine Portrait Poster",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9815_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9815_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9815/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/HustleXR/status/2098087685348892674",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/HustleXR/status/2098087685348892674"
+  },
+  "summary": "A densely hatched face dominates a red field, surrounded by white notes and technical sketchbook construction marks.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-editorial-posters",
+      "label": "Editorial posters and communication"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-illustrated-editorial-portrait-posters",
+      "label": "Illustrated editorial portrait posters"
+    },
+    {
+      "axis": "style",
+      "id": "style-crosshatched-ink-zine",
+      "label": "Cross-hatched ink with fanzine annotations"
+    }
+  ],
+  "title": "Black-Ink Fanzine Portrait Poster",
+  "variables": [
+    {
+      "name": "Lines and volume",
+      "value": "Dense cross-hatching shapes the face, finer strokes describe contours and irregular marks add sketchbook energy."
+    },
+    {
+      "name": "Editorial hierarchy",
+      "value": "One dominant face, a few larger words near the top and smaller peripheral notes; keep the eyes readable."
+    },
+    {
+      "name": "Palette",
+      "value": "Black ink, vivid red field and white marks. The opening blue-ballpoint phrase is explicitly followed by conversion into black."
+    }
+  ]
+}

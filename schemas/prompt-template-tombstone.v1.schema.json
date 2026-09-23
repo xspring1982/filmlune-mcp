@@ -1,0 +1,91 @@
+{
+  "$defs": {
+    "provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "generatorSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "generatorVersion": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "presentationSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "websiteSourceRevision": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "websiteSourceSha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        }
+      },
+      "required": [
+        "generatorSha256",
+        "generatorVersion",
+        "presentationRevision",
+        "presentationSha256",
+        "websiteSourceRevision",
+        "websiteSourceSha256"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://filmlune.com/schemas/mcp/prompt-template-tombstone.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Minimal removal record with no prompt text or Website projection.",
+  "properties": {
+    "kind": {
+      "const": "prompt_template_tombstone"
+    },
+    "promptTemplateId": {
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "type": "string"
+    },
+    "promptTemplateRevisionId": {
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*@r[0-9]{4}$",
+      "type": "string"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "reasonCode": {
+      "enum": [
+        "RIGHTS_REVIEW_REQUIRED",
+        "SOURCE_UNAVAILABLE",
+        "OWNER_RETIRED"
+      ]
+    },
+    "removedAtUtc": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "status": {
+      "const": "removed"
+    }
+  },
+  "required": [
+    "kind",
+    "promptTemplateId",
+    "promptTemplateRevisionId",
+    "provenance",
+    "reasonCode",
+    "removedAtUtc",
+    "schemaVersion",
+    "status"
+  ],
+  "title": "FilmLune MCP prompt template tombstone v1",
+  "type": "object"
+}
