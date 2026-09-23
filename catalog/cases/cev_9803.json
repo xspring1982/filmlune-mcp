@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/black-fedora-red-backdrop-beauty-portrait-cev_9803/",
+  "caseFamilyId": "cf_cev_9803",
+  "caseId": "cev_9803",
+  "caseRevisionId": "cev_9803@r0001",
+  "creator": {
+    "displayName": "𝑨𝒇𝒓𝒊𝒏",
+    "handle": "@afrinxai",
+    "profileUrl": "https://x.com/afrinxai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Reuse the complete prompt with Nano Banana Pro, keeping the broad black fedora, black turtleneck and solid red backdrop. Cast the hat shadow across the upper face while leaving the eyes readable. Adjust light direction or background colour, then check the eyes, lips and separation between hat and backdrop.\n\nLimitations: The archive is 833 × 1199 pixels; the prompt fixes no ratio. The proposed Studio 2:3 is an approximate starting format and must not crop the source media. The eyes remain visible in the example despite the strongly worded deep-shadow instruction. This intensity variation is disclosed, not described as exact reproduction.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Black Hat Portrait Against a Red Backdrop",
+        "promptSha256": "236607ec913b2f1143fe20cd4a76d7c139dfa2349d3a653025f81b3d62f10784",
+        "promptText": "Dramatic avant-garde fashion portrait of a pale woman, high-contrast chiaroscuro lighting, wearing a wide-brimmed black fedora hat and a fitted black turtleneck. A sharp, curved horizontal shadow falls across her eyes and the bridge of her nose, casting the upper face into deep shadow while brightly illuminating her lower face. Glossy bright crimson red lips, subtle freckles, sculpted jawline, smokey eye makeup, striking blue-grey eyes peering through the shadow. Vivid solid red background, cinematic editorial photography, shot on 85mm lens, f/1.8, ultra-detailed skin texture, high fashion magazine cover style.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9803_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a close beauty portrait with red-black contrast, using the hat’s curved shadow and red lips to direct attention.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Black Hat Portrait Against a Red Backdrop",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9803_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9803_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9803/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/afrinxai/status/2095523711340134648",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/afrinxai/status/2095523711340134648"
+  },
+  "summary": "An editorial close-up built around a curved hat shadow, red lips and a solid red background.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-coloured-studio-portraits",
+      "label": "Coloured-Background Studio Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-red-black-fedora-chiaroscuro",
+      "label": "Red and black chiaroscuro"
+    }
+  ],
+  "title": "Black Hat Portrait Against a Red Backdrop",
+  "variables": [
+    {
+      "name": "Subject and clothing",
+      "value": "Close face framing, broad black fedora and black turtleneck."
+    },
+    {
+      "name": "Contrast",
+      "value": "Solid red background, red lips and curved hat shadow."
+    },
+    {
+      "name": "Photographic direction",
+      "value": "85 mm and f/1.8 rendering cues in the prompt, not verified capture metadata."
+    }
+  ]
+}

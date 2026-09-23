@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/white-hat-red-gloves-beauty-portrait-cev_9802/",
+  "caseFamilyId": "cf_cev_9802",
+  "caseId": "cev_9802",
+  "caseRevisionId": "cev_9802@r0001",
+  "creator": {
+    "displayName": "Elvorya",
+    "handle": "@Elvorya",
+    "profileUrl": "https://x.com/Elvorya"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt with Nano Banana Pro and a vertical 9:16 frame. Keep both gloved hands around the chin, the hat’s soft shadow and diffused studio light. Adjust colours or jewellery without losing separation between hands, face and brim; check fingers and eye symmetry.\n\nLimitations: The prompt asks for 4K and 9:16, but the archive is 768 × 1376 pixels and does not prove an original 4K output. Its dimensions are close to, not exactly, the requested ratio. No reference image is required; glove folds, jewellery and facial features may vary.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "White Hat and Red Gloves Beauty Portrait",
+        "promptSha256": "2906bfbe91aad8516150fbd788afd644a777f8d4a43ee7e3b92865ecd092a482",
+        "promptText": "Ultra-realistic high-fashion beauty portrait of an elegant woman in a glamorous vintage-inspired look, wearing an oversized wide-brim white hat casting a soft shadow over her face. Striking light green eyes, perfectly shaped dark brows, dramatic winged eyeliner, soft rosy blush, flawless glowing skin, and bold vibrant red lipstick. Large thin gold hoop earrings with pearl studs. She wears long satin red gloves, posing gracefully with both hands delicately framing her chin and face. Luxurious white faux-fur coat with a high-neck white outfit underneath. Soft neutral beige background, dreamy diffused studio lighting, smooth cinematic shadows, sophisticated editorial fashion photography, luxurious old-Hollywood aesthetic, high detail, sharp facial features, realistic skin texture, elegant composition, shallow depth of field, 4K, HD, vertical portrait, 9:16.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9802_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a beauty portrait in which red gloves frame the face between a broad white hat, pale coat and beige backdrop.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "White Hat and Red Gloves Beauty Portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9802_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9802_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9802/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Elvorya/status/2097332150614045060",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Elvorya/status/2097332150614045060"
+  },
+  "summary": "A studio composition using a broad white hat and red gloves to frame the face.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-coloured-studio-portraits",
+      "label": "Coloured-Background Studio Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-vintage-white-hat-beauty",
+      "label": "Vintage beauty with red accents"
+    }
+  ],
+  "title": "White Hat and Red Gloves Beauty Portrait",
+  "variables": [
+    {
+      "name": "Frame and pose",
+      "value": "Vertical 9:16 portrait, with both hands framing the chin and face."
+    },
+    {
+      "name": "Palette",
+      "value": "White hat and coat, beige background, red gloves and lips."
+    },
+    {
+      "name": "Light and details",
+      "value": "Diffused studio light, gold hoops and pearls."
+    }
+  ]
+}

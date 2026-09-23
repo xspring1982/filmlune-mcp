@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/golden-hour-picnic-fashion-portrait-cev_9818/",
+  "caseFamilyId": "cf_cev_9818",
+  "caseId": "cev_9818",
+  "caseRevisionId": "cev_9818@r0001",
+  "creator": {
+    "displayName": "dreamy digital arts",
+    "handle": "@dreamydigiarts",
+    "profileUrl": "https://x.com/dreamydigiarts"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the self-contained prompt with Nano Banana 2, explicitly named in the source post. Lay rumpled blankets in the field, then position the adult woman prone with a calm gaze toward the camera and one hand under her chin. Cluster bowls, bread and fruit in the foreground and baskets along the sides so the face and torso remain readable. Connect the rust dress with cream textiles, wicker and subdued greens; golden natural-looking light and modest depth of field tie the portrait to its setting. No reference image is required.\n\nLimitations: The retained source file is 896 × 1200 pixels. The prompt requests vertical framing, not a numeric ratio; the suggested Studio 3:4 is derived from the canvas and does not prove source provider settings or native resolution. The body recedes diagonally rather than forming a strictly horizontal line. The pose hides part of the hem and slit construction; their exact cut, physical silk fabric and jewellery materials are not established. This generated image does not attest a real photo session, a person's identity, a physical lens or film stock. Jewellery, food and draping details may vary, and reuse does not guarantee an identical reproduction. The source model is Nano Banana 2. Provider settings, seed and generation-route acceptance are not documented; this is one still image without motion or audio.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Fashion Portrait Around a Picnic Spread",
+        "promptSha256": "e3930ec1e7e3e1dfebcb7c55813d8904547f020cb97bf18d2ac5f7c47bc8f990",
+        "promptText": "Create a warm late-afternoon fashion editorial built around an abundant picnic spread in a quiet grassy field bordered by distant trees. Layer oversized cream and taupe blankets loosely across the grass, rumpled rather than perfectly arranged.  An adult woman lies comfortably on her stomach across the center of the blankets, body extending horizontally through the frame. She props herself on both forearms with one hand lightly supporting her chin. Bend both lower legs upward behind her at slightly different angles for a relaxed, spontaneous silhouette. She looks directly toward the camera with calm confidence.  Dress her in a fitted rust-red silk midi dress with a muted botanical print, narrow straps, a softly shaped neckline and a high side slit that allows the fabric to fall naturally around the bent leg. Keep the silhouette close through the waist and hips rather than loose or bohemian. Add layered delicate gold necklaces, bracelets and anklets. Style her hair in a loose low updo with soft curls escaping around the face.  Build a substantial picnic around her without making it pristine: an open wicker hamper, small metal serving bowls containing colorful savory dishes, bread, fruit, herbs, drinking cups, folded textiles and a woven basket of dried flowers. Keep the food clustered mostly across the foreground and sides, clearly separate from her body.  Shoot vertically from slightly above blanket height with her face sharp and the foreground spread creating depth. Use soft golden natural light, subdued greens, warm rust, cream, silver and wicker tones, gentle film grain and modest depth of field. The final image should feel abundant, languid and quietly glamorous, like an afternoon that has stretched much longer than intended.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9818_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Compose an environmental fashion portrait in which a relaxed pose and a substantial picnic spread jointly describe a leisure activity while keeping the food separate from the body.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Fashion Portrait Around a Picnic Spread",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9818_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9818_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9818/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/dreamydigiarts/status/2095731078979813473",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/dreamydigiarts/status/2095731078979813473"
+  },
+  "summary": "An adult woman in a rust dress rests on blankets amid an abundant picnic spread in a field warmed by late-afternoon light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-environmental-lifestyle-portraits",
+      "label": "Environmental lifestyle portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-warm-environmental-editorial",
+      "label": "Warm environmental editorial"
+    }
+  ],
+  "title": "Fashion Portrait Around a Picnic Spread",
+  "variables": [
+    {
+      "name": "Pose and gaze",
+      "value": "An adult prone on both elbows, one hand supporting the chin, bent legs and feet raised at different angles, with a calm look toward camera."
+    },
+    {
+      "name": "Picnic depth planes",
+      "value": "Food and small bowls in front, open hamper to the left and flowers at the side; keep props visually separate from the torso."
+    },
+    {
+      "name": "Garment and palette",
+      "value": "Fitted rust botanical dress, cream/taupe blankets, wicker, metal and muted greens."
+    },
+    {
+      "name": "Framing and light",
+      "value": "Vertical canvas, sharp face, field and distant trees, with late-afternoon natural-looking light rather than a strong studio effect."
+    }
+  ]
+}
