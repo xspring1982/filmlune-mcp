@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/neon-anime-character-low-angle-portrait-cev_9804/",
+  "caseFamilyId": "cf_cev_9804",
+  "caseId": "cev_9804",
+  "caseRevisionId": "cev_9804@r0001",
+  "creator": {
+    "displayName": "𝑨𝒇𝒓𝒊𝒏",
+    "handle": "@afrinxai",
+    "profileUrl": "https://x.com/afrinxai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use both the positive prompt and Negative Prompt with Nano Banana Pro; retain the negative section. Keep the low camera angle, downward gaze, hands in pockets and loose turtleneck. Adjust hair, clothing or colours while preserving clean cel-shaded shapes, a pink rim and blue-purple shadows. Check the pose and ensure the result remains an illustration rather than photography or 3D.\n\nLimitations: This is a still illustration, not animation or a pose sheet. No franchise character or reference photo is required by the recipe. The prompt gives no numeric ratio. The source file is 672 × 1200 pixels; proposed Studio 9:16 is a close starting choice, not proof of an original setting. How negative instructions are interpreted depends on the model.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Low-Angle Neon Anime Fashion Portrait",
+        "promptSha256": "7403a40f61073cb0abb729c40bea064fccf60b794125e18089485c3aea64d149",
+        "promptText": "A retro-modern anime digital painting of a chic young woman in a dramatic low-angle perspective. Tousled dark shoulder-length wavy hair, straight wispy micro-bangs, silver hoop earrings, subtle warm makeup, looking down toward the camera with a calm, aloof gaze. Wearing a loose, baggy black oversized turtleneck with draped sleeves tucked into high-waisted black casual trousers, hands in pockets. Atmospheric neon split-lighting, warm pink rim light contrasting against deep purple and midnight-blue ambient shadows, clean graphic vector edges, cel-shaded anime style, smooth cobalt blue to hot pink gradient backdrop, synthwave color palette, cinematic lighting, masterpiece.\n\nNegative Prompt: photorealistic, 3d render, deformed hands, distorted face, extra limbs, dull colors, noisy background, high clutter, low quality, sketch, messy lines.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9804_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Design a low-angle fashion character portrait with a readable black silhouette and pink rim light against a blue-purple setting.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Low-Angle Neon Anime Fashion Portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9804_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9804_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9804/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/afrinxai/status/2095483445841404216",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/afrinxai/status/2095483445841404216"
+  },
+  "summary": "A black fashion silhouette against a blue-pink gradient with crisp cel shading and neon rim light.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-character-portraits",
+      "label": "Cinematic character portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-neon-cel-shaded-character",
+      "label": "Neon cel-shaded character"
+    }
+  ],
+  "title": "Low-Angle Neon Anime Fashion Portrait",
+  "variables": [
+    {
+      "name": "Viewpoint and pose",
+      "value": "Low viewpoint, gaze toward the lower camera, hands in pockets."
+    },
+    {
+      "name": "Silhouette",
+      "value": "Loose black turtleneck, high-waisted trousers and shoulder-length wavy hair."
+    },
+    {
+      "name": "Graphic treatment",
+      "value": "Flat cel-shaded shapes, clean edges, pink rim light and blue-pink gradient."
+    }
+  ]
+}

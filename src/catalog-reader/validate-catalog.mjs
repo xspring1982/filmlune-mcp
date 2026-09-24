@@ -8,6 +8,12 @@ const BLOCK = "BLOCK_MCP_CATALOG_DRIFT";
 const CASE_ID = /^cev_[0-9]{4}$/;
 const FAMILY_ID = /^cf_[a-z0-9_]+$/;
 const OUTPUT_VARIANT_ID = /^ov_[a-z0-9_]+_r[0-9]{4}$/;
+const PROMPT_TEMPLATE_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const PROMPT_TEMPLATE_REVISION_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*@r[0-9]{4}$/;
+const PARTI_COMMIT = "5a657978134374ce28973948331b319adef164bd";
+const PARTI_SOURCE_BLOB_SHA1 = "f96e7125a02e48976736179a667b080ba81539fb";
+const PARTI_SOURCE_SHA256 = "fab29e41bb512a169b56acab4cf2a41dcb675e285df2efcde6640c7dd3c440eb";
+const PARTI_LICENSE_SHA256 = "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30";
 const PROTECTED_LITERAL_ROLES = new Set([
   "dialogue",
   "headline",
@@ -18,13 +24,15 @@ const PROTECTED_LITERAL_ROLES = new Set([
 ]);
 
 /** @typedef {{path:string,sha256:string}} ManifestFile */
-/** @typedef {{caseId:string,caseRevisionId:string,changeKind:"upserted"|"removed",changeId:string,changedAtUtc:string,provenance:Record<string,unknown>}} CatalogChange */
-/** @typedef {{schemaVersion:2,catalogRevision:string,activeIds:string[],tombstoneIds:string[],files:ManifestFile[],changes:CatalogChange[],generator:{version:string,sha256:string},presentation:{language:"en",revision:string,sha256:string},source:{websiteRepository:string,revision:string,sha256:string},schemaHashes:{caseV2:string,manifestV2:string,tombstoneV1:string},modelsSha256:string,taxonomySha256:string}} CatalogManifest */
+/** @typedef {{entityKind:"case"|"prompt_template",caseId?:string,caseRevisionId?:string,promptTemplateId?:string,promptTemplateRevisionId?:string,changeKind:"upserted"|"removed",changeId:string,changedAtUtc:string,provenance:Record<string,unknown>}} CatalogChange */
+/** @typedef {{schemaVersion:2|3,catalogRevision:string,activeIds:string[],tombstoneIds:string[],promptTemplateIds:string[],promptTemplateTombstoneIds:string[],files:ManifestFile[],changes:CatalogChange[],generator:{version:string,sha256:string},presentation:{language:"en",revision:string,sha256:string},source:{websiteRepository:string,revision:string,sha256:string},schemaHashes:Record<string,string>,modelsSha256:string,taxonomySha256:string}} CatalogManifest */
 /** @typedef {{schemaVersion:2,kind:"reusable_case"|"locator_only",caseId:string,caseRevisionId:string,caseFamilyId?:string,outputVariantId?:string,canonicalUrl?:string,presentationLanguage?:"en",outputLanguage?:string,publicationState?:string,mediaType?:"image"|"video",title?:string,summary?:string,purpose?:string,method?:string,variables?:unknown[],model?:Record<string,unknown>,taxonomy?:unknown[],creator?:Record<string,unknown>,source:Record<string,unknown>,provenance:Record<string,unknown>,rights:Record<string,unknown>,prompt?:{availability:string,variants:Array<Record<string,unknown>>},media?:Array<Record<string,unknown>>,recipe?:Array<Record<string,unknown>>,reportUrl?:string}} CatalogCase */
 /** @typedef {{schemaVersion:1,kind:"tombstone",caseId:string,caseRevisionId:string,status:"removed",removedAtUtc:string,reasonCode:string,reportUrl:string,provenance:Record<string,unknown>,rights:Record<string,unknown>}} CatalogTombstone */
+/** @typedef {{schemaVersion:1,kind:"mcp_prompt_template",promptTemplateId:string,promptTemplateRevisionId:string,distributionScope:"mcp_only",prompt:{language:"en",text:string,sha256:string},classification:{category:string,challenge:string,note:string|null},source:Record<string,unknown>,license:Record<string,unknown>,websiteProjection:Record<string,false>,mediaBytesIncluded:false,generationClaim:"none",referenceClaim:"none",provenance:Record<string,unknown>}} CatalogPromptTemplate */
+/** @typedef {{schemaVersion:1,kind:"prompt_template_tombstone",promptTemplateId:string,promptTemplateRevisionId:string,status:"removed",removedAtUtc:string,reasonCode:string,provenance:Record<string,unknown>}} CatalogPromptTemplateTombstone */
 /** @typedef {{schemaVersion:2,catalogRevision:string,models:Array<{modelFamilyId:string,displayName:string,mediaType:"image"|"video",activeCaseIds:string[]}>}} ModelsDocument */
 /** @typedef {{schemaVersion:2,catalogRevision:string,taxonomy:Array<{id:string,label:string,axis:"media"|"model"|"use_case"|"collection"|"style",activeCaseIds:string[]}>}} TaxonomyDocument */
-/** @typedef {{manifest:CatalogManifest,cases:Map<string,CatalogCase>,tombstones:Map<string,CatalogTombstone>,models:ModelsDocument,taxonomy:TaxonomyDocument}} ValidatedCatalog */
+/** @typedef {{manifest:CatalogManifest,cases:Map<string,CatalogCase>,tombstones:Map<string,CatalogTombstone>,promptTemplates:Map<string,CatalogPromptTemplate>,promptTemplateTombstones:Map<string,CatalogPromptTemplateTombstone>,models:ModelsDocument,taxonomy:TaxonomyDocument}} ValidatedCatalog */
 
 /** @param {string|Uint8Array} value @returns {string} */
 function sha256(value) {
@@ -330,11 +338,23 @@ function validateRecipeStep(value, expectedIndex, prompt, assetIds, mediaDenied)
 /** @param {CatalogManifest} manifest @param {string} caseId @param {"upserted"|"removed"} changeKind @returns {string} */
 function manifestRevision(manifest, caseId, changeKind) {
   const matches = manifest.changes.filter((change) =>
-    change.caseId === caseId && change.changeKind === changeKind);
+    change.entityKind === "case" && change.caseId === caseId && change.changeKind === changeKind);
   if (matches.length !== 1) fail();
   const match = matches[0];
-  if (match === undefined) fail();
+  if (match === undefined || typeof match.caseRevisionId !== "string") fail();
   return match.caseRevisionId;
+}
+
+/** @param {CatalogManifest} manifest @param {string} promptTemplateId @param {"upserted"|"removed"} changeKind @returns {string} */
+function manifestPromptRevision(manifest, promptTemplateId, changeKind) {
+  const matches = manifest.changes.filter((change) =>
+    change.entityKind === "prompt_template"
+      && change.promptTemplateId === promptTemplateId
+      && change.changeKind === changeKind);
+  if (matches.length !== 1) fail();
+  const match = matches[0];
+  if (match === undefined || typeof match.promptTemplateRevisionId !== "string") fail();
+  return match.promptTemplateRevisionId;
 }
 
 /** @param {unknown} value @param {CatalogManifest} manifest @param {string} expectedId @returns {CatalogCase} */
@@ -406,7 +426,8 @@ function decodeCase(value, manifest, expectedId) {
 
   const media = record.media;
   if (!Array.isArray(media)) fail();
-  const requiresMediaSha256 = manifest.generator.version === "mcp-catalog-v3"
+  const requiresMediaSha256 = (manifest.generator.version === "mcp-catalog-v3"
+    || manifest.generator.version === "mcp-catalog-v4")
     && record.publicationState === "website_master_projection";
   const assetIds = new Set(media.map((value, index) => {
     const asset = object(value);
@@ -478,9 +499,94 @@ function decodeTombstone(value, manifest, expectedId) {
   return /** @type {CatalogTombstone} */ (record);
 }
 
+/** @param {unknown} value @param {CatalogManifest} manifest @param {string} expectedId @returns {CatalogPromptTemplate} */
+function decodePromptTemplate(value, manifest, expectedId) {
+  const record = object(value);
+  exactKeys(record, [
+    "classification", "distributionScope", "generationClaim", "kind", "license",
+    "mediaBytesIncluded", "prompt", "promptTemplateId", "promptTemplateRevisionId",
+    "provenance", "referenceClaim", "schemaVersion", "source", "websiteProjection",
+  ]);
+  if (record.schemaVersion !== 1 || record.kind !== "mcp_prompt_template"
+    || record.promptTemplateId !== expectedId || !PROMPT_TEMPLATE_ID.test(expectedId)
+    || record.promptTemplateRevisionId !== manifestPromptRevision(manifest, expectedId, "upserted")
+    || record.promptTemplateRevisionId !== `${expectedId}@r0001`
+    || record.distributionScope !== "mcp_only" || record.mediaBytesIncluded !== false
+    || record.generationClaim !== "none" || record.referenceClaim !== "none") fail();
+  validateProvenance(object(record.provenance), manifest);
+
+  const prompt = object(record.prompt);
+  exactKeys(prompt, ["language", "sha256", "text"]);
+  const promptText = string(prompt.text);
+  if (prompt.language !== "en" || hash(prompt.sha256) !== sha256(promptText)) fail();
+  const classification = object(record.classification);
+  exactKeys(classification, ["category", "challenge", "note"]);
+  string(classification.category);
+  string(classification.challenge);
+  nullableString(classification.note);
+
+  const source = object(record.source);
+  exactKeys(source, [
+    "pinnedCommit", "repository", "repositoryUrl", "sourceBlobSha1", "sourceLine",
+    "sourcePath", "sourceSha256", "sourceUrl",
+  ]);
+  const sourceLine = integer(source.sourceLine, 2);
+  if (source.repository !== "google-research/parti"
+    || source.repositoryUrl !== "https://github.com/google-research/parti"
+    || source.pinnedCommit !== PARTI_COMMIT || source.sourcePath !== "PartiPrompts.tsv"
+    || source.sourceBlobSha1 !== PARTI_SOURCE_BLOB_SHA1
+    || source.sourceSha256 !== PARTI_SOURCE_SHA256
+    || source.sourceUrl !== `https://github.com/google-research/parti/blob/${PARTI_COMMIT}/PartiPrompts.tsv#L${sourceLine}`
+    || expectedId !== `parti-tsv-line-${String(sourceLine).padStart(4, "0")}`) fail();
+
+  const license = object(record.license);
+  exactKeys(license, ["attribution", "modificationNotice", "sha256", "spdx", "text", "url"]);
+  if (license.spdx !== "Apache-2.0" || license.sha256 !== PARTI_LICENSE_SHA256
+    || typeof license.text !== "string" || sha256(license.text) !== PARTI_LICENSE_SHA256
+    || license.url !== `https://github.com/google-research/parti/blob/${PARTI_COMMIT}/LICENSE`
+    || license.attribution !== "Google Research — Parti / PartiPrompts"
+    || license.modificationNotice
+      !== "Prompt text is unmodified. FilmLune candidate IDs, metadata, hashes, review labels, and selection are additions.") fail();
+
+  const websiteProjection = object(record.websiteProjection);
+  exactKeys(websiteProjection, ["canonical", "caseWall", "hreflang", "route", "sitemap"]);
+  if (Object.values(websiteProjection).some((entry) => entry !== false)) fail();
+  return /** @type {CatalogPromptTemplate} */ (record);
+}
+
+/** @param {unknown} value @param {CatalogManifest} manifest @param {string} expectedId @returns {CatalogPromptTemplateTombstone} */
+function decodePromptTemplateTombstone(value, manifest, expectedId) {
+  const record = object(value);
+  exactKeys(record, [
+    "kind", "promptTemplateId", "promptTemplateRevisionId", "provenance", "reasonCode",
+    "removedAtUtc", "schemaVersion", "status",
+  ]);
+  if (record.schemaVersion !== 1 || record.kind !== "prompt_template_tombstone"
+    || record.status !== "removed" || record.promptTemplateId !== expectedId
+    || !PROMPT_TEMPLATE_ID.test(expectedId)
+    || record.promptTemplateRevisionId !== manifestPromptRevision(manifest, expectedId, "removed")
+    || record.promptTemplateRevisionId !== `${expectedId}@r0001`) fail();
+  utc(record.removedAtUtc);
+  if (!["RIGHTS_REVIEW_REQUIRED", "SOURCE_UNAVAILABLE", "OWNER_RETIRED"].includes(string(record.reasonCode))) fail();
+  validateProvenance(object(record.provenance), manifest);
+  return /** @type {CatalogPromptTemplateTombstone} */ (record);
+}
+
 /** @param {unknown} value @returns {CatalogManifest} */
 function decodeManifest(value) {
   const manifest = object(value);
+  if (manifest.schemaVersion === 2) return decodeManifestV2(manifest);
+  if (manifest.schemaVersion === 3) return decodeManifestV3(manifest);
+  fail();
+}
+
+/** @param {unknown} value @returns {CatalogManifest} */
+export function validateManifestDocument(value) {
+  return decodeManifest(value);
+}
+
+/** @param {Record<string,unknown>} manifest @returns {CatalogManifest} */
+function decodeManifestV2(manifest) {
   exactKeys(manifest, [
     "activeIds", "catalogRevision", "changes", "files", "generator", "modelsSha256",
     "presentation", "schemaHashes", "schemaVersion", "source", "taxonomySha256",
@@ -526,13 +632,15 @@ function decodeManifest(value) {
     if (change.caseId !== expectedId || change.changeKind !== expectedKind
       || change.changeId !== `change-${revision}${expectedKind === "removed" ? "-removed" : ""}`) fail();
     utc(change.changedAtUtc);
-    return /** @type {CatalogChange} */ (change);
+    return /** @type {CatalogChange} */ ({ ...change, entityKind: "case" });
   });
   const result = /** @type {CatalogManifest} */ ({
     schemaVersion: 2,
     catalogRevision: string(manifest.catalogRevision),
     activeIds,
     tombstoneIds,
+    promptTemplateIds: [],
+    promptTemplateTombstoneIds: [],
     files: fileRows,
     changes: decodedChanges,
     generator: { version: generatorVersion, sha256: hash(generator.sha256) },
@@ -549,6 +657,129 @@ function decodeManifest(value) {
     schemaHashes: {
       caseV2: hash(schemaHashes.caseV2),
       manifestV2: hash(schemaHashes.manifestV2),
+      tombstoneV1: hash(schemaHashes.tombstoneV1),
+    },
+    modelsSha256: hash(manifest.modelsSha256),
+    taxonomySha256: hash(manifest.taxonomySha256),
+  });
+  for (const change of result.changes) validateProvenance(change.provenance, result);
+  return result;
+}
+
+/** @param {Record<string,unknown>} manifest @returns {CatalogManifest} */
+function decodeManifestV3(manifest) {
+  exactKeys(manifest, [
+    "activeIds", "catalogRevision", "changes", "files", "generator", "modelsSha256",
+    "presentation", "promptTemplateIds", "promptTemplateTombstoneIds", "schemaHashes",
+    "schemaVersion", "source", "taxonomySha256", "tombstoneIds",
+  ]);
+  const activeIds = stringArray(manifest.activeIds, false);
+  const tombstoneIds = stringArray(manifest.tombstoneIds, false);
+  const promptTemplateIds = stringArray(manifest.promptTemplateIds);
+  const promptTemplateTombstoneIds = stringArray(manifest.promptTemplateTombstoneIds);
+  if (activeIds.some((id) => !CASE_ID.test(id)) || tombstoneIds.some((id) => !CASE_ID.test(id))
+    || promptTemplateIds.some((id) => !PROMPT_TEMPLATE_ID.test(id))
+    || promptTemplateTombstoneIds.some((id) => !PROMPT_TEMPLATE_ID.test(id))
+    || activeIds.join("\n") !== [...activeIds].sort().join("\n")
+    || tombstoneIds.join("\n") !== [...tombstoneIds].sort().join("\n")
+    || promptTemplateIds.join("\n") !== [...promptTemplateIds].sort().join("\n")
+    || promptTemplateTombstoneIds.join("\n")
+      !== [...promptTemplateTombstoneIds].sort().join("\n")
+    || activeIds.some((id) => tombstoneIds.includes(id))
+    || promptTemplateIds.some((id) => promptTemplateTombstoneIds.includes(id))) fail();
+
+  const generator = object(manifest.generator);
+  exactKeys(generator, ["sha256", "version"]);
+  if (generator.version !== "mcp-catalog-v4") fail();
+  const presentation = object(manifest.presentation);
+  exactKeys(presentation, ["language", "revision", "sha256"]);
+  if (presentation.language !== "en") fail();
+  const source = object(manifest.source);
+  exactKeys(source, ["revision", "sha256", "websiteRepository"]);
+  if (source.websiteRepository !== "filmlune.com") fail();
+  const schemaHashes = object(manifest.schemaHashes);
+  exactKeys(schemaHashes, [
+    "caseV2", "manifestV2", "manifestV3", "promptTemplateTombstoneV1",
+    "promptTemplateV1", "tombstoneV1",
+  ]);
+  const files = manifest.files;
+  const itemCount = activeIds.length + tombstoneIds.length + promptTemplateIds.length
+    + promptTemplateTombstoneIds.length;
+  if (!Array.isArray(files) || files.length !== itemCount + 8) fail();
+  const fileRows = files.map((entry) => {
+    const row = object(entry);
+    exactKeys(row, ["path", "sha256"]);
+    return { path: safePath(string(row.path)), sha256: hash(row.sha256) };
+  });
+  const paths = fileRows.map(({ path: relative }) => relative);
+  if (new Set(paths).size !== paths.length
+    || paths.join("\n") !== [...paths].sort().join("\n")) fail();
+
+  const changes = manifest.changes;
+  if (!Array.isArray(changes) || changes.length !== itemCount) fail();
+  const expected = [
+    ...activeIds.map((id) => ({ entityKind: "case", id, changeKind: "upserted" })),
+    ...tombstoneIds.map((id) => ({ entityKind: "case", id, changeKind: "removed" })),
+    ...promptTemplateIds.map((id) => ({
+      entityKind: "prompt_template", id, changeKind: "upserted",
+    })),
+    ...promptTemplateTombstoneIds.map((id) => ({
+      entityKind: "prompt_template", id, changeKind: "removed",
+    })),
+  ];
+  const decodedChanges = changes.map((entry, index) => {
+    const change = object(entry);
+    const row = expected[index];
+    if (!row) fail();
+    if (row.entityKind === "case") {
+      exactKeys(change, [
+        "caseId", "caseRevisionId", "changeId", "changeKind", "changedAtUtc",
+        "entityKind", "provenance",
+      ]);
+      const revision = caseRevision(change.caseRevisionId, row.id);
+      if (change.entityKind !== "case" || change.caseId !== row.id
+        || change.changeKind !== row.changeKind
+        || change.changeId !== `change-${revision}${row.changeKind === "removed" ? "-removed" : ""}`) fail();
+    } else {
+      exactKeys(change, [
+        "changeId", "changeKind", "changedAtUtc", "entityKind", "promptTemplateId",
+        "promptTemplateRevisionId", "provenance",
+      ]);
+      const revision = string(change.promptTemplateRevisionId);
+      if (!PROMPT_TEMPLATE_REVISION_ID.test(revision)
+        || revision !== `${row.id}@r0001` || change.entityKind !== "prompt_template"
+        || change.promptTemplateId !== row.id || change.changeKind !== row.changeKind
+        || change.changeId !== `change-${revision}${row.changeKind === "removed" ? "-removed" : ""}`) fail();
+    }
+    utc(change.changedAtUtc);
+    return /** @type {CatalogChange} */ (change);
+  });
+  const result = /** @type {CatalogManifest} */ ({
+    schemaVersion: 3,
+    catalogRevision: string(manifest.catalogRevision),
+    activeIds,
+    tombstoneIds,
+    promptTemplateIds,
+    promptTemplateTombstoneIds,
+    files: fileRows,
+    changes: decodedChanges,
+    generator: { version: "mcp-catalog-v4", sha256: hash(generator.sha256) },
+    presentation: {
+      language: "en",
+      revision: string(presentation.revision),
+      sha256: hash(presentation.sha256),
+    },
+    source: {
+      websiteRepository: "filmlune.com",
+      revision: string(source.revision),
+      sha256: hash(source.sha256),
+    },
+    schemaHashes: {
+      caseV2: hash(schemaHashes.caseV2),
+      manifestV2: hash(schemaHashes.manifestV2),
+      manifestV3: hash(schemaHashes.manifestV3),
+      promptTemplateTombstoneV1: hash(schemaHashes.promptTemplateTombstoneV1),
+      promptTemplateV1: hash(schemaHashes.promptTemplateV1),
       tombstoneV1: hash(schemaHashes.tombstoneV1),
     },
     modelsSha256: hash(manifest.modelsSha256),
@@ -656,6 +887,12 @@ export async function validateCatalog(repositoryRoot) {
     || fileHash("schemas/case.v2.schema.json") !== manifest.schemaHashes.caseV2
     || fileHash("schemas/tombstone.v1.schema.json") !== manifest.schemaHashes.tombstoneV1
     || fileHash("schemas/manifest.v2.schema.json") !== manifest.schemaHashes.manifestV2) fail();
+  if (manifest.schemaVersion === 3
+    && (fileHash("schemas/manifest.v3.schema.json") !== manifest.schemaHashes.manifestV3
+      || fileHash("schemas/prompt-template.v1.schema.json")
+        !== manifest.schemaHashes.promptTemplateV1
+      || fileHash("schemas/prompt-template-tombstone.v1.schema.json")
+        !== manifest.schemaHashes.promptTemplateTombstoneV1)) fail();
 
   /** @type {Map<string,CatalogCase>} */
   const cases = new Map();
@@ -682,11 +919,51 @@ export async function validateCatalog(repositoryRoot) {
       caseId,
     ));
   }
+  /** @type {Map<string,CatalogPromptTemplate>} */
+  const promptTemplates = new Map();
+  const promptHashes = new Set();
+  const normalizedPrompts = new Set();
+  for (const promptTemplateId of manifest.promptTemplateIds) {
+    const record = decodePromptTemplate(
+      await json(path.join(
+        repositoryRoot,
+        `catalog/prompt-templates/${promptTemplateId}.json`,
+      )),
+      manifest,
+      promptTemplateId,
+    );
+    const normalized = record.prompt.text.normalize("NFKC").replace(/\s+/gu, " ")
+      .trim().toLocaleLowerCase("en");
+    if (promptHashes.has(record.prompt.sha256) || normalizedPrompts.has(normalized)) fail();
+    promptHashes.add(record.prompt.sha256);
+    normalizedPrompts.add(normalized);
+    promptTemplates.set(promptTemplateId, record);
+  }
+  /** @type {Map<string,CatalogPromptTemplateTombstone>} */
+  const promptTemplateTombstones = new Map();
+  for (const promptTemplateId of manifest.promptTemplateTombstoneIds) {
+    promptTemplateTombstones.set(promptTemplateId, decodePromptTemplateTombstone(
+      await json(path.join(
+        repositoryRoot,
+        `catalog/prompt-template-tombstones/${promptTemplateId}.json`,
+      )),
+      manifest,
+      promptTemplateId,
+    ));
+  }
   const models = decodeModels(await json(path.join(repositoryRoot, "catalog/models.json")), manifest, cases);
   const taxonomy = decodeTaxonomy(
     await json(path.join(repositoryRoot, "catalog/taxonomy.json")),
     manifest,
     cases,
   );
-  return { manifest, cases, tombstones, models, taxonomy };
+  return {
+    manifest,
+    cases,
+    tombstones,
+    promptTemplates,
+    promptTemplateTombstones,
+    models,
+    taxonomy,
+  };
 }

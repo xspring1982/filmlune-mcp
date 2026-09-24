@@ -1,0 +1,125 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/red-qipao-close-up-floral-studio-portrait-cev_9820/",
+  "caseFamilyId": "cf_cev_9820",
+  "caseId": "cev_9820",
+  "caseRevisionId": "cev_9820@r0001",
+  "creator": {
+    "displayName": "𝑨𝒇𝒓𝒊𝒏",
+    "handle": "@afrinxai",
+    "profileUrl": "https://x.com/afrinxai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the self-contained prompt with Nano Banana Pro, explicitly named in the source post. Frame the face, collar and shoulders rather than the whole outfit. Describe freckles and a small beauty mark, then arrange red flowers and pins in an updo with loose tendrils. Connect the hair ornaments to the high collar, knot fastenings and embroidered clothing. Keep the background branches out of focus and use soft studio-style light so the face remains the focal point. No identity reference is required.\n\nLimitations: The retained file is 776 × 1200 pixels, not 8K. The 85mm, f/1.8 and 8K phrases describe intended styling, not verified camera, aperture or native resolution. Suggested Studio 2:3 approximates the canvas; no numeric source ratio is attested. The tight crop cuts part of the upper hairstyle and does not show the full outfit. It supports study of the face, collar and embroidery, not the garment's complete construction. The source uses an East Asian creative descriptor; the image does not establish a real person's identity or ethnicity. Clothing and materials are a visual interpretation, not proof of physical silk or historical authenticity. The current post names Nano Banana Pro but documents neither seed nor provider settings. Reusing the prompt does not guarantee the same face, identical marks or a pixel-exact reproduction.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Close-Up Red Qipao Studio Portrait",
+        "promptSha256": "642cde634ac3df1cee06e03d219cde6d4e237fadf267044e4bd7af13e9bf6e1a",
+        "promptText": "Close-up portrait of a stunning young East Asian woman with delicate facial features, warm brown eyes, subtle freckles across her cheeks, and a small beauty mark below her lower lip. She has an intricate updo hairstyle with loose, soft tendrils framing her face, adorned with red hair accessories and floral pins. She is wearing an ornate red Chinese qipao (cheongsam) crafted with sheer embroidered mesh over silk, featuring a high mandarin collar, traditional frog knot buttons, and detailed floral threadwork. The background consists of soft-focus blooming red floral branches and a rich crimson studio backdrop. Cinematic soft studio lighting, ultra-realistic skin texture, shallow depth of field, 85mm lens, f/1.8, 8k resolution.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9820_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a close-up portrait with a nearly monochrome palette while separating the face, embroidery and ornaments from a red floral studio background.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Close-Up Red Qipao Studio Portrait",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9820_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9820_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9820/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/afrinxai/status/2095829979540177301",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/afrinxai/status/2095829979540177301"
+  },
+  "summary": "A freckled face stands out within a red palette of embroidered high-collar clothing, floral hair ornaments and softly blurred blossoms.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-coloured-studio-portraits",
+      "label": "Coloured-Background Studio Portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-monochrome-floral-beauty",
+      "label": "Tonal red floral beauty"
+    }
+  ],
+  "title": "Close-Up Red Qipao Studio Portrait",
+  "variables": [
+    {
+      "name": "Framing and gaze",
+      "value": "Tight frontal portrait looking toward the camera, sharp face and collar; check the remaining space above the updo."
+    },
+    {
+      "name": "Facial detail",
+      "value": "Brown eyes, subtle freckles and a small mark below the lower lip define a fictional appearance, not a verified real identity."
+    },
+    {
+      "name": "Hair and clothing",
+      "value": "Updo with loose tendrils, red flowers and pins; high collar, knot fastenings and embroidered mesh over covering clothing."
+    },
+    {
+      "name": "Palette and separation",
+      "value": "Red clothing and backdrop, lighter embroidery and distinct skin tones; soft background blossoms and gentle illumination."
+    }
+  ]
+}
