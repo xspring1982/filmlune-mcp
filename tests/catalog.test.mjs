@@ -13,12 +13,16 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 test("catalog validates the exact manifest-driven active and tombstone inventories", async () => {
   const result = await validateCatalog(ROOT);
-  assert.equal(result.manifest.schemaVersion, 2);
+  assert.equal(result.manifest.schemaVersion, 3);
   assert.equal(result.manifest.presentation.language, "en");
   assert.equal(result.cases.size, result.manifest.activeIds.length);
   assert.equal(result.tombstones.size, result.manifest.tombstoneIds.length);
   assert.deepEqual([...result.cases.keys()], result.manifest.activeIds);
   assert.deepEqual([...result.tombstones.keys()], result.manifest.tombstoneIds);
+  assert.equal(result.promptTemplates.size, result.manifest.promptTemplateIds.length);
+  assert.equal(result.promptTemplateTombstones.size,
+    result.manifest.promptTemplateTombstoneIds.length);
+  assert.deepEqual([...result.promptTemplates.keys()], result.manifest.promptTemplateIds);
   assert.ok(result.models.models.length >= 1);
   assert.ok(result.taxonomy.taxonomy.length >= 1);
   const firstActiveId = result.manifest.activeIds[0];

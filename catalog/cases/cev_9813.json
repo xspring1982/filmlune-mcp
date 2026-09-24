@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/seated-cream-knit-portrait-soft-light-cev_9813/",
+  "caseFamilyId": "cf_cev_9813",
+  "caseId": "cev_9813",
+  "caseRevisionId": "cev_9813@r0001",
+  "creator": {
+    "displayName": "dreamy digital arts",
+    "handle": "@dreamydigiarts",
+    "profileUrl": "https://x.com/dreamydigiarts"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the complete prompt with Nano Banana 2, explicitly named in the original post. Retain the beige backdrop, long curls, loose off-shoulder cream sweater and bent knee. Describe soft warm illumination; the window seen in the example is an optional staging idea, not a required source-text element. A 3:4 frame is a close starting preset for the retained file, not a verified source setting.\n\nLimitations: One forearm crosses the lap and the other hand hangs in front of the seat; the arm placement is not a literal rendition of both arms resting on the legs. Jeans, seat, window, plant and exact facial features are output choices, not fully specified source-prompt elements. The X file is 896 × 1200 pixels. Original generation ratio, native resolution, seed and provider settings are not evidenced.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-2-2k-standard-20260816-r1",
+    "displayName": "Nano Banana 2",
+    "modelFamilyId": "nano-banana-2",
+    "modelId": "nano-banana-2",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Seated Cream-Knit Portrait in Soft Light",
+        "promptSha256": "2a128dcc33b31e703b9810e2214f81771824d0f45ebd2e5a1d8f57e4273ffaee",
+        "promptText": "A woman with long, curly hair sits elegantly against a soft beige background. She wears a loose-fitting, off-the-shoulder, cream-colored sweater that adds a cozy vibe to the scene. Her skin has a warm tone, and she has a subtle, natural makeup look that highlights her features. She's seated with one knee bent and her arms resting casually on her legs, projecting a relaxed and inviting demeanor. The lighting is soft and warm, creating an intimate atmosphere.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9813_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Build a relaxed portrait around the seated pose, readable knit texture and warm light that stays gentle on the face.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Seated Cream-Knit Portrait in Soft Light",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9813_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9813_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9813/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/dreamydigiarts/status/2097180629829820847",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/dreamydigiarts/status/2097180629829820847"
+  },
+  "summary": "A relaxed pose, long curls and cream knitwear create a warm portrait against a beige backdrop.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-2",
+      "label": "Nano Banana 2"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-directional-light-beauty",
+      "label": "Directional-light beauty portraits"
+    },
+    {
+      "axis": "style",
+      "id": "style-soft-daylight-portrait",
+      "label": "Soft-daylight portrait"
+    }
+  ],
+  "title": "Seated Cream-Knit Portrait in Soft Light",
+  "variables": [
+    {
+      "name": "Pose",
+      "value": "Seated posture, one bent knee and relaxed arms; check where the hands rest."
+    },
+    {
+      "name": "Materials and palette",
+      "value": "Cream knit, beige background and curly hair, with enough separation to keep the clothing readable."
+    },
+    {
+      "name": "Light",
+      "value": "Warm diffuse illumination that reveals facial features and knit texture without hard shadows."
+    }
+  ]
+}

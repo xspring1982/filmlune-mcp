@@ -3,7 +3,7 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { McpServer } from "@modelcontextprotocol/server";
+import { McpServer, fromJsonSchema } from "@modelcontextprotocol/server";
 import { StdioServerTransport } from "@modelcontextprotocol/server/stdio";
 import { z } from "zod";
 
@@ -34,7 +34,7 @@ const server = new McpServer({
 });
 
 server.registerTool("search_cases", {
-  description: "Search FilmLune's public, rights-filtered case catalog.",
+  description: "Search FilmLune's rights-filtered public cases and MCP-only prompt templates.",
   inputSchema: z.strictObject({
     cursor,
     limit,
@@ -47,10 +47,24 @@ server.registerTool("search_cases", {
 }, (input) => success(searchCases(catalog, input)));
 
 server.registerTool("get_case", {
-  description: "Read one exact public FilmLune case revision or tombstone and its available output-language variants.",
-  inputSchema: z.strictObject({
-    caseId: z.string().regex(/^cev_[0-9]{4}$/),
-    caseRevisionId: z.string().regex(/^cev_[0-9]{4}@r[0-9]{4}$/).optional(),
+  description: "Read exactly one public FilmLune case/tombstone or MCP-only prompt template/tombstone.",
+  inputSchema: fromJsonSchema({
+    type: "object",
+    properties: {
+      caseId: { type: "string", pattern: "^cev_[0-9]{4}$" },
+      caseRevisionId: { type: "string", pattern: "^cev_[0-9]{4}@r[0-9]{4}$" },
+      promptTemplateId: { type: "string", pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      promptTemplateRevisionId: { type: "string", pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*@r[0-9]{4}$" },
+    },
+    oneOf: [
+      { required: ["caseId"], not: { anyOf: [
+        { required: ["promptTemplateId"] }, { required: ["promptTemplateRevisionId"] },
+      ] } },
+      { required: ["promptTemplateId"], not: { anyOf: [
+        { required: ["caseId"] }, { required: ["caseRevisionId"] },
+      ] } },
+    ],
+    additionalProperties: false,
   }),
 }, (input) => success(getCase(catalog, input)));
 
@@ -77,6 +91,7 @@ server.registerTool("get_changes", {
   inputSchema: z.strictObject({
     changeKind: z.enum(["upserted", "removed"]).optional(),
     cursor,
+    entityKind: z.enum(["case", "prompt_template"]).optional(),
     limit,
   }),
 }, (input) => success(getChanges(catalog, input)));

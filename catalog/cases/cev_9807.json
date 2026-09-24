@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/elderly-mother-open-window-waiting-cev_9807/",
+  "caseFamilyId": "cf_cev_9807",
+  "caseId": "cev_9807",
+  "caseRevisionId": "cev_9807@r0001",
+  "creator": {
+    "displayName": "WeWant Mars",
+    "handle": "@Madhuribhai",
+    "profileUrl": "https://x.com/Madhuribhai"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Use the full prompt with Nano Banana Pro. Seat the figure close to the window, keep the hands relaxed in the lap and light one side of the face. Let photographs and household objects support the story without competing with the gaze. Prefer an understated expression to exaggerated distress; vertical framing is a starting suggestion from the example.\n\nLimitations: Waiting for a son is a fictional prompt premise, not an established biography; the still image does not verify his return or moving curtains. The 85 mm phrase describes a desired look, not verified camera use. No seed, exact ratio or mandatory reference is evidenced. The 1143 × 2048 file is an X-delivered version, not the generator’s native file or a FilmLune reproduction.",
+  "model": {
+    "capabilityRevisionId": "catalog-nano-banana-pro-2k-standard-20260816-r1",
+    "displayName": "Nano Banana Pro",
+    "modelFamilyId": "nano-banana-pro",
+    "modelId": "nano-banana-pro",
+    "modelVersion": "catalog-candidate-2026-08-16"
+  },
+  "outputLanguage": "und",
+  "outputVariantId": "ov_original_und_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "An Elderly Mother Beside an Open Window",
+        "promptSha256": "64082d995050c8b25d674a14d102de2fea7ba031a39be2ec0792b552f75d8390",
+        "promptText": "Extremely realistic emotional photograph of an elderly mother sitting beside an open window in a modest home during late afternoon, quietly waiting for her son to return, hands resting naturally in her lap, realistic wrinkles and skin texture, slightly faded traditional clothing, sunlight illuminating one side of her face, old photographs and everyday household objects visible behind her, curtains gently moving in the breeze, subtle melancholy, genuine human expression, documentary photography, 85mm lens, natural light, realistic imperfections, deeply human and understated.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9807_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "8f2ad153856d3a09dafee95d75e79db1437ac871472c539b1152d0e0de67c18d",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "7ff61f28ac6994cae7b3b38ac9b17e3553f2cd0f2e968278aaddacf9e8e8e913",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-12.1+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "159f0329cc32671e1f37b8658ba0af28a66571dc45af56c87e7185961b5d239a"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Suggest waiting in a domestic scene through restrained expression, window light and objects that evoke family memories.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "An Elderly Mother Beside an Open Window",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9807_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9807_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9807/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Madhuribhai/status/2099071649350074555",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Madhuribhai/status/2099071649350074555"
+  },
+  "summary": "A quiet scene connects the gaze toward a window, resting hands and old photographs in a modest home.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-nano-banana-pro",
+      "label": "Nano Banana Pro"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-portrait-characters",
+      "label": "Portraits and characters"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-everyday-narrative-scenes",
+      "label": "Everyday narrative scenes"
+    },
+    {
+      "axis": "style",
+      "id": "style-documentary-everyday",
+      "label": "Everyday documentary aesthetic"
+    }
+  ],
+  "title": "An Elderly Mother Beside an Open Window",
+  "variables": [
+    {
+      "name": "Gesture and expression",
+      "value": "Gaze toward the window, hands resting in the lap and a quiet expression."
+    },
+    {
+      "name": "Narrative setting",
+      "value": "Framed photographs, curtains and modest household objects without assigning real identities."
+    },
+    {
+      "name": "Lighting",
+      "value": "Late-afternoon side light that preserves skin and fabric texture."
+    }
+  ]
+}

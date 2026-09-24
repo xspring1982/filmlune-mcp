@@ -1,9 +1,10 @@
 # FilmLune MCP
 
 FilmLune MCP is a read-only Model Context Protocol server for FilmLune's
-rights-filtered public case catalog. This repository is an **M0 local candidate**:
-it exposes an English catalog over stdio. This package does not provide an HTTP
-server or media-generation API and has no published package release.
+rights-filtered public case catalog and MCP-only prompt templates. This
+repository is an **M0 local candidate**: it exposes an English catalog over
+stdio. This package does not provide an HTTP server or media-generation API and
+has no published package release.
 
 FilmLune also operates a separate, website-owned hosted endpoint at
 `https://filmlune.com/api/mcp`; see the [hosted MCP guide](https://filmlune.com/mcp/).
@@ -18,8 +19,8 @@ The server exposes exactly five tools:
 
 | Tool | Purpose |
 | --- | --- |
-| `search_cases` | Search English case presentation, prompt text, model, taxonomy, media type, and output language. |
-| `get_case` | Read one exact case revision or tombstone and list the available output-language variants in its case family. |
+| `search_cases` | Search English case presentation and MCP-only prompt-template text, source classification, and attribution. Case-only model, taxonomy, media-type, and output-language filters never return prompt templates. |
+| `get_case` | Read exactly one case/tombstone by `caseId` or prompt template/tombstone by `promptTemplateId`. Case results list reviewed output-language variants; prompt-template results do not invent variants. |
 | `list_models` | List model families represented by active reusable cases. |
 | `list_taxonomy` | List the generated English taxonomy. |
 | `get_changes` | Read the deterministic additions, updates, and removals feed. |
@@ -37,6 +38,17 @@ source attribution. FilmLune's internal official-social authorization and
 Operator exports are separate and are not distributed by this public repository.
 No Agent-specific download credential is needed for publicly accessible media.
 
+MCP-only prompt templates have no preview, Website route, canonical URL,
+sitemap/hreflang entry, case-wall card, media bytes, model compatibility,
+recipe, report route, or generation/reference claim. Their source and license
+fields identify the exact upstream revision and terms governing that prompt.
+Search returns a compact discovery record with `prompt.availability=get_case`;
+`get_case` returns the unmodified prompt and the complete hash-verified Apache
+license in `license.text`. Example inputs: `search_cases({"query":"black holes"})`,
+then `get_case({"promptTemplateId":"parti-tsv-line-0712"})`. Do not send both
+`caseId` and `promptTemplateId`, or a revision field belonging to the other lane.
+Use `get_changes({"entityKind":"prompt_template"})` for the prompt-only feed.
+
 ## What M0 does
 
 - validates every generated path and SHA-256 before startup;
@@ -47,6 +59,8 @@ No Agent-specific download credential is needed for publicly accessible media.
   discoverable for any requested language;
 - stores each language-specific result as a separate reviewed variant under the
   same `caseFamilyId`;
+- serves reviewed prompt templates in a parallel `prompt-template.v1` lane while
+  dual-reading historical manifest v2 and current manifest v3;
 - preserves required dialogue and visible text as exact BCP 47-tagged
   `protectedLiterals`; and
 - returns minimal tombstones for removed cases without stale prompt, creator, or
@@ -127,10 +141,12 @@ themselves. Website exporter parity, code review, and trusted repository or
 package distribution establish approval. Any future remote catalog updater
 must add a signed or externally pinned authenticity root before release.
 
-The [MIT license](LICENSE) covers the server software only. Prompt and catalog
-use is governed separately by the
-[FilmLune Prompt and Catalog Content License](CONTENT_LICENSE.md), together with
-each record's current rights projection. Eligible prompt records permit
+The [MIT license](LICENSE) covers the server software only. FilmLune-authored
+prompt and catalog use is governed separately by the
+[FilmLune Prompt and Catalog Content License](CONTENT_LICENSE.md). Third-party
+prompt templates are governed by the exact record-level upstream license, which
+takes precedence and is not narrowed by FilmLune's content license. Eligible
+FilmLune prompt records permit
 personal use, commercial generation, modification, and attributed individual
 reposting; they do not permit bulk scraping, prompt-pack/dataset resale,
 catalog mirroring, or competing MCP/API redistribution. Case images, videos,

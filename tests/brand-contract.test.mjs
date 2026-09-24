@@ -69,9 +69,9 @@ test("separates eligible prompt permissions from media and bulk redistribution",
 });
 
 test("keeps repository, schemas, generated presentation and tool descriptions English-only", async () => {
-  /** @type {{schemaVersion:number,presentation:{language:string,revision:string,sha256:string},activeIds:string[]}} */
+  /** @type {{schemaVersion:number,presentation:{language:string,revision:string,sha256:string},activeIds:string[],promptTemplateIds:string[]}} */
   const manifest = await json("catalog/manifest.json");
-  assert.equal(manifest.schemaVersion, 2);
+  assert.equal(manifest.schemaVersion, 3);
   assert.deepEqual(manifest.presentation, {
     language: "en",
     revision: "local-demo-mcp-en-2026-08-15.1",
@@ -82,6 +82,8 @@ test("keeps repository, schemas, generated presentation and tool descriptions En
     await text("catalog/models.json"),
     await text("catalog/taxonomy.json"),
     ...await Promise.all(manifest.activeIds.map((caseId) => text(`catalog/cases/${caseId}.json`))),
+    ...await Promise.all(manifest.promptTemplateIds.map((promptTemplateId) =>
+      text(`catalog/prompt-templates/${promptTemplateId}.json`))),
   ].join("\n");
   assert.doesNotMatch(generated, /"(?:locale|titleFr|summaryFr|purposeFr|methodFr|labelFr|altFr)"/);
   assert.doesNotMatch(await text("src/server/stdio.mjs"), /Rechercher|Lire une|Lister|française|retraits/);

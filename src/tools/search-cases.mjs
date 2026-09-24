@@ -37,7 +37,7 @@ export function searchCases(catalog, value) {
   }
   const taxonomyId = optionalText(input.taxonomyId, "taxonomy_id");
   const scope = scopeHash({ query, mediaType, modelFamilyId, outputLanguage, taxonomyId });
-  const matched = [...catalog.cases.values()].filter((record) => {
+  const matchedCases = [...catalog.cases.values()].filter((record) => {
     if (record.kind === "locator_only") {
       return mediaType === null && modelFamilyId === null && outputLanguage === null
         && taxonomyId === null
@@ -55,8 +55,7 @@ export function searchCases(catalog, value) {
       String(/** @type {Record<string,unknown>} */ (variant).promptText ?? "")).join(" ") ?? "";
     return [record.title, record.summary, prompt]
       .some((entry) => String(entry).toLocaleLowerCase("en").includes(query));
-  }).sort((left, right) => left.caseId.localeCompare(right.caseId, "en"));
-  const summaries = matched.map((record) => record.kind === "locator_only" ? {
+  }).map((record) => record.kind === "locator_only" ? {
     kind: record.kind,
     caseId: record.caseId,
     caseRevisionId: record.caseRevisionId,
@@ -80,6 +79,39 @@ export function searchCases(catalog, value) {
     provenance: record.provenance,
     rights: record.rights,
   });
+  const matchedPromptTemplates = mediaType === null && modelFamilyId === null
+    && outputLanguage === null && taxonomyId === null
+    ? [...catalog.promptTemplates.values()].filter((record) => query === null || [
+      record.prompt.text,
+      record.classification.category,
+      record.classification.challenge,
+      record.classification.note ?? "",
+      record.license.attribution,
+    ].some((entry) => String(entry).toLocaleLowerCase("en").includes(query)))
+      .map((record) => ({
+        kind: record.kind,
+        promptTemplateId: record.promptTemplateId,
+        promptTemplateRevisionId: record.promptTemplateRevisionId,
+        distributionScope: record.distributionScope,
+        prompt: { language: record.prompt.language, sha256: record.prompt.sha256, availability: "get_case" },
+        classification: record.classification,
+        source: record.source,
+        license: { spdx: record.license.spdx, url: record.license.url,
+          sha256: record.license.sha256, attribution: record.license.attribution },
+        websiteProjection: record.websiteProjection,
+        mediaBytesIncluded: record.mediaBytesIncluded,
+        generationClaim: record.generationClaim,
+        referenceClaim: record.referenceClaim,
+        provenance: record.provenance,
+      }))
+    : [];
+  const summaries = /** @type {Array<Record<string,unknown>&{caseId?:string,promptTemplateId?:string}>} */ (
+    [...matchedCases, ...matchedPromptTemplates]
+  ).sort((left, right) =>
+    String(left.caseId ?? left.promptTemplateId).localeCompare(
+      String(right.caseId ?? right.promptTemplateId),
+      "en",
+    ));
   const page = paginate(summaries, input, catalog.manifest.catalogRevision, scope);
   return { catalogRevision: catalog.manifest.catalogRevision, ...page };
 }
