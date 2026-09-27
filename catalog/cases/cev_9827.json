@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/publicite-video-chaussures-course-sous-la-pluie-cev_9827/",
+  "caseFamilyId": "cf_cev_9827",
+  "caseId": "cev_9827",
+  "caseRevisionId": "cev_9827@r0001",
+  "creator": {
+    "displayName": "Smiling Khan",
+    "handle": "@AIwithkhan",
+    "profileUrl": "https://x.com/AIwithkhan"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "The complete English prompt and Seedance 2.5 model claim come from the creator’s post. The retained X clip is about 30 seconds at 1280 × 720. Studio offers a 16:9, 720P, 30-second starting point; it does not guarantee the prompt’s requested 1080p or identical output. The source media is not attached as a reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260905-r3",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "VIDEO · 1",
+        "promptSha256": "abed828cc08db4b62cc07bf7ba9471eeba3587e8008abfcbb91974579a4e0a38",
+        "promptText": "Create a 1080p ultra-realistic cinematic sportswear commercial featuring a confident young woman wearing black sports leggings, a fitted athletic top and premium running shoes. Keep the girl visible throughout the video, with the shoes naturally integrated into the story rather than showing only product close-ups.\n\nShe walks through a modern city before starting to run. Use wide shots showing her full body and face, side tracking shots, front-facing shots and occasional low-angle shots highlighting the shoes.\n\nShe reaches a park, stretches on a bench, adjusts her shoes and continues walking before picking up her pace again. Show her lifestyle, movement and confidence, with brief close-ups revealing the shoe’s cushioning, flexibility, lightweight construction and detailed materials.\n\nRain begins. She walks through the wet streets, then runs through the rain. Capture her full body, facial expressions, reflections and natural movement, mixed with a few slow-motion shots of the shoes gripping the wet pavement and creating realistic water splashes.\n\nAs the rain fades, she slows down and confidently walks forward. End with a cinematic shot showing the girl and shoes together, followed by a tasteful close-up of the shoes on the wet reflective pavement.\n\nVoiceover throughout:\n“Every step starts with the right foundation. Lightweight, flexible and designed for comfort. Responsive cushioning supports every stride, while reliable traction keeps you moving when the road gets wet. Built for every mile, every moment, every move. Shoes made to keep you moving.”\n\nStyle: Premium global sportswear campaign, photorealistic skin and fabrics, realistic athletic movement, cinematic lighting, rain and reflections, natural motion blur, shallow depth of field, dynamic tracking, subtle slow motion and high-end commercial cinematography.\n\nNegative: No shoe-only video, no missing girl, no shoe design changes, no identity drift, no distorted feet, extra limbs, duplicated people, outfit changes, text, subtitles or watermark.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9827_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "cde3e761945dd98972b9d5bcce904d2e295e16f9d57ffd00ae7adc5da84fe87f",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "d0ae704fab55623365155fb3bbba7e3e1e1d2e862a6af40d1dd7f34b367d8603",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-27.5+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "c0bcf50fbffba65c17af31e68ffcb7355072ef34f3b4018da742b3089f5707c3"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Show how a sportswear ad ties comfort, cushioning and wet-road grip to a city-to-rain running story.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "VIDEO · 1",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9827_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9827_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9827/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/AIwithkhan/status/2103462497022025951",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/AIwithkhan/status/2103462497022025951"
+  },
+  "summary": "A runner moves through the city and park, then runs through rain before a close-up of her shoes.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-running-shoe-commercials",
+      "label": "Running Shoe Video Commercials"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-sportswear-rain",
+      "label": "Cinematic rainy sportswear"
+    }
+  ],
+  "title": "Rainy City Running Shoe Commercial",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "One confident young woman wearing running shoes and black sports leggings."
+    },
+    {
+      "name": "action",
+      "value": "Walk and run through a city, stretch in a park, then run through rain."
+    },
+    {
+      "name": "style",
+      "value": "Photorealistic cinematic sportswear commercial with rain and wet-street reflections."
+    }
+  ]
+}
