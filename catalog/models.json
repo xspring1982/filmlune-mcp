@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-9eb7d226b93d0c73",
+  "catalogRevision": "mcp-local-066f8673d86253ec",
   "models": [
     {
       "activeCaseIds": [
@@ -115,7 +115,8 @@
         "cev_9069",
         "cev_9131",
         "cev_9200",
-        "cev_9504"
+        "cev_9504",
+        "cev_9828"
       ],
       "displayName": "Seedance 2.0",
       "mediaType": "video",
@@ -127,7 +128,10 @@
         "cev_9011",
         "cev_9093",
         "cev_9285",
-        "cev_9306"
+        "cev_9306",
+        "cev_9824",
+        "cev_9825",
+        "cev_9827"
       ],
       "displayName": "Seedance 2.5",
       "mediaType": "video",
@@ -149,7 +153,8 @@
         "cev_9516",
         "cev_9518",
         "cev_9519",
-        "cev_9537"
+        "cev_9537",
+        "cev_9826"
       ],
       "displayName": "GPT Image 2.5",
       "mediaType": "image",

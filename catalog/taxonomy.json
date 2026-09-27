@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-9eb7d226b93d0c73",
+  "catalogRevision": "mcp-local-066f8673d86253ec",
   "schemaVersion": 2,
   "taxonomy": [
     {
@@ -167,11 +167,35 @@
     },
     {
       "activeCaseIds": [
+        "cev_9825"
+      ],
+      "axis": "collection",
+      "id": "collection-cinematic-pizza-food-commercials",
+      "label": "Cinematic Pizza Video Commercials"
+    },
+    {
+      "activeCaseIds": [
         "cev_9535"
       ],
       "axis": "collection",
       "id": "collection-cinematic-portrait-name-posters",
       "label": "Cinematic portrait name posters"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9827"
+      ],
+      "axis": "collection",
+      "id": "collection-cinematic-running-shoe-commercials",
+      "label": "Running Shoe Video Commercials"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9828"
+      ],
+      "axis": "collection",
+      "id": "collection-cinematic-winter-cabin-escapes",
+      "label": "Cinematic Winter Cabin Escapes"
     },
     {
       "activeCaseIds": [
@@ -210,6 +234,14 @@
       "axis": "collection",
       "id": "collection-continuous-travel-diaries",
       "label": "Continuous travel video diaries"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9824"
+      ],
+      "axis": "collection",
+      "id": "collection-core-workout-gym-vlogs",
+      "label": "Gym Workout Video Vlogs"
     },
     {
       "activeCaseIds": [
@@ -610,6 +642,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9826"
+      ],
+      "axis": "collection",
+      "id": "collection-person-pet-circular-logo-transformations",
+      "label": "Circular Person and Pet Logos"
+    },
+    {
+      "activeCaseIds": [
         "cev_9013"
       ],
       "axis": "collection",
@@ -846,7 +886,8 @@
         "cev_9819",
         "cev_9820",
         "cev_9821",
-        "cev_9822"
+        "cev_9822",
+        "cev_9826"
       ],
       "axis": "media",
       "id": "media-image",
@@ -867,7 +908,11 @@
         "cev_9200",
         "cev_9285",
         "cev_9306",
-        "cev_9504"
+        "cev_9504",
+        "cev_9824",
+        "cev_9825",
+        "cev_9827",
+        "cev_9828"
       ],
       "axis": "media",
       "id": "media-video",
@@ -1035,7 +1080,8 @@
         "cev_9069",
         "cev_9131",
         "cev_9200",
-        "cev_9504"
+        "cev_9504",
+        "cev_9828"
       ],
       "axis": "model",
       "id": "model-seedance-2-0",
@@ -1047,11 +1093,29 @@
         "cev_9011",
         "cev_9093",
         "cev_9285",
-        "cev_9306"
+        "cev_9306",
+        "cev_9824",
+        "cev_9827"
       ],
       "axis": "model",
       "id": "model-seedance-2-5",
       "label": "Seedance 2.5"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9826"
+      ],
+      "axis": "model",
+      "id": "model-suggested-gpt-image",
+      "label": "Suggested GPT Image"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9825"
+      ],
+      "axis": "model",
+      "id": "model-suggested-seedance",
+      "label": "Suggested Seedance"
     },
     {
       "activeCaseIds": [
@@ -1067,7 +1131,9 @@
         "cev_9285",
         "cev_9504",
         "cev_9526",
-        "cev_9534"
+        "cev_9534",
+        "cev_9825",
+        "cev_9827"
       ],
       "axis": "use_case",
       "id": "scene-advertising-ecommerce",
@@ -1085,7 +1151,8 @@
     },
     {
       "activeCaseIds": [
-        "cev_9024"
+        "cev_9024",
+        "cev_9826"
       ],
       "axis": "use_case",
       "id": "scene-brand-identity",
@@ -1221,7 +1288,8 @@
         "cev_9052",
         "cev_9069",
         "cev_9093",
-        "cev_9305"
+        "cev_9305",
+        "cev_9824"
       ],
       "axis": "use_case",
       "id": "scene-social-content",
@@ -1234,7 +1302,8 @@
         "cev_9041",
         "cev_9064",
         "cev_9131",
-        "cev_9306"
+        "cev_9306",
+        "cev_9828"
       ],
       "axis": "use_case",
       "id": "scene-storyboard-motion",
@@ -1374,6 +1443,14 @@
     },
     {
       "activeCaseIds": [
+        "cev_9825"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-food-macro",
+      "label": "Cinematic food macro"
+    },
+    {
+      "activeCaseIds": [
         "cev_9534"
       ],
       "axis": "style",
@@ -1403,6 +1480,14 @@
       "axis": "style",
       "id": "style-cinematic-sports-animation",
       "label": "Cinematic sports animation"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9827"
+      ],
+      "axis": "style",
+      "id": "style-cinematic-sportswear-rain",
+      "label": "Cinematic rainy sportswear"
     },
     {
       "activeCaseIds": [
@@ -1443,6 +1528,14 @@
       "axis": "style",
       "id": "style-cozy-miniature-self-composite",
       "label": "Cozy miniature-self composite"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9828"
+      ],
+      "axis": "style",
+      "id": "style-cozy-winter-cinematic",
+      "label": "Cozy cinematic winter"
     },
     {
       "activeCaseIds": [
@@ -1566,6 +1659,14 @@
       "axis": "style",
       "id": "style-handcrafted-felt-character-diorama",
       "label": "Soft handcrafted felt character diorama"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9824"
+      ],
+      "axis": "style",
+      "id": "style-handheld-gym-vlog",
+      "label": "Handheld Gym Vlog"
     },
     {
       "activeCaseIds": [
@@ -1704,6 +1805,14 @@
       "axis": "style",
       "id": "style-minimal-luxury-fashion",
       "label": "Minimal luxury fashion"
+    },
+    {
+      "activeCaseIds": [
+        "cev_9826"
+      ],
+      "axis": "style",
+      "id": "style-minimal-monochrome-circle-logo",
+      "label": "Minimal black-and-white circular logo"
     },
     {
       "activeCaseIds": [

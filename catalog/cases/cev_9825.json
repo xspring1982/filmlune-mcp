@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/publicite-video-pizza-pepperoni-fondant-cev_9825/",
+  "caseFamilyId": "cf_cev_9825",
+  "caseId": "cev_9825",
+  "caseRevisionId": "cev_9825@r0001",
+  "creator": {
+    "displayName": "Ruby Ai",
+    "handle": "@HeyRu0by",
+    "profileUrl": "https://x.com/HeyRu0by"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "The complete English prompt comes from the creator’s post. Seedance is a suggested family for reusing it, not a verified original model. The retained X clip is 360 × 640 and about ten seconds. The Studio option is only a starting point; source media is not attached as a reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260905-r3",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "VIDEO · 1",
+        "promptSha256": "54430f665e98d1b43cc51304bcfcacf98def686fd4adbbbc3a893ed57a8a0e99",
+        "promptText": "Create a 10-second ultra-realistic cinematic food commercial featuring a freshly baked, premium cheesy pepperoni pizza.\n\n0–3 sec: Extreme close-up of a hot, freshly baked pizza coming out of a traditional stone oven. The golden-brown crust glistens with a subtle sheen of olive oil, while melted mozzarella cheese bubbles gently. Thin wisps of steam rise naturally.\n\n3–6 sec: The camera slowly pushes in as a hand lifts one cheesy slice. The slice stretches upward in dramatic slow motion, creating long, glossy cheese pulls. Pepperoni glistens with tiny droplets of oil, and crispy edges are clearly visible.\n\n6–8 sec: Smooth cinematic camera orbit around the pizza as the slice is lifted higher. Golden cheese stretches and slowly separates, with tiny crumbs falling naturally. Warm restaurant lighting creates an appetizing glow.\n\n8–10 sec: The slice moves toward the camera, revealing juicy toppings, melted cheese, and a perfectly crispy crust. End with the whole pizza beautifully framed on a dark wooden table, soft steam rising, premium commercial-style lighting.\n\nStyle: ultra-realistic, photorealistic food cinematography, cinematic lighting, shallow depth of field, macro details, realistic textures, natural steam, smooth camera movement, slow motion, 4K, high detail, premium food advertisement, appetizing and mouth-watering.\n\nAspect Ratio: 9:16\nDuration: 10 seconds\nCamera: macro close-ups, smooth dolly-in, slow cinematic orbit\nAudio: subtle sizzling, crispy crust sounds, soft cinematic background music\nNo: distorted toppings, extra fingers, deformed pizza, unrealistic cheese, text, watermark, logo.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9825_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "cde3e761945dd98972b9d5bcce904d2e295e16f9d57ffd00ae7adc5da84fe87f",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "d0ae704fab55623365155fb3bbba7e3e1e1d2e862a6af40d1dd7f34b367d8603",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-27.5+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "c0bcf50fbffba65c17af31e68ffcb7355072ef34f3b4018da742b3089f5707c3"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Show how a short food commercial builds appetite through oven heat, a cheese pull and a final hero shot.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "VIDEO · 1",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9825_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9825_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9825/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/HeyRu0by/status/2103715147617636523",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/HeyRu0by/status/2103715147617636523"
+  },
+  "summary": "A pizza leaves the oven, a lifted slice stretches melted cheese, and the full pie closes this ten-second vertical food commercial.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-suggested-seedance",
+      "label": "Suggested Seedance"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-advertising-ecommerce",
+      "label": "Advertising and e-commerce"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-pizza-food-commercials",
+      "label": "Cinematic Pizza Video Commercials"
+    },
+    {
+      "axis": "style",
+      "id": "style-cinematic-food-macro",
+      "label": "Cinematic food macro"
+    }
+  ],
+  "title": "Cinematic Cheesy Pepperoni Pizza Commercial",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "A freshly baked premium cheesy pepperoni pizza."
+    },
+    {
+      "name": "action",
+      "value": "Oven reveal, hand-lifted slice with cheese pull, then full-pizza hero shot."
+    },
+    {
+      "name": "style",
+      "value": "Photorealistic macro food cinematography with warm restaurant lighting."
+    }
+  ]
+}
