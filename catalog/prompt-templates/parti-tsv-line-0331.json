@@ -24,12 +24,12 @@
   "promptTemplateId": "parti-tsv-line-0331",
   "promptTemplateRevisionId": "parti-tsv-line-0331@r0001",
   "provenance": {
-    "generatorSha256": "cde3e761945dd98972b9d5bcce904d2e295e16f9d57ffd00ae7adc5da84fe87f",
+    "generatorSha256": "5f716d0d45b81ff194d45fd0727c031d5779b46ba4f2da7584400f19f6d6b0e2",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
     "presentationSha256": "d0ae704fab55623365155fb3bbba7e3e1e1d2e862a6af40d1dd7f34b367d8603",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-27.5+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "c0bcf50fbffba65c17af31e68ffcb7355072ef34f3b4018da742b3089f5707c3"
+    "websiteSourceSha256": "89b5654bf8ca7bf80132064778126ac7528218650572ec354df6e348892e0d09"
   },
   "referenceClaim": "none",
   "schemaVersion": 1,
