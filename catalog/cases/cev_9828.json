@@ -1,0 +1,121 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/escapade-hivernale-chalet-enneige-video-cev_9828/",
+  "caseFamilyId": "cf_cev_9828",
+  "caseId": "cev_9828",
+  "caseRevisionId": "cev_9828@r0001",
+  "creator": {
+    "displayName": "liana",
+    "handle": "@Lianaalane",
+    "profileUrl": "https://x.com/Lianaalane"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "The complete English prompt and “seedance 2.0” model claim come from the creator’s post. The retained X clip runs about 15.9 seconds at 1280 × 720. Studio offers a 16:9, 720P, 15-second starting point; the original service tier is unknown and identical output is not guaranteed. The source media is not attached as a reference.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-0-pro-20260828-r2",
+    "displayName": "Seedance 2.0 · Pro",
+    "modelFamilyId": "seedance-2-0",
+    "modelId": "seedance-2.0",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "VIDEO · 1",
+        "promptSha256": "f8330971f6d989fd56a79d1039aef91e3934c7101d980bb57dc76cb322bf0bbf",
+        "promptText": "Create a highly realistic cinematic winter video of a peaceful woman staying in a cozy wooden cabin surrounded by a beautiful snow-covered mountain landscape. Start with an intimate close-up of the woman resting peacefully indoors as warm golden sunlight softly falls across her face through the window. Transition to a wide cinematic view of the snowy cabin balcony, tall pine trees, distant mountains, and a warm sunrise glowing over the landscape. Show small birds flying and landing on the snow-covered wooden railing as the woman gently reaches out to feed them. Capture detailed snow textures, natural bird movements, soft winter wind, and realistic sunlight. Then show her inside the cabin preparing a warm cup of tea beside a traditional kettle near the window. Focus on her hands, the steaming cup, the cozy knitted sweater, and the peaceful snowy scenery outside. Follow her as she walks slowly through a snow-covered wooden pathway wearing a warm cream sweater and dark pants. End with a wide cinematic aerial-style view of the quiet snow-covered cabins, pine forest, mountains, and glowing sunset or sunrise in the distance. Use photorealistic textures, natural human movement, realistic lighting, subtle depth of field, smooth camera motion, atmospheric winter details, and authentic cinematic color grading, making the entire video feel like real-life footage rather than AI-generated.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9828_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5f716d0d45b81ff194d45fd0727c031d5779b46ba4f2da7584400f19f6d6b0e2",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "d0ae704fab55623365155fb3bbba7e3e1e1d2e862a6af40d1dd7f34b367d8603",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-27.5+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "89b5654bf8ca7bf80132064778126ac7528218650572ec354df6e348892e0d09"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Show how a short winter narrative joins an intimate portrait, snowy scenery and everyday gestures in a calm atmosphere.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "VIDEO · 1",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9828_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9828_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9828/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/Lianaalane/status/2103359307874226667",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/Lianaalane/status/2103359307874226667"
+  },
+  "summary": "A woman enjoys a snowy mountain cabin through morning light, birds on the railing, warm tea and a quiet winter walk.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-0",
+      "label": "Seedance 2.0"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-storyboard-motion",
+      "label": "Storyboard, video and motion"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-cinematic-winter-cabin-escapes",
+      "label": "Cinematic Winter Cabin Escapes"
+    },
+    {
+      "axis": "style",
+      "id": "style-cozy-winter-cinematic",
+      "label": "Cozy cinematic winter"
+    }
+  ],
+  "title": "Cinematic Winter Cabin Escape",
+  "variables": [
+    {
+      "name": "subject",
+      "value": "A peaceful woman staying in a cozy mountain cabin."
+    },
+    {
+      "name": "action",
+      "value": "Indoor rest, birds at the snowy railing, tea by the window and a walk through snow."
+    },
+    {
+      "name": "style",
+      "value": "Photorealistic cinematic winter light, pine forest and mountain scenery."
+    }
+  ]
+}

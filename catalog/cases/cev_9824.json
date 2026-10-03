@@ -1,0 +1,152 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/video/vlog-entrainement-abdos-en-salle-cev_9824/",
+  "caseFamilyId": "cf_cev_9824",
+  "caseId": "cev_9824",
+  "caseRevisionId": "cev_9824@r0001",
+  "creator": {
+    "displayName": "WasifAI",
+    "handle": "@doctorwasif",
+    "profileUrl": "https://x.com/doctorwasif"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "video",
+  "method": "Use the complete English source prompt with attribution; undisclosed model settings remain unknown.",
+  "model": {
+    "capabilityRevisionId": "catalog-seedance-2-5-standard-20260905-r3",
+    "displayName": "Seedance 2.5",
+    "modelFamilyId": "seedance-2-5",
+    "modelId": "seedance-2.5",
+    "modelVersion": "account-visible-catalog-candidate-2026-08-28"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_video",
+        "instructionLanguage": "en",
+        "kind": "video",
+        "label": "VIDEO · 1",
+        "promptSha256": "70a5e276267fd421d0fea52ec1cf77ad9002890ba06cc4e7532044f85c784e05",
+        "promptText": "**CAMERA:**\nDV 16mm tape camcorder handheld feel. POV of CHASE holding the camera herself, occasionally propping it on the floor or a mat for hands-free core shots. Hand shake, misaligned framing, delayed focus pulls, clumsy zooms, occasional face cut-off framing, imperfect shots. Camcorder never appears on screen.\n\n**LOOK:**\nSoft, slightly blurry tape quality, faint tape noise, bloomed highlights under gym lighting, flickering auto-exposure, muted contrast, realistic skin tones.\n\n**STYLE:**\nPlayful, self-deprecating gym-vlog tone — genuine strain mixed with humor, complaining about core work while still pushing through it. Quick handheld cuts, energy staying light and funny throughout rather than fully exhausted.\n\n**Character**\n\nCHASE — Korean idol, 20s. Long black hair in a high ponytail, glowing skin with a light sweat sheen, big expressive eyes. Slim athletic build. Modest long-sleeve athletic top, loose joggers or fitted leggings (arms and torso fully covered), sneakers off or socks, no jewelry.\n\n**Setting**\n\nA gym mat area in the evening — mirror wall nearby, water bottle on the floor, soft overhead lighting, other equipment visible in the background.\n\n**Storyboard (15s, 6 cuts)**\n\n1. *(~2.5s, propped camera, medium shot)* She lies down on the mat, propping up on her elbows, already sighing dramatically. CHASE: \"Okay, core day — my least favorite day.\"\n\n2. *(~2.5s, propped camera, plank position)* She holds a plank, arms shaking slightly, talking through gritted teeth. CHASE (strained): \"Why does this get harder every single time—\"\n\n3. *(~2.5s, medium propped shot, crunches)* She moves into a set of crunches, breathing hard, complaining between reps. CHASE: \"Nobody warns you how much this actually burns.\"\n\n4. *(~2s, macro insert, shallow DOF)* Close-up on her hands gripping the mat edges during a leg raise, abs visibly working. No dialogue — ambient gym sound only.\n\n5. *(~2.5s, handheld, leg raises)* She finishes a slow leg raise set, flopping back onto the mat immediately after, laughing at herself. CHASE (breathless): \"Okay— that's it, I'm done—\"\n\n6. *(~3s, arm's-length selfie finish)* Still lying on the mat, she lifts the camera above her face, grinning tiredly. CHASE: \"Core day never gets easier — see you guys tomorrow, hopefully.\"",
+        "protectedLiterals": [
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "Okay, core day — my least favorite day."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "Why does this get harder every single time—"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "Nobody warns you how much this actually burns."
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "Okay— that's it, I'm done—"
+          },
+          {
+            "language": "en",
+            "mustRemainExact": true,
+            "role": "spoken_text",
+            "value": "Core day never gets easier — see you guys tomorrow, hopefully."
+          }
+        ],
+        "stepIndex": 1,
+        "variantId": "ppv_9824_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5f716d0d45b81ff194d45fd0727c031d5779b46ba4f2da7584400f19f6d6b0e2",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "d0ae704fab55623365155fb3bbba7e3e1e1d2e862a6af40d1dd7f34b367d8603",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-27.5+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "89b5654bf8ca7bf80132064778126ac7528218650572ec354df6e348892e0d09"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Create a short personal workout vlog with authentic effort and humorous dialogue.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_video",
+      "kind": "video",
+      "label": "VIDEO · 1",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9824_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9824_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9824/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/doctorwasif/status/2103476205760774263",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/doctorwasif/status/2103476205760774263"
+  },
+  "summary": "A playful gym vlog follows six core exercises and reactions, from a shaky plank to a tired final selfie.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-video",
+      "label": "Video"
+    },
+    {
+      "axis": "model",
+      "id": "model-seedance-2-5",
+      "label": "Seedance 2.5"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-social-content",
+      "label": "Social content"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-core-workout-gym-vlogs",
+      "label": "Gym Workout Video Vlogs"
+    },
+    {
+      "axis": "style",
+      "id": "style-handheld-gym-vlog",
+      "label": "Handheld Gym Vlog"
+    }
+  ],
+  "title": "Playful Core Workout Gym Vlog",
+  "variables": [
+    {
+      "name": "character",
+      "value": "An adult athletic vlogger with a high ponytail."
+    },
+    {
+      "name": "setting",
+      "value": "A gym mat area in the evening."
+    },
+    {
+      "name": "action",
+      "value": "Six cuts from introduction through core exercises to a tired selfie."
+    }
+  ]
+}

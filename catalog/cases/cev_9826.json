@@ -1,0 +1,117 @@
+{
+  "canonicalUrl": "https://filmlune.com/prompts/image/minimal-black-circle-person-pet-logo-cev_9826/",
+  "caseFamilyId": "cf_cev_9826",
+  "caseId": "cev_9826",
+  "caseRevisionId": "cev_9826@r0001",
+  "creator": {
+    "displayName": "DAAI",
+    "handle": "@daaihq",
+    "profileUrl": "https://x.com/daaihq"
+  },
+  "kind": "reusable_case",
+  "media": [],
+  "mediaType": "image",
+  "method": "Upload your own person or pet photo, then use the reviewed English translation for a 3:4 split image with the photo above and a circular logo below. Source example images are not attached automatically.",
+  "model": {
+    "capabilityRevisionId": "catalog-gpt-image-2-5-1k-standard-20260917-r3",
+    "displayName": "GPT Image 2.5",
+    "modelFamilyId": "gpt-image-2-5",
+    "modelId": "gpt-image-2-5",
+    "modelVersion": "apimart-official-2026-09-08"
+  },
+  "outputLanguage": "en",
+  "outputVariantId": "ov_original_en_r0001",
+  "presentationLanguage": "en",
+  "prompt": {
+    "availability": "available",
+    "variants": [
+      {
+        "inputMode": "text_to_image",
+        "instructionLanguage": "en",
+        "kind": "image",
+        "label": "Photo to circular black-and-white logo",
+        "promptSha256": "c9763c7d8449d2b4b95293765aae70fd8e006134c21fcbd3bc75facbd9934d2d",
+        "promptText": "Create a vertically oriented 3:4 image in a split top-and-bottom layout.\n\nIn the top half, show the main subject from the photo uploaded by the user. The subject may be a person, a cat, a dog, or another animal. Preserve its real appearance as closely as possible: hairstyle or fur outline, key facial features, recognizable facial details, clothing or coat color, and overall character. Subdue the architecture and surroundings so the subject remains the focus.\n\nIn the bottom half, translate the same subject into a minimalist, flat logo. Use a clean pure-white background and a solid black circle as the central graphic. Integrate a partial side profile or head outline of the uploaded subject inside the circle. Preserve the key facial details or pet features so that viewers can immediately recognize it as the same subject shown above. Combine Japanese aesthetics with contemporary design: restrained, refined composition; clean, decisive outlines; strong graphic shapes; clear visual focus; and an unmistakable logo-like identity.\n\nIf the upload shows a person, center the design on the person's side profile, three-quarter profile, or head outline. If it shows a pet, center it on the animal's head, ears, muzzle, or side-profile outline.\n\nDo not generate any words, headings, letters, marks, or watermarks.",
+        "protectedLiterals": [],
+        "stepIndex": 1,
+        "variantId": "ppv_9826_01"
+      }
+    ]
+  },
+  "provenance": {
+    "generatorSha256": "5f716d0d45b81ff194d45fd0727c031d5779b46ba4f2da7584400f19f6d6b0e2",
+    "generatorVersion": "mcp-catalog-v4",
+    "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
+    "presentationSha256": "d0ae704fab55623365155fb3bbba7e3e1e1d2e862a6af40d1dd7f34b367d8603",
+    "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-27.5+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
+    "websiteSourceSha256": "89b5654bf8ca7bf80132064778126ac7528218650572ec354df6e348892e0d09"
+  },
+  "publicationState": "website_master_projection",
+  "purpose": "Turn a user-provided person or pet photo into a recognizable visual identity in a vertical before-and-after layout.",
+  "recipe": [
+    {
+      "inputAssetIds": [],
+      "inputMode": "text_to_image",
+      "kind": "image",
+      "label": "Photo to circular black-and-white logo",
+      "outputAssetIds": [],
+      "stepId": "step_cev_9826_01",
+      "stepIndex": 1,
+      "variantId": "ppv_9826_01"
+    }
+  ],
+  "reportUrl": "/signaler/cev_9826/",
+  "rights": {
+    "decision": "operator_risk_accepted",
+    "mcp": "allow",
+    "media": "deny",
+    "prompt": "allow",
+    "social": "deny",
+    "sourceLink": "allow"
+  },
+  "schemaVersion": 2,
+  "source": {
+    "canonicalUrl": "https://x.com/daaihq/status/2103275022236426434",
+    "kind": "external_locator",
+    "publicEvidenceUrl": "https://x.com/daaihq/status/2103275022236426434"
+  },
+  "summary": "Two examples pair a person or cat photograph with a matching minimalist black-and-white circular logo.",
+  "taxonomy": [
+    {
+      "axis": "media",
+      "id": "media-image",
+      "label": "Image"
+    },
+    {
+      "axis": "model",
+      "id": "model-suggested-gpt-image",
+      "label": "Suggested GPT Image"
+    },
+    {
+      "axis": "use_case",
+      "id": "scene-brand-identity",
+      "label": "Brand design"
+    },
+    {
+      "axis": "collection",
+      "id": "collection-person-pet-circular-logo-transformations",
+      "label": "Circular Person and Pet Logos"
+    },
+    {
+      "axis": "style",
+      "id": "style-minimal-monochrome-circle-logo",
+      "label": "Minimal black-and-white circular logo"
+    }
+  ],
+  "title": "Turn a person or pet photo into a circular logo",
+  "variables": [
+    {
+      "name": "Reference photo",
+      "value": "Your own person or pet photo, uploaded manually."
+    },
+    {
+      "name": "Composition",
+      "value": "Portrait 3:4 split with the photo above and monochrome circular logo below."
+    }
+  ]
+}
