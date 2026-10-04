@@ -1,5 +1,5 @@
 {
-  "catalogRevision": "mcp-local-066f8673d86253ec",
+  "catalogRevision": "mcp-local-4780ff1665ef543a",
   "models": [
     {
       "activeCaseIds": [
@@ -182,7 +182,7 @@
       "activeCaseIds": [
         "cev_9132"
       ],
-      "displayName": "MiniMax H3 · estimation",
+      "displayName": "MiniMax H3",
       "mediaType": "video",
       "modelFamilyId": "minimax-h3"
     }

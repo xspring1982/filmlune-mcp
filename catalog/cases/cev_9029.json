@@ -124,12 +124,12 @@
     ]
   },
   "provenance": {
-    "generatorSha256": "cde3e761945dd98972b9d5bcce904d2e295e16f9d57ffd00ae7adc5da84fe87f",
+    "generatorSha256": "9397b04d3044111edf4a9f00440765060ecbbec211ebc3fd0014b57b5c2ae937",
     "generatorVersion": "mcp-catalog-v4",
     "presentationRevision": "local-demo-mcp-en-2026-08-15.1",
     "presentationSha256": "d0ae704fab55623365155fb3bbba7e3e1e1d2e862a6af40d1dd7f34b367d8603",
     "websiteSourceRevision": "local-demo-cases-2026-08-12.2+external-social-cases-2026-09-12.1+external-video-hosted-cases-2026-09-01.2+external-original-video-cases-2026-09-27.5+collection-registry-2026-08-29.1+parti-prompts-r0001+parti-prompt-retirements-r0001",
-    "websiteSourceSha256": "c0bcf50fbffba65c17af31e68ffcb7355072ef34f3b4018da742b3089f5707c3"
+    "websiteSourceSha256": "1846946d3be43cfe0e6871ea11fe91fd10b1d7faf709d7f712e791d835a004d3"
   },
   "publicationState": "website_master_projection",
   "purpose": "Study a high-energy FMCG structure in which the product snap drives motion, typography, particles, and the visual path toward a call to action.",
