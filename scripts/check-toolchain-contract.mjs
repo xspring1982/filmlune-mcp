@@ -51,15 +51,15 @@ export async function checkToolchainContract(root = process.cwd()) {
   exact(manifest.version, "0.1.0", "MCP_PACKAGE_VERSION_DRIFT");
   exact(manifest.private, true, "MCP_PACKAGE_PRIVATE_DRIFT");
   exact(manifest.type, "module", "MCP_PACKAGE_MODULE_DRIFT");
-  exact(manifest.engines, { node: "22.22.2" }, "MCP_PACKAGE_ENGINE_DRIFT");
+  exact(manifest.engines, { node: "22.23.4" }, "MCP_PACKAGE_ENGINE_DRIFT");
   exact(manifest.packageManager, PACKAGE_MANAGER, "MCP_PACKAGE_MANAGER_DRIFT");
   exact(manifest.scripts, EXPECTED_SCRIPTS, "MCP_PACKAGE_SCRIPTS_DRIFT");
   exact(manifest.dependencies, EXPECTED_DEPENDENCIES, "MCP_PACKAGE_DEPENDENCIES_DRIFT");
   exact(manifest.devDependencies, EXPECTED_DEV_DEPENDENCIES, "MCP_PACKAGE_DEV_DEPENDENCIES_DRIFT");
-  if (await readFile(path.join(root, ".node-version"), "utf8") !== "22.22.2\n") {
+  if (await readFile(path.join(root, ".node-version"), "utf8") !== "22.23.4\n") {
     throw new Error("MCP_NODE_VERSION_FILE_DRIFT");
   }
-  return Object.freeze({ node: "22.22.2", packageManager: PACKAGE_MANAGER });
+  return Object.freeze({ node: "22.23.4", packageManager: PACKAGE_MANAGER });
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
