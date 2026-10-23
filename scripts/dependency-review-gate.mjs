@@ -88,7 +88,7 @@ function validateFacts(value) {
   hash(lockfile.sha256);
   const toolchain = object(facts.toolchain);
   exactKeys(toolchain, ["node", "packageManager"]);
-  if (toolchain.node !== "22.22.2") block("node coordinate invalid");
+  if (toolchain.node !== "22.23.4") block("node coordinate invalid");
   text(toolchain.packageManager);
   const graph = object(facts.graph);
   exactKeys(graph, ["complete", "coordinateCount", "normalizedSha256", "coordinates"]);

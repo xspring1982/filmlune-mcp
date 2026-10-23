@@ -27,7 +27,7 @@ function factsFixture() {
     packageJson: { path: "package.json", sha256: SHA_A },
     lockfile: { path: "pnpm-lock.yaml", sha256: SHA_B },
     toolchain: {
-      node: "22.22.2",
+      node: "22.23.4",
       packageManager: "pnpm@10.34.5+sha512.a4ee05f2f73658255bd6a89859c065a45c28a57daefae2c893a168ee2b73168c37b91e83e57ea67654ad03f03031746430e8bce38e362e042605fb8abc80192e",
     },
     graph: {
@@ -139,4 +139,11 @@ test("preinstall gate binds the current package, lock, facts and distinct review
     currentPackageJsonSha256: facts.packageJson.sha256,
     currentLockfileSha256: "0".repeat(64),
   }), /BLOCK_DEPENDENCY_PREINSTALL/);
+});
+
+
+test("review input rejects the superseded vulnerable Node coordinate", () => {
+  const facts = factsFixture();
+  facts.toolchain.node = "22.22.2";
+  assert.throws(() => buildDependencyReviewInput(facts), /node coordinate invalid/);
 });
