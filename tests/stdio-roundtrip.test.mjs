@@ -95,6 +95,27 @@ function structured(result) {
   return /** @type {Record<string, unknown>} */ (value);
 }
 
+/**
+ * Follows nextCursor until the result set is exhausted; limit stays within the server maximum.
+ * @param {Client} client @param {Record<string, unknown>} args
+ */
+async function searchAllPages(client, args) {
+  /** @type {unknown[]} */
+  const items = [];
+  /** @type {unknown} */
+  let cursor;
+  do {
+    const page = structured(await client.callTool({
+      name: "search_cases",
+      arguments: cursor === undefined ? args : { ...args, cursor },
+    }));
+    items.push(.../** @type {unknown[]} */ (page.items));
+    cursor = page.nextCursor;
+    assert.ok(cursor === null || typeof cursor === "string");
+  } while (cursor !== null);
+  return items;
+}
+
 /** @param {unknown} result @param {RegExp} expected */
 function toolError(result, expected) {
   assert.equal(typeof result, "object");
@@ -186,26 +207,17 @@ test("real stdio transport exposes exactly five deterministic read-only tools", 
     }));
     assert.deepEqual(repeated, firstPage);
 
-    const languageNeutral = structured(await client.callTool({
-      name: "search_cases",
-      arguments: { outputLanguage: "und", limit: 50 },
-    }));
+    const languageNeutral = await searchAllPages(client, { outputLanguage: "und", limit: 50 });
     assert.deepEqual(
-      /** @type {Array<{caseId:string,outputLanguage:string}>} */ (languageNeutral.items)
+      /** @type {Array<{caseId:string,outputLanguage:string}>} */ (languageNeutral)
         .map(({ caseId, outputLanguage }) => ({ caseId, outputLanguage })),
       languageNeutralExpected,
     );
-    const englishDiscovery = structured(await client.callTool({
-      name: "search_cases",
-      arguments: { outputLanguage: "en", limit: 50 },
-    }));
-    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (englishDiscovery.items)
+    const englishDiscovery = await searchAllPages(client, { outputLanguage: "en", limit: 50 });
+    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (englishDiscovery)
       .every(({ outputLanguage }) => outputLanguage === "en" || outputLanguage === "und"), true);
-    const frenchDiscovery = structured(await client.callTool({
-      name: "search_cases",
-      arguments: { outputLanguage: "fr", limit: 50 },
-    }));
-    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (frenchDiscovery.items)
+    const frenchDiscovery = await searchAllPages(client, { outputLanguage: "fr", limit: 50 });
+    assert.equal(/** @type {Array<{outputLanguage:string}>} */ (frenchDiscovery)
       .every(({ outputLanguage }) => outputLanguage === "fr" || outputLanguage === "und"), true);
 
     const caseResult = structured(await client.callTool({
